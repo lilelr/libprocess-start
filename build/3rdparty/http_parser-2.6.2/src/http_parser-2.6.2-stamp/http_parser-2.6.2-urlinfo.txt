@@ -1,3 +1,0 @@
-repository='external project URL'
-module='/home/lemaker/open-source/libprocess-start/3rdparty/http-parser-2.6.2.tar.gz'
-tag=''

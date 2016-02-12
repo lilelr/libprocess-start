@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11   CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o  -o client_server_message_event -rdynamic proto/libfoo.a -lprotobuf /usr/local/lib/libprotobuf.so -lpthread -lpthread -Wl,-rpath,/usr/local/lib 

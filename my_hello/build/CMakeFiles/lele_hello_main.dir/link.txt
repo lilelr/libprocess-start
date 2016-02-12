@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11   CMakeFiles/lele_hello_main.dir/Lele_hello.cpp.o  -o lele_hello_main -rdynamic proto/libfoo.a -lprotobuf /usr/local/lib/libprotobuf.so -lpthread -lpthread -Wl,-rpath,/usr/local/lib 
