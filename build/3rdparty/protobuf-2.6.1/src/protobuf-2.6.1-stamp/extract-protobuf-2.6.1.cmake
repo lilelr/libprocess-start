@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/marcie/libprocess-start/3rdparty/protobuf-2.6.1.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/marcie/libprocess-start/build/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1" ABSOLUTE)
+get_filename_component(filename "/home/lemaker/open-source/libprocess-start/3rdparty/protobuf-2.6.1.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/lemaker/open-source/libprocess-start/build/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

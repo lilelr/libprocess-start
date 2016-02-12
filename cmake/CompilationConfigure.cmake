@@ -154,18 +154,18 @@ endif (ENABLE_SSL AND (NOT ENABLE_LIBEVENT))
 # SYSTEM CHECKS.
 ################
 # Check that we are targeting a 64-bit architecture.
-if (NOT (CMAKE_SIZEOF_VOID_P EQUAL 8))
-  message(
-    FATAL_ERROR
-    "Mesos requires that we compile to a 64-bit target. Following are some "
-    "examples of how to accomplish this on some well-used platforms:\n"
-    "  * Linux: (on gcc) set `CMAKE_CXX_FLAGS` to include `-m64`:\n"
-    "    `cmake -DCMAKE_CXX_FLAGS=-m64 `.\n"
-    "  * Windows: use the VS win64 CMake generator:\n"
-    "    `cmake -G \"Visual Studio 15 2017 Win64\"`.\n"
-    "  * OS X: add `x86_64` to the `CMAKE_OSX_ARCHITECTURES`:\n"
-    "    `cmake -DCMAKE_OSX_ARCHITECTURES=x86_64`.\n")
-endif (NOT (CMAKE_SIZEOF_VOID_P EQUAL 8))
+#if (NOT (CMAKE_SIZEOF_VOID_P EQUAL 8))
+#  message(
+#    FATAL_ERROR
+#    "Mesos requires that we compile to a 64-bit target. Following are some "
+#    "examples of how to accomplish this on some well-used platforms:\n"
+#    "  * Linux: (on gcc) set `CMAKE_CXX_FLAGS` to include `-m64`:\n"
+#    "    `cmake -DCMAKE_CXX_FLAGS=-m64 `.\n"
+#    "  * Windows: use the VS win64 CMake generator:\n"
+#    "    `cmake -G \"Visual Studio 15 2017 Win64\"`.\n"
+#    "  * OS X: add `x86_64` to the `CMAKE_OSX_ARCHITECTURES`:\n"
+#    "    `cmake -DCMAKE_OSX_ARCHITECTURES=x86_64`.\n")
+#endif (NOT (CMAKE_SIZEOF_VOID_P EQUAL 8))
 
 # Make sure C++ 11 features we need are supported.
 # This is split into two cases: Windows and "other platforms".
