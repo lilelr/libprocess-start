@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="Mesos" targetName="testallocator" />
+      <config projectName="Mesos" targetName="testqos_controller" />
+      <config projectName="Mesos" targetName="mesos-fetcher" />
+      <config projectName="Mesos" targetName="long-lived-executor" />
+      <config projectName="Mesos" targetName="mesos-log" />
+      <config projectName="Mesos" targetName="mesos-usage" />
+      <config projectName="Mesos" targetName="testmasterdetector" />
+      <config projectName="Mesos" targetName="process-0.0.1" />
+      <config projectName="Mesos" targetName="mesos-agent" />
+      <config projectName="Mesos" targetName="leveldb-1.19" />
+      <config projectName="Mesos" targetName="libev-4.22" />
+      <config projectName="Mesos" targetName="tests" />
+      <config projectName="Mesos" targetName="mesos-protobufs" />
+      <config projectName="Mesos" targetName="mesos-logrotate-logger" />
+      <config projectName="Mesos" targetName="gmock-1.7.0" />
+      <config projectName="Mesos" targetName="zookeeper-3.4.8" />
+      <config projectName="Mesos" targetName="testanonymous" />
+      <config projectName="Mesos" targetName="picojson-1.3.0" />
+      <config projectName="Mesos" targetName="mesos-tcp-connect" />
+      <config projectName="Mesos" targetName="testmastercontender" />
+      <config projectName="Mesos" targetName="mesos-master" />
+      <config projectName="Mesos" targetName="testhttpauthenticator" />
+      <config projectName="Mesos" targetName="make_bin_include_dir" />
+      <config projectName="Mesos" targetName="elfio-3.2" />
+      <config projectName="Mesos" targetName="mesos-io-switchboard" />
+      <config projectName="Mesos" targetName="logrotate_container_logger" />
+      <config projectName="Mesos" targetName="no-executor-framework" />
+      <config projectName="Mesos" targetName="balloon-executor" />
+      <config projectName="Mesos" targetName="mesos-cni-port-mapper" />
+      <config projectName="Mesos" targetName="http_parser-2.6.2" />
+      <config projectName="Mesos" targetName="boost-1.53.0" />
+      <config projectName="Mesos" targetName="fixed_resource_estimator" />
+      <config projectName="Mesos" targetName="docker-no-executor-framework" />
+      <config projectName="Mesos" targetName="testresource_estimator" />
+      <config projectName="Mesos" targetName="test-framework" />
+      <config projectName="Mesos" targetName="testisolator" />
+      <config projectName="Mesos" targetName="check" />
+      <config projectName="Mesos" targetName="examplemodule" />
+      <config projectName="Mesos" targetName="nvml-352.79" />
+      <config projectName="Mesos" targetName="balloon-framework" />
+      <config projectName="Mesos" targetName="testcontainer_logger" />
+      <config projectName="Mesos" targetName="mesos-1.3.2" />
+      <config projectName="Mesos" targetName="stout-tests" />
+      <config projectName="Mesos" targetName="mesos-default-executor" />
+      <config projectName="Mesos" targetName="load-generator-framework" />
+      <config projectName="Mesos" targetName="long-lived-framework" />
+      <config projectName="Mesos" targetName="libprocess-tests" />
+      <config projectName="Mesos" targetName="make_bin_src_dir" />
+      <config projectName="Mesos" targetName="test-executor" />
+      <config projectName="Mesos" targetName="mesos-local" />
+      <config projectName="Mesos" targetName="dynamic-reservation-framework" />
+      <config projectName="Mesos" targetName="mesos-execute" />
+      <config projectName="Mesos" targetName="mesos-and-binaries" />
+      <config projectName="Mesos" targetName="testauthorizer" />
+      <config projectName="Mesos" targetName="mesos-executor" />
+      <config projectName="Mesos" targetName="testauthentication" />
+      <config projectName="Mesos" targetName="testhook" />
+      <config projectName="Mesos" targetName="load_qos_controller" />
+      <config projectName="Mesos" targetName="mesos-containerizer" />
+      <config projectName="Mesos" targetName="glog-0.3.3" />
+      <config projectName="Mesos" targetName="test-http-framework" />
+      <config projectName="Mesos" targetName="test-helper" />
+      <config projectName="Mesos" targetName="mesos-docker-executor" />
+      <config projectName="Mesos" targetName="mesos-tests" />
+      <config projectName="Mesos" targetName="disk-full-framework" />
+      <config projectName="Mesos" targetName="test-linkee" />
+      <config projectName="Mesos" targetName="test-http-executor" />
+      <config projectName="Mesos" targetName="persistent-volume-framework" />
+      <config projectName="Mesos" targetName="protobuf-2.6.1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f4cabe03-207b-4ba5-923c-5859348868b7" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sched.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sched/sched.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="746">
+              <caret line="949" column="44" lean-forward="false" selection-start-line="949" selection-start-column="38" selection-end-line="949" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_framework.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/examples/test_framework.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="89" column="36" lean-forward="false" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestFramework.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/examples/java/TestFramework.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2200">
+              <caret line="109" column="27" lean-forward="false" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/sched/sched.cpp" />
+        <option value="$PROJECT_DIR$/src/examples/test_framework.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1342" />
+    <option name="height" value="851" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Mesos" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="mesos-1.3.2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mesos" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="mesos-1.3.2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mesos" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="mesos-1.3.2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mesos" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="mesos-1.3.2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mesos" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="mesos-1.3.2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sched" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.libprocess-tests">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="balloon-executor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="balloon-executor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="balloon-executor">
+      <envs />
+    </configuration>
+    <configuration name="balloon-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="balloon-framework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="balloon-framework">
+      <envs />
+    </configuration>
+    <configuration name="boost-1.53.0" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="boost-1.53.0" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="check" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="check" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="disk-full-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="disk-full-framework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="disk-full-framework">
+      <envs />
+    </configuration>
+    <configuration name="docker-no-executor-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="docker-no-executor-framework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="docker-no-executor-framework">
+      <envs />
+    </configuration>
+    <configuration name="dynamic-reservation-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="dynamic-reservation-framework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="dynamic-reservation-framework">
+      <envs />
+    </configuration>
+    <configuration name="elfio-3.2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="elfio-3.2" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="examplemodule" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="examplemodule" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="fixed_resource_estimator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="fixed_resource_estimator" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="glog-0.3.3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="glog-0.3.3" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="gmock-1.7.0" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="gmock-1.7.0" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="http_parser-2.6.2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="http_parser-2.6.2" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="leveldb-1.19" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="leveldb-1.19" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="libev-4.22" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="libev-4.22" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="libprocess-tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="libprocess-tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="libprocess-tests">
+      <envs />
+    </configuration>
+    <configuration name="load-generator-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="load-generator-framework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="load-generator-framework">
+      <envs />
+    </configuration>
+    <configuration name="load_qos_controller" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="load_qos_controller" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="logrotate_container_logger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="logrotate_container_logger" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="long-lived-executor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="long-lived-executor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="long-lived-executor">
+      <envs />
+    </configuration>
+    <configuration name="long-lived-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="long-lived-framework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="long-lived-framework">
+      <envs />
+    </configuration>
+    <configuration name="make_bin_include_dir" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="make_bin_include_dir" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="make_bin_src_dir" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="make_bin_src_dir" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="mesos-1.3.2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-1.3.2" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="mesos-agent" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-agent" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-agent">
+      <envs />
+    </configuration>
+    <configuration name="mesos-and-binaries" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-and-binaries" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="mesos-cni-port-mapper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-cni-port-mapper" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-cni-port-mapper">
+      <envs />
+    </configuration>
+    <configuration name="mesos-containerizer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-containerizer" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-containerizer">
+      <envs />
+    </configuration>
+    <configuration name="mesos-default-executor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-default-executor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-default-executor">
+      <envs />
+    </configuration>
+    <configuration name="mesos-docker-executor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-docker-executor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-docker-executor">
+      <envs />
+    </configuration>
+    <configuration name="mesos-execute" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-execute" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-execute">
+      <envs />
+    </configuration>
+    <configuration name="mesos-executor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-executor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-executor">
+      <envs />
+    </configuration>
+    <configuration name="mesos-fetcher" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-fetcher" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-fetcher">
+      <envs />
+    </configuration>
+    <configuration name="mesos-io-switchboard" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-io-switchboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-io-switchboard">
+      <envs />
+    </configuration>
+    <configuration name="mesos-local" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-local" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-local">
+      <envs />
+    </configuration>
+    <configuration name="mesos-log" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-log" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-log">
+      <envs />
+    </configuration>
+    <configuration name="mesos-logrotate-logger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-logrotate-logger" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-logrotate-logger">
+      <envs />
+    </configuration>
+    <configuration name="mesos-master" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-master" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-master">
+      <envs />
+    </configuration>
+    <configuration name="mesos-protobufs" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-protobufs" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="mesos-tcp-connect" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-tcp-connect" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-tcp-connect">
+      <envs />
+    </configuration>
+    <configuration name="mesos-tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-tests">
+      <envs />
+    </configuration>
+    <configuration name="mesos-usage" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="mesos-usage" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="mesos-usage">
+      <envs />
+    </configuration>
+    <configuration name="no-executor-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="no-executor-framework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="no-executor-framework">
+      <envs />
+    </configuration>
+    <configuration name="nvml-352.79" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="nvml-352.79" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="persistent-volume-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="persistent-volume-framework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="persistent-volume-framework">
+      <envs />
+    </configuration>
+    <configuration name="picojson-1.3.0" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="picojson-1.3.0" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="process-0.0.1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="process-0.0.1" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="protobuf-2.6.1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="protobuf-2.6.1" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="stout-tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="stout-tests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="stout-tests">
+      <envs />
+    </configuration>
+    <configuration name="test-executor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="test-executor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="test-executor">
+      <envs />
+    </configuration>
+    <configuration name="test-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="test-framework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="test-framework">
+      <envs />
+    </configuration>
+    <configuration name="test-helper" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="test-helper" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="test-helper">
+      <envs />
+    </configuration>
+    <configuration name="test-http-executor" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="test-http-executor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="test-http-executor">
+      <envs />
+    </configuration>
+    <configuration name="test-http-framework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="test-http-framework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="test-http-framework">
+      <envs />
+    </configuration>
+    <configuration name="test-linkee" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="test-linkee" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Mesos" RUN_TARGET_NAME="test-linkee">
+      <envs />
+    </configuration>
+    <configuration name="testallocator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testallocator" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testanonymous" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testanonymous" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testauthentication" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testauthentication" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testauthorizer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testauthorizer" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testcontainer_logger" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testcontainer_logger" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testhook" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testhook" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testhttpauthenticator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testhttpauthenticator" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testisolator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testisolator" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testmastercontender" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testmastercontender" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testmasterdetector" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testmasterdetector" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testqos_controller" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testqos_controller" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="testresource_estimator" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="testresource_estimator" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="tests" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="tests" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="zookeeper-3.4.8" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Mesos" TARGET_NAME="zookeeper-3.4.8" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <list size="70">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.check" />
+      <item index="2" class="java.lang.String" itemvalue="Application.make_bin_include_dir" />
+      <item index="3" class="java.lang.String" itemvalue="Application.make_bin_src_dir" />
+      <item index="4" class="java.lang.String" itemvalue="Application.mesos-and-binaries" />
+      <item index="5" class="java.lang.String" itemvalue="Application.tests" />
+      <item index="6" class="java.lang.String" itemvalue="Application.boost-1.53.0" />
+      <item index="7" class="java.lang.String" itemvalue="Application.elfio-3.2" />
+      <item index="8" class="java.lang.String" itemvalue="Application.glog-0.3.3" />
+      <item index="9" class="java.lang.String" itemvalue="Application.gmock-1.7.0" />
+      <item index="10" class="java.lang.String" itemvalue="Application.http_parser-2.6.2" />
+      <item index="11" class="java.lang.String" itemvalue="Application.leveldb-1.19" />
+      <item index="12" class="java.lang.String" itemvalue="Application.libev-4.22" />
+      <item index="13" class="java.lang.String" itemvalue="Application.nvml-352.79" />
+      <item index="14" class="java.lang.String" itemvalue="Application.picojson-1.3.0" />
+      <item index="15" class="java.lang.String" itemvalue="Application.protobuf-2.6.1" />
+      <item index="16" class="java.lang.String" itemvalue="Application.zookeeper-3.4.8" />
+      <item index="17" class="java.lang.String" itemvalue="Application.process-0.0.1" />
+      <item index="18" class="java.lang.String" itemvalue="Application.libprocess-tests" />
+      <item index="19" class="java.lang.String" itemvalue="Application.test-linkee" />
+      <item index="20" class="java.lang.String" itemvalue="Application.stout-tests" />
+      <item index="21" class="java.lang.String" itemvalue="Application.mesos-1.3.2" />
+      <item index="22" class="java.lang.String" itemvalue="Application.mesos-protobufs" />
+      <item index="23" class="java.lang.String" itemvalue="Application.mesos-tcp-connect" />
+      <item index="24" class="java.lang.String" itemvalue="Application.mesos-execute" />
+      <item index="25" class="java.lang.String" itemvalue="Application.mesos-docker-executor" />
+      <item index="26" class="java.lang.String" itemvalue="Application.balloon-executor" />
+      <item index="27" class="java.lang.String" itemvalue="Application.balloon-framework" />
+      <item index="28" class="java.lang.String" itemvalue="Application.disk-full-framework" />
+      <item index="29" class="java.lang.String" itemvalue="Application.docker-no-executor-framework" />
+      <item index="30" class="java.lang.String" itemvalue="Application.dynamic-reservation-framework" />
+      <item index="31" class="java.lang.String" itemvalue="Application.examplemodule" />
+      <item index="32" class="java.lang.String" itemvalue="Application.load-generator-framework" />
+      <item index="33" class="java.lang.String" itemvalue="Application.long-lived-executor" />
+      <item index="34" class="java.lang.String" itemvalue="Application.long-lived-framework" />
+      <item index="35" class="java.lang.String" itemvalue="Application.no-executor-framework" />
+      <item index="36" class="java.lang.String" itemvalue="Application.persistent-volume-framework" />
+      <item index="37" class="java.lang.String" itemvalue="Application.test-executor" />
+      <item index="38" class="java.lang.String" itemvalue="Application.test-framework" />
+      <item index="39" class="java.lang.String" itemvalue="Application.test-http-executor" />
+      <item index="40" class="java.lang.String" itemvalue="Application.test-http-framework" />
+      <item index="41" class="java.lang.String" itemvalue="Application.testallocator" />
+      <item index="42" class="java.lang.String" itemvalue="Application.testanonymous" />
+      <item index="43" class="java.lang.String" itemvalue="Application.testauthentication" />
+      <item index="44" class="java.lang.String" itemvalue="Application.testauthorizer" />
+      <item index="45" class="java.lang.String" itemvalue="Application.testcontainer_logger" />
+      <item index="46" class="java.lang.String" itemvalue="Application.testhook" />
+      <item index="47" class="java.lang.String" itemvalue="Application.testhttpauthenticator" />
+      <item index="48" class="java.lang.String" itemvalue="Application.testisolator" />
+      <item index="49" class="java.lang.String" itemvalue="Application.testmastercontender" />
+      <item index="50" class="java.lang.String" itemvalue="Application.testmasterdetector" />
+      <item index="51" class="java.lang.String" itemvalue="Application.testqos_controller" />
+      <item index="52" class="java.lang.String" itemvalue="Application.testresource_estimator" />
+      <item index="53" class="java.lang.String" itemvalue="Application.mesos-default-executor" />
+      <item index="54" class="java.lang.String" itemvalue="Application.mesos-executor" />
+      <item index="55" class="java.lang.String" itemvalue="Application.mesos-fetcher" />
+      <item index="56" class="java.lang.String" itemvalue="Application.mesos-local" />
+      <item index="57" class="java.lang.String" itemvalue="Application.mesos-log" />
+      <item index="58" class="java.lang.String" itemvalue="Application.mesos-master" />
+      <item index="59" class="java.lang.String" itemvalue="Application.mesos-agent" />
+      <item index="60" class="java.lang.String" itemvalue="Application.logrotate_container_logger" />
+      <item index="61" class="java.lang.String" itemvalue="Application.mesos-logrotate-logger" />
+      <item index="62" class="java.lang.String" itemvalue="Application.mesos-cni-port-mapper" />
+      <item index="63" class="java.lang.String" itemvalue="Application.mesos-containerizer" />
+      <item index="64" class="java.lang.String" itemvalue="Application.mesos-io-switchboard" />
+      <item index="65" class="java.lang.String" itemvalue="Application.load_qos_controller" />
+      <item index="66" class="java.lang.String" itemvalue="Application.fixed_resource_estimator" />
+      <item index="67" class="java.lang.String" itemvalue="Application.mesos-tests" />
+      <item index="68" class="java.lang.String" itemvalue="Application.test-helper" />
+      <item index="69" class="java.lang.String" itemvalue="Application.mesos-usage" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4cabe03-207b-4ba5-923c-5859348868b7" name="Default" comment="" />
+      <created>1524445963281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524445963281</updated>
+      <workItem from="1524445966780" duration="1402000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1402000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="19" lean-forward="false" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sched/sched.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="746">
+          <caret line="949" column="44" lean-forward="false" selection-start-line="949" selection-start-column="38" selection-end-line="949" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="44">
+            <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/test_framework.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="89" column="36" lean-forward="false" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/examples/java/TestFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="109" column="27" lean-forward="false" selection-start-line="109" selection-start-column="27" selection-end-line="109" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

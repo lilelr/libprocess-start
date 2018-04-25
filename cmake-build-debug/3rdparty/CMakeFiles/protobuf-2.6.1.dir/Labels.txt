@@ -1,0 +1,13 @@
+# Target labels
+ protobuf-2.6.1
+# Source files and their labels
+/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1
+/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1.rule
+/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1-complete.rule
+/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-install.rule
+/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-mkdir.rule
+/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-download.rule
+/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-update.rule
+/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-patch.rule
+/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-configure.rule
+/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-build.rule

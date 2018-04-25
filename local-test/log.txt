@@ -1,0 +1,28 @@
+Registered!
+lilele std  offers f835d851-9a92-437b-921b-80ffe9fa642b-O3
+Received lele offer f835d851-9a92-437b-921b-80ffe9fa642b-O3 with [{"allocation_info":{"role":"*"},"name":"cpus","scalar":{"value":2.0},"type":"SCALAR"},{"allocation_info":{"role":"*"},"name":"mem","scalar":{"value":2923.0},"type":"SCALAR"},{"allocation_info":{"role":"*"},"name":"disk","scalar":{"value":58250.0},"type":"SCALAR"},{"allocation_info":{"role":"*"},"name":"ports","ranges":{"range":[{"begin":31000,"end":32000}]},"type":"RANGES"}]
+ lele attri_size 1
+Offer id f835d851-9a92-437b-921b-80ffe9fa642b-O3 Offer attribute0Offer attribute name:  cpu-arch  value_text: arm
+Launching task 0 using offer f835d851-9a92-437b-921b-80ffe9fa642b-O3
+Launching task 1 using offer f835d851-9a92-437b-921b-80ffe9fa642b-O3
+Task 0 is in state TASK_RUNNING
+Task 1 is in state TASK_RUNNING
+Task 0 is in state TASK_FINISHED
+Task 1 is in state TASK_FINISHED
+lilele std  offers f835d851-9a92-437b-921b-80ffe9fa642b-O4
+Received lele offer f835d851-9a92-437b-921b-80ffe9fa642b-O4 with [{"allocation_info":{"role":"*"},"name":"cpus","scalar":{"value":2.0},"type":"SCALAR"},{"allocation_info":{"role":"*"},"name":"mem","scalar":{"value":2923.0},"type":"SCALAR"},{"allocation_info":{"role":"*"},"name":"disk","scalar":{"value":58250.0},"type":"SCALAR"},{"allocation_info":{"role":"*"},"name":"ports","ranges":{"range":[{"begin":31000,"end":32000}]},"type":"RANGES"}]
+ lele attri_size 1
+Offer id f835d851-9a92-437b-921b-80ffe9fa642b-O4 Offer attribute0Offer attribute name:  cpu-arch  value_text: arm
+Launching task 2 using offer f835d851-9a92-437b-921b-80ffe9fa642b-O4
+Launching task 3 using offer f835d851-9a92-437b-921b-80ffe9fa642b-O4
+Task 2 is in state TASK_RUNNING
+Task 3 is in state TASK_RUNNING
+Task 2 is in state TASK_FINISHED
+Task 3 is in state TASK_FINISHED
+lilele std  offers f835d851-9a92-437b-921b-80ffe9fa642b-O5
+Received lele offer f835d851-9a92-437b-921b-80ffe9fa642b-O5 with [{"allocation_info":{"role":"*"},"name":"cpus","scalar":{"value":2.0},"type":"SCALAR"},{"allocation_info":{"role":"*"},"name":"mem","scalar":{"value":2923.0},"type":"SCALAR"},{"allocation_info":{"role":"*"},"name":"disk","scalar":{"value":58250.0},"type":"SCALAR"},{"allocation_info":{"role":"*"},"name":"ports","ranges":{"range":[{"begin":31000,"end":32000}]},"type":"RANGES"}]
+ lele attri_size 1
+Offer id f835d851-9a92-437b-921b-80ffe9fa642b-O5 Offer attribute0Offer attribute name:  cpu-arch  value_text: arm
+Launching task 4 using offer f835d851-9a92-437b-921b-80ffe9fa642b-O5
+Task 4 is in state TASK_RUNNING
+Task 4 is in state TASK_FINISHED
