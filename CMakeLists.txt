@@ -23,17 +23,17 @@ else (NOT WIN32)
 endif (NOT WIN32)
 
 project(Mesos)
-set(MESOS_MAJOR_VERSION 1)
-set(MESOS_MINOR_VERSION 3)
-set(MESOS_PATCH_VERSION 2)
-set(PACKAGE_VERSION
-  ${MESOS_MAJOR_VERSION}.${MESOS_MINOR_VERSION}.${MESOS_PATCH_VERSION})
+#set(MESOS_MAJOR_VERSION 1)
+#set(MESOS_MINOR_VERSION 3)
+#set(MESOS_PATCH_VERSION 2)
+#set(PACKAGE_VERSION
+#  ${MESOS_MAJOR_VERSION}.${MESOS_MINOR_VERSION}.${MESOS_PATCH_VERSION})
+#
+#set(MESOS_PACKAGE_VERSION ${PACKAGE_VERSION})
+#set(MESOS_PACKAGE_SOVERSION 0)
 
-set(MESOS_PACKAGE_VERSION ${PACKAGE_VERSION})
-set(MESOS_PACKAGE_SOVERSION 0)
 
-
-# CMAKE MODULE SETUP.
+# CMAKE MODULE SETUP.f
 #####################
 # Paths that are searched when `include(...)` is called.
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
@@ -50,21 +50,22 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/src/slave/cmake)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/src/tests/cmake)
 
 # Macros.
-include(Common)
-include(External)
+#include(Common)
+#include(External)
 include(PatchCommand)
-include(Versions)
-include(VsBuildCommand)
-include(cotire)
+#include(Versions)
+#include(VsBuildCommand)
+#include(cotire)
 
 # Configuration.
-include(MesosConfigure)
+#include(MesosConfigure)
 
 
 # SUBDIRECTORIES.
 #################
 add_subdirectory(3rdparty)
-add_subdirectory(src)
+add_subdirectory(my_hello)
+#add_subdirectory(src)
 
 
 # TESTS.
