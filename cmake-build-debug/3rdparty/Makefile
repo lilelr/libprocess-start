@@ -147,6 +147,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+3rdparty/CMakeFiles/boost-1.53.0.dir/rule:
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/boost-1.53.0.dir/rule
+.PHONY : 3rdparty/CMakeFiles/boost-1.53.0.dir/rule
+
+# Convenience name for target.
+boost-1.53.0: 3rdparty/CMakeFiles/boost-1.53.0.dir/rule
+
+.PHONY : boost-1.53.0
+
+# fast build rule for target.
+boost-1.53.0/fast:
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/boost-1.53.0.dir/build.make 3rdparty/CMakeFiles/boost-1.53.0.dir/build
+.PHONY : boost-1.53.0/fast
+
+# Convenience name for target.
 3rdparty/CMakeFiles/elfio-3.2.dir/rule:
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/elfio-3.2.dir/rule
 .PHONY : 3rdparty/CMakeFiles/elfio-3.2.dir/rule
@@ -237,34 +252,19 @@ http_parser-2.6.2/fast:
 .PHONY : http_parser-2.6.2/fast
 
 # Convenience name for target.
-3rdparty/CMakeFiles/boost-1.53.0.dir/rule:
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/boost-1.53.0.dir/rule
-.PHONY : 3rdparty/CMakeFiles/boost-1.53.0.dir/rule
+3rdparty/CMakeFiles/PREFIX.dir/rule:
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/PREFIX.dir/rule
+.PHONY : 3rdparty/CMakeFiles/PREFIX.dir/rule
 
 # Convenience name for target.
-boost-1.53.0: 3rdparty/CMakeFiles/boost-1.53.0.dir/rule
+PREFIX: 3rdparty/CMakeFiles/PREFIX.dir/rule
 
-.PHONY : boost-1.53.0
+.PHONY : PREFIX
 
 # fast build rule for target.
-boost-1.53.0/fast:
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/boost-1.53.0.dir/build.make 3rdparty/CMakeFiles/boost-1.53.0.dir/build
-.PHONY : boost-1.53.0/fast
-
-# Convenience name for target.
-3rdparty/CMakeFiles/zookeeper-3.4.8.dir/rule:
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/rule
-.PHONY : 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/rule
-
-# Convenience name for target.
-zookeeper-3.4.8: 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/rule
-
-.PHONY : zookeeper-3.4.8
-
-# fast build rule for target.
-zookeeper-3.4.8/fast:
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build.make 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build
-.PHONY : zookeeper-3.4.8/fast
+PREFIX/fast:
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/PREFIX.dir/build.make 3rdparty/CMakeFiles/PREFIX.dir/build
+.PHONY : PREFIX/fast
 
 # Help Target
 help:
@@ -275,6 +275,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... boost-1.53.0"
 	@echo "... package"
 	@echo "... elfio-3.2"
 	@echo "... glog-0.3.3"
@@ -283,8 +284,7 @@ help:
 	@echo "... nvml-352.79"
 	@echo "... http_parser-2.6.2"
 	@echo "... package_source"
-	@echo "... boost-1.53.0"
-	@echo "... zookeeper-3.4.8"
+	@echo "... PREFIX"
 .PHONY : help
 
 

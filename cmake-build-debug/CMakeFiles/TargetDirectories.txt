@@ -1,14 +1,12 @@
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/package_source.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/test.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/package.dir
-/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/mesos-and-binaries.dir
-/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/make_bin_src_dir.dir
-/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/package_source.dir
-/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/make_bin_include_dir.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/rebuild_cache.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/edit_cache.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/test.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/boost-1.53.0.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/package.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/glog-0.3.3.dir
@@ -17,8 +15,7 @@
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/nvml-352.79.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/http_parser-2.6.2.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/package_source.dir
-/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/boost-1.53.0.dir
-/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/zookeeper-3.4.8.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/PREFIX.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/CMakeFiles/rebuild_cache.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/CMakeFiles/edit_cache.dir
 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/CMakeFiles/package_source.dir

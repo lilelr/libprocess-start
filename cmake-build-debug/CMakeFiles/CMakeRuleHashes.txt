@@ -1,4 +1,6 @@
 # Hashes of file build rules.
+6e07b3fea912017ae31e831d82d0f089 3rdparty/CMakeFiles/PREFIX
+9344a61e2eaf215fdf9d306796743b0b 3rdparty/CMakeFiles/PREFIX-complete
 6e07b3fea912017ae31e831d82d0f089 3rdparty/CMakeFiles/boost-1.53.0
 5f4c1478624ac6656111b4972e35b862 3rdparty/CMakeFiles/boost-1.53.0-complete
 6e07b3fea912017ae31e831d82d0f089 3rdparty/CMakeFiles/elfio-3.2
@@ -14,8 +16,13 @@ e7bf348a4e8baad98b184c911f3b7d79 3rdparty/CMakeFiles/libev-4.22-complete
 6e07b3fea912017ae31e831d82d0f089 3rdparty/CMakeFiles/picojson-1.3.0
 c111449a2109e67a69ab47a606d880f1 3rdparty/CMakeFiles/picojson-1.3.0-complete
 d3a016f2f585fd9448c8808d5a44da37 3rdparty/CMakeFiles/protobuf-2.6.1-complete
-6e07b3fea912017ae31e831d82d0f089 3rdparty/CMakeFiles/zookeeper-3.4.8
-d0f5c44234e97da95429bce460a78e22 3rdparty/CMakeFiles/zookeeper-3.4.8-complete
+8cc8af1457d81907bea63c403f20b007 3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-build
+132cd8fa1430af7f5627c221c34dc754 3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-configure
+7367e3e4526daec2d601adbbb74d57b1 3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-download
+c9d8d76ead6736f9d863ec75e3dfa1c7 3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-install
+4a39f049a6925aafae60b2ad58945cd4 3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-mkdir
+ea2635a344e9a1e5f9e9d7cda0e44af5 3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-patch
+d63f2aeb078c56b53daa80de18ed3462 3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-update
 25b9d240f43869fb66453f1d484a0fe6 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-build
 a4e1546501ed2f89feab84037e413a79 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-configure
 9e9e5fe7eda73d4834b86831f947e0fc 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-download
@@ -79,14 +86,5 @@ adb2cedf7dcd941849b86384c3d95641 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stam
 10445eae9c160e5a4566690465b3e3f2 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-mkdir
 2ce72f0877e9c6789cf818b742a559d1 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-patch
 d4ca950279125336a6788540f8319695 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-update
-004913335a5e2dcbeecd8dcc4e259d39 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-build
-12a079a6740c629d2a9ea277f688b22b 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-configure
-be8478ac6eb04bfcc767f722c53bd787 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-download
-476bf92d24203df6009f85c9387b2380 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-install
-c1b4a106e00440c53ad177c738ffd886 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-mkdir
-4245fa75fd88d55deb1591199685a3ee 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-patch
-6267e97d52b8719d9336364c2c26cd93 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-update
-a93d4f75b16a53612b1ae83c3efee8f8 CMakeFiles/make_bin_include_dir
-4a45c8cae5374d12b26c848610829b93 CMakeFiles/make_bin_src_dir
 71e95cdc7013da5d7053812214f0127a my_hello/proto/Offer.pb.cc
 7bfe0a37d8f7030fbfb48d8b2bcf1510 my_hello/proto/addressbook.pb.cc

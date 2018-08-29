@@ -81,6 +81,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	/home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
+
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -102,17 +113,6 @@ package: preinstall
 package/fast: package
 
 .PHONY : package/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -147,43 +147,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named mesos-and-binaries
+# Target rules for targets named boost-1.53.0
 
 # Build rule for target.
-mesos-and-binaries: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-and-binaries
-.PHONY : mesos-and-binaries
+boost-1.53.0: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 boost-1.53.0
+.PHONY : boost-1.53.0
 
 # fast build rule for target.
-mesos-and-binaries/fast:
-	$(MAKE) -f CMakeFiles/mesos-and-binaries.dir/build.make CMakeFiles/mesos-and-binaries.dir/build
-.PHONY : mesos-and-binaries/fast
-
-#=============================================================================
-# Target rules for targets named make_bin_src_dir
-
-# Build rule for target.
-make_bin_src_dir: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 make_bin_src_dir
-.PHONY : make_bin_src_dir
-
-# fast build rule for target.
-make_bin_src_dir/fast:
-	$(MAKE) -f CMakeFiles/make_bin_src_dir.dir/build.make CMakeFiles/make_bin_src_dir.dir/build
-.PHONY : make_bin_src_dir/fast
-
-#=============================================================================
-# Target rules for targets named make_bin_include_dir
-
-# Build rule for target.
-make_bin_include_dir: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 make_bin_include_dir
-.PHONY : make_bin_include_dir
-
-# fast build rule for target.
-make_bin_include_dir/fast:
-	$(MAKE) -f CMakeFiles/make_bin_include_dir.dir/build.make CMakeFiles/make_bin_include_dir.dir/build
-.PHONY : make_bin_include_dir/fast
+boost-1.53.0/fast:
+	$(MAKE) -f 3rdparty/CMakeFiles/boost-1.53.0.dir/build.make 3rdparty/CMakeFiles/boost-1.53.0.dir/build
+.PHONY : boost-1.53.0/fast
 
 #=============================================================================
 # Target rules for targets named elfio-3.2
@@ -264,30 +238,17 @@ http_parser-2.6.2/fast:
 .PHONY : http_parser-2.6.2/fast
 
 #=============================================================================
-# Target rules for targets named boost-1.53.0
+# Target rules for targets named PREFIX
 
 # Build rule for target.
-boost-1.53.0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 boost-1.53.0
-.PHONY : boost-1.53.0
+PREFIX: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PREFIX
+.PHONY : PREFIX
 
 # fast build rule for target.
-boost-1.53.0/fast:
-	$(MAKE) -f 3rdparty/CMakeFiles/boost-1.53.0.dir/build.make 3rdparty/CMakeFiles/boost-1.53.0.dir/build
-.PHONY : boost-1.53.0/fast
-
-#=============================================================================
-# Target rules for targets named zookeeper-3.4.8
-
-# Build rule for target.
-zookeeper-3.4.8: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zookeeper-3.4.8
-.PHONY : zookeeper-3.4.8
-
-# fast build rule for target.
-zookeeper-3.4.8/fast:
-	$(MAKE) -f 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build.make 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build
-.PHONY : zookeeper-3.4.8/fast
+PREFIX/fast:
+	$(MAKE) -f 3rdparty/CMakeFiles/PREFIX.dir/build.make 3rdparty/CMakeFiles/PREFIX.dir/build
+.PHONY : PREFIX/fast
 
 #=============================================================================
 # Target rules for targets named process-0.0.1
@@ -427,20 +388,17 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... package_source"
 	@echo "... test"
 	@echo "... package"
-	@echo "... mesos-and-binaries"
-	@echo "... make_bin_src_dir"
-	@echo "... package_source"
-	@echo "... make_bin_include_dir"
+	@echo "... boost-1.53.0"
 	@echo "... elfio-3.2"
 	@echo "... glog-0.3.3"
 	@echo "... libev-4.22"
 	@echo "... picojson-1.3.0"
 	@echo "... nvml-352.79"
 	@echo "... http_parser-2.6.2"
-	@echo "... boost-1.53.0"
-	@echo "... zookeeper-3.4.8"
+	@echo "... PREFIX"
 	@echo "... process-0.0.1"
 	@echo "... test-linkee"
 	@echo "... libprocess-tests"

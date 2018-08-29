@@ -1,4 +1,8 @@
 /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2
+Don't forget to buy one apple
+Don't forget to buy one orange
+Don't forget to buy one pear
+Don't forget to buy one beer
 -- cotire 1.7.9 loaded.
 -- ************************************************************
 -- ********* Beginning Mesos CMake configuration step *********
@@ -16,15 +20,6 @@
 -- Found SVN library: /usr/lib/x86_64-linux-gnu/libsvn_delta-1.so;/usr/lib/x86_64-linux-gnu/libsvn_diff-1.so;/usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
 -- Found SVN header: /usr/include/subversion-1
 -- Configuring done
-CMake Warning (dev) at 3rdparty/libprocess/src/tests/CMakeLists.txt:95 (add_dependencies):
-  Policy CMP0046 is not set: Error on non-existent dependency in
-  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
-  Use the cmake_policy command to set the policy and suppress this warning.
-
-  The dependency target "protobuf-2.6.1" of target "libprocess-tests" does
-  not exist.
-This warning is for project developers.  Use -Wno-dev to suppress it.
-
 CMake Warning at my_hello/CMakeLists.txt:101 (add_executable):
   Cannot generate a safe linker search path for target lele_hello_main
   because files in some directories may conflict with libraries in implicit
@@ -113,7 +108,7 @@ CMake Warning at my_hello/CMakeLists.txt:118 (add_executable):
   Some of these libraries may not be found correctly.
 
 
-CMake Warning at my_hello/CMakeLists.txt:127 (add_executable):
+CMake Warning at my_hello/CMakeLists.txt:128 (add_executable):
   Cannot generate a safe linker search path for target future_promise because
   files in some directories may conflict with libraries in implicit
   directories:
@@ -124,7 +119,7 @@ CMake Warning at my_hello/CMakeLists.txt:127 (add_executable):
   Some of these libraries may not be found correctly.
 
 
-CMake Warning at my_hello/CMakeLists.txt:127 (add_executable):
+CMake Warning at my_hello/CMakeLists.txt:128 (add_executable):
   Cannot generate a safe runtime search path for target future_promise
   because files in some directories may conflict with libraries in implicit
   directories:

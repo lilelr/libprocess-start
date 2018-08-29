@@ -691,17 +691,6 @@ libprocess__tests_EXTERNAL_OBJECTS =
 3rdparty/libprocess/src/tests/libprocess-tests: 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/io_tests.cpp.o
 3rdparty/libprocess/src/tests/libprocess-tests: 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/reap_tests.cpp.o
 3rdparty/libprocess/src/tests/libprocess-tests: 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/build.make
-3rdparty/libprocess/src/tests/libprocess-tests: 3rdparty/libprocess/src/libprocess-0.0.1.so.0.0.1
-3rdparty/libprocess/src/tests/libprocess-tests: /usr/lib/x86_64-linux-gnu/libapr-1.so
-3rdparty/libprocess/src/tests/libprocess-tests: /usr/lib/x86_64-linux-gnu/libsvn_delta-1.so
-3rdparty/libprocess/src/tests/libprocess-tests: /usr/lib/x86_64-linux-gnu/libsvn_diff-1.so
-3rdparty/libprocess/src/tests/libprocess-tests: /usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
-3rdparty/libprocess/src/tests/libprocess-tests: /usr/lib/x86_64-linux-gnu/libz.so
-3rdparty/libprocess/src/tests/libprocess-tests: /usr/lib/x86_64-linux-gnu/libapr-1.so
-3rdparty/libprocess/src/tests/libprocess-tests: /usr/lib/x86_64-linux-gnu/libsvn_delta-1.so
-3rdparty/libprocess/src/tests/libprocess-tests: /usr/lib/x86_64-linux-gnu/libsvn_diff-1.so
-3rdparty/libprocess/src/tests/libprocess-tests: /usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
-3rdparty/libprocess/src/tests/libprocess-tests: /usr/lib/x86_64-linux-gnu/libz.so
 3rdparty/libprocess/src/tests/libprocess-tests: 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable libprocess-tests"
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libprocess-tests.dir/link.txt --verbose=$(VERBOSE)

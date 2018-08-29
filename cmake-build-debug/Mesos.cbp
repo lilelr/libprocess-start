@@ -5,7 +5,7 @@
 		<Option title="Mesos"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\libprocess\;CMake Files\3rdparty\libprocess\cmake\;CMake Files\3rdparty\libprocess\cmake\macros\;CMake Files\3rdparty\libprocess\src\;CMake Files\3rdparty\libprocess\src\tests\;CMake Files\3rdparty\cmake\;CMake Files\3rdparty\stout\;CMake Files\3rdparty\stout\cmake\;CMake Files\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\3rdparty\;CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\;CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\tmp\;CMake Files\cmake-build-debug\3rdparty\elfio-3.2\;CMake Files\cmake-build-debug\3rdparty\elfio-3.2\tmp\;CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\;CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\tmp\;CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\;CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\tmp\;CMake Files\cmake-build-debug\3rdparty\nvml-352.79\;CMake Files\cmake-build-debug\3rdparty\nvml-352.79\tmp\;CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\;CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\tmp\;CMake Files\cmake-build-debug\3rdparty\libev-4.22\;CMake Files\cmake-build-debug\3rdparty\libev-4.22\tmp\;CMake Files\cmake-build-debug\3rdparty\zookeeper-3.4.8\;CMake Files\cmake-build-debug\3rdparty\zookeeper-3.4.8\tmp\;CMake Files\my_hello\;CMake Files\my_hello\proto\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\3rdparty\;CMake Files\3rdparty\libprocess\;CMake Files\3rdparty\libprocess\cmake\;CMake Files\3rdparty\libprocess\cmake\macros\;CMake Files\3rdparty\libprocess\src\;CMake Files\3rdparty\libprocess\src\tests\;CMake Files\3rdparty\cmake\;CMake Files\3rdparty\stout\;CMake Files\3rdparty\stout\cmake\;CMake Files\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\3rdparty\;CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\;CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\tmp\;CMake Files\cmake-build-debug\3rdparty\elfio-3.2\;CMake Files\cmake-build-debug\3rdparty\elfio-3.2\tmp\;CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\;CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\tmp\;CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\;CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\tmp\;CMake Files\cmake-build-debug\3rdparty\nvml-352.79\;CMake Files\cmake-build-debug\3rdparty\nvml-352.79\tmp\;CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\;CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\tmp\;CMake Files\cmake-build-debug\3rdparty\libev-4.22\;CMake Files\cmake-build-debug\3rdparty\libev-4.22\tmp\;CMake Files\cmake-build-debug\3rdparty\PREFIX-prefix\;CMake Files\cmake-build-debug\3rdparty\PREFIX-prefix\tmp\;CMake Files\my_hello\;CMake Files\my_hello\proto\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug"/>
@@ -37,6 +37,16 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="package_source">
+				<Option working_dir="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="test">
 				<Option working_dir="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug"/>
 				<Option type="4"/>
@@ -57,44 +67,14 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="mesos-and-binaries">
-				<Option working_dir="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug"/>
+			<Target title="boost-1.53.0">
+				<Option working_dir="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 mesos-and-binaries"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="make_bin_src_dir">
-				<Option working_dir="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 make_bin_src_dir"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="package_source">
-				<Option working_dir="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="make_bin_include_dir">
-				<Option working_dir="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 make_bin_include_dir"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 boost-1.53.0"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="elfio-3.2">
@@ -157,21 +137,11 @@
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="boost-1.53.0">
+			<Target title="PREFIX">
 				<Option working_dir="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 boost-1.53.0"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="zookeeper-3.4.8">
-				<Option working_dir="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 zookeeper-3.4.8"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 PREFIX"/>
 					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j2 -f &quot;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
@@ -496,11 +466,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -549,11 +515,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -602,11 +564,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -655,11 +613,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -708,11 +662,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -761,11 +711,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -814,11 +760,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -867,11 +809,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -920,11 +858,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -973,11 +907,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -1026,11 +956,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -1079,11 +1005,7 @@
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"/>
-					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/src"/>
+					<Add directory="/mesos"/>
 					<Add directory="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
@@ -1404,9 +1326,6 @@
 		<Unit filename="/home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/libprocess/cmake/macros/PatchCommand.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\libprocess\cmake\macros\"/>
 		</Unit>
-		<Unit filename="/home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/libprocess/cmake/macros/VsBuildCommand.cmake">
-			<Option virtualFolder="CMake Files\3rdparty\libprocess\cmake\macros\"/>
-		</Unit>
 		<Unit filename="/home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/libprocess/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rdparty\libprocess\src\"/>
 		</Unit>
@@ -1491,8 +1410,8 @@
 		<Unit filename="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libev-4.22/tmp/libev-4.22-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\libev-4.22\tmp\"/>
 		</Unit>
-		<Unit filename="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/tmp/zookeeper-3.4.8-cfgcmd.txt.in">
-			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\zookeeper-3.4.8\tmp\"/>
+		<Unit filename="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/PREFIX-prefix/tmp/PREFIX-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\PREFIX-prefix\tmp\"/>
 		</Unit>
 		<Unit filename="/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\my_hello\"/>

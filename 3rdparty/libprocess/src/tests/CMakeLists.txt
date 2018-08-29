@@ -86,13 +86,13 @@ GROUP_SOURCE(
   "${CMAKE_CURRENT_SOURCE_DIR}"
   "*.[ch]*")
 
-# ADD LINKER FLAGS (generates, e.g., -lglog on Linux).
-######################################################
-target_link_libraries(${PROCESS_TESTS_TARGET} ${PROCESS_TEST_LIBS})
-
-# ADD BINARY DEPENDENCIES (tells CMake what to compile/build first).
-####################################################################
-add_dependencies(${PROCESS_TESTS_TARGET} ${PROCESS_TEST_DEPENDENCIES})
+## ADD LINKER FLAGS (generates, e.g., -lglog on Linux).
+#######################################################
+#target_link_libraries(${PROCESS_TESTS_TARGET} ${PROCESS_TEST_LIBS})
+#
+## ADD BINARY DEPENDENCIES (tells CMake what to compile/build first).
+#####################################################################
+#add_dependencies(${PROCESS_TESTS_TARGET} ${PROCESS_TEST_DEPENDENCIES})
 
 # ADDITIONAL EXECUTABLE(s).
 ###########################
