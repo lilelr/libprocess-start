@@ -25,52 +25,8 @@ CMake Warning (dev) at 3rdparty/libprocess/src/tests/CMakeLists.txt:95 (add_depe
   not exist.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
-CMake Warning at my_hello/CMakeLists.txt:123 (add_executable):
-  Cannot generate a safe linker search path for target test-slave because
-  files in some directories may conflict with libraries in implicit
-  directories:
-
-    link library [libprotobuf.so] in /usr/lib may be hidden by files in:
-      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
-
-  Some of these libraries may not be found correctly.
-
-
-CMake Warning at my_hello/CMakeLists.txt:123 (add_executable):
-  Cannot generate a safe runtime search path for target test-slave because
-  files in some directories may conflict with libraries in implicit
-  directories:
-
-    runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:
-      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
-
-  Some of these libraries may not be found correctly.
-
-
-CMake Warning at my_hello/CMakeLists.txt:118 (add_executable):
-  Cannot generate a safe linker search path for target test-master because
-  files in some directories may conflict with libraries in implicit
-  directories:
-
-    link library [libprotobuf.so] in /usr/lib may be hidden by files in:
-      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
-
-  Some of these libraries may not be found correctly.
-
-
-CMake Warning at my_hello/CMakeLists.txt:118 (add_executable):
-  Cannot generate a safe runtime search path for target test-master because
-  files in some directories may conflict with libraries in implicit
-  directories:
-
-    runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:
-      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
-
-  Some of these libraries may not be found correctly.
-
-
-CMake Warning at my_hello/CMakeLists.txt:113 (add_executable):
-  Cannot generate a safe linker search path for target client_protobuf
+CMake Warning at my_hello/CMakeLists.txt:101 (add_executable):
+  Cannot generate a safe linker search path for target lele_hello_main
   because files in some directories may conflict with libraries in implicit
   directories:
 
@@ -80,8 +36,8 @@ CMake Warning at my_hello/CMakeLists.txt:113 (add_executable):
   Some of these libraries may not be found correctly.
 
 
-CMake Warning at my_hello/CMakeLists.txt:113 (add_executable):
-  Cannot generate a safe runtime search path for target client_protobuf
+CMake Warning at my_hello/CMakeLists.txt:101 (add_executable):
+  Cannot generate a safe runtime search path for target lele_hello_main
   because files in some directories may conflict with libraries in implicit
   directories:
 
@@ -113,8 +69,8 @@ CMake Warning at my_hello/CMakeLists.txt:108 (add_executable):
   Some of these libraries may not be found correctly.
 
 
-CMake Warning at my_hello/CMakeLists.txt:101 (add_executable):
-  Cannot generate a safe linker search path for target lele_hello_main
+CMake Warning at my_hello/CMakeLists.txt:113 (add_executable):
+  Cannot generate a safe linker search path for target client_protobuf
   because files in some directories may conflict with libraries in implicit
   directories:
 
@@ -124,9 +80,75 @@ CMake Warning at my_hello/CMakeLists.txt:101 (add_executable):
   Some of these libraries may not be found correctly.
 
 
-CMake Warning at my_hello/CMakeLists.txt:101 (add_executable):
-  Cannot generate a safe runtime search path for target lele_hello_main
+CMake Warning at my_hello/CMakeLists.txt:113 (add_executable):
+  Cannot generate a safe runtime search path for target client_protobuf
   because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:118 (add_executable):
+  Cannot generate a safe linker search path for target test-master because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [libprotobuf.so] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:118 (add_executable):
+  Cannot generate a safe runtime search path for target test-master because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:127 (add_executable):
+  Cannot generate a safe linker search path for target future_promise because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [libprotobuf.so] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:127 (add_executable):
+  Cannot generate a safe runtime search path for target future_promise
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:123 (add_executable):
+  Cannot generate a safe linker search path for target test-slave because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [libprotobuf.so] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:123 (add_executable):
+  Cannot generate a safe runtime search path for target test-slave because
+  files in some directories may conflict with libraries in implicit
   directories:
 
     runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:

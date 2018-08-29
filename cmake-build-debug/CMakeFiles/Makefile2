@@ -251,7 +251,7 @@ clean: 3rdparty/CMakeFiles/elfio-3.2.dir/clean
 3rdparty/CMakeFiles/glog-0.3.3.dir/all:
 	$(MAKE) -f 3rdparty/CMakeFiles/glog-0.3.3.dir/build.make 3rdparty/CMakeFiles/glog-0.3.3.dir/depend
 	$(MAKE) -f 3rdparty/CMakeFiles/glog-0.3.3.dir/build.make 3rdparty/CMakeFiles/glog-0.3.3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=20,21,22,23,24,25 "Built target glog-0.3.3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=21,22,23,24,25,26 "Built target glog-0.3.3"
 .PHONY : 3rdparty/CMakeFiles/glog-0.3.3.dir/all
 
 # Include target in all.
@@ -288,7 +288,7 @@ clean: 3rdparty/CMakeFiles/glog-0.3.3.dir/clean
 3rdparty/CMakeFiles/libev-4.22.dir/all:
 	$(MAKE) -f 3rdparty/CMakeFiles/libev-4.22.dir/build.make 3rdparty/CMakeFiles/libev-4.22.dir/depend
 	$(MAKE) -f 3rdparty/CMakeFiles/libev-4.22.dir/build.make 3rdparty/CMakeFiles/libev-4.22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=34,35,36,37,38,39 "Built target libev-4.22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=35,36,37,38,39,40 "Built target libev-4.22"
 .PHONY : 3rdparty/CMakeFiles/libev-4.22.dir/all
 
 # Include target in all.
@@ -325,7 +325,7 @@ clean: 3rdparty/CMakeFiles/libev-4.22.dir/clean
 3rdparty/CMakeFiles/picojson-1.3.0.dir/all:
 	$(MAKE) -f 3rdparty/CMakeFiles/picojson-1.3.0.dir/build.make 3rdparty/CMakeFiles/picojson-1.3.0.dir/depend
 	$(MAKE) -f 3rdparty/CMakeFiles/picojson-1.3.0.dir/build.make 3rdparty/CMakeFiles/picojson-1.3.0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=65,66,67,68,69,70 "Built target picojson-1.3.0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=66,67,68,69,70,71 "Built target picojson-1.3.0"
 .PHONY : 3rdparty/CMakeFiles/picojson-1.3.0.dir/all
 
 # Include target in all.
@@ -362,7 +362,7 @@ clean: 3rdparty/CMakeFiles/picojson-1.3.0.dir/clean
 3rdparty/CMakeFiles/nvml-352.79.dir/all:
 	$(MAKE) -f 3rdparty/CMakeFiles/nvml-352.79.dir/build.make 3rdparty/CMakeFiles/nvml-352.79.dir/depend
 	$(MAKE) -f 3rdparty/CMakeFiles/nvml-352.79.dir/build.make 3rdparty/CMakeFiles/nvml-352.79.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=59,60,61,62,63,64 "Built target nvml-352.79"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=60,61,62,63,64,65 "Built target nvml-352.79"
 .PHONY : 3rdparty/CMakeFiles/nvml-352.79.dir/all
 
 # Include target in all.
@@ -399,7 +399,7 @@ clean: 3rdparty/CMakeFiles/nvml-352.79.dir/clean
 3rdparty/CMakeFiles/http_parser-2.6.2.dir/all:
 	$(MAKE) -f 3rdparty/CMakeFiles/http_parser-2.6.2.dir/build.make 3rdparty/CMakeFiles/http_parser-2.6.2.dir/depend
 	$(MAKE) -f 3rdparty/CMakeFiles/http_parser-2.6.2.dir/build.make 3rdparty/CMakeFiles/http_parser-2.6.2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=26,27,28,29,30,31 "Built target http_parser-2.6.2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=27,28,29,30,31,32 "Built target http_parser-2.6.2"
 .PHONY : 3rdparty/CMakeFiles/http_parser-2.6.2.dir/all
 
 # Include target in all.
@@ -549,7 +549,7 @@ clean: 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/clean
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all:
 	$(MAKE) -f 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/build.make 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/depend
 	$(MAKE) -f 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/build.make 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Built target process-0.0.1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89 "Built target process-0.0.1"
 .PHONY : 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
 
 # Include target in all.
@@ -559,7 +559,7 @@ all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
 
 # Build rule for subdir invocation for target.
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 19
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 18
 	$(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/rule
@@ -610,7 +610,7 @@ clean: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/clean
 
 # Build rule for subdir invocation for target.
 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 20
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 19
 	$(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/rule
@@ -645,12 +645,12 @@ clean: 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/clean
 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/all: 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/all
 	$(MAKE) -f 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/build.make 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/depend
 	$(MAKE) -f 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/build.make 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58 "Built target libprocess-tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59 "Built target libprocess-tests"
 .PHONY : 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/all
 
 # Build rule for subdir invocation for target.
 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 81
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 80
 	$(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/rule
@@ -674,21 +674,23 @@ clean: 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/clean
 # Directory level rules for directory my_hello
 
 # Convenience name for "all" pass in the directory.
-my_hello/all: my_hello/CMakeFiles/test-slave.dir/all
-my_hello/all: my_hello/CMakeFiles/test-master.dir/all
-my_hello/all: my_hello/CMakeFiles/client_protobuf.dir/all
-my_hello/all: my_hello/CMakeFiles/client_server_message_event.dir/all
 my_hello/all: my_hello/CMakeFiles/lele_hello_main.dir/all
+my_hello/all: my_hello/CMakeFiles/client_server_message_event.dir/all
+my_hello/all: my_hello/CMakeFiles/client_protobuf.dir/all
+my_hello/all: my_hello/CMakeFiles/test-master.dir/all
+my_hello/all: my_hello/CMakeFiles/future_promise.dir/all
+my_hello/all: my_hello/CMakeFiles/test-slave.dir/all
 my_hello/all: my_hello/proto/all
 
 .PHONY : my_hello/all
 
 # Convenience name for "clean" pass in the directory.
-my_hello/clean: my_hello/CMakeFiles/test-slave.dir/clean
-my_hello/clean: my_hello/CMakeFiles/test-master.dir/clean
-my_hello/clean: my_hello/CMakeFiles/client_protobuf.dir/clean
-my_hello/clean: my_hello/CMakeFiles/client_server_message_event.dir/clean
 my_hello/clean: my_hello/CMakeFiles/lele_hello_main.dir/clean
+my_hello/clean: my_hello/CMakeFiles/client_server_message_event.dir/clean
+my_hello/clean: my_hello/CMakeFiles/client_protobuf.dir/clean
+my_hello/clean: my_hello/CMakeFiles/test-master.dir/clean
+my_hello/clean: my_hello/CMakeFiles/future_promise.dir/clean
+my_hello/clean: my_hello/CMakeFiles/test-slave.dir/clean
 my_hello/clean: my_hello/proto/clean
 
 .PHONY : my_hello/clean
@@ -699,116 +701,40 @@ my_hello/preinstall: my_hello/proto/preinstall
 .PHONY : my_hello/preinstall
 
 #=============================================================================
-# Target rules for target my_hello/CMakeFiles/test-slave.dir
+# Target rules for target my_hello/CMakeFiles/lele_hello_main.dir
 
 # All Build rule for target.
-my_hello/CMakeFiles/test-slave.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
-my_hello/CMakeFiles/test-slave.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
-	$(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/depend
-	$(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=93 "Built target test-slave"
-.PHONY : my_hello/CMakeFiles/test-slave.dir/all
+my_hello/CMakeFiles/lele_hello_main.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
+my_hello/CMakeFiles/lele_hello_main.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
+	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/depend
+	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target lele_hello_main"
+.PHONY : my_hello/CMakeFiles/lele_hello_main.dir/all
 
 # Include target in all.
-all: my_hello/CMakeFiles/test-slave.dir/all
+all: my_hello/CMakeFiles/lele_hello_main.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-my_hello/CMakeFiles/test-slave.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 24
-	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/test-slave.dir/all
+my_hello/CMakeFiles/lele_hello_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 23
+	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/lele_hello_main.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
-.PHONY : my_hello/CMakeFiles/test-slave.dir/rule
+.PHONY : my_hello/CMakeFiles/lele_hello_main.dir/rule
 
 # Convenience name for target.
-test-slave: my_hello/CMakeFiles/test-slave.dir/rule
+lele_hello_main: my_hello/CMakeFiles/lele_hello_main.dir/rule
 
-.PHONY : test-slave
-
-# clean rule for target.
-my_hello/CMakeFiles/test-slave.dir/clean:
-	$(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/clean
-.PHONY : my_hello/CMakeFiles/test-slave.dir/clean
+.PHONY : lele_hello_main
 
 # clean rule for target.
-clean: my_hello/CMakeFiles/test-slave.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target my_hello/CMakeFiles/test-master.dir
-
-# All Build rule for target.
-my_hello/CMakeFiles/test-master.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
-my_hello/CMakeFiles/test-master.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
-	$(MAKE) -f my_hello/CMakeFiles/test-master.dir/build.make my_hello/CMakeFiles/test-master.dir/depend
-	$(MAKE) -f my_hello/CMakeFiles/test-master.dir/build.make my_hello/CMakeFiles/test-master.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=91,92 "Built target test-master"
-.PHONY : my_hello/CMakeFiles/test-master.dir/all
-
-# Include target in all.
-all: my_hello/CMakeFiles/test-master.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-my_hello/CMakeFiles/test-master.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 25
-	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/test-master.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
-.PHONY : my_hello/CMakeFiles/test-master.dir/rule
-
-# Convenience name for target.
-test-master: my_hello/CMakeFiles/test-master.dir/rule
-
-.PHONY : test-master
+my_hello/CMakeFiles/lele_hello_main.dir/clean:
+	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/clean
+.PHONY : my_hello/CMakeFiles/lele_hello_main.dir/clean
 
 # clean rule for target.
-my_hello/CMakeFiles/test-master.dir/clean:
-	$(MAKE) -f my_hello/CMakeFiles/test-master.dir/build.make my_hello/CMakeFiles/test-master.dir/clean
-.PHONY : my_hello/CMakeFiles/test-master.dir/clean
-
-# clean rule for target.
-clean: my_hello/CMakeFiles/test-master.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
-# Target rules for target my_hello/CMakeFiles/client_protobuf.dir
-
-# All Build rule for target.
-my_hello/CMakeFiles/client_protobuf.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
-my_hello/CMakeFiles/client_protobuf.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
-	$(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/depend
-	$(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=7 "Built target client_protobuf"
-.PHONY : my_hello/CMakeFiles/client_protobuf.dir/all
-
-# Include target in all.
-all: my_hello/CMakeFiles/client_protobuf.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-my_hello/CMakeFiles/client_protobuf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 24
-	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/client_protobuf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
-.PHONY : my_hello/CMakeFiles/client_protobuf.dir/rule
-
-# Convenience name for target.
-client_protobuf: my_hello/CMakeFiles/client_protobuf.dir/rule
-
-.PHONY : client_protobuf
-
-# clean rule for target.
-my_hello/CMakeFiles/client_protobuf.dir/clean:
-	$(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/clean
-.PHONY : my_hello/CMakeFiles/client_protobuf.dir/clean
-
-# clean rule for target.
-clean: my_hello/CMakeFiles/client_protobuf.dir/clean
+clean: my_hello/CMakeFiles/lele_hello_main.dir/clean
 
 .PHONY : clean
 
@@ -830,7 +756,7 @@ all: my_hello/CMakeFiles/client_server_message_event.dir/all
 
 # Build rule for subdir invocation for target.
 my_hello/CMakeFiles/client_server_message_event.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/client_server_message_event.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : my_hello/CMakeFiles/client_server_message_event.dir/rule
@@ -851,40 +777,154 @@ clean: my_hello/CMakeFiles/client_server_message_event.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target my_hello/CMakeFiles/lele_hello_main.dir
+# Target rules for target my_hello/CMakeFiles/client_protobuf.dir
 
 # All Build rule for target.
-my_hello/CMakeFiles/lele_hello_main.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
-my_hello/CMakeFiles/lele_hello_main.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
-	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/depend
-	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target lele_hello_main"
-.PHONY : my_hello/CMakeFiles/lele_hello_main.dir/all
+my_hello/CMakeFiles/client_protobuf.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
+my_hello/CMakeFiles/client_protobuf.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
+	$(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/depend
+	$(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=7 "Built target client_protobuf"
+.PHONY : my_hello/CMakeFiles/client_protobuf.dir/all
 
 # Include target in all.
-all: my_hello/CMakeFiles/lele_hello_main.dir/all
+all: my_hello/CMakeFiles/client_protobuf.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-my_hello/CMakeFiles/lele_hello_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 25
-	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/lele_hello_main.dir/all
+my_hello/CMakeFiles/client_protobuf.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 22
+	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/client_protobuf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
-.PHONY : my_hello/CMakeFiles/lele_hello_main.dir/rule
+.PHONY : my_hello/CMakeFiles/client_protobuf.dir/rule
 
 # Convenience name for target.
-lele_hello_main: my_hello/CMakeFiles/lele_hello_main.dir/rule
+client_protobuf: my_hello/CMakeFiles/client_protobuf.dir/rule
 
-.PHONY : lele_hello_main
-
-# clean rule for target.
-my_hello/CMakeFiles/lele_hello_main.dir/clean:
-	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/clean
-.PHONY : my_hello/CMakeFiles/lele_hello_main.dir/clean
+.PHONY : client_protobuf
 
 # clean rule for target.
-clean: my_hello/CMakeFiles/lele_hello_main.dir/clean
+my_hello/CMakeFiles/client_protobuf.dir/clean:
+	$(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/clean
+.PHONY : my_hello/CMakeFiles/client_protobuf.dir/clean
+
+# clean rule for target.
+clean: my_hello/CMakeFiles/client_protobuf.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target my_hello/CMakeFiles/test-master.dir
+
+# All Build rule for target.
+my_hello/CMakeFiles/test-master.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
+my_hello/CMakeFiles/test-master.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
+	$(MAKE) -f my_hello/CMakeFiles/test-master.dir/build.make my_hello/CMakeFiles/test-master.dir/depend
+	$(MAKE) -f my_hello/CMakeFiles/test-master.dir/build.make my_hello/CMakeFiles/test-master.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=91,92 "Built target test-master"
+.PHONY : my_hello/CMakeFiles/test-master.dir/all
+
+# Include target in all.
+all: my_hello/CMakeFiles/test-master.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+my_hello/CMakeFiles/test-master.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 23
+	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/test-master.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
+.PHONY : my_hello/CMakeFiles/test-master.dir/rule
+
+# Convenience name for target.
+test-master: my_hello/CMakeFiles/test-master.dir/rule
+
+.PHONY : test-master
+
+# clean rule for target.
+my_hello/CMakeFiles/test-master.dir/clean:
+	$(MAKE) -f my_hello/CMakeFiles/test-master.dir/build.make my_hello/CMakeFiles/test-master.dir/clean
+.PHONY : my_hello/CMakeFiles/test-master.dir/clean
+
+# clean rule for target.
+clean: my_hello/CMakeFiles/test-master.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target my_hello/CMakeFiles/future_promise.dir
+
+# All Build rule for target.
+my_hello/CMakeFiles/future_promise.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
+my_hello/CMakeFiles/future_promise.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
+	$(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/depend
+	$(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target future_promise"
+.PHONY : my_hello/CMakeFiles/future_promise.dir/all
+
+# Include target in all.
+all: my_hello/CMakeFiles/future_promise.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+my_hello/CMakeFiles/future_promise.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 23
+	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/future_promise.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
+.PHONY : my_hello/CMakeFiles/future_promise.dir/rule
+
+# Convenience name for target.
+future_promise: my_hello/CMakeFiles/future_promise.dir/rule
+
+.PHONY : future_promise
+
+# clean rule for target.
+my_hello/CMakeFiles/future_promise.dir/clean:
+	$(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/clean
+.PHONY : my_hello/CMakeFiles/future_promise.dir/clean
+
+# clean rule for target.
+clean: my_hello/CMakeFiles/future_promise.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target my_hello/CMakeFiles/test-slave.dir
+
+# All Build rule for target.
+my_hello/CMakeFiles/test-slave.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
+my_hello/CMakeFiles/test-slave.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
+	$(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/depend
+	$(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=93 "Built target test-slave"
+.PHONY : my_hello/CMakeFiles/test-slave.dir/all
+
+# Include target in all.
+all: my_hello/CMakeFiles/test-slave.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+my_hello/CMakeFiles/test-slave.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 22
+	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/test-slave.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
+.PHONY : my_hello/CMakeFiles/test-slave.dir/rule
+
+# Convenience name for target.
+test-slave: my_hello/CMakeFiles/test-slave.dir/rule
+
+.PHONY : test-slave
+
+# clean rule for target.
+my_hello/CMakeFiles/test-slave.dir/clean:
+	$(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/clean
+.PHONY : my_hello/CMakeFiles/test-slave.dir/clean
+
+# clean rule for target.
+clean: my_hello/CMakeFiles/test-slave.dir/clean
 
 .PHONY : clean
 
@@ -913,7 +953,7 @@ my_hello/proto/preinstall:
 my_hello/proto/CMakeFiles/foo.dir/all:
 	$(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/depend
 	$(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=16,17,18,19 "Built target foo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=16,17,18 "Built target foo"
 .PHONY : my_hello/proto/CMakeFiles/foo.dir/all
 
 # Include target in all.
@@ -923,7 +963,7 @@ all: my_hello/proto/CMakeFiles/foo.dir/all
 
 # Build rule for subdir invocation for target.
 my_hello/proto/CMakeFiles/foo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/CMakeFiles/foo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : my_hello/proto/CMakeFiles/foo.dir/rule
