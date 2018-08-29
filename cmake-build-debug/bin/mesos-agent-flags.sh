@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-: ${MESOS_LAUNCHER_DIR:="/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src"}
+: ${MESOS_LAUNCHER_DIR:="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src"}
 
 export MESOS_LAUNCHER_DIR
 
@@ -29,11 +29,11 @@ export MESOS_LAUNCHER_DIR
 # TODO(tillt): Point MESOS_NATIVE_JAVA_LIBRARY towards the JNI
 # specific library once libmesos has been split.
 if test $(uname) = 'Darwin'; then
-  : ${MESOS_NATIVE_JAVA_LIBRARY:="/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/.libs/libmesos-1.3.2.dylib"}
-  : ${MESOS_NATIVE_LIBRARY:="/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/.libs/libmesos-1.3.2.dylib"}
+  : ${MESOS_NATIVE_JAVA_LIBRARY:="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/.libs/libmesos-1.3.2.dylib"}
+  : ${MESOS_NATIVE_LIBRARY:="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/.libs/libmesos-1.3.2.dylib"}
 else
-  : ${MESOS_NATIVE_JAVA_LIBRARY:="/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/.libs/libmesos-1.3.2.so"}
-  : ${MESOS_NATIVE_LIBRARY:="/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/.libs/libmesos-1.3.2.so"}
+  : ${MESOS_NATIVE_JAVA_LIBRARY:="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/.libs/libmesos-1.3.2.so"}
+  : ${MESOS_NATIVE_LIBRARY:="/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/.libs/libmesos-1.3.2.so"}
 fi
 export MESOS_NATIVE_LIBRARY
 export MESOS_NATIVE_JAVA_LIBRARY

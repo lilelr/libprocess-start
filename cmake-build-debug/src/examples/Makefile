@@ -51,10 +51,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -73,7 +73,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackConfig.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -84,7 +84,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -116,14 +116,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples/CMakeFiles/progress.marks
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles 0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples/CMakeFiles/progress.marks
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/clean
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,22 +133,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/preinstall
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/preinstall
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/examples/CMakeFiles/test-http-executor.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/test-http-executor.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/test-http-executor.dir/rule
 .PHONY : src/examples/CMakeFiles/test-http-executor.dir/rule
 
 # Convenience name for target.
@@ -158,12 +158,12 @@ test-http-executor: src/examples/CMakeFiles/test-http-executor.dir/rule
 
 # fast build rule for target.
 test-http-executor/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-executor.dir/build.make src/examples/CMakeFiles/test-http-executor.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-executor.dir/build.make src/examples/CMakeFiles/test-http-executor.dir/build
 .PHONY : test-http-executor/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/test-framework.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/test-framework.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/test-framework.dir/rule
 .PHONY : src/examples/CMakeFiles/test-framework.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ test-framework: src/examples/CMakeFiles/test-framework.dir/rule
 
 # fast build rule for target.
 test-framework/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-framework.dir/build.make src/examples/CMakeFiles/test-framework.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-framework.dir/build.make src/examples/CMakeFiles/test-framework.dir/build
 .PHONY : test-framework/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/persistent-volume-framework.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/persistent-volume-framework.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/persistent-volume-framework.dir/rule
 .PHONY : src/examples/CMakeFiles/persistent-volume-framework.dir/rule
 
 # Convenience name for target.
@@ -188,12 +188,12 @@ persistent-volume-framework: src/examples/CMakeFiles/persistent-volume-framework
 
 # fast build rule for target.
 persistent-volume-framework/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/persistent-volume-framework.dir/build.make src/examples/CMakeFiles/persistent-volume-framework.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/persistent-volume-framework.dir/build.make src/examples/CMakeFiles/persistent-volume-framework.dir/build
 .PHONY : persistent-volume-framework/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testisolator.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testisolator.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testisolator.dir/rule
 .PHONY : src/examples/CMakeFiles/testisolator.dir/rule
 
 # Convenience name for target.
@@ -203,12 +203,12 @@ testisolator: src/examples/CMakeFiles/testisolator.dir/rule
 
 # fast build rule for target.
 testisolator/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testisolator.dir/build.make src/examples/CMakeFiles/testisolator.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testisolator.dir/build.make src/examples/CMakeFiles/testisolator.dir/build
 .PHONY : testisolator/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testcontainer_logger.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testcontainer_logger.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testcontainer_logger.dir/rule
 .PHONY : src/examples/CMakeFiles/testcontainer_logger.dir/rule
 
 # Convenience name for target.
@@ -218,12 +218,12 @@ testcontainer_logger: src/examples/CMakeFiles/testcontainer_logger.dir/rule
 
 # fast build rule for target.
 testcontainer_logger/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testcontainer_logger.dir/build.make src/examples/CMakeFiles/testcontainer_logger.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testcontainer_logger.dir/build.make src/examples/CMakeFiles/testcontainer_logger.dir/build
 .PHONY : testcontainer_logger/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testauthorizer.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testauthorizer.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testauthorizer.dir/rule
 .PHONY : src/examples/CMakeFiles/testauthorizer.dir/rule
 
 # Convenience name for target.
@@ -233,12 +233,12 @@ testauthorizer: src/examples/CMakeFiles/testauthorizer.dir/rule
 
 # fast build rule for target.
 testauthorizer/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthorizer.dir/build.make src/examples/CMakeFiles/testauthorizer.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthorizer.dir/build.make src/examples/CMakeFiles/testauthorizer.dir/build
 .PHONY : testauthorizer/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testauthentication.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testauthentication.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testauthentication.dir/rule
 .PHONY : src/examples/CMakeFiles/testauthentication.dir/rule
 
 # Convenience name for target.
@@ -248,12 +248,12 @@ testauthentication: src/examples/CMakeFiles/testauthentication.dir/rule
 
 # fast build rule for target.
 testauthentication/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthentication.dir/build.make src/examples/CMakeFiles/testauthentication.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthentication.dir/build.make src/examples/CMakeFiles/testauthentication.dir/build
 .PHONY : testauthentication/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testanonymous.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testanonymous.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testanonymous.dir/rule
 .PHONY : src/examples/CMakeFiles/testanonymous.dir/rule
 
 # Convenience name for target.
@@ -263,12 +263,12 @@ testanonymous: src/examples/CMakeFiles/testanonymous.dir/rule
 
 # fast build rule for target.
 testanonymous/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testanonymous.dir/build.make src/examples/CMakeFiles/testanonymous.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testanonymous.dir/build.make src/examples/CMakeFiles/testanonymous.dir/build
 .PHONY : testanonymous/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testallocator.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testallocator.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testallocator.dir/rule
 .PHONY : src/examples/CMakeFiles/testallocator.dir/rule
 
 # Convenience name for target.
@@ -278,12 +278,12 @@ testallocator: src/examples/CMakeFiles/testallocator.dir/rule
 
 # fast build rule for target.
 testallocator/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testallocator.dir/build.make src/examples/CMakeFiles/testallocator.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testallocator.dir/build.make src/examples/CMakeFiles/testallocator.dir/build
 .PHONY : testallocator/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/test-executor.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/test-executor.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/test-executor.dir/rule
 .PHONY : src/examples/CMakeFiles/test-executor.dir/rule
 
 # Convenience name for target.
@@ -293,12 +293,12 @@ test-executor: src/examples/CMakeFiles/test-executor.dir/rule
 
 # fast build rule for target.
 test-executor/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-executor.dir/build.make src/examples/CMakeFiles/test-executor.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-executor.dir/build.make src/examples/CMakeFiles/test-executor.dir/build
 .PHONY : test-executor/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testmastercontender.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testmastercontender.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testmastercontender.dir/rule
 .PHONY : src/examples/CMakeFiles/testmastercontender.dir/rule
 
 # Convenience name for target.
@@ -308,12 +308,12 @@ testmastercontender: src/examples/CMakeFiles/testmastercontender.dir/rule
 
 # fast build rule for target.
 testmastercontender/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmastercontender.dir/build.make src/examples/CMakeFiles/testmastercontender.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmastercontender.dir/build.make src/examples/CMakeFiles/testmastercontender.dir/build
 .PHONY : testmastercontender/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testmasterdetector.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testmasterdetector.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testmasterdetector.dir/rule
 .PHONY : src/examples/CMakeFiles/testmasterdetector.dir/rule
 
 # Convenience name for target.
@@ -323,12 +323,12 @@ testmasterdetector: src/examples/CMakeFiles/testmasterdetector.dir/rule
 
 # fast build rule for target.
 testmasterdetector/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmasterdetector.dir/build.make src/examples/CMakeFiles/testmasterdetector.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmasterdetector.dir/build.make src/examples/CMakeFiles/testmasterdetector.dir/build
 .PHONY : testmasterdetector/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testhook.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testhook.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testhook.dir/rule
 .PHONY : src/examples/CMakeFiles/testhook.dir/rule
 
 # Convenience name for target.
@@ -338,12 +338,12 @@ testhook: src/examples/CMakeFiles/testhook.dir/rule
 
 # fast build rule for target.
 testhook/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhook.dir/build.make src/examples/CMakeFiles/testhook.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhook.dir/build.make src/examples/CMakeFiles/testhook.dir/build
 .PHONY : testhook/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/balloon-framework.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/balloon-framework.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/balloon-framework.dir/rule
 .PHONY : src/examples/CMakeFiles/balloon-framework.dir/rule
 
 # Convenience name for target.
@@ -353,12 +353,12 @@ balloon-framework: src/examples/CMakeFiles/balloon-framework.dir/rule
 
 # fast build rule for target.
 balloon-framework/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-framework.dir/build.make src/examples/CMakeFiles/balloon-framework.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-framework.dir/build.make src/examples/CMakeFiles/balloon-framework.dir/build
 .PHONY : balloon-framework/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/no-executor-framework.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/no-executor-framework.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/no-executor-framework.dir/rule
 .PHONY : src/examples/CMakeFiles/no-executor-framework.dir/rule
 
 # Convenience name for target.
@@ -368,12 +368,12 @@ no-executor-framework: src/examples/CMakeFiles/no-executor-framework.dir/rule
 
 # fast build rule for target.
 no-executor-framework/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/no-executor-framework.dir/build.make src/examples/CMakeFiles/no-executor-framework.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/no-executor-framework.dir/build.make src/examples/CMakeFiles/no-executor-framework.dir/build
 .PHONY : no-executor-framework/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testqos_controller.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testqos_controller.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testqos_controller.dir/rule
 .PHONY : src/examples/CMakeFiles/testqos_controller.dir/rule
 
 # Convenience name for target.
@@ -383,12 +383,12 @@ testqos_controller: src/examples/CMakeFiles/testqos_controller.dir/rule
 
 # fast build rule for target.
 testqos_controller/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testqos_controller.dir/build.make src/examples/CMakeFiles/testqos_controller.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testqos_controller.dir/build.make src/examples/CMakeFiles/testqos_controller.dir/build
 .PHONY : testqos_controller/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/load-generator-framework.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/load-generator-framework.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/load-generator-framework.dir/rule
 .PHONY : src/examples/CMakeFiles/load-generator-framework.dir/rule
 
 # Convenience name for target.
@@ -398,12 +398,12 @@ load-generator-framework: src/examples/CMakeFiles/load-generator-framework.dir/r
 
 # fast build rule for target.
 load-generator-framework/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/load-generator-framework.dir/build.make src/examples/CMakeFiles/load-generator-framework.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/load-generator-framework.dir/build.make src/examples/CMakeFiles/load-generator-framework.dir/build
 .PHONY : load-generator-framework/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/long-lived-executor.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/long-lived-executor.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/long-lived-executor.dir/rule
 .PHONY : src/examples/CMakeFiles/long-lived-executor.dir/rule
 
 # Convenience name for target.
@@ -413,12 +413,12 @@ long-lived-executor: src/examples/CMakeFiles/long-lived-executor.dir/rule
 
 # fast build rule for target.
 long-lived-executor/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-executor.dir/build.make src/examples/CMakeFiles/long-lived-executor.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-executor.dir/build.make src/examples/CMakeFiles/long-lived-executor.dir/build
 .PHONY : long-lived-executor/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testhttpauthenticator.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testhttpauthenticator.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testhttpauthenticator.dir/rule
 .PHONY : src/examples/CMakeFiles/testhttpauthenticator.dir/rule
 
 # Convenience name for target.
@@ -428,12 +428,12 @@ testhttpauthenticator: src/examples/CMakeFiles/testhttpauthenticator.dir/rule
 
 # fast build rule for target.
 testhttpauthenticator/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhttpauthenticator.dir/build.make src/examples/CMakeFiles/testhttpauthenticator.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhttpauthenticator.dir/build.make src/examples/CMakeFiles/testhttpauthenticator.dir/build
 .PHONY : testhttpauthenticator/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/balloon-executor.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/balloon-executor.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/balloon-executor.dir/rule
 .PHONY : src/examples/CMakeFiles/balloon-executor.dir/rule
 
 # Convenience name for target.
@@ -443,12 +443,12 @@ balloon-executor: src/examples/CMakeFiles/balloon-executor.dir/rule
 
 # fast build rule for target.
 balloon-executor/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-executor.dir/build.make src/examples/CMakeFiles/balloon-executor.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-executor.dir/build.make src/examples/CMakeFiles/balloon-executor.dir/build
 .PHONY : balloon-executor/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/test-http-framework.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/test-http-framework.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/test-http-framework.dir/rule
 .PHONY : src/examples/CMakeFiles/test-http-framework.dir/rule
 
 # Convenience name for target.
@@ -458,12 +458,12 @@ test-http-framework: src/examples/CMakeFiles/test-http-framework.dir/rule
 
 # fast build rule for target.
 test-http-framework/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-framework.dir/build.make src/examples/CMakeFiles/test-http-framework.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-framework.dir/build.make src/examples/CMakeFiles/test-http-framework.dir/build
 .PHONY : test-http-framework/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/disk-full-framework.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/disk-full-framework.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/disk-full-framework.dir/rule
 .PHONY : src/examples/CMakeFiles/disk-full-framework.dir/rule
 
 # Convenience name for target.
@@ -473,12 +473,12 @@ disk-full-framework: src/examples/CMakeFiles/disk-full-framework.dir/rule
 
 # fast build rule for target.
 disk-full-framework/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/disk-full-framework.dir/build.make src/examples/CMakeFiles/disk-full-framework.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/disk-full-framework.dir/build.make src/examples/CMakeFiles/disk-full-framework.dir/build
 .PHONY : disk-full-framework/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/docker-no-executor-framework.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/docker-no-executor-framework.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/docker-no-executor-framework.dir/rule
 .PHONY : src/examples/CMakeFiles/docker-no-executor-framework.dir/rule
 
 # Convenience name for target.
@@ -488,12 +488,12 @@ docker-no-executor-framework: src/examples/CMakeFiles/docker-no-executor-framewo
 
 # fast build rule for target.
 docker-no-executor-framework/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/docker-no-executor-framework.dir/build.make src/examples/CMakeFiles/docker-no-executor-framework.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/docker-no-executor-framework.dir/build.make src/examples/CMakeFiles/docker-no-executor-framework.dir/build
 .PHONY : docker-no-executor-framework/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/dynamic-reservation-framework.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dynamic-reservation-framework.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/dynamic-reservation-framework.dir/rule
 .PHONY : src/examples/CMakeFiles/dynamic-reservation-framework.dir/rule
 
 # Convenience name for target.
@@ -503,12 +503,12 @@ dynamic-reservation-framework: src/examples/CMakeFiles/dynamic-reservation-frame
 
 # fast build rule for target.
 dynamic-reservation-framework/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/dynamic-reservation-framework.dir/build.make src/examples/CMakeFiles/dynamic-reservation-framework.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/dynamic-reservation-framework.dir/build.make src/examples/CMakeFiles/dynamic-reservation-framework.dir/build
 .PHONY : dynamic-reservation-framework/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/examplemodule.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/examplemodule.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/examplemodule.dir/rule
 .PHONY : src/examples/CMakeFiles/examplemodule.dir/rule
 
 # Convenience name for target.
@@ -518,12 +518,12 @@ examplemodule: src/examples/CMakeFiles/examplemodule.dir/rule
 
 # fast build rule for target.
 examplemodule/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/examplemodule.dir/build.make src/examples/CMakeFiles/examplemodule.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/examplemodule.dir/build.make src/examples/CMakeFiles/examplemodule.dir/build
 .PHONY : examplemodule/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/testresource_estimator.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testresource_estimator.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/testresource_estimator.dir/rule
 .PHONY : src/examples/CMakeFiles/testresource_estimator.dir/rule
 
 # Convenience name for target.
@@ -533,12 +533,12 @@ testresource_estimator: src/examples/CMakeFiles/testresource_estimator.dir/rule
 
 # fast build rule for target.
 testresource_estimator/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testresource_estimator.dir/build.make src/examples/CMakeFiles/testresource_estimator.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testresource_estimator.dir/build.make src/examples/CMakeFiles/testresource_estimator.dir/build
 .PHONY : testresource_estimator/fast
 
 # Convenience name for target.
 src/examples/CMakeFiles/long-lived-framework.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/long-lived-framework.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/examples/CMakeFiles/long-lived-framework.dir/rule
 .PHONY : src/examples/CMakeFiles/long-lived-framework.dir/rule
 
 # Convenience name for target.
@@ -548,7 +548,7 @@ long-lived-framework: src/examples/CMakeFiles/long-lived-framework.dir/rule
 
 # fast build rule for target.
 long-lived-framework/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-framework.dir/build.make src/examples/CMakeFiles/long-lived-framework.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-framework.dir/build.make src/examples/CMakeFiles/long-lived-framework.dir/build
 .PHONY : long-lived-framework/fast
 
 balloon_executor.o: balloon_executor.cpp.o
@@ -557,7 +557,7 @@ balloon_executor.o: balloon_executor.cpp.o
 
 # target to build an object file
 balloon_executor.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-executor.dir/build.make src/examples/CMakeFiles/balloon-executor.dir/balloon_executor.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-executor.dir/build.make src/examples/CMakeFiles/balloon-executor.dir/balloon_executor.cpp.o
 .PHONY : balloon_executor.cpp.o
 
 balloon_executor.i: balloon_executor.cpp.i
@@ -566,7 +566,7 @@ balloon_executor.i: balloon_executor.cpp.i
 
 # target to preprocess a source file
 balloon_executor.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-executor.dir/build.make src/examples/CMakeFiles/balloon-executor.dir/balloon_executor.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-executor.dir/build.make src/examples/CMakeFiles/balloon-executor.dir/balloon_executor.cpp.i
 .PHONY : balloon_executor.cpp.i
 
 balloon_executor.s: balloon_executor.cpp.s
@@ -575,7 +575,7 @@ balloon_executor.s: balloon_executor.cpp.s
 
 # target to generate assembly for a file
 balloon_executor.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-executor.dir/build.make src/examples/CMakeFiles/balloon-executor.dir/balloon_executor.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-executor.dir/build.make src/examples/CMakeFiles/balloon-executor.dir/balloon_executor.cpp.s
 .PHONY : balloon_executor.cpp.s
 
 balloon_framework.o: balloon_framework.cpp.o
@@ -584,7 +584,7 @@ balloon_framework.o: balloon_framework.cpp.o
 
 # target to build an object file
 balloon_framework.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-framework.dir/build.make src/examples/CMakeFiles/balloon-framework.dir/balloon_framework.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-framework.dir/build.make src/examples/CMakeFiles/balloon-framework.dir/balloon_framework.cpp.o
 .PHONY : balloon_framework.cpp.o
 
 balloon_framework.i: balloon_framework.cpp.i
@@ -593,7 +593,7 @@ balloon_framework.i: balloon_framework.cpp.i
 
 # target to preprocess a source file
 balloon_framework.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-framework.dir/build.make src/examples/CMakeFiles/balloon-framework.dir/balloon_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-framework.dir/build.make src/examples/CMakeFiles/balloon-framework.dir/balloon_framework.cpp.i
 .PHONY : balloon_framework.cpp.i
 
 balloon_framework.s: balloon_framework.cpp.s
@@ -602,7 +602,7 @@ balloon_framework.s: balloon_framework.cpp.s
 
 # target to generate assembly for a file
 balloon_framework.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-framework.dir/build.make src/examples/CMakeFiles/balloon-framework.dir/balloon_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/balloon-framework.dir/build.make src/examples/CMakeFiles/balloon-framework.dir/balloon_framework.cpp.s
 .PHONY : balloon_framework.cpp.s
 
 disk_full_framework.o: disk_full_framework.cpp.o
@@ -611,7 +611,7 @@ disk_full_framework.o: disk_full_framework.cpp.o
 
 # target to build an object file
 disk_full_framework.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/disk-full-framework.dir/build.make src/examples/CMakeFiles/disk-full-framework.dir/disk_full_framework.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/disk-full-framework.dir/build.make src/examples/CMakeFiles/disk-full-framework.dir/disk_full_framework.cpp.o
 .PHONY : disk_full_framework.cpp.o
 
 disk_full_framework.i: disk_full_framework.cpp.i
@@ -620,7 +620,7 @@ disk_full_framework.i: disk_full_framework.cpp.i
 
 # target to preprocess a source file
 disk_full_framework.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/disk-full-framework.dir/build.make src/examples/CMakeFiles/disk-full-framework.dir/disk_full_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/disk-full-framework.dir/build.make src/examples/CMakeFiles/disk-full-framework.dir/disk_full_framework.cpp.i
 .PHONY : disk_full_framework.cpp.i
 
 disk_full_framework.s: disk_full_framework.cpp.s
@@ -629,7 +629,7 @@ disk_full_framework.s: disk_full_framework.cpp.s
 
 # target to generate assembly for a file
 disk_full_framework.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/disk-full-framework.dir/build.make src/examples/CMakeFiles/disk-full-framework.dir/disk_full_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/disk-full-framework.dir/build.make src/examples/CMakeFiles/disk-full-framework.dir/disk_full_framework.cpp.s
 .PHONY : disk_full_framework.cpp.s
 
 docker_no_executor_framework.o: docker_no_executor_framework.cpp.o
@@ -638,7 +638,7 @@ docker_no_executor_framework.o: docker_no_executor_framework.cpp.o
 
 # target to build an object file
 docker_no_executor_framework.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/docker-no-executor-framework.dir/build.make src/examples/CMakeFiles/docker-no-executor-framework.dir/docker_no_executor_framework.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/docker-no-executor-framework.dir/build.make src/examples/CMakeFiles/docker-no-executor-framework.dir/docker_no_executor_framework.cpp.o
 .PHONY : docker_no_executor_framework.cpp.o
 
 docker_no_executor_framework.i: docker_no_executor_framework.cpp.i
@@ -647,7 +647,7 @@ docker_no_executor_framework.i: docker_no_executor_framework.cpp.i
 
 # target to preprocess a source file
 docker_no_executor_framework.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/docker-no-executor-framework.dir/build.make src/examples/CMakeFiles/docker-no-executor-framework.dir/docker_no_executor_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/docker-no-executor-framework.dir/build.make src/examples/CMakeFiles/docker-no-executor-framework.dir/docker_no_executor_framework.cpp.i
 .PHONY : docker_no_executor_framework.cpp.i
 
 docker_no_executor_framework.s: docker_no_executor_framework.cpp.s
@@ -656,7 +656,7 @@ docker_no_executor_framework.s: docker_no_executor_framework.cpp.s
 
 # target to generate assembly for a file
 docker_no_executor_framework.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/docker-no-executor-framework.dir/build.make src/examples/CMakeFiles/docker-no-executor-framework.dir/docker_no_executor_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/docker-no-executor-framework.dir/build.make src/examples/CMakeFiles/docker-no-executor-framework.dir/docker_no_executor_framework.cpp.s
 .PHONY : docker_no_executor_framework.cpp.s
 
 dynamic_reservation_framework.o: dynamic_reservation_framework.cpp.o
@@ -665,7 +665,7 @@ dynamic_reservation_framework.o: dynamic_reservation_framework.cpp.o
 
 # target to build an object file
 dynamic_reservation_framework.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/dynamic-reservation-framework.dir/build.make src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/dynamic-reservation-framework.dir/build.make src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.o
 .PHONY : dynamic_reservation_framework.cpp.o
 
 dynamic_reservation_framework.i: dynamic_reservation_framework.cpp.i
@@ -674,7 +674,7 @@ dynamic_reservation_framework.i: dynamic_reservation_framework.cpp.i
 
 # target to preprocess a source file
 dynamic_reservation_framework.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/dynamic-reservation-framework.dir/build.make src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/dynamic-reservation-framework.dir/build.make src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.i
 .PHONY : dynamic_reservation_framework.cpp.i
 
 dynamic_reservation_framework.s: dynamic_reservation_framework.cpp.s
@@ -683,7 +683,7 @@ dynamic_reservation_framework.s: dynamic_reservation_framework.cpp.s
 
 # target to generate assembly for a file
 dynamic_reservation_framework.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/dynamic-reservation-framework.dir/build.make src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/dynamic-reservation-framework.dir/build.make src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.s
 .PHONY : dynamic_reservation_framework.cpp.s
 
 example_module_impl.o: example_module_impl.cpp.o
@@ -692,7 +692,7 @@ example_module_impl.o: example_module_impl.cpp.o
 
 # target to build an object file
 example_module_impl.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/examplemodule.dir/build.make src/examples/CMakeFiles/examplemodule.dir/example_module_impl.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/examplemodule.dir/build.make src/examples/CMakeFiles/examplemodule.dir/example_module_impl.cpp.o
 .PHONY : example_module_impl.cpp.o
 
 example_module_impl.i: example_module_impl.cpp.i
@@ -701,7 +701,7 @@ example_module_impl.i: example_module_impl.cpp.i
 
 # target to preprocess a source file
 example_module_impl.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/examplemodule.dir/build.make src/examples/CMakeFiles/examplemodule.dir/example_module_impl.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/examplemodule.dir/build.make src/examples/CMakeFiles/examplemodule.dir/example_module_impl.cpp.i
 .PHONY : example_module_impl.cpp.i
 
 example_module_impl.s: example_module_impl.cpp.s
@@ -710,7 +710,7 @@ example_module_impl.s: example_module_impl.cpp.s
 
 # target to generate assembly for a file
 example_module_impl.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/examplemodule.dir/build.make src/examples/CMakeFiles/examplemodule.dir/example_module_impl.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/examplemodule.dir/build.make src/examples/CMakeFiles/examplemodule.dir/example_module_impl.cpp.s
 .PHONY : example_module_impl.cpp.s
 
 load_generator_framework.o: load_generator_framework.cpp.o
@@ -719,7 +719,7 @@ load_generator_framework.o: load_generator_framework.cpp.o
 
 # target to build an object file
 load_generator_framework.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/load-generator-framework.dir/build.make src/examples/CMakeFiles/load-generator-framework.dir/load_generator_framework.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/load-generator-framework.dir/build.make src/examples/CMakeFiles/load-generator-framework.dir/load_generator_framework.cpp.o
 .PHONY : load_generator_framework.cpp.o
 
 load_generator_framework.i: load_generator_framework.cpp.i
@@ -728,7 +728,7 @@ load_generator_framework.i: load_generator_framework.cpp.i
 
 # target to preprocess a source file
 load_generator_framework.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/load-generator-framework.dir/build.make src/examples/CMakeFiles/load-generator-framework.dir/load_generator_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/load-generator-framework.dir/build.make src/examples/CMakeFiles/load-generator-framework.dir/load_generator_framework.cpp.i
 .PHONY : load_generator_framework.cpp.i
 
 load_generator_framework.s: load_generator_framework.cpp.s
@@ -737,7 +737,7 @@ load_generator_framework.s: load_generator_framework.cpp.s
 
 # target to generate assembly for a file
 load_generator_framework.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/load-generator-framework.dir/build.make src/examples/CMakeFiles/load-generator-framework.dir/load_generator_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/load-generator-framework.dir/build.make src/examples/CMakeFiles/load-generator-framework.dir/load_generator_framework.cpp.s
 .PHONY : load_generator_framework.cpp.s
 
 long_lived_executor.o: long_lived_executor.cpp.o
@@ -746,7 +746,7 @@ long_lived_executor.o: long_lived_executor.cpp.o
 
 # target to build an object file
 long_lived_executor.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-executor.dir/build.make src/examples/CMakeFiles/long-lived-executor.dir/long_lived_executor.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-executor.dir/build.make src/examples/CMakeFiles/long-lived-executor.dir/long_lived_executor.cpp.o
 .PHONY : long_lived_executor.cpp.o
 
 long_lived_executor.i: long_lived_executor.cpp.i
@@ -755,7 +755,7 @@ long_lived_executor.i: long_lived_executor.cpp.i
 
 # target to preprocess a source file
 long_lived_executor.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-executor.dir/build.make src/examples/CMakeFiles/long-lived-executor.dir/long_lived_executor.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-executor.dir/build.make src/examples/CMakeFiles/long-lived-executor.dir/long_lived_executor.cpp.i
 .PHONY : long_lived_executor.cpp.i
 
 long_lived_executor.s: long_lived_executor.cpp.s
@@ -764,7 +764,7 @@ long_lived_executor.s: long_lived_executor.cpp.s
 
 # target to generate assembly for a file
 long_lived_executor.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-executor.dir/build.make src/examples/CMakeFiles/long-lived-executor.dir/long_lived_executor.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-executor.dir/build.make src/examples/CMakeFiles/long-lived-executor.dir/long_lived_executor.cpp.s
 .PHONY : long_lived_executor.cpp.s
 
 long_lived_framework.o: long_lived_framework.cpp.o
@@ -773,7 +773,7 @@ long_lived_framework.o: long_lived_framework.cpp.o
 
 # target to build an object file
 long_lived_framework.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-framework.dir/build.make src/examples/CMakeFiles/long-lived-framework.dir/long_lived_framework.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-framework.dir/build.make src/examples/CMakeFiles/long-lived-framework.dir/long_lived_framework.cpp.o
 .PHONY : long_lived_framework.cpp.o
 
 long_lived_framework.i: long_lived_framework.cpp.i
@@ -782,7 +782,7 @@ long_lived_framework.i: long_lived_framework.cpp.i
 
 # target to preprocess a source file
 long_lived_framework.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-framework.dir/build.make src/examples/CMakeFiles/long-lived-framework.dir/long_lived_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-framework.dir/build.make src/examples/CMakeFiles/long-lived-framework.dir/long_lived_framework.cpp.i
 .PHONY : long_lived_framework.cpp.i
 
 long_lived_framework.s: long_lived_framework.cpp.s
@@ -791,7 +791,7 @@ long_lived_framework.s: long_lived_framework.cpp.s
 
 # target to generate assembly for a file
 long_lived_framework.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-framework.dir/build.make src/examples/CMakeFiles/long-lived-framework.dir/long_lived_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/long-lived-framework.dir/build.make src/examples/CMakeFiles/long-lived-framework.dir/long_lived_framework.cpp.s
 .PHONY : long_lived_framework.cpp.s
 
 no_executor_framework.o: no_executor_framework.cpp.o
@@ -800,7 +800,7 @@ no_executor_framework.o: no_executor_framework.cpp.o
 
 # target to build an object file
 no_executor_framework.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/no-executor-framework.dir/build.make src/examples/CMakeFiles/no-executor-framework.dir/no_executor_framework.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/no-executor-framework.dir/build.make src/examples/CMakeFiles/no-executor-framework.dir/no_executor_framework.cpp.o
 .PHONY : no_executor_framework.cpp.o
 
 no_executor_framework.i: no_executor_framework.cpp.i
@@ -809,7 +809,7 @@ no_executor_framework.i: no_executor_framework.cpp.i
 
 # target to preprocess a source file
 no_executor_framework.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/no-executor-framework.dir/build.make src/examples/CMakeFiles/no-executor-framework.dir/no_executor_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/no-executor-framework.dir/build.make src/examples/CMakeFiles/no-executor-framework.dir/no_executor_framework.cpp.i
 .PHONY : no_executor_framework.cpp.i
 
 no_executor_framework.s: no_executor_framework.cpp.s
@@ -818,7 +818,7 @@ no_executor_framework.s: no_executor_framework.cpp.s
 
 # target to generate assembly for a file
 no_executor_framework.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/no-executor-framework.dir/build.make src/examples/CMakeFiles/no-executor-framework.dir/no_executor_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/no-executor-framework.dir/build.make src/examples/CMakeFiles/no-executor-framework.dir/no_executor_framework.cpp.s
 .PHONY : no_executor_framework.cpp.s
 
 persistent_volume_framework.o: persistent_volume_framework.cpp.o
@@ -827,7 +827,7 @@ persistent_volume_framework.o: persistent_volume_framework.cpp.o
 
 # target to build an object file
 persistent_volume_framework.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/persistent-volume-framework.dir/build.make src/examples/CMakeFiles/persistent-volume-framework.dir/persistent_volume_framework.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/persistent-volume-framework.dir/build.make src/examples/CMakeFiles/persistent-volume-framework.dir/persistent_volume_framework.cpp.o
 .PHONY : persistent_volume_framework.cpp.o
 
 persistent_volume_framework.i: persistent_volume_framework.cpp.i
@@ -836,7 +836,7 @@ persistent_volume_framework.i: persistent_volume_framework.cpp.i
 
 # target to preprocess a source file
 persistent_volume_framework.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/persistent-volume-framework.dir/build.make src/examples/CMakeFiles/persistent-volume-framework.dir/persistent_volume_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/persistent-volume-framework.dir/build.make src/examples/CMakeFiles/persistent-volume-framework.dir/persistent_volume_framework.cpp.i
 .PHONY : persistent_volume_framework.cpp.i
 
 persistent_volume_framework.s: persistent_volume_framework.cpp.s
@@ -845,7 +845,7 @@ persistent_volume_framework.s: persistent_volume_framework.cpp.s
 
 # target to generate assembly for a file
 persistent_volume_framework.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/persistent-volume-framework.dir/build.make src/examples/CMakeFiles/persistent-volume-framework.dir/persistent_volume_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/persistent-volume-framework.dir/build.make src/examples/CMakeFiles/persistent-volume-framework.dir/persistent_volume_framework.cpp.s
 .PHONY : persistent_volume_framework.cpp.s
 
 test_allocator_module.o: test_allocator_module.cpp.o
@@ -854,7 +854,7 @@ test_allocator_module.o: test_allocator_module.cpp.o
 
 # target to build an object file
 test_allocator_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testallocator.dir/build.make src/examples/CMakeFiles/testallocator.dir/test_allocator_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testallocator.dir/build.make src/examples/CMakeFiles/testallocator.dir/test_allocator_module.cpp.o
 .PHONY : test_allocator_module.cpp.o
 
 test_allocator_module.i: test_allocator_module.cpp.i
@@ -863,7 +863,7 @@ test_allocator_module.i: test_allocator_module.cpp.i
 
 # target to preprocess a source file
 test_allocator_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testallocator.dir/build.make src/examples/CMakeFiles/testallocator.dir/test_allocator_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testallocator.dir/build.make src/examples/CMakeFiles/testallocator.dir/test_allocator_module.cpp.i
 .PHONY : test_allocator_module.cpp.i
 
 test_allocator_module.s: test_allocator_module.cpp.s
@@ -872,7 +872,7 @@ test_allocator_module.s: test_allocator_module.cpp.s
 
 # target to generate assembly for a file
 test_allocator_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testallocator.dir/build.make src/examples/CMakeFiles/testallocator.dir/test_allocator_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testallocator.dir/build.make src/examples/CMakeFiles/testallocator.dir/test_allocator_module.cpp.s
 .PHONY : test_allocator_module.cpp.s
 
 test_anonymous_module.o: test_anonymous_module.cpp.o
@@ -881,7 +881,7 @@ test_anonymous_module.o: test_anonymous_module.cpp.o
 
 # target to build an object file
 test_anonymous_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testanonymous.dir/build.make src/examples/CMakeFiles/testanonymous.dir/test_anonymous_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testanonymous.dir/build.make src/examples/CMakeFiles/testanonymous.dir/test_anonymous_module.cpp.o
 .PHONY : test_anonymous_module.cpp.o
 
 test_anonymous_module.i: test_anonymous_module.cpp.i
@@ -890,7 +890,7 @@ test_anonymous_module.i: test_anonymous_module.cpp.i
 
 # target to preprocess a source file
 test_anonymous_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testanonymous.dir/build.make src/examples/CMakeFiles/testanonymous.dir/test_anonymous_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testanonymous.dir/build.make src/examples/CMakeFiles/testanonymous.dir/test_anonymous_module.cpp.i
 .PHONY : test_anonymous_module.cpp.i
 
 test_anonymous_module.s: test_anonymous_module.cpp.s
@@ -899,7 +899,7 @@ test_anonymous_module.s: test_anonymous_module.cpp.s
 
 # target to generate assembly for a file
 test_anonymous_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testanonymous.dir/build.make src/examples/CMakeFiles/testanonymous.dir/test_anonymous_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testanonymous.dir/build.make src/examples/CMakeFiles/testanonymous.dir/test_anonymous_module.cpp.s
 .PHONY : test_anonymous_module.cpp.s
 
 test_authentication_modules.o: test_authentication_modules.cpp.o
@@ -908,7 +908,7 @@ test_authentication_modules.o: test_authentication_modules.cpp.o
 
 # target to build an object file
 test_authentication_modules.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthentication.dir/build.make src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthentication.dir/build.make src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.o
 .PHONY : test_authentication_modules.cpp.o
 
 test_authentication_modules.i: test_authentication_modules.cpp.i
@@ -917,7 +917,7 @@ test_authentication_modules.i: test_authentication_modules.cpp.i
 
 # target to preprocess a source file
 test_authentication_modules.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthentication.dir/build.make src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthentication.dir/build.make src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.i
 .PHONY : test_authentication_modules.cpp.i
 
 test_authentication_modules.s: test_authentication_modules.cpp.s
@@ -926,7 +926,7 @@ test_authentication_modules.s: test_authentication_modules.cpp.s
 
 # target to generate assembly for a file
 test_authentication_modules.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthentication.dir/build.make src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthentication.dir/build.make src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.s
 .PHONY : test_authentication_modules.cpp.s
 
 test_authorizer_module.o: test_authorizer_module.cpp.o
@@ -935,7 +935,7 @@ test_authorizer_module.o: test_authorizer_module.cpp.o
 
 # target to build an object file
 test_authorizer_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthorizer.dir/build.make src/examples/CMakeFiles/testauthorizer.dir/test_authorizer_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthorizer.dir/build.make src/examples/CMakeFiles/testauthorizer.dir/test_authorizer_module.cpp.o
 .PHONY : test_authorizer_module.cpp.o
 
 test_authorizer_module.i: test_authorizer_module.cpp.i
@@ -944,7 +944,7 @@ test_authorizer_module.i: test_authorizer_module.cpp.i
 
 # target to preprocess a source file
 test_authorizer_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthorizer.dir/build.make src/examples/CMakeFiles/testauthorizer.dir/test_authorizer_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthorizer.dir/build.make src/examples/CMakeFiles/testauthorizer.dir/test_authorizer_module.cpp.i
 .PHONY : test_authorizer_module.cpp.i
 
 test_authorizer_module.s: test_authorizer_module.cpp.s
@@ -953,7 +953,7 @@ test_authorizer_module.s: test_authorizer_module.cpp.s
 
 # target to generate assembly for a file
 test_authorizer_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthorizer.dir/build.make src/examples/CMakeFiles/testauthorizer.dir/test_authorizer_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testauthorizer.dir/build.make src/examples/CMakeFiles/testauthorizer.dir/test_authorizer_module.cpp.s
 .PHONY : test_authorizer_module.cpp.s
 
 test_container_logger_module.o: test_container_logger_module.cpp.o
@@ -962,7 +962,7 @@ test_container_logger_module.o: test_container_logger_module.cpp.o
 
 # target to build an object file
 test_container_logger_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testcontainer_logger.dir/build.make src/examples/CMakeFiles/testcontainer_logger.dir/test_container_logger_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testcontainer_logger.dir/build.make src/examples/CMakeFiles/testcontainer_logger.dir/test_container_logger_module.cpp.o
 .PHONY : test_container_logger_module.cpp.o
 
 test_container_logger_module.i: test_container_logger_module.cpp.i
@@ -971,7 +971,7 @@ test_container_logger_module.i: test_container_logger_module.cpp.i
 
 # target to preprocess a source file
 test_container_logger_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testcontainer_logger.dir/build.make src/examples/CMakeFiles/testcontainer_logger.dir/test_container_logger_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testcontainer_logger.dir/build.make src/examples/CMakeFiles/testcontainer_logger.dir/test_container_logger_module.cpp.i
 .PHONY : test_container_logger_module.cpp.i
 
 test_container_logger_module.s: test_container_logger_module.cpp.s
@@ -980,7 +980,7 @@ test_container_logger_module.s: test_container_logger_module.cpp.s
 
 # target to generate assembly for a file
 test_container_logger_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testcontainer_logger.dir/build.make src/examples/CMakeFiles/testcontainer_logger.dir/test_container_logger_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testcontainer_logger.dir/build.make src/examples/CMakeFiles/testcontainer_logger.dir/test_container_logger_module.cpp.s
 .PHONY : test_container_logger_module.cpp.s
 
 test_executor.o: test_executor.cpp.o
@@ -989,7 +989,7 @@ test_executor.o: test_executor.cpp.o
 
 # target to build an object file
 test_executor.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-executor.dir/build.make src/examples/CMakeFiles/test-executor.dir/test_executor.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-executor.dir/build.make src/examples/CMakeFiles/test-executor.dir/test_executor.cpp.o
 .PHONY : test_executor.cpp.o
 
 test_executor.i: test_executor.cpp.i
@@ -998,7 +998,7 @@ test_executor.i: test_executor.cpp.i
 
 # target to preprocess a source file
 test_executor.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-executor.dir/build.make src/examples/CMakeFiles/test-executor.dir/test_executor.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-executor.dir/build.make src/examples/CMakeFiles/test-executor.dir/test_executor.cpp.i
 .PHONY : test_executor.cpp.i
 
 test_executor.s: test_executor.cpp.s
@@ -1007,7 +1007,7 @@ test_executor.s: test_executor.cpp.s
 
 # target to generate assembly for a file
 test_executor.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-executor.dir/build.make src/examples/CMakeFiles/test-executor.dir/test_executor.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-executor.dir/build.make src/examples/CMakeFiles/test-executor.dir/test_executor.cpp.s
 .PHONY : test_executor.cpp.s
 
 test_framework.o: test_framework.cpp.o
@@ -1016,7 +1016,7 @@ test_framework.o: test_framework.cpp.o
 
 # target to build an object file
 test_framework.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-framework.dir/build.make src/examples/CMakeFiles/test-framework.dir/test_framework.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-framework.dir/build.make src/examples/CMakeFiles/test-framework.dir/test_framework.cpp.o
 .PHONY : test_framework.cpp.o
 
 test_framework.i: test_framework.cpp.i
@@ -1025,7 +1025,7 @@ test_framework.i: test_framework.cpp.i
 
 # target to preprocess a source file
 test_framework.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-framework.dir/build.make src/examples/CMakeFiles/test-framework.dir/test_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-framework.dir/build.make src/examples/CMakeFiles/test-framework.dir/test_framework.cpp.i
 .PHONY : test_framework.cpp.i
 
 test_framework.s: test_framework.cpp.s
@@ -1034,7 +1034,7 @@ test_framework.s: test_framework.cpp.s
 
 # target to generate assembly for a file
 test_framework.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-framework.dir/build.make src/examples/CMakeFiles/test-framework.dir/test_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-framework.dir/build.make src/examples/CMakeFiles/test-framework.dir/test_framework.cpp.s
 .PHONY : test_framework.cpp.s
 
 test_hook_module.o: test_hook_module.cpp.o
@@ -1043,7 +1043,7 @@ test_hook_module.o: test_hook_module.cpp.o
 
 # target to build an object file
 test_hook_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhook.dir/build.make src/examples/CMakeFiles/testhook.dir/test_hook_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhook.dir/build.make src/examples/CMakeFiles/testhook.dir/test_hook_module.cpp.o
 .PHONY : test_hook_module.cpp.o
 
 test_hook_module.i: test_hook_module.cpp.i
@@ -1052,7 +1052,7 @@ test_hook_module.i: test_hook_module.cpp.i
 
 # target to preprocess a source file
 test_hook_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhook.dir/build.make src/examples/CMakeFiles/testhook.dir/test_hook_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhook.dir/build.make src/examples/CMakeFiles/testhook.dir/test_hook_module.cpp.i
 .PHONY : test_hook_module.cpp.i
 
 test_hook_module.s: test_hook_module.cpp.s
@@ -1061,7 +1061,7 @@ test_hook_module.s: test_hook_module.cpp.s
 
 # target to generate assembly for a file
 test_hook_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhook.dir/build.make src/examples/CMakeFiles/testhook.dir/test_hook_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhook.dir/build.make src/examples/CMakeFiles/testhook.dir/test_hook_module.cpp.s
 .PHONY : test_hook_module.cpp.s
 
 test_http_authenticator_module.o: test_http_authenticator_module.cpp.o
@@ -1070,7 +1070,7 @@ test_http_authenticator_module.o: test_http_authenticator_module.cpp.o
 
 # target to build an object file
 test_http_authenticator_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhttpauthenticator.dir/build.make src/examples/CMakeFiles/testhttpauthenticator.dir/test_http_authenticator_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhttpauthenticator.dir/build.make src/examples/CMakeFiles/testhttpauthenticator.dir/test_http_authenticator_module.cpp.o
 .PHONY : test_http_authenticator_module.cpp.o
 
 test_http_authenticator_module.i: test_http_authenticator_module.cpp.i
@@ -1079,7 +1079,7 @@ test_http_authenticator_module.i: test_http_authenticator_module.cpp.i
 
 # target to preprocess a source file
 test_http_authenticator_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhttpauthenticator.dir/build.make src/examples/CMakeFiles/testhttpauthenticator.dir/test_http_authenticator_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhttpauthenticator.dir/build.make src/examples/CMakeFiles/testhttpauthenticator.dir/test_http_authenticator_module.cpp.i
 .PHONY : test_http_authenticator_module.cpp.i
 
 test_http_authenticator_module.s: test_http_authenticator_module.cpp.s
@@ -1088,7 +1088,7 @@ test_http_authenticator_module.s: test_http_authenticator_module.cpp.s
 
 # target to generate assembly for a file
 test_http_authenticator_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhttpauthenticator.dir/build.make src/examples/CMakeFiles/testhttpauthenticator.dir/test_http_authenticator_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testhttpauthenticator.dir/build.make src/examples/CMakeFiles/testhttpauthenticator.dir/test_http_authenticator_module.cpp.s
 .PHONY : test_http_authenticator_module.cpp.s
 
 test_http_executor.o: test_http_executor.cpp.o
@@ -1097,7 +1097,7 @@ test_http_executor.o: test_http_executor.cpp.o
 
 # target to build an object file
 test_http_executor.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-executor.dir/build.make src/examples/CMakeFiles/test-http-executor.dir/test_http_executor.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-executor.dir/build.make src/examples/CMakeFiles/test-http-executor.dir/test_http_executor.cpp.o
 .PHONY : test_http_executor.cpp.o
 
 test_http_executor.i: test_http_executor.cpp.i
@@ -1106,7 +1106,7 @@ test_http_executor.i: test_http_executor.cpp.i
 
 # target to preprocess a source file
 test_http_executor.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-executor.dir/build.make src/examples/CMakeFiles/test-http-executor.dir/test_http_executor.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-executor.dir/build.make src/examples/CMakeFiles/test-http-executor.dir/test_http_executor.cpp.i
 .PHONY : test_http_executor.cpp.i
 
 test_http_executor.s: test_http_executor.cpp.s
@@ -1115,7 +1115,7 @@ test_http_executor.s: test_http_executor.cpp.s
 
 # target to generate assembly for a file
 test_http_executor.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-executor.dir/build.make src/examples/CMakeFiles/test-http-executor.dir/test_http_executor.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-executor.dir/build.make src/examples/CMakeFiles/test-http-executor.dir/test_http_executor.cpp.s
 .PHONY : test_http_executor.cpp.s
 
 test_http_framework.o: test_http_framework.cpp.o
@@ -1124,7 +1124,7 @@ test_http_framework.o: test_http_framework.cpp.o
 
 # target to build an object file
 test_http_framework.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-framework.dir/build.make src/examples/CMakeFiles/test-http-framework.dir/test_http_framework.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-framework.dir/build.make src/examples/CMakeFiles/test-http-framework.dir/test_http_framework.cpp.o
 .PHONY : test_http_framework.cpp.o
 
 test_http_framework.i: test_http_framework.cpp.i
@@ -1133,7 +1133,7 @@ test_http_framework.i: test_http_framework.cpp.i
 
 # target to preprocess a source file
 test_http_framework.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-framework.dir/build.make src/examples/CMakeFiles/test-http-framework.dir/test_http_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-framework.dir/build.make src/examples/CMakeFiles/test-http-framework.dir/test_http_framework.cpp.i
 .PHONY : test_http_framework.cpp.i
 
 test_http_framework.s: test_http_framework.cpp.s
@@ -1142,7 +1142,7 @@ test_http_framework.s: test_http_framework.cpp.s
 
 # target to generate assembly for a file
 test_http_framework.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-framework.dir/build.make src/examples/CMakeFiles/test-http-framework.dir/test_http_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/test-http-framework.dir/build.make src/examples/CMakeFiles/test-http-framework.dir/test_http_framework.cpp.s
 .PHONY : test_http_framework.cpp.s
 
 test_isolator_module.o: test_isolator_module.cpp.o
@@ -1151,7 +1151,7 @@ test_isolator_module.o: test_isolator_module.cpp.o
 
 # target to build an object file
 test_isolator_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testisolator.dir/build.make src/examples/CMakeFiles/testisolator.dir/test_isolator_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testisolator.dir/build.make src/examples/CMakeFiles/testisolator.dir/test_isolator_module.cpp.o
 .PHONY : test_isolator_module.cpp.o
 
 test_isolator_module.i: test_isolator_module.cpp.i
@@ -1160,7 +1160,7 @@ test_isolator_module.i: test_isolator_module.cpp.i
 
 # target to preprocess a source file
 test_isolator_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testisolator.dir/build.make src/examples/CMakeFiles/testisolator.dir/test_isolator_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testisolator.dir/build.make src/examples/CMakeFiles/testisolator.dir/test_isolator_module.cpp.i
 .PHONY : test_isolator_module.cpp.i
 
 test_isolator_module.s: test_isolator_module.cpp.s
@@ -1169,7 +1169,7 @@ test_isolator_module.s: test_isolator_module.cpp.s
 
 # target to generate assembly for a file
 test_isolator_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testisolator.dir/build.make src/examples/CMakeFiles/testisolator.dir/test_isolator_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testisolator.dir/build.make src/examples/CMakeFiles/testisolator.dir/test_isolator_module.cpp.s
 .PHONY : test_isolator_module.cpp.s
 
 test_master_contender_module.o: test_master_contender_module.cpp.o
@@ -1178,7 +1178,7 @@ test_master_contender_module.o: test_master_contender_module.cpp.o
 
 # target to build an object file
 test_master_contender_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmastercontender.dir/build.make src/examples/CMakeFiles/testmastercontender.dir/test_master_contender_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmastercontender.dir/build.make src/examples/CMakeFiles/testmastercontender.dir/test_master_contender_module.cpp.o
 .PHONY : test_master_contender_module.cpp.o
 
 test_master_contender_module.i: test_master_contender_module.cpp.i
@@ -1187,7 +1187,7 @@ test_master_contender_module.i: test_master_contender_module.cpp.i
 
 # target to preprocess a source file
 test_master_contender_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmastercontender.dir/build.make src/examples/CMakeFiles/testmastercontender.dir/test_master_contender_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmastercontender.dir/build.make src/examples/CMakeFiles/testmastercontender.dir/test_master_contender_module.cpp.i
 .PHONY : test_master_contender_module.cpp.i
 
 test_master_contender_module.s: test_master_contender_module.cpp.s
@@ -1196,7 +1196,7 @@ test_master_contender_module.s: test_master_contender_module.cpp.s
 
 # target to generate assembly for a file
 test_master_contender_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmastercontender.dir/build.make src/examples/CMakeFiles/testmastercontender.dir/test_master_contender_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmastercontender.dir/build.make src/examples/CMakeFiles/testmastercontender.dir/test_master_contender_module.cpp.s
 .PHONY : test_master_contender_module.cpp.s
 
 test_master_detector_module.o: test_master_detector_module.cpp.o
@@ -1205,7 +1205,7 @@ test_master_detector_module.o: test_master_detector_module.cpp.o
 
 # target to build an object file
 test_master_detector_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmasterdetector.dir/build.make src/examples/CMakeFiles/testmasterdetector.dir/test_master_detector_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmasterdetector.dir/build.make src/examples/CMakeFiles/testmasterdetector.dir/test_master_detector_module.cpp.o
 .PHONY : test_master_detector_module.cpp.o
 
 test_master_detector_module.i: test_master_detector_module.cpp.i
@@ -1214,7 +1214,7 @@ test_master_detector_module.i: test_master_detector_module.cpp.i
 
 # target to preprocess a source file
 test_master_detector_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmasterdetector.dir/build.make src/examples/CMakeFiles/testmasterdetector.dir/test_master_detector_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmasterdetector.dir/build.make src/examples/CMakeFiles/testmasterdetector.dir/test_master_detector_module.cpp.i
 .PHONY : test_master_detector_module.cpp.i
 
 test_master_detector_module.s: test_master_detector_module.cpp.s
@@ -1223,7 +1223,7 @@ test_master_detector_module.s: test_master_detector_module.cpp.s
 
 # target to generate assembly for a file
 test_master_detector_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmasterdetector.dir/build.make src/examples/CMakeFiles/testmasterdetector.dir/test_master_detector_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testmasterdetector.dir/build.make src/examples/CMakeFiles/testmasterdetector.dir/test_master_detector_module.cpp.s
 .PHONY : test_master_detector_module.cpp.s
 
 test_qos_controller_module.o: test_qos_controller_module.cpp.o
@@ -1232,7 +1232,7 @@ test_qos_controller_module.o: test_qos_controller_module.cpp.o
 
 # target to build an object file
 test_qos_controller_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testqos_controller.dir/build.make src/examples/CMakeFiles/testqos_controller.dir/test_qos_controller_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testqos_controller.dir/build.make src/examples/CMakeFiles/testqos_controller.dir/test_qos_controller_module.cpp.o
 .PHONY : test_qos_controller_module.cpp.o
 
 test_qos_controller_module.i: test_qos_controller_module.cpp.i
@@ -1241,7 +1241,7 @@ test_qos_controller_module.i: test_qos_controller_module.cpp.i
 
 # target to preprocess a source file
 test_qos_controller_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testqos_controller.dir/build.make src/examples/CMakeFiles/testqos_controller.dir/test_qos_controller_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testqos_controller.dir/build.make src/examples/CMakeFiles/testqos_controller.dir/test_qos_controller_module.cpp.i
 .PHONY : test_qos_controller_module.cpp.i
 
 test_qos_controller_module.s: test_qos_controller_module.cpp.s
@@ -1250,7 +1250,7 @@ test_qos_controller_module.s: test_qos_controller_module.cpp.s
 
 # target to generate assembly for a file
 test_qos_controller_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testqos_controller.dir/build.make src/examples/CMakeFiles/testqos_controller.dir/test_qos_controller_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testqos_controller.dir/build.make src/examples/CMakeFiles/testqos_controller.dir/test_qos_controller_module.cpp.s
 .PHONY : test_qos_controller_module.cpp.s
 
 test_resource_estimator_module.o: test_resource_estimator_module.cpp.o
@@ -1259,7 +1259,7 @@ test_resource_estimator_module.o: test_resource_estimator_module.cpp.o
 
 # target to build an object file
 test_resource_estimator_module.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testresource_estimator.dir/build.make src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testresource_estimator.dir/build.make src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.o
 .PHONY : test_resource_estimator_module.cpp.o
 
 test_resource_estimator_module.i: test_resource_estimator_module.cpp.i
@@ -1268,7 +1268,7 @@ test_resource_estimator_module.i: test_resource_estimator_module.cpp.i
 
 # target to preprocess a source file
 test_resource_estimator_module.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testresource_estimator.dir/build.make src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testresource_estimator.dir/build.make src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.i
 .PHONY : test_resource_estimator_module.cpp.i
 
 test_resource_estimator_module.s: test_resource_estimator_module.cpp.s
@@ -1277,7 +1277,7 @@ test_resource_estimator_module.s: test_resource_estimator_module.cpp.s
 
 # target to generate assembly for a file
 test_resource_estimator_module.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testresource_estimator.dir/build.make src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/examples/CMakeFiles/testresource_estimator.dir/build.make src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.s
 .PHONY : test_resource_estimator_module.cpp.s
 
 # Help Target
@@ -1410,6 +1410,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -46,10 +46,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/examples/CMakeFiles/testauthentication.dir/depend.make
@@ -62,16 +62,16 @@ include src/examples/CMakeFiles/testauthentication.dir/flags.make
 
 src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.o: src/examples/CMakeFiles/testauthentication.dir/flags.make
 src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.o: ../src/examples/test_authentication_modules.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/examples/test_authentication_modules.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/examples/test_authentication_modules.cpp
 
 src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/examples/test_authentication_modules.cpp > CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/examples/test_authentication_modules.cpp > CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.i
 
 src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/examples/test_authentication_modules.cpp -o CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/examples/test_authentication_modules.cpp -o CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.s
 
 src/examples/CMakeFiles/testauthentication.dir/test_authentication_modules.cpp.o.requires:
 
@@ -104,8 +104,8 @@ src/.libs/libtestauthentication.so: /usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
 src/.libs/libtestauthentication.so: 3rdparty/leveldb-1.19/src/leveldb-1.19/out-static/libleveldb.a
 src/.libs/libtestauthentication.so: /usr/lib/x86_64-linux-gnu/libz.so
 src/.libs/libtestauthentication.so: src/examples/CMakeFiles/testauthentication.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../.libs/libtestauthentication.so"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testauthentication.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../.libs/libtestauthentication.so"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testauthentication.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/examples/CMakeFiles/testauthentication.dir/build: src/.libs/libtestauthentication.so
@@ -117,10 +117,10 @@ src/examples/CMakeFiles/testauthentication.dir/requires: src/examples/CMakeFiles
 .PHONY : src/examples/CMakeFiles/testauthentication.dir/requires
 
 src/examples/CMakeFiles/testauthentication.dir/clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -P CMakeFiles/testauthentication.dir/cmake_clean.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -P CMakeFiles/testauthentication.dir/cmake_clean.cmake
 .PHONY : src/examples/CMakeFiles/testauthentication.dir/clean
 
 src/examples/CMakeFiles/testauthentication.dir/depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2/src/examples /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples/CMakeFiles/testauthentication.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2/src/examples /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples/CMakeFiles/testauthentication.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/examples/CMakeFiles/testauthentication.dir/depend
 

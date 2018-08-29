@@ -46,10 +46,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/mesos-protobufs.dir/depend.make
@@ -61,290 +61,290 @@ include src/CMakeFiles/mesos-protobufs.dir/progress.make
 include src/CMakeFiles/mesos-protobufs.dir/flags.make
 
 include/mesos/authorizer/acls.pb.cc: ../include/mesos/authorizer/acls.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../include/mesos/authorizer/acls.pb.cc, ../include/mesos/authorizer/acls.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/authorizer/acls.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ../include/mesos/authorizer/acls.pb.cc, ../include/mesos/authorizer/acls.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/authorizer/acls.proto
 
 include/mesos/authorizer/acls.pb.h: include/mesos/authorizer/acls.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/authorizer/acls.pb.h
 
 include/mesos/agent/agent.pb.cc: ../include/mesos/agent/agent.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../include/mesos/agent/agent.pb.cc, ../include/mesos/agent/agent.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/agent/agent.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ../include/mesos/agent/agent.pb.cc, ../include/mesos/agent/agent.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/agent/agent.proto
 
 include/mesos/agent/agent.pb.h: include/mesos/agent/agent.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/agent/agent.pb.h
 
 include/mesos/allocator/allocator.pb.cc: ../include/mesos/allocator/allocator.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../include/mesos/allocator/allocator.pb.cc, ../include/mesos/allocator/allocator.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/allocator/allocator.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../include/mesos/allocator/allocator.pb.cc, ../include/mesos/allocator/allocator.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/allocator/allocator.proto
 
 include/mesos/allocator/allocator.pb.h: include/mesos/allocator/allocator.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/allocator/allocator.pb.h
 
 include/mesos/appc/spec.pb.cc: ../include/mesos/appc/spec.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../include/mesos/appc/spec.pb.cc, ../include/mesos/appc/spec.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/appc/spec.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating ../include/mesos/appc/spec.pb.cc, ../include/mesos/appc/spec.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/appc/spec.proto
 
 include/mesos/appc/spec.pb.h: include/mesos/appc/spec.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/appc/spec.pb.h
 
 include/mesos/authentication/authentication.pb.cc: ../include/mesos/authentication/authentication.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../include/mesos/authentication/authentication.pb.cc, ../include/mesos/authentication/authentication.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/authentication/authentication.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating ../include/mesos/authentication/authentication.pb.cc, ../include/mesos/authentication/authentication.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/authentication/authentication.proto
 
 include/mesos/authentication/authentication.pb.h: include/mesos/authentication/authentication.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/authentication/authentication.pb.h
 
 include/mesos/authorizer/authorizer.pb.cc: ../include/mesos/authorizer/authorizer.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../include/mesos/authorizer/authorizer.pb.cc, ../include/mesos/authorizer/authorizer.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/authorizer/authorizer.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating ../include/mesos/authorizer/authorizer.pb.cc, ../include/mesos/authorizer/authorizer.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/authorizer/authorizer.proto
 
 include/mesos/authorizer/authorizer.pb.h: include/mesos/authorizer/authorizer.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/authorizer/authorizer.pb.h
 
 include/mesos/slave/containerizer.pb.cc: ../include/mesos/slave/containerizer.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../include/mesos/slave/containerizer.pb.cc, ../include/mesos/slave/containerizer.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/slave/containerizer.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating ../include/mesos/slave/containerizer.pb.cc, ../include/mesos/slave/containerizer.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/slave/containerizer.proto
 
 include/mesos/slave/containerizer.pb.h: include/mesos/slave/containerizer.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/slave/containerizer.pb.h
 
 include/mesos/docker/spec.pb.cc: ../include/mesos/docker/spec.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../include/mesos/docker/spec.pb.cc, ../include/mesos/docker/spec.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/docker/spec.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Generating ../include/mesos/docker/spec.pb.cc, ../include/mesos/docker/spec.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/docker/spec.proto
 
 include/mesos/docker/spec.pb.h: include/mesos/docker/spec.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/docker/spec.pb.h
 
 include/mesos/docker/v1.pb.cc: ../include/mesos/docker/v1.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../include/mesos/docker/v1.pb.cc, ../include/mesos/docker/v1.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/docker/v1.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Generating ../include/mesos/docker/v1.pb.cc, ../include/mesos/docker/v1.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/docker/v1.proto
 
 include/mesos/docker/v1.pb.h: include/mesos/docker/v1.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/docker/v1.pb.h
 
 include/mesos/docker/v2.pb.cc: ../include/mesos/docker/v2.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../include/mesos/docker/v2.pb.cc, ../include/mesos/docker/v2.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/docker/v2.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating ../include/mesos/docker/v2.pb.cc, ../include/mesos/docker/v2.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/docker/v2.proto
 
 include/mesos/docker/v2.pb.h: include/mesos/docker/v2.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/docker/v2.pb.h
 
 include/mesos/executor/executor.pb.cc: ../include/mesos/executor/executor.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../include/mesos/executor/executor.pb.cc, ../include/mesos/executor/executor.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/executor/executor.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating ../include/mesos/executor/executor.pb.cc, ../include/mesos/executor/executor.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/executor/executor.proto
 
 include/mesos/executor/executor.pb.h: include/mesos/executor/executor.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/executor/executor.pb.h
 
 include/mesos/fetcher/fetcher.pb.cc: ../include/mesos/fetcher/fetcher.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../include/mesos/fetcher/fetcher.pb.cc, ../include/mesos/fetcher/fetcher.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/fetcher/fetcher.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating ../include/mesos/fetcher/fetcher.pb.cc, ../include/mesos/fetcher/fetcher.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/fetcher/fetcher.proto
 
 include/mesos/fetcher/fetcher.pb.h: include/mesos/fetcher/fetcher.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/fetcher/fetcher.pb.h
 
 include/mesos/module/hook.pb.cc: ../include/mesos/module/hook.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../include/mesos/module/hook.pb.cc, ../include/mesos/module/hook.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/module/hook.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating ../include/mesos/module/hook.pb.cc, ../include/mesos/module/hook.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/module/hook.proto
 
 include/mesos/module/hook.pb.h: include/mesos/module/hook.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/module/hook.pb.h
 
 include/mesos/maintenance/maintenance.pb.cc: ../include/mesos/maintenance/maintenance.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../include/mesos/maintenance/maintenance.pb.cc, ../include/mesos/maintenance/maintenance.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/maintenance/maintenance.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating ../include/mesos/maintenance/maintenance.pb.cc, ../include/mesos/maintenance/maintenance.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/maintenance/maintenance.proto
 
 include/mesos/maintenance/maintenance.pb.h: include/mesos/maintenance/maintenance.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/maintenance/maintenance.pb.h
 
 include/mesos/master/master.pb.cc: ../include/mesos/master/master.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../include/mesos/master/master.pb.cc, ../include/mesos/master/master.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/master/master.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating ../include/mesos/master/master.pb.cc, ../include/mesos/master/master.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/master/master.proto
 
 include/mesos/master/master.pb.h: include/mesos/master/master.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/master/master.pb.h
 
 include/mesos/mesos.pb.cc: ../include/mesos/mesos.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../include/mesos/mesos.pb.cc, ../include/mesos/mesos.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/mesos.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating ../include/mesos/mesos.pb.cc, ../include/mesos/mesos.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/mesos.proto
 
 include/mesos/mesos.pb.h: include/mesos/mesos.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/mesos.pb.h
 
 include/mesos/module/module.pb.cc: ../include/mesos/module/module.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../include/mesos/module/module.pb.cc, ../include/mesos/module/module.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/module/module.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating ../include/mesos/module/module.pb.cc, ../include/mesos/module/module.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/module/module.proto
 
 include/mesos/module/module.pb.h: include/mesos/module/module.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/module/module.pb.h
 
 include/mesos/oci/spec.pb.cc: ../include/mesos/oci/spec.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ../include/mesos/oci/spec.pb.cc, ../include/mesos/oci/spec.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/oci/spec.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating ../include/mesos/oci/spec.pb.cc, ../include/mesos/oci/spec.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/oci/spec.proto
 
 include/mesos/oci/spec.pb.h: include/mesos/oci/spec.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/oci/spec.pb.h
 
 include/mesos/slave/oversubscription.pb.cc: ../include/mesos/slave/oversubscription.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ../include/mesos/slave/oversubscription.pb.cc, ../include/mesos/slave/oversubscription.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/slave/oversubscription.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating ../include/mesos/slave/oversubscription.pb.cc, ../include/mesos/slave/oversubscription.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/slave/oversubscription.proto
 
 include/mesos/slave/oversubscription.pb.h: include/mesos/slave/oversubscription.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/slave/oversubscription.pb.h
 
 include/mesos/quota/quota.pb.cc: ../include/mesos/quota/quota.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ../include/mesos/quota/quota.pb.cc, ../include/mesos/quota/quota.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/quota/quota.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Generating ../include/mesos/quota/quota.pb.cc, ../include/mesos/quota/quota.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/quota/quota.proto
 
 include/mesos/quota/quota.pb.h: include/mesos/quota/quota.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/quota/quota.pb.h
 
 include/mesos/scheduler/scheduler.pb.cc: ../include/mesos/scheduler/scheduler.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ../include/mesos/scheduler/scheduler.pb.cc, ../include/mesos/scheduler/scheduler.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/scheduler/scheduler.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Generating ../include/mesos/scheduler/scheduler.pb.cc, ../include/mesos/scheduler/scheduler.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/scheduler/scheduler.proto
 
 include/mesos/scheduler/scheduler.pb.h: include/mesos/scheduler/scheduler.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/scheduler/scheduler.pb.h
 
 include/mesos/state/state.pb.cc: ../include/mesos/state/state.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ../include/mesos/state/state.pb.cc, ../include/mesos/state/state.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/state/state.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Generating ../include/mesos/state/state.pb.cc, ../include/mesos/state/state.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/state/state.proto
 
 include/mesos/state/state.pb.h: include/mesos/state/state.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/state/state.pb.h
 
 include/mesos/uri/uri.pb.cc: ../include/mesos/uri/uri.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating ../include/mesos/uri/uri.pb.cc, ../include/mesos/uri/uri.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/uri/uri.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Generating ../include/mesos/uri/uri.pb.cc, ../include/mesos/uri/uri.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/uri/uri.proto
 
 include/mesos/uri/uri.pb.h: include/mesos/uri/uri.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/uri/uri.pb.h
 
 include/mesos/v1/agent/agent.pb.cc: ../include/mesos/v1/agent/agent.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating ../include/mesos/v1/agent/agent.pb.cc, ../include/mesos/v1/agent/agent.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/v1/agent/agent.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Generating ../include/mesos/v1/agent/agent.pb.cc, ../include/mesos/v1/agent/agent.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/v1/agent/agent.proto
 
 include/mesos/v1/agent/agent.pb.h: include/mesos/v1/agent/agent.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/v1/agent/agent.pb.h
 
 include/mesos/v1/allocator/allocator.pb.cc: ../include/mesos/v1/allocator/allocator.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating ../include/mesos/v1/allocator/allocator.pb.cc, ../include/mesos/v1/allocator/allocator.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/v1/allocator/allocator.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Generating ../include/mesos/v1/allocator/allocator.pb.cc, ../include/mesos/v1/allocator/allocator.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/v1/allocator/allocator.proto
 
 include/mesos/v1/allocator/allocator.pb.h: include/mesos/v1/allocator/allocator.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/v1/allocator/allocator.pb.h
 
 include/mesos/v1/executor/executor.pb.cc: ../include/mesos/v1/executor/executor.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating ../include/mesos/v1/executor/executor.pb.cc, ../include/mesos/v1/executor/executor.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/v1/executor/executor.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Generating ../include/mesos/v1/executor/executor.pb.cc, ../include/mesos/v1/executor/executor.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/v1/executor/executor.proto
 
 include/mesos/v1/executor/executor.pb.h: include/mesos/v1/executor/executor.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/v1/executor/executor.pb.h
 
 include/mesos/v1/maintenance/maintenance.pb.cc: ../include/mesos/v1/maintenance/maintenance.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ../include/mesos/v1/maintenance/maintenance.pb.cc, ../include/mesos/v1/maintenance/maintenance.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/v1/maintenance/maintenance.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Generating ../include/mesos/v1/maintenance/maintenance.pb.cc, ../include/mesos/v1/maintenance/maintenance.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/v1/maintenance/maintenance.proto
 
 include/mesos/v1/maintenance/maintenance.pb.h: include/mesos/v1/maintenance/maintenance.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/v1/maintenance/maintenance.pb.h
 
 include/mesos/v1/master/master.pb.cc: ../include/mesos/v1/master/master.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating ../include/mesos/v1/master/master.pb.cc, ../include/mesos/v1/master/master.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/v1/master/master.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Generating ../include/mesos/v1/master/master.pb.cc, ../include/mesos/v1/master/master.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/v1/master/master.proto
 
 include/mesos/v1/master/master.pb.h: include/mesos/v1/master/master.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/v1/master/master.pb.h
 
 include/mesos/v1/mesos.pb.cc: ../include/mesos/v1/mesos.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating ../include/mesos/v1/mesos.pb.cc, ../include/mesos/v1/mesos.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/v1/mesos.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Generating ../include/mesos/v1/mesos.pb.cc, ../include/mesos/v1/mesos.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/v1/mesos.proto
 
 include/mesos/v1/mesos.pb.h: include/mesos/v1/mesos.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/v1/mesos.pb.h
 
 include/mesos/v1/quota/quota.pb.cc: ../include/mesos/v1/quota/quota.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating ../include/mesos/v1/quota/quota.pb.cc, ../include/mesos/v1/quota/quota.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/v1/quota/quota.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Generating ../include/mesos/v1/quota/quota.pb.cc, ../include/mesos/v1/quota/quota.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/v1/quota/quota.proto
 
 include/mesos/v1/quota/quota.pb.h: include/mesos/v1/quota/quota.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/v1/quota/quota.pb.h
 
 include/mesos/v1/scheduler/scheduler.pb.cc: ../include/mesos/v1/scheduler/scheduler.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating ../include/mesos/v1/scheduler/scheduler.pb.cc, ../include/mesos/v1/scheduler/scheduler.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/mesos-1.3.2/include/mesos/v1/scheduler/scheduler.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Generating ../include/mesos/v1/scheduler/scheduler.pb.cc, ../include/mesos/v1/scheduler/scheduler.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include /home/lilelr/open-source/bak_mesos-1.3.2/include/mesos/v1/scheduler/scheduler.proto
 
 include/mesos/v1/scheduler/scheduler.pb.h: include/mesos/v1/scheduler/scheduler.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate include/mesos/v1/scheduler/scheduler.pb.h
 
 src/messages/flags.pb.cc: ../src/messages/flags.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating messages/flags.pb.cc, messages/flags.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/mesos-1.3.2/src/messages/flags.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Generating messages/flags.pb.cc, messages/flags.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/bak_mesos-1.3.2/src/messages/flags.proto
 
 src/messages/flags.pb.h: src/messages/flags.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate src/messages/flags.pb.h
 
 src/messages/log.pb.cc: ../src/messages/log.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating messages/log.pb.cc, messages/log.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/mesos-1.3.2/src/messages/log.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Generating messages/log.pb.cc, messages/log.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/bak_mesos-1.3.2/src/messages/log.proto
 
 src/messages/log.pb.h: src/messages/log.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate src/messages/log.pb.h
 
 src/messages/messages.pb.cc: ../src/messages/messages.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating messages/messages.pb.cc, messages/messages.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/mesos-1.3.2/src/messages/messages.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Generating messages/messages.pb.cc, messages/messages.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/bak_mesos-1.3.2/src/messages/messages.proto
 
 src/messages/messages.pb.h: src/messages/messages.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate src/messages/messages.pb.h
 
 src/messages/state.pb.cc: ../src/messages/state.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating messages/state.pb.cc, messages/state.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/mesos-1.3.2/src/messages/state.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Generating messages/state.pb.cc, messages/state.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/bak_mesos-1.3.2/src/messages/state.proto
 
 src/messages/state.pb.h: src/messages/state.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate src/messages/state.pb.h
 
 src/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc: ../src/slave/containerizer/mesos/isolators/network/cni/spec.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating slave/containerizer/mesos/isolators/network/cni/spec.pb.cc, slave/containerizer/mesos/isolators/network/cni/spec.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/mesos-1.3.2/src/slave/containerizer/mesos/isolators/network/cni/spec.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Generating slave/containerizer/mesos/isolators/network/cni/spec.pb.cc, slave/containerizer/mesos/isolators/network/cni/spec.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/bak_mesos-1.3.2/src/slave/containerizer/mesos/isolators/network/cni/spec.proto
 
 src/slave/containerizer/mesos/isolators/network/cni/spec.pb.h: src/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate src/slave/containerizer/mesos/isolators/network/cni/spec.pb.h
 
 src/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc: ../src/slave/containerizer/mesos/isolators/docker/volume/state.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating slave/containerizer/mesos/isolators/docker/volume/state.pb.cc, slave/containerizer/mesos/isolators/docker/volume/state.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/mesos-1.3.2/src/slave/containerizer/mesos/isolators/docker/volume/state.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Generating slave/containerizer/mesos/isolators/docker/volume/state.pb.cc, slave/containerizer/mesos/isolators/docker/volume/state.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/bak_mesos-1.3.2/src/slave/containerizer/mesos/isolators/docker/volume/state.proto
 
 src/slave/containerizer/mesos/isolators/docker/volume/state.pb.h: src/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate src/slave/containerizer/mesos/isolators/docker/volume/state.pb.h
 
 src/slave/containerizer/mesos/provisioner/docker/message.pb.cc: ../src/slave/containerizer/mesos/provisioner/docker/message.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating slave/containerizer/mesos/provisioner/docker/message.pb.cc, slave/containerizer/mesos/provisioner/docker/message.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/mesos-1.3.2/src/slave/containerizer/mesos/provisioner/docker/message.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Generating slave/containerizer/mesos/provisioner/docker/message.pb.cc, slave/containerizer/mesos/provisioner/docker/message.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/bak_mesos-1.3.2/src/slave/containerizer/mesos/provisioner/docker/message.proto
 
 src/slave/containerizer/mesos/provisioner/docker/message.pb.h: src/slave/containerizer/mesos/provisioner/docker/message.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate src/slave/containerizer/mesos/provisioner/docker/message.pb.h
 
 src/master/registry.pb.cc: ../src/master/registry.proto
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating master/registry.pb.cc, master/registry.pb.h"
-	/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/mesos-1.3.2/include -I/home/lilelr/open-source/mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/mesos-1.3.2/src/master/registry.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Generating master/registry.pb.cc, master/registry.pb.h"
+	/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/bin/protoc -I/home/lilelr/open-source/bak_mesos-1.3.2/include -I/home/lilelr/open-source/bak_mesos-1.3.2/src --cpp_out=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/bak_mesos-1.3.2/src/master/registry.proto
 
 src/master/registry.pb.h: src/master/registry.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate src/master/registry.pb.h
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.o: include/mesos/authorizer/acls.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/acls.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/acls.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/acls.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/acls.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/acls.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/acls.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.o.requires:
 
@@ -359,16 +359,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/acls.pb.cc.o.prov
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.o: include/mesos/agent/agent.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/agent/agent.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/agent/agent.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/agent/agent.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/agent/agent.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/agent/agent.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/agent/agent.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.o.requires:
 
@@ -383,16 +383,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/agent/agent.pb.cc.o.provides
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.o: include/mesos/allocator/allocator.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/allocator/allocator.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/allocator/allocator.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/allocator/allocator.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/allocator/allocator.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/allocator/allocator.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/allocator/allocator.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.o.requires:
 
@@ -407,16 +407,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/allocator/allocator.pb.cc.o.
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.o: include/mesos/appc/spec.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/appc/spec.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/appc/spec.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/appc/spec.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/appc/spec.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/appc/spec.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/appc/spec.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.o.requires:
 
@@ -431,16 +431,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/appc/spec.pb.cc.o.provides.b
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.o: include/mesos/authentication/authentication.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/authentication/authentication.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/authentication/authentication.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/authentication/authentication.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/authentication/authentication.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/authentication/authentication.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/authentication/authentication.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authentication.pb.cc.o.requires:
 
@@ -455,16 +455,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authentication/authenticatio
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.o: include/mesos/authorizer/authorizer.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/authorizer.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/authorizer.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/authorizer.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/authorizer.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/authorizer.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/authorizer/authorizer.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.o.requires:
 
@@ -479,16 +479,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/authorizer/authorizer.pb.cc.
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.o: include/mesos/slave/containerizer.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/slave/containerizer.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/slave/containerizer.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/slave/containerizer.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/slave/containerizer.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/slave/containerizer.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/slave/containerizer.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.o.requires:
 
@@ -503,16 +503,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/containerizer.pb.cc.o.
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.o: include/mesos/docker/spec.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/docker/spec.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/docker/spec.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/docker/spec.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/docker/spec.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/docker/spec.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/docker/spec.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.o.requires:
 
@@ -527,16 +527,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/spec.pb.cc.o.provides
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.o: include/mesos/docker/v1.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/docker/v1.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/docker/v1.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/docker/v1.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/docker/v1.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/docker/v1.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/docker/v1.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.o.requires:
 
@@ -551,16 +551,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v1.pb.cc.o.provides.b
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.o: include/mesos/docker/v2.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/docker/v2.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/docker/v2.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/docker/v2.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/docker/v2.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/docker/v2.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/docker/v2.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.o.requires:
 
@@ -575,16 +575,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/docker/v2.pb.cc.o.provides.b
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.o: include/mesos/executor/executor.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/executor/executor.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/executor/executor.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/executor/executor.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/executor/executor.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/executor/executor.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/executor/executor.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.o.requires:
 
@@ -599,16 +599,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/executor/executor.pb.cc.o.pr
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.o: include/mesos/fetcher/fetcher.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/fetcher/fetcher.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/fetcher/fetcher.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/fetcher/fetcher.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/fetcher/fetcher.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/fetcher/fetcher.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/fetcher/fetcher.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.o.requires:
 
@@ -623,16 +623,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/fetcher/fetcher.pb.cc.o.prov
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.o: include/mesos/module/hook.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/module/hook.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/module/hook.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/module/hook.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/module/hook.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/module/hook.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/module/hook.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.o.requires:
 
@@ -647,16 +647,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/hook.pb.cc.o.provides
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.o: include/mesos/maintenance/maintenance.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/maintenance/maintenance.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/maintenance/maintenance.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/maintenance/maintenance.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/maintenance/maintenance.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/maintenance/maintenance.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/maintenance/maintenance.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.cc.o.requires:
 
@@ -671,16 +671,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/maintenance/maintenance.pb.c
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.o: include/mesos/master/master.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/master/master.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/master/master.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/master/master.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/master/master.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/master/master.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/master/master.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.o.requires:
 
@@ -695,16 +695,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/master/master.pb.cc.o.provid
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.o: include/mesos/mesos.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/mesos.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/mesos.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/mesos.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/mesos.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/mesos.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/mesos.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.o.requires:
 
@@ -719,16 +719,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/mesos.pb.cc.o.provides.build
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.o: include/mesos/module/module.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/module/module.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/module/module.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/module/module.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/module/module.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/module/module.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/module/module.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.o.requires:
 
@@ -743,16 +743,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/module/module.pb.cc.o.provid
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.o: include/mesos/oci/spec.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/oci/spec.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/oci/spec.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/oci/spec.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/oci/spec.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/oci/spec.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/oci/spec.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.o.requires:
 
@@ -767,16 +767,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/oci/spec.pb.cc.o.provides.bu
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.o: include/mesos/slave/oversubscription.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/slave/oversubscription.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/slave/oversubscription.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/slave/oversubscription.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/slave/oversubscription.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/slave/oversubscription.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/slave/oversubscription.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc.o.requires:
 
@@ -791,16 +791,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/slave/oversubscription.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.o: include/mesos/quota/quota.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/quota/quota.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/quota/quota.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/quota/quota.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/quota/quota.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/quota/quota.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/quota/quota.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.o.requires:
 
@@ -815,16 +815,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/quota/quota.pb.cc.o.provides
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.o: include/mesos/scheduler/scheduler.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/scheduler/scheduler.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/scheduler/scheduler.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/scheduler/scheduler.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/scheduler/scheduler.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/scheduler/scheduler.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/scheduler/scheduler.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.o.requires:
 
@@ -839,16 +839,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/scheduler/scheduler.pb.cc.o.
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.o: include/mesos/state/state.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/state/state.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/state/state.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/state/state.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/state/state.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/state/state.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/state/state.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.o.requires:
 
@@ -863,16 +863,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/state/state.pb.cc.o.provides
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.o: include/mesos/uri/uri.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/uri/uri.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/uri/uri.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/uri/uri.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/uri/uri.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/uri/uri.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/uri/uri.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.o.requires:
 
@@ -887,16 +887,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/uri/uri.pb.cc.o.provides.bui
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.o: include/mesos/v1/agent/agent.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/agent/agent.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/agent/agent.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/agent/agent.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/agent/agent.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/agent/agent.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/agent/agent.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.o.requires:
 
@@ -911,16 +911,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/agent/agent.pb.cc.o.provi
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.o: include/mesos/v1/allocator/allocator.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/allocator/allocator.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/allocator/allocator.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/allocator/allocator.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/allocator/allocator.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/allocator/allocator.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/allocator/allocator.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc.o.requires:
 
@@ -935,16 +935,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/allocator/allocator.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.o: include/mesos/v1/executor/executor.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/executor/executor.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/executor/executor.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/executor/executor.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/executor/executor.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/executor/executor.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/executor/executor.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.o.requires:
 
@@ -959,16 +959,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/executor/executor.pb.cc.o
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.o: include/mesos/v1/maintenance/maintenance.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/maintenance/maintenance.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/maintenance/maintenance.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/maintenance/maintenance.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/maintenance/maintenance.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/maintenance/maintenance.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/maintenance/maintenance.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.pb.cc.o.requires:
 
@@ -983,16 +983,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/maintenance/maintenance.p
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.o: include/mesos/v1/master/master.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/master/master.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/master/master.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/master/master.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/master/master.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/master/master.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/master/master.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.o.requires:
 
@@ -1007,16 +1007,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/master/master.pb.cc.o.pro
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.o: include/mesos/v1/mesos.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/mesos.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/mesos.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/mesos.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/mesos.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/mesos.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/mesos.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.o.requires:
 
@@ -1031,16 +1031,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/mesos.pb.cc.o.provides.bu
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.o: include/mesos/v1/quota/quota.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/quota/quota.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/quota/quota.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/quota/quota.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/quota/quota.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/quota/quota.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/quota/quota.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.o.requires:
 
@@ -1055,16 +1055,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/quota/quota.pb.cc.o.provi
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.o: include/mesos/v1/scheduler/scheduler.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/scheduler/scheduler.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/scheduler/scheduler.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/scheduler/scheduler.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/scheduler/scheduler.pb.cc > CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include/mesos/v1/scheduler/scheduler.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include/mesos/v1/scheduler/scheduler.pb.cc -o CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc.o.requires:
 
@@ -1079,16 +1079,16 @@ src/CMakeFiles/mesos-protobufs.dir/__/include/mesos/v1/scheduler/scheduler.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.o: src/messages/flags.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/flags.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/flags.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/flags.pb.cc > CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/flags.pb.cc > CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/flags.pb.cc -o CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/flags.pb.cc -o CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.o.requires:
 
@@ -1103,16 +1103,16 @@ src/CMakeFiles/mesos-protobufs.dir/messages/flags.pb.cc.o.provides.build: src/CM
 
 src/CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.o: src/messages/log.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/log.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/log.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/log.pb.cc > CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/log.pb.cc > CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/log.pb.cc -o CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/log.pb.cc -o CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.o.requires:
 
@@ -1127,16 +1127,16 @@ src/CMakeFiles/mesos-protobufs.dir/messages/log.pb.cc.o.provides.build: src/CMak
 
 src/CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.o: src/messages/messages.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/messages.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/messages.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/messages.pb.cc > CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/messages.pb.cc > CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/messages.pb.cc -o CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/messages.pb.cc -o CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.o.requires:
 
@@ -1151,16 +1151,16 @@ src/CMakeFiles/mesos-protobufs.dir/messages/messages.pb.cc.o.provides.build: src
 
 src/CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.o: src/messages/state.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/state.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/state.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/state.pb.cc > CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/state.pb.cc > CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/messages/state.pb.cc -o CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/messages/state.pb.cc -o CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.o.requires:
 
@@ -1175,16 +1175,16 @@ src/CMakeFiles/mesos-protobufs.dir/messages/state.pb.cc.o.provides.build: src/CM
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.o: src/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc > CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc > CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/cni/spec.pb.cc.o.requires:
 
@@ -1199,16 +1199,16 @@ src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/network/c
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.o: src/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc > CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc > CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/volume/state.pb.cc.o.requires:
 
@@ -1223,16 +1223,16 @@ src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/isolators/docker/vo
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.o: src/slave/containerizer/mesos/provisioner/docker/message.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/provisioner/docker/message.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/provisioner/docker/message.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/provisioner/docker/message.pb.cc > CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/provisioner/docker/message.pb.cc > CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/provisioner/docker/message.pb.cc -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/provisioner/docker/message.pb.cc -o CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/message.pb.cc.o.requires:
 
@@ -1247,16 +1247,16 @@ src/CMakeFiles/mesos-protobufs.dir/slave/containerizer/mesos/provisioner/docker/
 
 src/CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.o: src/CMakeFiles/mesos-protobufs.dir/flags.make
 src/CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.o: src/master/registry.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/master/registry.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object src/CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/master/registry.pb.cc
 
 src/CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/master/registry.pb.cc > CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/master/registry.pb.cc > CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.i
 
 src/CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/master/registry.pb.cc -o CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/master/registry.pb.cc -o CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.s
 
 src/CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.o.requires:
 
@@ -1355,8 +1355,8 @@ src/libmesos-protobufs.so: src/CMakeFiles/mesos-protobufs.dir/slave/containerize
 src/libmesos-protobufs.so: src/CMakeFiles/mesos-protobufs.dir/master/registry.pb.cc.o
 src/libmesos-protobufs.so: src/CMakeFiles/mesos-protobufs.dir/build.make
 src/libmesos-protobufs.so: src/CMakeFiles/mesos-protobufs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking CXX shared library libmesos-protobufs.so"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mesos-protobufs.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Linking CXX shared library libmesos-protobufs.so"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mesos-protobufs.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/mesos-protobufs.dir/build: src/libmesos-protobufs.so
@@ -1406,7 +1406,7 @@ src/CMakeFiles/mesos-protobufs.dir/requires: src/CMakeFiles/mesos-protobufs.dir/
 .PHONY : src/CMakeFiles/mesos-protobufs.dir/requires
 
 src/CMakeFiles/mesos-protobufs.dir/clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/mesos-protobufs.dir/cmake_clean.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src && $(CMAKE_COMMAND) -P CMakeFiles/mesos-protobufs.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/mesos-protobufs.dir/clean
 
 src/CMakeFiles/mesos-protobufs.dir/depend: include/mesos/authorizer/acls.pb.cc
@@ -1487,6 +1487,6 @@ src/CMakeFiles/mesos-protobufs.dir/depend: src/slave/containerizer/mesos/provisi
 src/CMakeFiles/mesos-protobufs.dir/depend: src/slave/containerizer/mesos/provisioner/docker/message.pb.h
 src/CMakeFiles/mesos-protobufs.dir/depend: src/master/registry.pb.cc
 src/CMakeFiles/mesos-protobufs.dir/depend: src/master/registry.pb.h
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2/src /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/CMakeFiles/mesos-protobufs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2/src /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/CMakeFiles/mesos-protobufs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/mesos-protobufs.dir/depend
 

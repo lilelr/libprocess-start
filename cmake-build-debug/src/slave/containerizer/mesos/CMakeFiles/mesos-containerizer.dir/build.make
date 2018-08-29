@@ -46,10 +46,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/depend.make
@@ -62,16 +62,16 @@ include src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/flags.m
 
 src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/main.cpp.o: src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/flags.make
 src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/main.cpp.o: ../src/slave/containerizer/mesos/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/main.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-containerizer.dir/main.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/slave/containerizer/mesos/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/main.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-containerizer.dir/main.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/slave/containerizer/mesos/main.cpp
 
 src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-containerizer.dir/main.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/slave/containerizer/mesos/main.cpp > CMakeFiles/mesos-containerizer.dir/main.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/slave/containerizer/mesos/main.cpp > CMakeFiles/mesos-containerizer.dir/main.cpp.i
 
 src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-containerizer.dir/main.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/slave/containerizer/mesos/main.cpp -o CMakeFiles/mesos-containerizer.dir/main.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/slave/containerizer/mesos/main.cpp -o CMakeFiles/mesos-containerizer.dir/main.cpp.s
 
 src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/main.cpp.o.requires:
 
@@ -111,8 +111,8 @@ src/mesos-containerizer: 3rdparty/leveldb-1.19/src/leveldb-1.19/out-static/lible
 src/mesos-containerizer: /usr/lib/x86_64-linux-gnu/libz.so
 src/mesos-containerizer: src/libmesos-protobufs.so
 src/mesos-containerizer: src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../mesos-containerizer"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mesos-containerizer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../../mesos-containerizer"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mesos-containerizer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/build: src/mesos-containerizer
@@ -124,10 +124,10 @@ src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/requires: src/s
 .PHONY : src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/requires
 
 src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos && $(CMAKE_COMMAND) -P CMakeFiles/mesos-containerizer.dir/cmake_clean.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos && $(CMAKE_COMMAND) -P CMakeFiles/mesos-containerizer.dir/cmake_clean.cmake
 .PHONY : src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/clean
 
 src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2/src/slave/containerizer/mesos /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2/src/slave/containerizer/mesos /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/depend
 

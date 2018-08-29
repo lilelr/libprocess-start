@@ -19,6 +19,6 @@
 # This is a wrapper for running mesos-local before it is installed
 # that sets up some flags via environment variables.
 
-. /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/bin/mesos-local-flags.sh
+. /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/bin/mesos-local-flags.sh
 
-exec /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/mesos-local "${@}"
+exec /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/mesos-local "${@}"

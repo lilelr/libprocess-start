@@ -46,10 +46,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 # Utility rule file for zookeeper-3.4.8.
 
@@ -67,54 +67,54 @@ include 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/progress.make
 3rdparty/CMakeFiles/zookeeper-3.4.8-complete: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-configure
 3rdparty/CMakeFiles/zookeeper-3.4.8-complete: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-build
 3rdparty/CMakeFiles/zookeeper-3.4.8-complete: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'zookeeper-3.4.8'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/zookeeper-3.4.8-complete
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'zookeeper-3.4.8'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/zookeeper-3.4.8-complete
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-done
 
 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-install: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'zookeeper-3.4.8'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c && make install
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'zookeeper-3.4.8'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c && make install
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-install
 
 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'zookeeper-3.4.8'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/tmp
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'zookeeper-3.4.8'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/tmp
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-mkdir
 
 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-download: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-urlinfo.txt
 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-download: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (verify and extract) for 'zookeeper-3.4.8'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -P /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/verify-zookeeper-3.4.8.cmake
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -P /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/extract-zookeeper-3.4.8.cmake
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (verify and extract) for 'zookeeper-3.4.8'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -P /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/verify-zookeeper-3.4.8.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -P /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/extract-zookeeper-3.4.8.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-download
 
 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-update: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'zookeeper-3.4.8'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo_append
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'zookeeper-3.4.8'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo_append
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-update
 
 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-patch: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'zookeeper-3.4.8'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8 && test ! -e /home/lilelr/open-source/mesos-1.3.2/3rdparty/zookeeper-3.4.8.patch || patch -p1 < /home/lilelr/open-source/mesos-1.3.2/3rdparty/zookeeper-3.4.8.patch
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8 && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'zookeeper-3.4.8'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8 && test ! -e /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/zookeeper-3.4.8.patch || patch -p1 < /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/zookeeper-3.4.8.patch
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8 && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-patch
 
 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-configure: 3rdparty/zookeeper-3.4.8/tmp/zookeeper-3.4.8-cfgcmd.txt
 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-configure: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-update
 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-configure: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'zookeeper-3.4.8'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c && ./configure --enable-shared=no --with-pic --srcdir=. --prefix=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'zookeeper-3.4.8'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c && ./configure --enable-shared=no --with-pic --srcdir=. --prefix=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-configure
 
 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-build: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'zookeeper-3.4.8'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c && make
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'zookeeper-3.4.8'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c && make
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8-stamp/zookeeper-3.4.8-build
 
 zookeeper-3.4.8: 3rdparty/CMakeFiles/zookeeper-3.4.8
 zookeeper-3.4.8: 3rdparty/CMakeFiles/zookeeper-3.4.8-complete
@@ -135,10 +135,10 @@ zookeeper-3.4.8: 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build.make
 .PHONY : 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build
 
 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/zookeeper-3.4.8.dir/cmake_clean.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/zookeeper-3.4.8.dir/cmake_clean.cmake
 .PHONY : 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/clean
 
 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2/3rdparty /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/zookeeper-3.4.8.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/zookeeper-3.4.8.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/depend
 

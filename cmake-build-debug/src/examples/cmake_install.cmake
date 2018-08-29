@@ -1,4 +1,4 @@
-# Install script for directory: /home/lilelr/open-source/mesos-1.3.2/src/examples
+# Install script for directory: /home/lilelr/open-source/bak_mesos-1.3.2/src/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

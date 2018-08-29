@@ -20,11 +20,11 @@
 # that first sets up environment variables as appropriate.
 
 # Add any scripts from 'src/cli'.
-PATH=/home/lilelr/open-source/mesos-1.3.2/src/cli:${PATH}
+PATH=/home/lilelr/open-source/bak_mesos-1.3.2/src/cli:${PATH}
 
 # Add the executables (or rather, their libtool wrappers) from 'src'.
-PATH=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src:${PATH}
+PATH=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src:${PATH}
 
 export PATH
 
-exec /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/mesos "${@}"
+exec /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/mesos "${@}"

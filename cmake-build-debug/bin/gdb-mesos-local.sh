@@ -20,9 +20,9 @@
 # installed that first sets up some flags via environment variables.
 
 # Use colors for errors.
-. /home/lilelr/open-source/mesos-1.3.2/support/colors.sh
+. /home/lilelr/open-source/bak_mesos-1.3.2/support/colors.sh
 
-LIBTOOL=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/libtool
+LIBTOOL=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/libtool
 
 test ! -e ${LIBTOOL} && \
   echo "${RED}Failed to find ${LIBTOOL}, have you run configure?${NORMAL}" && \
@@ -36,7 +36,7 @@ test $? != 0 && \
     "or gdb is not installed.${NORMAL}" && \
   exit 1
 
-. /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/bin/mesos-local-flags.sh
+. /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/bin/mesos-local-flags.sh
 
 exec ${LIBTOOL} --mode=execute gdb --args \
-  /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/mesos-local "${@}"
+  /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/mesos-local "${@}"

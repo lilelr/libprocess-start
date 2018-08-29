@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lilelr/open-source/mesos-1.3.2/3rdparty/libprocess/src/tests/test_linkee.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/test_linkee.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/libprocess/src/tests/test_linkee.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/test_linkee.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "BUILD_DIR=\"/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/tests\""
+  "BUILD_DIR=\"/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/tests\""
   "BUILD_FLAGS=\"\""
   "BUILD_JAVA_JVM_LIBRARY=\"\""
   "HAS_AUTHENTICATION=1"
@@ -20,7 +20,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "PKGLIBEXECDIR=\"/usr/local/libexec/mesos\""
   "USE_CMAKE_BUILD_CONFIG"
   "USE_STATIC_LIB"
-  "VERSION=\"1.3.2\""
+  "VERSION=\"\""
   "__STDC_FORMAT_MACROS"
   )
 
@@ -37,8 +37,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../3rdparty/stout/include"
   "3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"
   "3rdparty/libev-4.22/src/libev-4.22"
-  "3rdparty/gmock-1.7.0/src/gmock-1.7.0/include"
-  "3rdparty/gmock-1.7.0/src/gmock-1.7.0/gtest/include"
   "../3rdparty/libprocess/src/tests/src"
   "../3rdparty/libprocess/include"
   "../3rdparty/libprocess/src/tests/.."
@@ -46,7 +44,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

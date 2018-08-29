@@ -1,18 +1,4 @@
-/home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2
--- The C compiler identification is GNU 5.4.0
--- The CXX compiler identification is GNU 5.4.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
+/home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2
 -- cotire 1.7.9 loaded.
 -- ************************************************************
 -- ********* Beginning Mesos CMake configuration step *********
@@ -20,27 +6,134 @@
 -- INSTALLATION PREFIX: /usr/local
 -- MACHINE SPECS:
 --     Hostname: 
---     OS:       LINUX(4.4.0-119-GENERIC)
+--     OS:       LINUX(4.4.0-134-GENERIC)
 --     Arch:     X86_64
 --     BitMode:  
 --     BuildID:  
 -- ************************************************************
--- Performing Test COMPILER_SUPPORTS_CXX11
--- Performing Test COMPILER_SUPPORTS_CXX11 - Success
 -- Found APR library: /usr/lib/x86_64-linux-gnu/libapr-1.so
 -- Found APR header: /usr/include/apr-1.0
 -- Found SVN library: /usr/lib/x86_64-linux-gnu/libsvn_delta-1.so;/usr/lib/x86_64-linux-gnu/libsvn_diff-1.so;/usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
 -- Found SVN header: /usr/include/subversion-1
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Looking for pthread_create
--- Looking for pthread_create - not found
--- Looking for pthread_create in pthreads
--- Looking for pthread_create in pthreads - not found
--- Looking for pthread_create in pthread
--- Looking for pthread_create in pthread - found
--- Found Threads: TRUE  
--- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.8") 
 -- Configuring done
+CMake Warning (dev) at 3rdparty/libprocess/src/tests/CMakeLists.txt:95 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "protobuf-2.6.1" of target "libprocess-tests" does
+  not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning at my_hello/CMakeLists.txt:123 (add_executable):
+  Cannot generate a safe linker search path for target test-slave because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [libprotobuf.so] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:123 (add_executable):
+  Cannot generate a safe runtime search path for target test-slave because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:118 (add_executable):
+  Cannot generate a safe linker search path for target test-master because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [libprotobuf.so] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:118 (add_executable):
+  Cannot generate a safe runtime search path for target test-master because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:113 (add_executable):
+  Cannot generate a safe linker search path for target client_protobuf
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [libprotobuf.so] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:113 (add_executable):
+  Cannot generate a safe runtime search path for target client_protobuf
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:108 (add_executable):
+  Cannot generate a safe linker search path for target
+  client_server_message_event because files in some directories may conflict
+  with libraries in implicit directories:
+
+    link library [libprotobuf.so] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:108 (add_executable):
+  Cannot generate a safe runtime search path for target
+  client_server_message_event because files in some directories may conflict
+  with libraries in implicit directories:
+
+    runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:101 (add_executable):
+  Cannot generate a safe linker search path for target lele_hello_main
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    link library [libprotobuf.so] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at my_hello/CMakeLists.txt:101 (add_executable):
+  Cannot generate a safe runtime search path for target lele_hello_main
+  because files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [libprotobuf.so.9] in /usr/lib may be hidden by files in:
+      /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/lib
+
+  Some of these libraries may not be found correctly.
+
+
 -- Generating done
--- Build files have been written to: /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+-- Build files have been written to: /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug

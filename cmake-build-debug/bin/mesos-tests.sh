@@ -19,7 +19,7 @@
 # This is a wrapper for running mesos-tests from the build directory
 # that sets up some flags via environment variables.
 
-. /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/bin/mesos-tests-flags.sh
+. /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/bin/mesos-tests-flags.sh
 
 
-exec /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/mesos-tests "${@}"
+exec /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/mesos-tests "${@}"

@@ -46,10 +46,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/examples/CMakeFiles/testresource_estimator.dir/depend.make
@@ -62,16 +62,16 @@ include src/examples/CMakeFiles/testresource_estimator.dir/flags.make
 
 src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.o: src/examples/CMakeFiles/testresource_estimator.dir/flags.make
 src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.o: ../src/examples/test_resource_estimator_module.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/examples/test_resource_estimator_module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/examples/test_resource_estimator_module.cpp
 
 src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/examples/test_resource_estimator_module.cpp > CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/examples/test_resource_estimator_module.cpp > CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.i
 
 src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/examples/test_resource_estimator_module.cpp -o CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/examples/test_resource_estimator_module.cpp -o CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.s
 
 src/examples/CMakeFiles/testresource_estimator.dir/test_resource_estimator_module.cpp.o.requires:
 
@@ -104,8 +104,8 @@ src/.libs/libtestresource_estimator.so: /usr/lib/x86_64-linux-gnu/libsvn_subr-1.
 src/.libs/libtestresource_estimator.so: 3rdparty/leveldb-1.19/src/leveldb-1.19/out-static/libleveldb.a
 src/.libs/libtestresource_estimator.so: /usr/lib/x86_64-linux-gnu/libz.so
 src/.libs/libtestresource_estimator.so: src/examples/CMakeFiles/testresource_estimator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../.libs/libtestresource_estimator.so"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testresource_estimator.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library ../.libs/libtestresource_estimator.so"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testresource_estimator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/examples/CMakeFiles/testresource_estimator.dir/build: src/.libs/libtestresource_estimator.so
@@ -117,10 +117,10 @@ src/examples/CMakeFiles/testresource_estimator.dir/requires: src/examples/CMakeF
 .PHONY : src/examples/CMakeFiles/testresource_estimator.dir/requires
 
 src/examples/CMakeFiles/testresource_estimator.dir/clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -P CMakeFiles/testresource_estimator.dir/cmake_clean.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -P CMakeFiles/testresource_estimator.dir/cmake_clean.cmake
 .PHONY : src/examples/CMakeFiles/testresource_estimator.dir/clean
 
 src/examples/CMakeFiles/testresource_estimator.dir/depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2/src/examples /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples/CMakeFiles/testresource_estimator.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2/src/examples /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples/CMakeFiles/testresource_estimator.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/examples/CMakeFiles/testresource_estimator.dir/depend
 

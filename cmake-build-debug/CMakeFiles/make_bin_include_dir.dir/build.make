@@ -46,10 +46,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 # Utility rule file for make_bin_include_dir.
 
@@ -57,7 +57,7 @@ CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
 include CMakeFiles/make_bin_include_dir.dir/progress.make
 
 CMakeFiles/make_bin_include_dir:
-	/home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/include
+	/home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/include
 
 make_bin_include_dir: CMakeFiles/make_bin_include_dir
 make_bin_include_dir: CMakeFiles/make_bin_include_dir.dir/build.make
@@ -74,6 +74,6 @@ CMakeFiles/make_bin_include_dir.dir/clean:
 .PHONY : CMakeFiles/make_bin_include_dir.dir/clean
 
 CMakeFiles/make_bin_include_dir.dir/depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles/make_bin_include_dir.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/make_bin_include_dir.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/make_bin_include_dir.dir/depend
 

@@ -46,10 +46,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/depend.make
@@ -62,16 +62,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.o: ../3rdparty/stout/tests/base64_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/base64_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/base64_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/base64_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/base64_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/base64_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/base64_tests.cpp > CMakeFiles/stout-tests.dir/base64_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/base64_tests.cpp > CMakeFiles/stout-tests.dir/base64_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/base64_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/base64_tests.cpp -o CMakeFiles/stout-tests.dir/base64_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/base64_tests.cpp -o CMakeFiles/stout-tests.dir/base64_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.o.requires:
 
@@ -86,16 +86,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.o: ../3rdparty/stout/tests/bits_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/bits_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/bits_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/bits_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/bits_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/bits_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/bits_tests.cpp > CMakeFiles/stout-tests.dir/bits_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/bits_tests.cpp > CMakeFiles/stout-tests.dir/bits_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/bits_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/bits_tests.cpp -o CMakeFiles/stout-tests.dir/bits_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/bits_tests.cpp -o CMakeFiles/stout-tests.dir/bits_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.o.requires:
 
@@ -110,16 +110,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.o: ../3rdparty/stout/tests/bytes_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/bytes_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/bytes_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/bytes_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/bytes_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/bytes_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/bytes_tests.cpp > CMakeFiles/stout-tests.dir/bytes_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/bytes_tests.cpp > CMakeFiles/stout-tests.dir/bytes_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/bytes_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/bytes_tests.cpp -o CMakeFiles/stout-tests.dir/bytes_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/bytes_tests.cpp -o CMakeFiles/stout-tests.dir/bytes_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.o.requires:
 
@@ -134,16 +134,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.o: ../3rdparty/stout/tests/cache_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/cache_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/cache_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/cache_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/cache_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/cache_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/cache_tests.cpp > CMakeFiles/stout-tests.dir/cache_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/cache_tests.cpp > CMakeFiles/stout-tests.dir/cache_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/cache_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/cache_tests.cpp -o CMakeFiles/stout-tests.dir/cache_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/cache_tests.cpp -o CMakeFiles/stout-tests.dir/cache_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.o.requires:
 
@@ -158,16 +158,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.o: ../3rdparty/stout/tests/duration_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/duration_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/duration_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/duration_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/duration_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/duration_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/duration_tests.cpp > CMakeFiles/stout-tests.dir/duration_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/duration_tests.cpp > CMakeFiles/stout-tests.dir/duration_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/duration_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/duration_tests.cpp -o CMakeFiles/stout-tests.dir/duration_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/duration_tests.cpp -o CMakeFiles/stout-tests.dir/duration_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.o.requires:
 
@@ -182,16 +182,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.o: ../3rdparty/stout/tests/dynamiclibrary_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/dynamiclibrary_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/dynamiclibrary_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/dynamiclibrary_tests.cpp > CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/dynamiclibrary_tests.cpp > CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/dynamiclibrary_tests.cpp -o CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/dynamiclibrary_tests.cpp -o CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.o.requires:
 
@@ -206,16 +206,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.o: ../3rdparty/stout/tests/error_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/error_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/error_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/error_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/error_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/error_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/error_tests.cpp > CMakeFiles/stout-tests.dir/error_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/error_tests.cpp > CMakeFiles/stout-tests.dir/error_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/error_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/error_tests.cpp -o CMakeFiles/stout-tests.dir/error_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/error_tests.cpp -o CMakeFiles/stout-tests.dir/error_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.o.requires:
 
@@ -230,16 +230,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.o: ../3rdparty/stout/tests/flags_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/flags_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/flags_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/flags_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/flags_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/flags_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/flags_tests.cpp > CMakeFiles/stout-tests.dir/flags_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/flags_tests.cpp > CMakeFiles/stout-tests.dir/flags_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/flags_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/flags_tests.cpp -o CMakeFiles/stout-tests.dir/flags_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/flags_tests.cpp -o CMakeFiles/stout-tests.dir/flags_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.o.requires:
 
@@ -254,16 +254,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.o: ../3rdparty/stout/tests/gzip_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/gzip_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/gzip_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/gzip_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/gzip_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/gzip_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/gzip_tests.cpp > CMakeFiles/stout-tests.dir/gzip_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/gzip_tests.cpp > CMakeFiles/stout-tests.dir/gzip_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/gzip_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/gzip_tests.cpp -o CMakeFiles/stout-tests.dir/gzip_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/gzip_tests.cpp -o CMakeFiles/stout-tests.dir/gzip_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.o.requires:
 
@@ -278,16 +278,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.o: ../3rdparty/stout/tests/hashmap_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/hashmap_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/hashmap_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/hashmap_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/hashmap_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/hashmap_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/hashmap_tests.cpp > CMakeFiles/stout-tests.dir/hashmap_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/hashmap_tests.cpp > CMakeFiles/stout-tests.dir/hashmap_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/hashmap_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/hashmap_tests.cpp -o CMakeFiles/stout-tests.dir/hashmap_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/hashmap_tests.cpp -o CMakeFiles/stout-tests.dir/hashmap_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.o.requires:
 
@@ -302,16 +302,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.o: ../3rdparty/stout/tests/hashset_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/hashset_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/hashset_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/hashset_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/hashset_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/hashset_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/hashset_tests.cpp > CMakeFiles/stout-tests.dir/hashset_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/hashset_tests.cpp > CMakeFiles/stout-tests.dir/hashset_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/hashset_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/hashset_tests.cpp -o CMakeFiles/stout-tests.dir/hashset_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/hashset_tests.cpp -o CMakeFiles/stout-tests.dir/hashset_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.o.requires:
 
@@ -326,16 +326,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.o: ../3rdparty/stout/tests/interval_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/interval_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/interval_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/interval_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/interval_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/interval_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/interval_tests.cpp > CMakeFiles/stout-tests.dir/interval_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/interval_tests.cpp > CMakeFiles/stout-tests.dir/interval_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/interval_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/interval_tests.cpp -o CMakeFiles/stout-tests.dir/interval_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/interval_tests.cpp -o CMakeFiles/stout-tests.dir/interval_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.o.requires:
 
@@ -350,16 +350,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.o: ../3rdparty/stout/tests/ip_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/ip_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/ip_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/ip_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/ip_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/ip_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/ip_tests.cpp > CMakeFiles/stout-tests.dir/ip_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/ip_tests.cpp > CMakeFiles/stout-tests.dir/ip_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/ip_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/ip_tests.cpp -o CMakeFiles/stout-tests.dir/ip_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/ip_tests.cpp -o CMakeFiles/stout-tests.dir/ip_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.o.requires:
 
@@ -374,16 +374,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.o: ../3rdparty/stout/tests/json_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/json_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/json_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/json_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/json_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/json_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/json_tests.cpp > CMakeFiles/stout-tests.dir/json_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/json_tests.cpp > CMakeFiles/stout-tests.dir/json_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/json_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/json_tests.cpp -o CMakeFiles/stout-tests.dir/json_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/json_tests.cpp -o CMakeFiles/stout-tests.dir/json_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.o.requires:
 
@@ -398,16 +398,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.o: ../3rdparty/stout/tests/jsonify_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/jsonify_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/jsonify_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/jsonify_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/jsonify_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/jsonify_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/jsonify_tests.cpp > CMakeFiles/stout-tests.dir/jsonify_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/jsonify_tests.cpp > CMakeFiles/stout-tests.dir/jsonify_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/jsonify_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/jsonify_tests.cpp -o CMakeFiles/stout-tests.dir/jsonify_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/jsonify_tests.cpp -o CMakeFiles/stout-tests.dir/jsonify_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.o.requires:
 
@@ -422,16 +422,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.o: ../3rdparty/stout/tests/linkedhashmap_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/linkedhashmap_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/linkedhashmap_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/linkedhashmap_tests.cpp > CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/linkedhashmap_tests.cpp > CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/linkedhashmap_tests.cpp -o CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/linkedhashmap_tests.cpp -o CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.o.requires:
 
@@ -446,16 +446,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.o: ../3rdparty/stout/tests/mac_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/mac_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/mac_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/mac_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/mac_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/mac_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/mac_tests.cpp > CMakeFiles/stout-tests.dir/mac_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/mac_tests.cpp > CMakeFiles/stout-tests.dir/mac_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/mac_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/mac_tests.cpp -o CMakeFiles/stout-tests.dir/mac_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/mac_tests.cpp -o CMakeFiles/stout-tests.dir/mac_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.o.requires:
 
@@ -470,16 +470,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.o: ../3rdparty/stout/tests/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/main.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/main.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/main.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/main.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/main.cpp > CMakeFiles/stout-tests.dir/main.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/main.cpp > CMakeFiles/stout-tests.dir/main.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/main.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/main.cpp -o CMakeFiles/stout-tests.dir/main.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/main.cpp -o CMakeFiles/stout-tests.dir/main.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.o.requires:
 
@@ -494,16 +494,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.o: ../3rdparty/stout/tests/multimap_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/multimap_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/multimap_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/multimap_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/multimap_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/multimap_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/multimap_tests.cpp > CMakeFiles/stout-tests.dir/multimap_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/multimap_tests.cpp > CMakeFiles/stout-tests.dir/multimap_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/multimap_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/multimap_tests.cpp -o CMakeFiles/stout-tests.dir/multimap_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/multimap_tests.cpp -o CMakeFiles/stout-tests.dir/multimap_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.o.requires:
 
@@ -518,16 +518,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.o: ../3rdparty/stout/tests/none_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/none_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/none_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/none_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/none_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/none_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/none_tests.cpp > CMakeFiles/stout-tests.dir/none_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/none_tests.cpp > CMakeFiles/stout-tests.dir/none_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/none_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/none_tests.cpp -o CMakeFiles/stout-tests.dir/none_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/none_tests.cpp -o CMakeFiles/stout-tests.dir/none_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.o.requires:
 
@@ -542,16 +542,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.o: ../3rdparty/stout/tests/numify_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/numify_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/numify_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/numify_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/numify_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/numify_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/numify_tests.cpp > CMakeFiles/stout-tests.dir/numify_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/numify_tests.cpp > CMakeFiles/stout-tests.dir/numify_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/numify_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/numify_tests.cpp -o CMakeFiles/stout-tests.dir/numify_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/numify_tests.cpp -o CMakeFiles/stout-tests.dir/numify_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.o.requires:
 
@@ -566,16 +566,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.o: ../3rdparty/stout/tests/option_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/option_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/option_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/option_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/option_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/option_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/option_tests.cpp > CMakeFiles/stout-tests.dir/option_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/option_tests.cpp > CMakeFiles/stout-tests.dir/option_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/option_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/option_tests.cpp -o CMakeFiles/stout-tests.dir/option_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/option_tests.cpp -o CMakeFiles/stout-tests.dir/option_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.o.requires:
 
@@ -590,16 +590,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.o: ../3rdparty/stout/tests/os_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/os_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os_tests.cpp > CMakeFiles/stout-tests.dir/os_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os_tests.cpp > CMakeFiles/stout-tests.dir/os_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/os_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os_tests.cpp -o CMakeFiles/stout-tests.dir/os_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os_tests.cpp -o CMakeFiles/stout-tests.dir/os_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.o.requires:
 
@@ -614,16 +614,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.o: ../3rdparty/stout/tests/recordio_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/recordio_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/recordio_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/recordio_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/recordio_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/recordio_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/recordio_tests.cpp > CMakeFiles/stout-tests.dir/recordio_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/recordio_tests.cpp > CMakeFiles/stout-tests.dir/recordio_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/recordio_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/recordio_tests.cpp -o CMakeFiles/stout-tests.dir/recordio_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/recordio_tests.cpp -o CMakeFiles/stout-tests.dir/recordio_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.o.requires:
 
@@ -638,16 +638,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.o: ../3rdparty/stout/tests/result_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/result_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/result_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/result_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/result_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/result_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/result_tests.cpp > CMakeFiles/stout-tests.dir/result_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/result_tests.cpp > CMakeFiles/stout-tests.dir/result_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/result_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/result_tests.cpp -o CMakeFiles/stout-tests.dir/result_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/result_tests.cpp -o CMakeFiles/stout-tests.dir/result_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.o.requires:
 
@@ -662,16 +662,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.o: ../3rdparty/stout/tests/some_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/some_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/some_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/some_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/some_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/some_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/some_tests.cpp > CMakeFiles/stout-tests.dir/some_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/some_tests.cpp > CMakeFiles/stout-tests.dir/some_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/some_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/some_tests.cpp -o CMakeFiles/stout-tests.dir/some_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/some_tests.cpp -o CMakeFiles/stout-tests.dir/some_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.o.requires:
 
@@ -686,16 +686,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.o: ../3rdparty/stout/tests/strings_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/strings_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/strings_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/strings_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/strings_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/strings_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/strings_tests.cpp > CMakeFiles/stout-tests.dir/strings_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/strings_tests.cpp > CMakeFiles/stout-tests.dir/strings_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/strings_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/strings_tests.cpp -o CMakeFiles/stout-tests.dir/strings_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/strings_tests.cpp -o CMakeFiles/stout-tests.dir/strings_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.o.requires:
 
@@ -710,16 +710,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.o: ../3rdparty/stout/tests/subcommand_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/subcommand_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/subcommand_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/subcommand_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/subcommand_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/subcommand_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/subcommand_tests.cpp > CMakeFiles/stout-tests.dir/subcommand_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/subcommand_tests.cpp > CMakeFiles/stout-tests.dir/subcommand_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/subcommand_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/subcommand_tests.cpp -o CMakeFiles/stout-tests.dir/subcommand_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/subcommand_tests.cpp -o CMakeFiles/stout-tests.dir/subcommand_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.o.requires:
 
@@ -734,16 +734,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.o: ../3rdparty/stout/tests/try_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/try_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/try_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/try_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/try_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/try_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/try_tests.cpp > CMakeFiles/stout-tests.dir/try_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/try_tests.cpp > CMakeFiles/stout-tests.dir/try_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/try_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/try_tests.cpp -o CMakeFiles/stout-tests.dir/try_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/try_tests.cpp -o CMakeFiles/stout-tests.dir/try_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.o.requires:
 
@@ -758,16 +758,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.o: ../3rdparty/stout/tests/uuid_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/uuid_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/uuid_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/uuid_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/uuid_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/uuid_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/uuid_tests.cpp > CMakeFiles/stout-tests.dir/uuid_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/uuid_tests.cpp > CMakeFiles/stout-tests.dir/uuid_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/uuid_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/uuid_tests.cpp -o CMakeFiles/stout-tests.dir/uuid_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/uuid_tests.cpp -o CMakeFiles/stout-tests.dir/uuid_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.o.requires:
 
@@ -782,16 +782,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.o: ../3rdparty/stout/tests/variant_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/variant_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/variant_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/variant_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/variant_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/variant_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/variant_tests.cpp > CMakeFiles/stout-tests.dir/variant_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/variant_tests.cpp > CMakeFiles/stout-tests.dir/variant_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/variant_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/variant_tests.cpp -o CMakeFiles/stout-tests.dir/variant_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/variant_tests.cpp -o CMakeFiles/stout-tests.dir/variant_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.o.requires:
 
@@ -806,16 +806,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.o: ../3rdparty/stout/tests/version_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/version_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/version_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/version_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/version_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/version_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/version_tests.cpp > CMakeFiles/stout-tests.dir/version_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/version_tests.cpp > CMakeFiles/stout-tests.dir/version_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/version_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/version_tests.cpp -o CMakeFiles/stout-tests.dir/version_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/version_tests.cpp -o CMakeFiles/stout-tests.dir/version_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.o.requires:
 
@@ -830,16 +830,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.o: ../3rdparty/stout/tests/path_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/path_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/path_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/path_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/path_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/path_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/path_tests.cpp > CMakeFiles/stout-tests.dir/path_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/path_tests.cpp > CMakeFiles/stout-tests.dir/path_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/path_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/path_tests.cpp -o CMakeFiles/stout-tests.dir/path_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/path_tests.cpp -o CMakeFiles/stout-tests.dir/path_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.o.requires:
 
@@ -854,16 +854,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.o: ../3rdparty/stout/tests/protobuf_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/protobuf_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/protobuf_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/protobuf_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.cpp > CMakeFiles/stout-tests.dir/protobuf_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.cpp > CMakeFiles/stout-tests.dir/protobuf_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/protobuf_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.cpp -o CMakeFiles/stout-tests.dir/protobuf_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.cpp -o CMakeFiles/stout-tests.dir/protobuf_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.o.requires:
 
@@ -878,16 +878,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.o: ../3rdparty/stout/tests/protobuf_tests.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.pb.cc
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.pb.cc > CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.pb.cc > CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.pb.cc -o CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/protobuf_tests.pb.cc -o CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.o.requires:
 
@@ -902,16 +902,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.o: ../3rdparty/stout/tests/svn_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/svn_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/svn_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/svn_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/svn_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/svn_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/svn_tests.cpp > CMakeFiles/stout-tests.dir/svn_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/svn_tests.cpp > CMakeFiles/stout-tests.dir/svn_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/svn_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/svn_tests.cpp -o CMakeFiles/stout-tests.dir/svn_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/svn_tests.cpp -o CMakeFiles/stout-tests.dir/svn_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.o.requires:
 
@@ -926,16 +926,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.o: ../3rdparty/stout/tests/proc_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/proc_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/proc_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/proc_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/proc_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/proc_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/proc_tests.cpp > CMakeFiles/stout-tests.dir/proc_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/proc_tests.cpp > CMakeFiles/stout-tests.dir/proc_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/proc_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/proc_tests.cpp -o CMakeFiles/stout-tests.dir/proc_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/proc_tests.cpp -o CMakeFiles/stout-tests.dir/proc_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.o.requires:
 
@@ -950,16 +950,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.o: ../3rdparty/stout/tests/os/env_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/env_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/env_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/env_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/env_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/os/env_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/env_tests.cpp > CMakeFiles/stout-tests.dir/os/env_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/env_tests.cpp > CMakeFiles/stout-tests.dir/os/env_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/os/env_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/env_tests.cpp -o CMakeFiles/stout-tests.dir/os/env_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/env_tests.cpp -o CMakeFiles/stout-tests.dir/os/env_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.o.requires:
 
@@ -974,16 +974,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.o: ../3rdparty/stout/tests/os/filesystem_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/filesystem_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/filesystem_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/filesystem_tests.cpp > CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/filesystem_tests.cpp > CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/filesystem_tests.cpp -o CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/filesystem_tests.cpp -o CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.o.requires:
 
@@ -998,16 +998,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.o: ../3rdparty/stout/tests/os/process_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/process_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/process_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/process_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/process_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/os/process_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/process_tests.cpp > CMakeFiles/stout-tests.dir/os/process_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/process_tests.cpp > CMakeFiles/stout-tests.dir/os/process_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/os/process_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/process_tests.cpp -o CMakeFiles/stout-tests.dir/os/process_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/process_tests.cpp -o CMakeFiles/stout-tests.dir/os/process_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.o.requires:
 
@@ -1022,16 +1022,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.o: ../3rdparty/stout/tests/os/rmdir_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/rmdir_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/rmdir_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/rmdir_tests.cpp > CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/rmdir_tests.cpp > CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/rmdir_tests.cpp -o CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/rmdir_tests.cpp -o CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.o.requires:
 
@@ -1046,16 +1046,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.o: ../3rdparty/stout/tests/os/socket_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/socket_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/socket_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/socket_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/socket_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/os/socket_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/socket_tests.cpp > CMakeFiles/stout-tests.dir/os/socket_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/socket_tests.cpp > CMakeFiles/stout-tests.dir/os/socket_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/os/socket_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/socket_tests.cpp -o CMakeFiles/stout-tests.dir/os/socket_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/socket_tests.cpp -o CMakeFiles/stout-tests.dir/os/socket_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.o.requires:
 
@@ -1070,16 +1070,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.o: ../3rdparty/stout/tests/os/strerror_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/strerror_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/strerror_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/strerror_tests.cpp > CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/strerror_tests.cpp > CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/strerror_tests.cpp -o CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/strerror_tests.cpp -o CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.o.requires:
 
@@ -1094,16 +1094,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.o: ../3rdparty/stout/tests/os/systems_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/systems_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/systems_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/systems_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/systems_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/os/systems_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/systems_tests.cpp > CMakeFiles/stout-tests.dir/os/systems_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/systems_tests.cpp > CMakeFiles/stout-tests.dir/os/systems_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/os/systems_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/systems_tests.cpp -o CMakeFiles/stout-tests.dir/os/systems_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/systems_tests.cpp -o CMakeFiles/stout-tests.dir/os/systems_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.o.requires:
 
@@ -1118,16 +1118,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.o: ../3rdparty/stout/tests/os/sendfile_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/sendfile_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/sendfile_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/sendfile_tests.cpp > CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/sendfile_tests.cpp > CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/sendfile_tests.cpp -o CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/sendfile_tests.cpp -o CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.o.requires:
 
@@ -1142,16 +1142,16 @@ include 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.o: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags.make
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.o: ../3rdparty/stout/tests/os/signals_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/signals_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/signals_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stout-tests.dir/os/signals_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/signals_tests.cpp
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stout-tests.dir/os/signals_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/signals_tests.cpp > CMakeFiles/stout-tests.dir/os/signals_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/signals_tests.cpp > CMakeFiles/stout-tests.dir/os/signals_tests.cpp.i
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stout-tests.dir/os/signals_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests/os/signals_tests.cpp -o CMakeFiles/stout-tests.dir/os/signals_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests/os/signals_tests.cpp -o CMakeFiles/stout-tests.dir/os/signals_tests.cpp.s
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.o.requires:
 
@@ -1280,8 +1280,8 @@ stout__tests_EXTERNAL_OBJECTS =
 3rdparty/stout/tests/stout-tests: /usr/lib/x86_64-linux-gnu/libsvn_diff-1.so
 3rdparty/stout/tests/stout-tests: /usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
 3rdparty/stout/tests/stout-tests: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable stout-tests"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stout-tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable stout-tests"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stout-tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build: 3rdparty/stout/tests/stout-tests
@@ -1338,10 +1338,10 @@ stout__tests_EXTERNAL_OBJECTS =
 .PHONY : 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/requires
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && $(CMAKE_COMMAND) -P CMakeFiles/stout-tests.dir/cmake_clean.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests && $(CMAKE_COMMAND) -P CMakeFiles/stout-tests.dir/cmake_clean.cmake
 .PHONY : 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/clean
 
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests/CMakeFiles/stout-tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests/CMakeFiles/stout-tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/depend
 

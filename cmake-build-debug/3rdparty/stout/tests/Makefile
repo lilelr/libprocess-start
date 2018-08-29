@@ -51,10 +51,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -73,7 +73,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -95,7 +95,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackConfig.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -116,14 +116,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests/CMakeFiles/progress.marks
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/stout/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles 0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/stout/tests/CMakeFiles/progress.marks
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/stout/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/stout/tests/clean
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/stout/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,22 +133,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/stout/tests/preinstall
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/stout/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/stout/tests/preinstall
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/stout/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/rule
 .PHONY : 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/rule
 
 # Convenience name for target.
@@ -158,7 +158,7 @@ stout-tests: 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/rule
 
 # fast build rule for target.
 stout-tests/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build
 .PHONY : stout-tests/fast
 
 base64_tests.o: base64_tests.cpp.o
@@ -167,7 +167,7 @@ base64_tests.o: base64_tests.cpp.o
 
 # target to build an object file
 base64_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.o
 .PHONY : base64_tests.cpp.o
 
 base64_tests.i: base64_tests.cpp.i
@@ -176,7 +176,7 @@ base64_tests.i: base64_tests.cpp.i
 
 # target to preprocess a source file
 base64_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.i
 .PHONY : base64_tests.cpp.i
 
 base64_tests.s: base64_tests.cpp.s
@@ -185,7 +185,7 @@ base64_tests.s: base64_tests.cpp.s
 
 # target to generate assembly for a file
 base64_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/base64_tests.cpp.s
 .PHONY : base64_tests.cpp.s
 
 bits_tests.o: bits_tests.cpp.o
@@ -194,7 +194,7 @@ bits_tests.o: bits_tests.cpp.o
 
 # target to build an object file
 bits_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.o
 .PHONY : bits_tests.cpp.o
 
 bits_tests.i: bits_tests.cpp.i
@@ -203,7 +203,7 @@ bits_tests.i: bits_tests.cpp.i
 
 # target to preprocess a source file
 bits_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.i
 .PHONY : bits_tests.cpp.i
 
 bits_tests.s: bits_tests.cpp.s
@@ -212,7 +212,7 @@ bits_tests.s: bits_tests.cpp.s
 
 # target to generate assembly for a file
 bits_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bits_tests.cpp.s
 .PHONY : bits_tests.cpp.s
 
 bytes_tests.o: bytes_tests.cpp.o
@@ -221,7 +221,7 @@ bytes_tests.o: bytes_tests.cpp.o
 
 # target to build an object file
 bytes_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.o
 .PHONY : bytes_tests.cpp.o
 
 bytes_tests.i: bytes_tests.cpp.i
@@ -230,7 +230,7 @@ bytes_tests.i: bytes_tests.cpp.i
 
 # target to preprocess a source file
 bytes_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.i
 .PHONY : bytes_tests.cpp.i
 
 bytes_tests.s: bytes_tests.cpp.s
@@ -239,7 +239,7 @@ bytes_tests.s: bytes_tests.cpp.s
 
 # target to generate assembly for a file
 bytes_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/bytes_tests.cpp.s
 .PHONY : bytes_tests.cpp.s
 
 cache_tests.o: cache_tests.cpp.o
@@ -248,7 +248,7 @@ cache_tests.o: cache_tests.cpp.o
 
 # target to build an object file
 cache_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.o
 .PHONY : cache_tests.cpp.o
 
 cache_tests.i: cache_tests.cpp.i
@@ -257,7 +257,7 @@ cache_tests.i: cache_tests.cpp.i
 
 # target to preprocess a source file
 cache_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.i
 .PHONY : cache_tests.cpp.i
 
 cache_tests.s: cache_tests.cpp.s
@@ -266,7 +266,7 @@ cache_tests.s: cache_tests.cpp.s
 
 # target to generate assembly for a file
 cache_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/cache_tests.cpp.s
 .PHONY : cache_tests.cpp.s
 
 duration_tests.o: duration_tests.cpp.o
@@ -275,7 +275,7 @@ duration_tests.o: duration_tests.cpp.o
 
 # target to build an object file
 duration_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.o
 .PHONY : duration_tests.cpp.o
 
 duration_tests.i: duration_tests.cpp.i
@@ -284,7 +284,7 @@ duration_tests.i: duration_tests.cpp.i
 
 # target to preprocess a source file
 duration_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.i
 .PHONY : duration_tests.cpp.i
 
 duration_tests.s: duration_tests.cpp.s
@@ -293,7 +293,7 @@ duration_tests.s: duration_tests.cpp.s
 
 # target to generate assembly for a file
 duration_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/duration_tests.cpp.s
 .PHONY : duration_tests.cpp.s
 
 dynamiclibrary_tests.o: dynamiclibrary_tests.cpp.o
@@ -302,7 +302,7 @@ dynamiclibrary_tests.o: dynamiclibrary_tests.cpp.o
 
 # target to build an object file
 dynamiclibrary_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.o
 .PHONY : dynamiclibrary_tests.cpp.o
 
 dynamiclibrary_tests.i: dynamiclibrary_tests.cpp.i
@@ -311,7 +311,7 @@ dynamiclibrary_tests.i: dynamiclibrary_tests.cpp.i
 
 # target to preprocess a source file
 dynamiclibrary_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.i
 .PHONY : dynamiclibrary_tests.cpp.i
 
 dynamiclibrary_tests.s: dynamiclibrary_tests.cpp.s
@@ -320,7 +320,7 @@ dynamiclibrary_tests.s: dynamiclibrary_tests.cpp.s
 
 # target to generate assembly for a file
 dynamiclibrary_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/dynamiclibrary_tests.cpp.s
 .PHONY : dynamiclibrary_tests.cpp.s
 
 error_tests.o: error_tests.cpp.o
@@ -329,7 +329,7 @@ error_tests.o: error_tests.cpp.o
 
 # target to build an object file
 error_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.o
 .PHONY : error_tests.cpp.o
 
 error_tests.i: error_tests.cpp.i
@@ -338,7 +338,7 @@ error_tests.i: error_tests.cpp.i
 
 # target to preprocess a source file
 error_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.i
 .PHONY : error_tests.cpp.i
 
 error_tests.s: error_tests.cpp.s
@@ -347,7 +347,7 @@ error_tests.s: error_tests.cpp.s
 
 # target to generate assembly for a file
 error_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/error_tests.cpp.s
 .PHONY : error_tests.cpp.s
 
 flags_tests.o: flags_tests.cpp.o
@@ -356,7 +356,7 @@ flags_tests.o: flags_tests.cpp.o
 
 # target to build an object file
 flags_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.o
 .PHONY : flags_tests.cpp.o
 
 flags_tests.i: flags_tests.cpp.i
@@ -365,7 +365,7 @@ flags_tests.i: flags_tests.cpp.i
 
 # target to preprocess a source file
 flags_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.i
 .PHONY : flags_tests.cpp.i
 
 flags_tests.s: flags_tests.cpp.s
@@ -374,7 +374,7 @@ flags_tests.s: flags_tests.cpp.s
 
 # target to generate assembly for a file
 flags_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/flags_tests.cpp.s
 .PHONY : flags_tests.cpp.s
 
 gzip_tests.o: gzip_tests.cpp.o
@@ -383,7 +383,7 @@ gzip_tests.o: gzip_tests.cpp.o
 
 # target to build an object file
 gzip_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.o
 .PHONY : gzip_tests.cpp.o
 
 gzip_tests.i: gzip_tests.cpp.i
@@ -392,7 +392,7 @@ gzip_tests.i: gzip_tests.cpp.i
 
 # target to preprocess a source file
 gzip_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.i
 .PHONY : gzip_tests.cpp.i
 
 gzip_tests.s: gzip_tests.cpp.s
@@ -401,7 +401,7 @@ gzip_tests.s: gzip_tests.cpp.s
 
 # target to generate assembly for a file
 gzip_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/gzip_tests.cpp.s
 .PHONY : gzip_tests.cpp.s
 
 hashmap_tests.o: hashmap_tests.cpp.o
@@ -410,7 +410,7 @@ hashmap_tests.o: hashmap_tests.cpp.o
 
 # target to build an object file
 hashmap_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.o
 .PHONY : hashmap_tests.cpp.o
 
 hashmap_tests.i: hashmap_tests.cpp.i
@@ -419,7 +419,7 @@ hashmap_tests.i: hashmap_tests.cpp.i
 
 # target to preprocess a source file
 hashmap_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.i
 .PHONY : hashmap_tests.cpp.i
 
 hashmap_tests.s: hashmap_tests.cpp.s
@@ -428,7 +428,7 @@ hashmap_tests.s: hashmap_tests.cpp.s
 
 # target to generate assembly for a file
 hashmap_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashmap_tests.cpp.s
 .PHONY : hashmap_tests.cpp.s
 
 hashset_tests.o: hashset_tests.cpp.o
@@ -437,7 +437,7 @@ hashset_tests.o: hashset_tests.cpp.o
 
 # target to build an object file
 hashset_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.o
 .PHONY : hashset_tests.cpp.o
 
 hashset_tests.i: hashset_tests.cpp.i
@@ -446,7 +446,7 @@ hashset_tests.i: hashset_tests.cpp.i
 
 # target to preprocess a source file
 hashset_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.i
 .PHONY : hashset_tests.cpp.i
 
 hashset_tests.s: hashset_tests.cpp.s
@@ -455,7 +455,7 @@ hashset_tests.s: hashset_tests.cpp.s
 
 # target to generate assembly for a file
 hashset_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/hashset_tests.cpp.s
 .PHONY : hashset_tests.cpp.s
 
 interval_tests.o: interval_tests.cpp.o
@@ -464,7 +464,7 @@ interval_tests.o: interval_tests.cpp.o
 
 # target to build an object file
 interval_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.o
 .PHONY : interval_tests.cpp.o
 
 interval_tests.i: interval_tests.cpp.i
@@ -473,7 +473,7 @@ interval_tests.i: interval_tests.cpp.i
 
 # target to preprocess a source file
 interval_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.i
 .PHONY : interval_tests.cpp.i
 
 interval_tests.s: interval_tests.cpp.s
@@ -482,7 +482,7 @@ interval_tests.s: interval_tests.cpp.s
 
 # target to generate assembly for a file
 interval_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/interval_tests.cpp.s
 .PHONY : interval_tests.cpp.s
 
 ip_tests.o: ip_tests.cpp.o
@@ -491,7 +491,7 @@ ip_tests.o: ip_tests.cpp.o
 
 # target to build an object file
 ip_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.o
 .PHONY : ip_tests.cpp.o
 
 ip_tests.i: ip_tests.cpp.i
@@ -500,7 +500,7 @@ ip_tests.i: ip_tests.cpp.i
 
 # target to preprocess a source file
 ip_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.i
 .PHONY : ip_tests.cpp.i
 
 ip_tests.s: ip_tests.cpp.s
@@ -509,7 +509,7 @@ ip_tests.s: ip_tests.cpp.s
 
 # target to generate assembly for a file
 ip_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/ip_tests.cpp.s
 .PHONY : ip_tests.cpp.s
 
 json_tests.o: json_tests.cpp.o
@@ -518,7 +518,7 @@ json_tests.o: json_tests.cpp.o
 
 # target to build an object file
 json_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.o
 .PHONY : json_tests.cpp.o
 
 json_tests.i: json_tests.cpp.i
@@ -527,7 +527,7 @@ json_tests.i: json_tests.cpp.i
 
 # target to preprocess a source file
 json_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.i
 .PHONY : json_tests.cpp.i
 
 json_tests.s: json_tests.cpp.s
@@ -536,7 +536,7 @@ json_tests.s: json_tests.cpp.s
 
 # target to generate assembly for a file
 json_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/json_tests.cpp.s
 .PHONY : json_tests.cpp.s
 
 jsonify_tests.o: jsonify_tests.cpp.o
@@ -545,7 +545,7 @@ jsonify_tests.o: jsonify_tests.cpp.o
 
 # target to build an object file
 jsonify_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.o
 .PHONY : jsonify_tests.cpp.o
 
 jsonify_tests.i: jsonify_tests.cpp.i
@@ -554,7 +554,7 @@ jsonify_tests.i: jsonify_tests.cpp.i
 
 # target to preprocess a source file
 jsonify_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.i
 .PHONY : jsonify_tests.cpp.i
 
 jsonify_tests.s: jsonify_tests.cpp.s
@@ -563,7 +563,7 @@ jsonify_tests.s: jsonify_tests.cpp.s
 
 # target to generate assembly for a file
 jsonify_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/jsonify_tests.cpp.s
 .PHONY : jsonify_tests.cpp.s
 
 linkedhashmap_tests.o: linkedhashmap_tests.cpp.o
@@ -572,7 +572,7 @@ linkedhashmap_tests.o: linkedhashmap_tests.cpp.o
 
 # target to build an object file
 linkedhashmap_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.o
 .PHONY : linkedhashmap_tests.cpp.o
 
 linkedhashmap_tests.i: linkedhashmap_tests.cpp.i
@@ -581,7 +581,7 @@ linkedhashmap_tests.i: linkedhashmap_tests.cpp.i
 
 # target to preprocess a source file
 linkedhashmap_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.i
 .PHONY : linkedhashmap_tests.cpp.i
 
 linkedhashmap_tests.s: linkedhashmap_tests.cpp.s
@@ -590,7 +590,7 @@ linkedhashmap_tests.s: linkedhashmap_tests.cpp.s
 
 # target to generate assembly for a file
 linkedhashmap_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/linkedhashmap_tests.cpp.s
 .PHONY : linkedhashmap_tests.cpp.s
 
 mac_tests.o: mac_tests.cpp.o
@@ -599,7 +599,7 @@ mac_tests.o: mac_tests.cpp.o
 
 # target to build an object file
 mac_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.o
 .PHONY : mac_tests.cpp.o
 
 mac_tests.i: mac_tests.cpp.i
@@ -608,7 +608,7 @@ mac_tests.i: mac_tests.cpp.i
 
 # target to preprocess a source file
 mac_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.i
 .PHONY : mac_tests.cpp.i
 
 mac_tests.s: mac_tests.cpp.s
@@ -617,7 +617,7 @@ mac_tests.s: mac_tests.cpp.s
 
 # target to generate assembly for a file
 mac_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/mac_tests.cpp.s
 .PHONY : mac_tests.cpp.s
 
 main.o: main.cpp.o
@@ -626,7 +626,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -635,7 +635,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -644,7 +644,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 multimap_tests.o: multimap_tests.cpp.o
@@ -653,7 +653,7 @@ multimap_tests.o: multimap_tests.cpp.o
 
 # target to build an object file
 multimap_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.o
 .PHONY : multimap_tests.cpp.o
 
 multimap_tests.i: multimap_tests.cpp.i
@@ -662,7 +662,7 @@ multimap_tests.i: multimap_tests.cpp.i
 
 # target to preprocess a source file
 multimap_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.i
 .PHONY : multimap_tests.cpp.i
 
 multimap_tests.s: multimap_tests.cpp.s
@@ -671,7 +671,7 @@ multimap_tests.s: multimap_tests.cpp.s
 
 # target to generate assembly for a file
 multimap_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/multimap_tests.cpp.s
 .PHONY : multimap_tests.cpp.s
 
 none_tests.o: none_tests.cpp.o
@@ -680,7 +680,7 @@ none_tests.o: none_tests.cpp.o
 
 # target to build an object file
 none_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.o
 .PHONY : none_tests.cpp.o
 
 none_tests.i: none_tests.cpp.i
@@ -689,7 +689,7 @@ none_tests.i: none_tests.cpp.i
 
 # target to preprocess a source file
 none_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.i
 .PHONY : none_tests.cpp.i
 
 none_tests.s: none_tests.cpp.s
@@ -698,7 +698,7 @@ none_tests.s: none_tests.cpp.s
 
 # target to generate assembly for a file
 none_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/none_tests.cpp.s
 .PHONY : none_tests.cpp.s
 
 numify_tests.o: numify_tests.cpp.o
@@ -707,7 +707,7 @@ numify_tests.o: numify_tests.cpp.o
 
 # target to build an object file
 numify_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.o
 .PHONY : numify_tests.cpp.o
 
 numify_tests.i: numify_tests.cpp.i
@@ -716,7 +716,7 @@ numify_tests.i: numify_tests.cpp.i
 
 # target to preprocess a source file
 numify_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.i
 .PHONY : numify_tests.cpp.i
 
 numify_tests.s: numify_tests.cpp.s
@@ -725,7 +725,7 @@ numify_tests.s: numify_tests.cpp.s
 
 # target to generate assembly for a file
 numify_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/numify_tests.cpp.s
 .PHONY : numify_tests.cpp.s
 
 option_tests.o: option_tests.cpp.o
@@ -734,7 +734,7 @@ option_tests.o: option_tests.cpp.o
 
 # target to build an object file
 option_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.o
 .PHONY : option_tests.cpp.o
 
 option_tests.i: option_tests.cpp.i
@@ -743,7 +743,7 @@ option_tests.i: option_tests.cpp.i
 
 # target to preprocess a source file
 option_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.i
 .PHONY : option_tests.cpp.i
 
 option_tests.s: option_tests.cpp.s
@@ -752,7 +752,7 @@ option_tests.s: option_tests.cpp.s
 
 # target to generate assembly for a file
 option_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/option_tests.cpp.s
 .PHONY : option_tests.cpp.s
 
 os/env_tests.o: os/env_tests.cpp.o
@@ -761,7 +761,7 @@ os/env_tests.o: os/env_tests.cpp.o
 
 # target to build an object file
 os/env_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.o
 .PHONY : os/env_tests.cpp.o
 
 os/env_tests.i: os/env_tests.cpp.i
@@ -770,7 +770,7 @@ os/env_tests.i: os/env_tests.cpp.i
 
 # target to preprocess a source file
 os/env_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.i
 .PHONY : os/env_tests.cpp.i
 
 os/env_tests.s: os/env_tests.cpp.s
@@ -779,7 +779,7 @@ os/env_tests.s: os/env_tests.cpp.s
 
 # target to generate assembly for a file
 os/env_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/env_tests.cpp.s
 .PHONY : os/env_tests.cpp.s
 
 os/filesystem_tests.o: os/filesystem_tests.cpp.o
@@ -788,7 +788,7 @@ os/filesystem_tests.o: os/filesystem_tests.cpp.o
 
 # target to build an object file
 os/filesystem_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.o
 .PHONY : os/filesystem_tests.cpp.o
 
 os/filesystem_tests.i: os/filesystem_tests.cpp.i
@@ -797,7 +797,7 @@ os/filesystem_tests.i: os/filesystem_tests.cpp.i
 
 # target to preprocess a source file
 os/filesystem_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.i
 .PHONY : os/filesystem_tests.cpp.i
 
 os/filesystem_tests.s: os/filesystem_tests.cpp.s
@@ -806,7 +806,7 @@ os/filesystem_tests.s: os/filesystem_tests.cpp.s
 
 # target to generate assembly for a file
 os/filesystem_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/filesystem_tests.cpp.s
 .PHONY : os/filesystem_tests.cpp.s
 
 os/process_tests.o: os/process_tests.cpp.o
@@ -815,7 +815,7 @@ os/process_tests.o: os/process_tests.cpp.o
 
 # target to build an object file
 os/process_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.o
 .PHONY : os/process_tests.cpp.o
 
 os/process_tests.i: os/process_tests.cpp.i
@@ -824,7 +824,7 @@ os/process_tests.i: os/process_tests.cpp.i
 
 # target to preprocess a source file
 os/process_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.i
 .PHONY : os/process_tests.cpp.i
 
 os/process_tests.s: os/process_tests.cpp.s
@@ -833,7 +833,7 @@ os/process_tests.s: os/process_tests.cpp.s
 
 # target to generate assembly for a file
 os/process_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/process_tests.cpp.s
 .PHONY : os/process_tests.cpp.s
 
 os/rmdir_tests.o: os/rmdir_tests.cpp.o
@@ -842,7 +842,7 @@ os/rmdir_tests.o: os/rmdir_tests.cpp.o
 
 # target to build an object file
 os/rmdir_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.o
 .PHONY : os/rmdir_tests.cpp.o
 
 os/rmdir_tests.i: os/rmdir_tests.cpp.i
@@ -851,7 +851,7 @@ os/rmdir_tests.i: os/rmdir_tests.cpp.i
 
 # target to preprocess a source file
 os/rmdir_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.i
 .PHONY : os/rmdir_tests.cpp.i
 
 os/rmdir_tests.s: os/rmdir_tests.cpp.s
@@ -860,7 +860,7 @@ os/rmdir_tests.s: os/rmdir_tests.cpp.s
 
 # target to generate assembly for a file
 os/rmdir_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/rmdir_tests.cpp.s
 .PHONY : os/rmdir_tests.cpp.s
 
 os/sendfile_tests.o: os/sendfile_tests.cpp.o
@@ -869,7 +869,7 @@ os/sendfile_tests.o: os/sendfile_tests.cpp.o
 
 # target to build an object file
 os/sendfile_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.o
 .PHONY : os/sendfile_tests.cpp.o
 
 os/sendfile_tests.i: os/sendfile_tests.cpp.i
@@ -878,7 +878,7 @@ os/sendfile_tests.i: os/sendfile_tests.cpp.i
 
 # target to preprocess a source file
 os/sendfile_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.i
 .PHONY : os/sendfile_tests.cpp.i
 
 os/sendfile_tests.s: os/sendfile_tests.cpp.s
@@ -887,7 +887,7 @@ os/sendfile_tests.s: os/sendfile_tests.cpp.s
 
 # target to generate assembly for a file
 os/sendfile_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/sendfile_tests.cpp.s
 .PHONY : os/sendfile_tests.cpp.s
 
 os/signals_tests.o: os/signals_tests.cpp.o
@@ -896,7 +896,7 @@ os/signals_tests.o: os/signals_tests.cpp.o
 
 # target to build an object file
 os/signals_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.o
 .PHONY : os/signals_tests.cpp.o
 
 os/signals_tests.i: os/signals_tests.cpp.i
@@ -905,7 +905,7 @@ os/signals_tests.i: os/signals_tests.cpp.i
 
 # target to preprocess a source file
 os/signals_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.i
 .PHONY : os/signals_tests.cpp.i
 
 os/signals_tests.s: os/signals_tests.cpp.s
@@ -914,7 +914,7 @@ os/signals_tests.s: os/signals_tests.cpp.s
 
 # target to generate assembly for a file
 os/signals_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/signals_tests.cpp.s
 .PHONY : os/signals_tests.cpp.s
 
 os/socket_tests.o: os/socket_tests.cpp.o
@@ -923,7 +923,7 @@ os/socket_tests.o: os/socket_tests.cpp.o
 
 # target to build an object file
 os/socket_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.o
 .PHONY : os/socket_tests.cpp.o
 
 os/socket_tests.i: os/socket_tests.cpp.i
@@ -932,7 +932,7 @@ os/socket_tests.i: os/socket_tests.cpp.i
 
 # target to preprocess a source file
 os/socket_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.i
 .PHONY : os/socket_tests.cpp.i
 
 os/socket_tests.s: os/socket_tests.cpp.s
@@ -941,7 +941,7 @@ os/socket_tests.s: os/socket_tests.cpp.s
 
 # target to generate assembly for a file
 os/socket_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/socket_tests.cpp.s
 .PHONY : os/socket_tests.cpp.s
 
 os/strerror_tests.o: os/strerror_tests.cpp.o
@@ -950,7 +950,7 @@ os/strerror_tests.o: os/strerror_tests.cpp.o
 
 # target to build an object file
 os/strerror_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.o
 .PHONY : os/strerror_tests.cpp.o
 
 os/strerror_tests.i: os/strerror_tests.cpp.i
@@ -959,7 +959,7 @@ os/strerror_tests.i: os/strerror_tests.cpp.i
 
 # target to preprocess a source file
 os/strerror_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.i
 .PHONY : os/strerror_tests.cpp.i
 
 os/strerror_tests.s: os/strerror_tests.cpp.s
@@ -968,7 +968,7 @@ os/strerror_tests.s: os/strerror_tests.cpp.s
 
 # target to generate assembly for a file
 os/strerror_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/strerror_tests.cpp.s
 .PHONY : os/strerror_tests.cpp.s
 
 os/systems_tests.o: os/systems_tests.cpp.o
@@ -977,7 +977,7 @@ os/systems_tests.o: os/systems_tests.cpp.o
 
 # target to build an object file
 os/systems_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.o
 .PHONY : os/systems_tests.cpp.o
 
 os/systems_tests.i: os/systems_tests.cpp.i
@@ -986,7 +986,7 @@ os/systems_tests.i: os/systems_tests.cpp.i
 
 # target to preprocess a source file
 os/systems_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.i
 .PHONY : os/systems_tests.cpp.i
 
 os/systems_tests.s: os/systems_tests.cpp.s
@@ -995,7 +995,7 @@ os/systems_tests.s: os/systems_tests.cpp.s
 
 # target to generate assembly for a file
 os/systems_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os/systems_tests.cpp.s
 .PHONY : os/systems_tests.cpp.s
 
 os_tests.o: os_tests.cpp.o
@@ -1004,7 +1004,7 @@ os_tests.o: os_tests.cpp.o
 
 # target to build an object file
 os_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.o
 .PHONY : os_tests.cpp.o
 
 os_tests.i: os_tests.cpp.i
@@ -1013,7 +1013,7 @@ os_tests.i: os_tests.cpp.i
 
 # target to preprocess a source file
 os_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.i
 .PHONY : os_tests.cpp.i
 
 os_tests.s: os_tests.cpp.s
@@ -1022,7 +1022,7 @@ os_tests.s: os_tests.cpp.s
 
 # target to generate assembly for a file
 os_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/os_tests.cpp.s
 .PHONY : os_tests.cpp.s
 
 path_tests.o: path_tests.cpp.o
@@ -1031,7 +1031,7 @@ path_tests.o: path_tests.cpp.o
 
 # target to build an object file
 path_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.o
 .PHONY : path_tests.cpp.o
 
 path_tests.i: path_tests.cpp.i
@@ -1040,7 +1040,7 @@ path_tests.i: path_tests.cpp.i
 
 # target to preprocess a source file
 path_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.i
 .PHONY : path_tests.cpp.i
 
 path_tests.s: path_tests.cpp.s
@@ -1049,7 +1049,7 @@ path_tests.s: path_tests.cpp.s
 
 # target to generate assembly for a file
 path_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/path_tests.cpp.s
 .PHONY : path_tests.cpp.s
 
 proc_tests.o: proc_tests.cpp.o
@@ -1058,7 +1058,7 @@ proc_tests.o: proc_tests.cpp.o
 
 # target to build an object file
 proc_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.o
 .PHONY : proc_tests.cpp.o
 
 proc_tests.i: proc_tests.cpp.i
@@ -1067,7 +1067,7 @@ proc_tests.i: proc_tests.cpp.i
 
 # target to preprocess a source file
 proc_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.i
 .PHONY : proc_tests.cpp.i
 
 proc_tests.s: proc_tests.cpp.s
@@ -1076,7 +1076,7 @@ proc_tests.s: proc_tests.cpp.s
 
 # target to generate assembly for a file
 proc_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/proc_tests.cpp.s
 .PHONY : proc_tests.cpp.s
 
 protobuf_tests.o: protobuf_tests.cpp.o
@@ -1085,7 +1085,7 @@ protobuf_tests.o: protobuf_tests.cpp.o
 
 # target to build an object file
 protobuf_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.o
 .PHONY : protobuf_tests.cpp.o
 
 protobuf_tests.i: protobuf_tests.cpp.i
@@ -1094,7 +1094,7 @@ protobuf_tests.i: protobuf_tests.cpp.i
 
 # target to preprocess a source file
 protobuf_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.i
 .PHONY : protobuf_tests.cpp.i
 
 protobuf_tests.s: protobuf_tests.cpp.s
@@ -1103,7 +1103,7 @@ protobuf_tests.s: protobuf_tests.cpp.s
 
 # target to generate assembly for a file
 protobuf_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.cpp.s
 .PHONY : protobuf_tests.cpp.s
 
 protobuf_tests.pb.o: protobuf_tests.pb.cc.o
@@ -1112,7 +1112,7 @@ protobuf_tests.pb.o: protobuf_tests.pb.cc.o
 
 # target to build an object file
 protobuf_tests.pb.cc.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.o
 .PHONY : protobuf_tests.pb.cc.o
 
 protobuf_tests.pb.i: protobuf_tests.pb.cc.i
@@ -1121,7 +1121,7 @@ protobuf_tests.pb.i: protobuf_tests.pb.cc.i
 
 # target to preprocess a source file
 protobuf_tests.pb.cc.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.i
 .PHONY : protobuf_tests.pb.cc.i
 
 protobuf_tests.pb.s: protobuf_tests.pb.cc.s
@@ -1130,7 +1130,7 @@ protobuf_tests.pb.s: protobuf_tests.pb.cc.s
 
 # target to generate assembly for a file
 protobuf_tests.pb.cc.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/protobuf_tests.pb.cc.s
 .PHONY : protobuf_tests.pb.cc.s
 
 recordio_tests.o: recordio_tests.cpp.o
@@ -1139,7 +1139,7 @@ recordio_tests.o: recordio_tests.cpp.o
 
 # target to build an object file
 recordio_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.o
 .PHONY : recordio_tests.cpp.o
 
 recordio_tests.i: recordio_tests.cpp.i
@@ -1148,7 +1148,7 @@ recordio_tests.i: recordio_tests.cpp.i
 
 # target to preprocess a source file
 recordio_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.i
 .PHONY : recordio_tests.cpp.i
 
 recordio_tests.s: recordio_tests.cpp.s
@@ -1157,7 +1157,7 @@ recordio_tests.s: recordio_tests.cpp.s
 
 # target to generate assembly for a file
 recordio_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/recordio_tests.cpp.s
 .PHONY : recordio_tests.cpp.s
 
 result_tests.o: result_tests.cpp.o
@@ -1166,7 +1166,7 @@ result_tests.o: result_tests.cpp.o
 
 # target to build an object file
 result_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.o
 .PHONY : result_tests.cpp.o
 
 result_tests.i: result_tests.cpp.i
@@ -1175,7 +1175,7 @@ result_tests.i: result_tests.cpp.i
 
 # target to preprocess a source file
 result_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.i
 .PHONY : result_tests.cpp.i
 
 result_tests.s: result_tests.cpp.s
@@ -1184,7 +1184,7 @@ result_tests.s: result_tests.cpp.s
 
 # target to generate assembly for a file
 result_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/result_tests.cpp.s
 .PHONY : result_tests.cpp.s
 
 some_tests.o: some_tests.cpp.o
@@ -1193,7 +1193,7 @@ some_tests.o: some_tests.cpp.o
 
 # target to build an object file
 some_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.o
 .PHONY : some_tests.cpp.o
 
 some_tests.i: some_tests.cpp.i
@@ -1202,7 +1202,7 @@ some_tests.i: some_tests.cpp.i
 
 # target to preprocess a source file
 some_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.i
 .PHONY : some_tests.cpp.i
 
 some_tests.s: some_tests.cpp.s
@@ -1211,7 +1211,7 @@ some_tests.s: some_tests.cpp.s
 
 # target to generate assembly for a file
 some_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/some_tests.cpp.s
 .PHONY : some_tests.cpp.s
 
 strings_tests.o: strings_tests.cpp.o
@@ -1220,7 +1220,7 @@ strings_tests.o: strings_tests.cpp.o
 
 # target to build an object file
 strings_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.o
 .PHONY : strings_tests.cpp.o
 
 strings_tests.i: strings_tests.cpp.i
@@ -1229,7 +1229,7 @@ strings_tests.i: strings_tests.cpp.i
 
 # target to preprocess a source file
 strings_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.i
 .PHONY : strings_tests.cpp.i
 
 strings_tests.s: strings_tests.cpp.s
@@ -1238,7 +1238,7 @@ strings_tests.s: strings_tests.cpp.s
 
 # target to generate assembly for a file
 strings_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/strings_tests.cpp.s
 .PHONY : strings_tests.cpp.s
 
 subcommand_tests.o: subcommand_tests.cpp.o
@@ -1247,7 +1247,7 @@ subcommand_tests.o: subcommand_tests.cpp.o
 
 # target to build an object file
 subcommand_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.o
 .PHONY : subcommand_tests.cpp.o
 
 subcommand_tests.i: subcommand_tests.cpp.i
@@ -1256,7 +1256,7 @@ subcommand_tests.i: subcommand_tests.cpp.i
 
 # target to preprocess a source file
 subcommand_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.i
 .PHONY : subcommand_tests.cpp.i
 
 subcommand_tests.s: subcommand_tests.cpp.s
@@ -1265,7 +1265,7 @@ subcommand_tests.s: subcommand_tests.cpp.s
 
 # target to generate assembly for a file
 subcommand_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/subcommand_tests.cpp.s
 .PHONY : subcommand_tests.cpp.s
 
 svn_tests.o: svn_tests.cpp.o
@@ -1274,7 +1274,7 @@ svn_tests.o: svn_tests.cpp.o
 
 # target to build an object file
 svn_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.o
 .PHONY : svn_tests.cpp.o
 
 svn_tests.i: svn_tests.cpp.i
@@ -1283,7 +1283,7 @@ svn_tests.i: svn_tests.cpp.i
 
 # target to preprocess a source file
 svn_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.i
 .PHONY : svn_tests.cpp.i
 
 svn_tests.s: svn_tests.cpp.s
@@ -1292,7 +1292,7 @@ svn_tests.s: svn_tests.cpp.s
 
 # target to generate assembly for a file
 svn_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/svn_tests.cpp.s
 .PHONY : svn_tests.cpp.s
 
 try_tests.o: try_tests.cpp.o
@@ -1301,7 +1301,7 @@ try_tests.o: try_tests.cpp.o
 
 # target to build an object file
 try_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.o
 .PHONY : try_tests.cpp.o
 
 try_tests.i: try_tests.cpp.i
@@ -1310,7 +1310,7 @@ try_tests.i: try_tests.cpp.i
 
 # target to preprocess a source file
 try_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.i
 .PHONY : try_tests.cpp.i
 
 try_tests.s: try_tests.cpp.s
@@ -1319,7 +1319,7 @@ try_tests.s: try_tests.cpp.s
 
 # target to generate assembly for a file
 try_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/try_tests.cpp.s
 .PHONY : try_tests.cpp.s
 
 uuid_tests.o: uuid_tests.cpp.o
@@ -1328,7 +1328,7 @@ uuid_tests.o: uuid_tests.cpp.o
 
 # target to build an object file
 uuid_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.o
 .PHONY : uuid_tests.cpp.o
 
 uuid_tests.i: uuid_tests.cpp.i
@@ -1337,7 +1337,7 @@ uuid_tests.i: uuid_tests.cpp.i
 
 # target to preprocess a source file
 uuid_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.i
 .PHONY : uuid_tests.cpp.i
 
 uuid_tests.s: uuid_tests.cpp.s
@@ -1346,7 +1346,7 @@ uuid_tests.s: uuid_tests.cpp.s
 
 # target to generate assembly for a file
 uuid_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/uuid_tests.cpp.s
 .PHONY : uuid_tests.cpp.s
 
 variant_tests.o: variant_tests.cpp.o
@@ -1355,7 +1355,7 @@ variant_tests.o: variant_tests.cpp.o
 
 # target to build an object file
 variant_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.o
 .PHONY : variant_tests.cpp.o
 
 variant_tests.i: variant_tests.cpp.i
@@ -1364,7 +1364,7 @@ variant_tests.i: variant_tests.cpp.i
 
 # target to preprocess a source file
 variant_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.i
 .PHONY : variant_tests.cpp.i
 
 variant_tests.s: variant_tests.cpp.s
@@ -1373,7 +1373,7 @@ variant_tests.s: variant_tests.cpp.s
 
 # target to generate assembly for a file
 variant_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/variant_tests.cpp.s
 .PHONY : variant_tests.cpp.s
 
 version_tests.o: version_tests.cpp.o
@@ -1382,7 +1382,7 @@ version_tests.o: version_tests.cpp.o
 
 # target to build an object file
 version_tests.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.o
 .PHONY : version_tests.cpp.o
 
 version_tests.i: version_tests.cpp.i
@@ -1391,7 +1391,7 @@ version_tests.i: version_tests.cpp.i
 
 # target to preprocess a source file
 version_tests.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.i
 .PHONY : version_tests.cpp.i
 
 version_tests.s: version_tests.cpp.s
@@ -1400,7 +1400,7 @@ version_tests.s: version_tests.cpp.s
 
 # target to generate assembly for a file
 version_tests.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/version_tests.cpp.s
 .PHONY : version_tests.cpp.s
 
 # Help Target
@@ -1564,6 +1564,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

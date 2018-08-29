@@ -17,8 +17,8 @@
 #ifndef __COMMON_BUILD_CONFIG_HPP__
 #define __COMMON_BUILD_CONFIG_HPP__
 
-#define BUILD_DATE "2018-04-23 01:12:49 UTC"
-#define BUILD_TIME "1524445969"
+#define BUILD_DATE "2018-08-28 08:45:44 UTC"
+#define BUILD_TIME "1535445944"
 #define BUILD_USER "lilelr"
 
 // TODO(andschwa): Define GIT_SHA etc. for parity with autotools.

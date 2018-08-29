@@ -147,14 +147,14 @@ if (NOT WIN32)
     -DCMAKE_C_FLAGS=-fPIC
     )
 endif (NOT WIN32)
-
-
+#set(abc "we")
+#message(${abc})
 # Third-party libraries. Tell the build system how to pull in and build third-
 # party libraries at compile time, using the ExternalProject_Add macro.
 ##############################################################################
 ExternalProject_Add(
   ${BOOST_TARGET}
-  PREFIX            ${BOOST_CMAKE_ROOT}
+#  PREFIX            ${BOOST_CMAKE_ROOT}
   CONFIGURE_COMMAND ${CMAKE_NOOP}
   BUILD_COMMAND     ${CMAKE_NOOP}
   INSTALL_COMMAND   ${CMAKE_NOOP}
@@ -280,7 +280,7 @@ list(
   ${CMAKE_SOURCE_DIR}/3rdparty/stout/cmake
   )
 include(StoutConfigure)
-include(StoutTestsConfigure)
+#include(StoutTestsConfigure)
 
 set(GMOCK_URL    ${FETCH_URL}/gmock-${GMOCK_VERSION}.tar.gz)
 # NOTE: The Windows version of protobuf is patched and only available in the
@@ -316,33 +316,33 @@ endif (NOT WIN32)
 # non-Windows platforms, we choose to set `GMOCK_CONFIG_CMD` and
 # `GMOCK_BUILD_CMD` with stub commands, which cause CMake to "fall back" to
 # trying to build them with CMake.
-ExternalProject_Add(
-  ${GMOCK_TARGET}
-  PREFIX            ${GMOCK_CMAKE_ROOT}
-  CMAKE_ARGS        -DBUILD_SHARED_LIBS=FALSE
-  CONFIGURE_COMMAND ${GMOCK_CONFIG_CMD}
-  BUILD_COMMAND     ${GMOCK_BUILD_CMD}
-  INSTALL_COMMAND   ${GMOCK_INSTALL_CMD}
-  URL               ${GMOCK_URL}
-  )
+#ExternalProject_Add(
+#  ${GMOCK_TARGET}
+#  PREFIX            ${GMOCK_CMAKE_ROOT}
+#  CMAKE_ARGS        -DBUILD_SHARED_LIBS=FALSE
+#  CONFIGURE_COMMAND ${GMOCK_CONFIG_CMD}
+#  BUILD_COMMAND     ${GMOCK_BUILD_CMD}
+#  INSTALL_COMMAND   ${GMOCK_INSTALL_CMD}
+#  URL               ${GMOCK_URL}
+#  )
 
-ExternalProject_Add(
-  ${PROTOBUF_TARGET}
-  PREFIX            ${PROTOBUF_CMAKE_ROOT}
-  CMAKE_ARGS        -DBUILD_SHARED_LIBS=${BUILD_SHARED_LIBS} -DCMAKE_CXX_FLAGS_DEBUG="/MTd"
-  PATCH_COMMAND     ${PROTOBUF_PATCH_CMD}
-  CONFIGURE_COMMAND ${PROTOBUF_CONFIG_CMD}
-  BUILD_COMMAND     ${PROTOBUF_BUILD_CMD}
-  INSTALL_COMMAND   ${PROTOBUF_INSTALL_CMD}
-  URL               ${PROTOBUF_URL}
-  )
-
+#ExternalProject_Add(
+#  ${PROTOBUF_TARGET}
+#  PREFIX            ${PROTOBUF_CMAKE_ROOT}
+#  CMAKE_ARGS        -DBUILD_SHARED_LIBS=${BUILD_SHARED_LIBS} -DCMAKE_CXX_FLAGS_DEBUG="/MTd"
+#  PATCH_COMMAND     ${PROTOBUF_PATCH_CMD}
+#  CONFIGURE_COMMAND ${PROTOBUF_CONFIG_CMD}
+#  BUILD_COMMAND     ${PROTOBUF_BUILD_CMD}
+#  INSTALL_COMMAND   ${PROTOBUF_INSTALL_CMD}
+#  URL               ${PROTOBUF_URL}
+#  )
+#
 
 # BUILDING THE STOUT TESTS.
 #
 # Builds, configures, and compiles the Stout tests.
 ###################################################
-add_subdirectory(stout/tests)
+#add_subdirectory(stout/tests)
 
 
 # BUILDING THE PROCESS LIBRARY AND ITS TESTS.
@@ -409,13 +409,13 @@ if (NOT WIN32)
     ${MESOS_3RDPARTY_SRC}/leveldb-${LEVELDB_VERSION}.patch
     LEVELDB_PATCH_CMD)
 
-  ExternalProject_Add(
-    ${LEVELDB_TARGET}
-    PREFIX            ${LEVELDB_TARGET}
-    PATCH_COMMAND     ${LEVELDB_PATCH_CMD}
-    CONFIGURE_COMMAND ${CMAKE_NOOP}
-    BUILD_COMMAND     ${LEVELDB_BUILD_CMD}
-    INSTALL_COMMAND   ${CMAKE_NOOP}
-    URL               ${LEVELDB_URL}
-    )
+#  ExternalProject_Add(
+#    ${LEVELDB_TARGET}
+#    PREFIX            ${LEVELDB_TARGET}
+#    PATCH_COMMAND     ${LEVELDB_PATCH_CMD}
+#    CONFIGURE_COMMAND ${CMAKE_NOOP}
+#    BUILD_COMMAND     ${LEVELDB_BUILD_CMD}
+#    INSTALL_COMMAND   ${CMAKE_NOOP}
+#    URL               ${LEVELDB_URL}
+#    )
 endif (NOT WIN32)

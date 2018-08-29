@@ -16,6 +16,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-: ${MESOS_WEBUI_DIR:="/home/lilelr/open-source/mesos-1.3.2/src/webui"}
+: ${MESOS_WEBUI_DIR:="/home/lilelr/open-source/bak_mesos-1.3.2/src/webui"}
 
 export MESOS_WEBUI_DIR

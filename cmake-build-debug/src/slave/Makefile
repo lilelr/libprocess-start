@@ -51,10 +51,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,7 +84,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -106,7 +106,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackConfig.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -116,14 +116,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/CMakeFiles/progress.marks
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles 0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/CMakeFiles/progress.marks
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/clean
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,22 +133,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/preinstall
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/preinstall
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/slave/CMakeFiles/mesos-agent.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/CMakeFiles/mesos-agent.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/CMakeFiles/mesos-agent.dir/rule
 .PHONY : src/slave/CMakeFiles/mesos-agent.dir/rule
 
 # Convenience name for target.
@@ -158,7 +158,7 @@ mesos-agent: src/slave/CMakeFiles/mesos-agent.dir/rule
 
 # fast build rule for target.
 mesos-agent/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/CMakeFiles/mesos-agent.dir/build.make src/slave/CMakeFiles/mesos-agent.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/CMakeFiles/mesos-agent.dir/build.make src/slave/CMakeFiles/mesos-agent.dir/build
 .PHONY : mesos-agent/fast
 
 main.o: main.cpp.o
@@ -167,7 +167,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/CMakeFiles/mesos-agent.dir/build.make src/slave/CMakeFiles/mesos-agent.dir/main.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/CMakeFiles/mesos-agent.dir/build.make src/slave/CMakeFiles/mesos-agent.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -176,7 +176,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/CMakeFiles/mesos-agent.dir/build.make src/slave/CMakeFiles/mesos-agent.dir/main.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/CMakeFiles/mesos-agent.dir/build.make src/slave/CMakeFiles/mesos-agent.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -185,7 +185,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/CMakeFiles/mesos-agent.dir/build.make src/slave/CMakeFiles/mesos-agent.dir/main.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/CMakeFiles/mesos-agent.dir/build.make src/slave/CMakeFiles/mesos-agent.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -214,6 +214,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

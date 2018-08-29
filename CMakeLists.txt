@@ -43,22 +43,31 @@ list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/3rdparty/stout/cmake)
 list(
   APPEND
   CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake/macros)
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/src/cmake)
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/src/examples/cmake)
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/src/master/cmake)
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/src/slave/cmake)
-list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/src/tests/cmake)
+
+
+include(CheckCXXCompilerFlag)
+CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
+if(COMPILER_SUPPORTS_CXX11)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+elseif(COMPILER_SUPPORTS_CXX0X)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+else()
+  message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
+endif()
 
 # Macros.
 #include(Common)
-#include(External)
+include(External)
 include(PatchCommand)
-#include(Versions)
-#include(VsBuildCommand)
-#include(cotire)
+include(Versions)
+include(VsBuildCommand)
+include(cotire)
 
 # Configuration.
-#include(MesosConfigure)
+include(MesosConfigure)
+include(CompilationConfigure)
+include(ProcessConfigure)
 
 
 # SUBDIRECTORIES.
@@ -70,71 +79,15 @@ add_subdirectory(my_hello)
 
 # TESTS.
 ########
-add_custom_target(
-  check ${STOUT_TESTS_TARGET}
-  COMMAND ${PROCESS_TESTS_TARGET}
-  COMMAND ${MESOS_TESTS_TARGET}
-  DEPENDS ${STOUT_TESTS_TARGET} ${PROCESS_TESTS_TARGET} ${MESOS_TESTS_TARGET}
-  )
-
-add_custom_target(
-  tests
-  DEPENDS ${STOUT_TESTS_TARGET} ${PROCESS_TESTS_TARGET} ${MESOS_TESTS_TARGET}
-  )
-
-# PACKAGING.
-############
-# List of sources we will ignore when generating a source package.
-# We assume there are no artifacts from an autotools build.
+#add_custom_target(
+#  check ${STOUT_TESTS_TARGET}
+#  COMMAND ${PROCESS_TESTS_TARGET}
+#  COMMAND ${MESOS_TESTS_TARGET}
+#  DEPENDS ${STOUT_TESTS_TARGET} ${PROCESS_TESTS_TARGET} ${MESOS_TESTS_TARGET}
+#  )
 #
-# NOTE: An in-source build is not supported. The build directory
-# must be different than the source directory.
-set(CPACK_SOURCE_IGNORE_FILES
-  .clang-format;
-  .gitignore;
-  .reviewboardrc;
-  bootstrap.bat;
-  bootstrap;
-  configure.ac;
-  Doxyfile;
-  mesos.pc.in;
-  /.git/;
-  /docs/;
-  /m4/;
-  /mpi/;
-  /site/;
-  /support/;
-  ${CMAKE_BINARY_DIR};
-  )
+#add_custom_target(
+#  tests
+#  DEPENDS ${STOUT_TESTS_TARGET} ${PROCESS_TESTS_TARGET} ${MESOS_TESTS_TARGET}
+#  )
 
-# Convert the ignore list to a string (as required by CPack).
-set(CPACK_SOURCE_IGNORE_FILES "${CPACK_SOURCE_IGNORE_FILES}")
-
-# Set the basename of any packages to 'mesos-<version>'.
-set(CPACK_PACKAGE_FILE_NAME "mesos-${MESOS_PACKAGE_VERSION}")
-set(CPACK_SOURCE_PACKAGE_FILE_NAME ${CPACK_PACKAGE_FILE_NAME})
-
-# By default, all forms of binary packages are disabled.
-option(CPACK_BINARY_BUNDLE       "Enable to build OSX bundles"              OFF)
-option(CPACK_BINARY_DEB          "Enable to build Debian packages"          OFF)
-option(CPACK_BINARY_DRAGNDROP    "Enable to build OSX Drag'n'Drop packages" OFF)
-option(CPACK_BINARY_IFW          "Enable to build IFW packages"             OFF)
-option(CPACK_BINARY_NSIS         "Enable to build NSIS packages"            OFF)
-option(CPACK_BINARY_OSXX11       "Enable to build OSX X11 packages"         OFF)
-option(CPACK_BINARY_PACKAGEMAKER "Enable to build PackageMaker packages"    OFF)
-option(CPACK_BINARY_RPM          "Enable to build RPM packages"             OFF)
-option(CPACK_BINARY_STGZ         "Enable to build STGZ packages"            OFF)
-option(CPACK_BINARY_TBZ2         "Enable to build TBZ2 packages"            OFF)
-option(CPACK_BINARY_TGZ          "Enable to build TGZ packages"             OFF)
-option(CPACK_BINARY_TXZ          "Enable to build TXZ packages"             OFF)
-
-# Output a gzip'd tarball for the `package_source` target.
-set(CPACK_SOURCE_TGZ ON)
-
-# By default, other forms of source packages are disabled.
-option(CPACK_SOURCE_TBZ2 "Enable to build TBZ2 source packages" OFF)
-option(CPACK_SOURCE_TXZ  "Enable to build TXZ source packages"  OFF)
-option(CPACK_SOURCE_TZ   "Enable to build TZ source packages"   OFF)
-option(CPACK_SOURCE_ZIP  "Enable to build ZIP source packages"  OFF)
-
-include(CPack)

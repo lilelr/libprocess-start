@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lilelr/open-source/mesos-1.3.2/src/tests/active_user_test_helper.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/active_user_test_helper.cpp.o"
-  "/home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/capabilities_test_helper.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/containerizer/capabilities_test_helper.cpp.o"
-  "/home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/memory_test_helper.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/containerizer/memory_test_helper.cpp.o"
-  "/home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/setns_test_helper.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/containerizer/setns_test_helper.cpp.o"
-  "/home/lilelr/open-source/mesos-1.3.2/src/tests/flags.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/flags.cpp.o"
-  "/home/lilelr/open-source/mesos-1.3.2/src/tests/http_server_test_helper.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/http_server_test_helper.cpp.o"
-  "/home/lilelr/open-source/mesos-1.3.2/src/tests/kill_policy_test_helper.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/kill_policy_test_helper.cpp.o"
-  "/home/lilelr/open-source/mesos-1.3.2/src/tests/resources_utils.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/resources_utils.cpp.o"
-  "/home/lilelr/open-source/mesos-1.3.2/src/tests/test_helper_main.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/test_helper_main.cpp.o"
-  "/home/lilelr/open-source/mesos-1.3.2/src/tests/utils.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/utils.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/tests/active_user_test_helper.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/active_user_test_helper.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/capabilities_test_helper.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/containerizer/capabilities_test_helper.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/memory_test_helper.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/containerizer/memory_test_helper.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/setns_test_helper.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/containerizer/setns_test_helper.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/tests/flags.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/flags.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/tests/http_server_test_helper.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/http_server_test_helper.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/tests/kill_policy_test_helper.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/kill_policy_test_helper.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/tests/resources_utils.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/resources_utils.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/tests/test_helper_main.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/test_helper_main.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/tests/utils.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/test-helper.dir/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "BUILD_DIR=\"/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug\""
+  "BUILD_DIR=\"/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug\""
   "BUILD_FLAGS=\"\""
   "BUILD_JAVA_JVM_LIBRARY=\"\""
   "HAS_AUTHENTICATION=1"
@@ -29,7 +29,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
   "PKGLIBEXECDIR=\"/usr/local/libexec/mesos\""
   "PKGMODULEDIR=\"\""
   "SBINDIR=\"\""
-  "SOURCE_DIR=\"/home/lilelr/open-source/mesos-1.3.2\""
+  "SOURCE_DIR=\"/home/lilelr/open-source/bak_mesos-1.3.2\""
   "TESTLIBEXECDIR=\"\""
   "USE_CMAKE_BUILD_CONFIG"
   "USE_STATIC_LIB"
@@ -65,12 +65,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/DependInfo.cmake"
-  "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/resource_estimators/CMakeFiles/fixed_resource_estimator.dir/DependInfo.cmake"
-  "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/container_loggers/CMakeFiles/logrotate_container_logger.dir/DependInfo.cmake"
-  "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/CMakeFiles/mesos-1.3.2.dir/DependInfo.cmake"
-  "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
-  "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/CMakeFiles/mesos-protobufs.dir/DependInfo.cmake"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/DependInfo.cmake"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/resource_estimators/CMakeFiles/fixed_resource_estimator.dir/DependInfo.cmake"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/container_loggers/CMakeFiles/logrotate_container_logger.dir/DependInfo.cmake"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/CMakeFiles/mesos-1.3.2.dir/DependInfo.cmake"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/CMakeFiles/mesos-protobufs.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

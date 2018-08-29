@@ -4,43 +4,43 @@
 	[
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/glog-0.3.3"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/glog-0.3.3"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/glog-0.3.3.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/glog-0.3.3.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/glog-0.3.3-complete.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/glog-0.3.3-complete.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-install.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-install.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-mkdir.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-mkdir.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-download.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-download.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-update.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-update.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-patch.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-patch.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-configure.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-configure.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-build.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-stamp/glog-0.3.3-build.rule"
 		}
 	],
 	"target" : 

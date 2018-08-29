@@ -51,10 +51,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -106,7 +106,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
+	/home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -116,9 +116,9 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -145,32 +145,6 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named tests
-
-# Build rule for target.
-tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 tests
-.PHONY : tests
-
-# fast build rule for target.
-tests/fast:
-	$(MAKE) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-.PHONY : tests/fast
-
-#=============================================================================
-# Target rules for targets named check
-
-# Build rule for target.
-check: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 check
-.PHONY : check
-
-# fast build rule for target.
-check/fast:
-	$(MAKE) -f CMakeFiles/check.dir/build.make CMakeFiles/check.dir/build
-.PHONY : check/fast
 
 #=============================================================================
 # Target rules for targets named mesos-and-binaries
@@ -251,19 +225,6 @@ libev-4.22/fast:
 .PHONY : libev-4.22/fast
 
 #=============================================================================
-# Target rules for targets named protobuf-2.6.1
-
-# Build rule for target.
-protobuf-2.6.1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 protobuf-2.6.1
-.PHONY : protobuf-2.6.1
-
-# fast build rule for target.
-protobuf-2.6.1/fast:
-	$(MAKE) -f 3rdparty/CMakeFiles/protobuf-2.6.1.dir/build.make 3rdparty/CMakeFiles/protobuf-2.6.1.dir/build
-.PHONY : protobuf-2.6.1/fast
-
-#=============================================================================
 # Target rules for targets named picojson-1.3.0
 
 # Build rule for target.
@@ -303,32 +264,6 @@ http_parser-2.6.2/fast:
 .PHONY : http_parser-2.6.2/fast
 
 #=============================================================================
-# Target rules for targets named gmock-1.7.0
-
-# Build rule for target.
-gmock-1.7.0: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 gmock-1.7.0
-.PHONY : gmock-1.7.0
-
-# fast build rule for target.
-gmock-1.7.0/fast:
-	$(MAKE) -f 3rdparty/CMakeFiles/gmock-1.7.0.dir/build.make 3rdparty/CMakeFiles/gmock-1.7.0.dir/build
-.PHONY : gmock-1.7.0/fast
-
-#=============================================================================
-# Target rules for targets named leveldb-1.19
-
-# Build rule for target.
-leveldb-1.19: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 leveldb-1.19
-.PHONY : leveldb-1.19
-
-# fast build rule for target.
-leveldb-1.19/fast:
-	$(MAKE) -f 3rdparty/CMakeFiles/leveldb-1.19.dir/build.make 3rdparty/CMakeFiles/leveldb-1.19.dir/build
-.PHONY : leveldb-1.19/fast
-
-#=============================================================================
 # Target rules for targets named boost-1.53.0
 
 # Build rule for target.
@@ -353,19 +288,6 @@ zookeeper-3.4.8: cmake_check_build_system
 zookeeper-3.4.8/fast:
 	$(MAKE) -f 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build.make 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build
 .PHONY : zookeeper-3.4.8/fast
-
-#=============================================================================
-# Target rules for targets named stout-tests
-
-# Build rule for target.
-stout-tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 stout-tests
-.PHONY : stout-tests
-
-# fast build rule for target.
-stout-tests/fast:
-	$(MAKE) -f 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build.make 3rdparty/stout/tests/CMakeFiles/stout-tests.dir/build
-.PHONY : stout-tests/fast
 
 #=============================================================================
 # Target rules for targets named process-0.0.1
@@ -407,641 +329,82 @@ libprocess-tests/fast:
 .PHONY : libprocess-tests/fast
 
 #=============================================================================
-# Target rules for targets named mesos-1.3.2
+# Target rules for targets named test-slave
 
 # Build rule for target.
-mesos-1.3.2: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-1.3.2
-.PHONY : mesos-1.3.2
+test-slave: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test-slave
+.PHONY : test-slave
 
 # fast build rule for target.
-mesos-1.3.2/fast:
-	$(MAKE) -f src/CMakeFiles/mesos-1.3.2.dir/build.make src/CMakeFiles/mesos-1.3.2.dir/build
-.PHONY : mesos-1.3.2/fast
+test-slave/fast:
+	$(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/build
+.PHONY : test-slave/fast
 
 #=============================================================================
-# Target rules for targets named mesos-protobufs
+# Target rules for targets named test-master
 
 # Build rule for target.
-mesos-protobufs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-protobufs
-.PHONY : mesos-protobufs
+test-master: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test-master
+.PHONY : test-master
 
 # fast build rule for target.
-mesos-protobufs/fast:
-	$(MAKE) -f src/CMakeFiles/mesos-protobufs.dir/build.make src/CMakeFiles/mesos-protobufs.dir/build
-.PHONY : mesos-protobufs/fast
+test-master/fast:
+	$(MAKE) -f my_hello/CMakeFiles/test-master.dir/build.make my_hello/CMakeFiles/test-master.dir/build
+.PHONY : test-master/fast
 
 #=============================================================================
-# Target rules for targets named mesos-tcp-connect
+# Target rules for targets named client_protobuf
 
 # Build rule for target.
-mesos-tcp-connect: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-tcp-connect
-.PHONY : mesos-tcp-connect
+client_protobuf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client_protobuf
+.PHONY : client_protobuf
 
 # fast build rule for target.
-mesos-tcp-connect/fast:
-	$(MAKE) -f src/checks/CMakeFiles/mesos-tcp-connect.dir/build.make src/checks/CMakeFiles/mesos-tcp-connect.dir/build
-.PHONY : mesos-tcp-connect/fast
+client_protobuf/fast:
+	$(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/build
+.PHONY : client_protobuf/fast
 
 #=============================================================================
-# Target rules for targets named mesos-execute
+# Target rules for targets named client_server_message_event
 
 # Build rule for target.
-mesos-execute: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-execute
-.PHONY : mesos-execute
+client_server_message_event: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client_server_message_event
+.PHONY : client_server_message_event
 
 # fast build rule for target.
-mesos-execute/fast:
-	$(MAKE) -f src/cli/CMakeFiles/mesos-execute.dir/build.make src/cli/CMakeFiles/mesos-execute.dir/build
-.PHONY : mesos-execute/fast
+client_server_message_event/fast:
+	$(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/build
+.PHONY : client_server_message_event/fast
 
 #=============================================================================
-# Target rules for targets named mesos-docker-executor
+# Target rules for targets named lele_hello_main
 
 # Build rule for target.
-mesos-docker-executor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-docker-executor
-.PHONY : mesos-docker-executor
+lele_hello_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lele_hello_main
+.PHONY : lele_hello_main
 
 # fast build rule for target.
-mesos-docker-executor/fast:
-	$(MAKE) -f src/docker/CMakeFiles/mesos-docker-executor.dir/build.make src/docker/CMakeFiles/mesos-docker-executor.dir/build
-.PHONY : mesos-docker-executor/fast
+lele_hello_main/fast:
+	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/build
+.PHONY : lele_hello_main/fast
 
 #=============================================================================
-# Target rules for targets named test-http-executor
+# Target rules for targets named foo
 
 # Build rule for target.
-test-http-executor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-http-executor
-.PHONY : test-http-executor
+foo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 foo
+.PHONY : foo
 
 # fast build rule for target.
-test-http-executor/fast:
-	$(MAKE) -f src/examples/CMakeFiles/test-http-executor.dir/build.make src/examples/CMakeFiles/test-http-executor.dir/build
-.PHONY : test-http-executor/fast
-
-#=============================================================================
-# Target rules for targets named test-framework
-
-# Build rule for target.
-test-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-framework
-.PHONY : test-framework
-
-# fast build rule for target.
-test-framework/fast:
-	$(MAKE) -f src/examples/CMakeFiles/test-framework.dir/build.make src/examples/CMakeFiles/test-framework.dir/build
-.PHONY : test-framework/fast
-
-#=============================================================================
-# Target rules for targets named persistent-volume-framework
-
-# Build rule for target.
-persistent-volume-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 persistent-volume-framework
-.PHONY : persistent-volume-framework
-
-# fast build rule for target.
-persistent-volume-framework/fast:
-	$(MAKE) -f src/examples/CMakeFiles/persistent-volume-framework.dir/build.make src/examples/CMakeFiles/persistent-volume-framework.dir/build
-.PHONY : persistent-volume-framework/fast
-
-#=============================================================================
-# Target rules for targets named testisolator
-
-# Build rule for target.
-testisolator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testisolator
-.PHONY : testisolator
-
-# fast build rule for target.
-testisolator/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testisolator.dir/build.make src/examples/CMakeFiles/testisolator.dir/build
-.PHONY : testisolator/fast
-
-#=============================================================================
-# Target rules for targets named testcontainer_logger
-
-# Build rule for target.
-testcontainer_logger: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testcontainer_logger
-.PHONY : testcontainer_logger
-
-# fast build rule for target.
-testcontainer_logger/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testcontainer_logger.dir/build.make src/examples/CMakeFiles/testcontainer_logger.dir/build
-.PHONY : testcontainer_logger/fast
-
-#=============================================================================
-# Target rules for targets named testauthorizer
-
-# Build rule for target.
-testauthorizer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testauthorizer
-.PHONY : testauthorizer
-
-# fast build rule for target.
-testauthorizer/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testauthorizer.dir/build.make src/examples/CMakeFiles/testauthorizer.dir/build
-.PHONY : testauthorizer/fast
-
-#=============================================================================
-# Target rules for targets named testauthentication
-
-# Build rule for target.
-testauthentication: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testauthentication
-.PHONY : testauthentication
-
-# fast build rule for target.
-testauthentication/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testauthentication.dir/build.make src/examples/CMakeFiles/testauthentication.dir/build
-.PHONY : testauthentication/fast
-
-#=============================================================================
-# Target rules for targets named testanonymous
-
-# Build rule for target.
-testanonymous: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testanonymous
-.PHONY : testanonymous
-
-# fast build rule for target.
-testanonymous/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testanonymous.dir/build.make src/examples/CMakeFiles/testanonymous.dir/build
-.PHONY : testanonymous/fast
-
-#=============================================================================
-# Target rules for targets named testallocator
-
-# Build rule for target.
-testallocator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testallocator
-.PHONY : testallocator
-
-# fast build rule for target.
-testallocator/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testallocator.dir/build.make src/examples/CMakeFiles/testallocator.dir/build
-.PHONY : testallocator/fast
-
-#=============================================================================
-# Target rules for targets named test-executor
-
-# Build rule for target.
-test-executor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-executor
-.PHONY : test-executor
-
-# fast build rule for target.
-test-executor/fast:
-	$(MAKE) -f src/examples/CMakeFiles/test-executor.dir/build.make src/examples/CMakeFiles/test-executor.dir/build
-.PHONY : test-executor/fast
-
-#=============================================================================
-# Target rules for targets named testmastercontender
-
-# Build rule for target.
-testmastercontender: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testmastercontender
-.PHONY : testmastercontender
-
-# fast build rule for target.
-testmastercontender/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testmastercontender.dir/build.make src/examples/CMakeFiles/testmastercontender.dir/build
-.PHONY : testmastercontender/fast
-
-#=============================================================================
-# Target rules for targets named testmasterdetector
-
-# Build rule for target.
-testmasterdetector: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testmasterdetector
-.PHONY : testmasterdetector
-
-# fast build rule for target.
-testmasterdetector/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testmasterdetector.dir/build.make src/examples/CMakeFiles/testmasterdetector.dir/build
-.PHONY : testmasterdetector/fast
-
-#=============================================================================
-# Target rules for targets named testhook
-
-# Build rule for target.
-testhook: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testhook
-.PHONY : testhook
-
-# fast build rule for target.
-testhook/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testhook.dir/build.make src/examples/CMakeFiles/testhook.dir/build
-.PHONY : testhook/fast
-
-#=============================================================================
-# Target rules for targets named balloon-framework
-
-# Build rule for target.
-balloon-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 balloon-framework
-.PHONY : balloon-framework
-
-# fast build rule for target.
-balloon-framework/fast:
-	$(MAKE) -f src/examples/CMakeFiles/balloon-framework.dir/build.make src/examples/CMakeFiles/balloon-framework.dir/build
-.PHONY : balloon-framework/fast
-
-#=============================================================================
-# Target rules for targets named no-executor-framework
-
-# Build rule for target.
-no-executor-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 no-executor-framework
-.PHONY : no-executor-framework
-
-# fast build rule for target.
-no-executor-framework/fast:
-	$(MAKE) -f src/examples/CMakeFiles/no-executor-framework.dir/build.make src/examples/CMakeFiles/no-executor-framework.dir/build
-.PHONY : no-executor-framework/fast
-
-#=============================================================================
-# Target rules for targets named testqos_controller
-
-# Build rule for target.
-testqos_controller: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testqos_controller
-.PHONY : testqos_controller
-
-# fast build rule for target.
-testqos_controller/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testqos_controller.dir/build.make src/examples/CMakeFiles/testqos_controller.dir/build
-.PHONY : testqos_controller/fast
-
-#=============================================================================
-# Target rules for targets named load-generator-framework
-
-# Build rule for target.
-load-generator-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 load-generator-framework
-.PHONY : load-generator-framework
-
-# fast build rule for target.
-load-generator-framework/fast:
-	$(MAKE) -f src/examples/CMakeFiles/load-generator-framework.dir/build.make src/examples/CMakeFiles/load-generator-framework.dir/build
-.PHONY : load-generator-framework/fast
-
-#=============================================================================
-# Target rules for targets named long-lived-executor
-
-# Build rule for target.
-long-lived-executor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 long-lived-executor
-.PHONY : long-lived-executor
-
-# fast build rule for target.
-long-lived-executor/fast:
-	$(MAKE) -f src/examples/CMakeFiles/long-lived-executor.dir/build.make src/examples/CMakeFiles/long-lived-executor.dir/build
-.PHONY : long-lived-executor/fast
-
-#=============================================================================
-# Target rules for targets named testhttpauthenticator
-
-# Build rule for target.
-testhttpauthenticator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testhttpauthenticator
-.PHONY : testhttpauthenticator
-
-# fast build rule for target.
-testhttpauthenticator/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testhttpauthenticator.dir/build.make src/examples/CMakeFiles/testhttpauthenticator.dir/build
-.PHONY : testhttpauthenticator/fast
-
-#=============================================================================
-# Target rules for targets named balloon-executor
-
-# Build rule for target.
-balloon-executor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 balloon-executor
-.PHONY : balloon-executor
-
-# fast build rule for target.
-balloon-executor/fast:
-	$(MAKE) -f src/examples/CMakeFiles/balloon-executor.dir/build.make src/examples/CMakeFiles/balloon-executor.dir/build
-.PHONY : balloon-executor/fast
-
-#=============================================================================
-# Target rules for targets named test-http-framework
-
-# Build rule for target.
-test-http-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-http-framework
-.PHONY : test-http-framework
-
-# fast build rule for target.
-test-http-framework/fast:
-	$(MAKE) -f src/examples/CMakeFiles/test-http-framework.dir/build.make src/examples/CMakeFiles/test-http-framework.dir/build
-.PHONY : test-http-framework/fast
-
-#=============================================================================
-# Target rules for targets named disk-full-framework
-
-# Build rule for target.
-disk-full-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 disk-full-framework
-.PHONY : disk-full-framework
-
-# fast build rule for target.
-disk-full-framework/fast:
-	$(MAKE) -f src/examples/CMakeFiles/disk-full-framework.dir/build.make src/examples/CMakeFiles/disk-full-framework.dir/build
-.PHONY : disk-full-framework/fast
-
-#=============================================================================
-# Target rules for targets named docker-no-executor-framework
-
-# Build rule for target.
-docker-no-executor-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 docker-no-executor-framework
-.PHONY : docker-no-executor-framework
-
-# fast build rule for target.
-docker-no-executor-framework/fast:
-	$(MAKE) -f src/examples/CMakeFiles/docker-no-executor-framework.dir/build.make src/examples/CMakeFiles/docker-no-executor-framework.dir/build
-.PHONY : docker-no-executor-framework/fast
-
-#=============================================================================
-# Target rules for targets named dynamic-reservation-framework
-
-# Build rule for target.
-dynamic-reservation-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 dynamic-reservation-framework
-.PHONY : dynamic-reservation-framework
-
-# fast build rule for target.
-dynamic-reservation-framework/fast:
-	$(MAKE) -f src/examples/CMakeFiles/dynamic-reservation-framework.dir/build.make src/examples/CMakeFiles/dynamic-reservation-framework.dir/build
-.PHONY : dynamic-reservation-framework/fast
-
-#=============================================================================
-# Target rules for targets named examplemodule
-
-# Build rule for target.
-examplemodule: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 examplemodule
-.PHONY : examplemodule
-
-# fast build rule for target.
-examplemodule/fast:
-	$(MAKE) -f src/examples/CMakeFiles/examplemodule.dir/build.make src/examples/CMakeFiles/examplemodule.dir/build
-.PHONY : examplemodule/fast
-
-#=============================================================================
-# Target rules for targets named testresource_estimator
-
-# Build rule for target.
-testresource_estimator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 testresource_estimator
-.PHONY : testresource_estimator
-
-# fast build rule for target.
-testresource_estimator/fast:
-	$(MAKE) -f src/examples/CMakeFiles/testresource_estimator.dir/build.make src/examples/CMakeFiles/testresource_estimator.dir/build
-.PHONY : testresource_estimator/fast
-
-#=============================================================================
-# Target rules for targets named long-lived-framework
-
-# Build rule for target.
-long-lived-framework: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 long-lived-framework
-.PHONY : long-lived-framework
-
-# fast build rule for target.
-long-lived-framework/fast:
-	$(MAKE) -f src/examples/CMakeFiles/long-lived-framework.dir/build.make src/examples/CMakeFiles/long-lived-framework.dir/build
-.PHONY : long-lived-framework/fast
-
-#=============================================================================
-# Target rules for targets named mesos-fetcher
-
-# Build rule for target.
-mesos-fetcher: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-fetcher
-.PHONY : mesos-fetcher
-
-# fast build rule for target.
-mesos-fetcher/fast:
-	$(MAKE) -f src/launcher/CMakeFiles/mesos-fetcher.dir/build.make src/launcher/CMakeFiles/mesos-fetcher.dir/build
-.PHONY : mesos-fetcher/fast
-
-#=============================================================================
-# Target rules for targets named mesos-executor
-
-# Build rule for target.
-mesos-executor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-executor
-.PHONY : mesos-executor
-
-# fast build rule for target.
-mesos-executor/fast:
-	$(MAKE) -f src/launcher/CMakeFiles/mesos-executor.dir/build.make src/launcher/CMakeFiles/mesos-executor.dir/build
-.PHONY : mesos-executor/fast
-
-#=============================================================================
-# Target rules for targets named mesos-default-executor
-
-# Build rule for target.
-mesos-default-executor: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-default-executor
-.PHONY : mesos-default-executor
-
-# fast build rule for target.
-mesos-default-executor/fast:
-	$(MAKE) -f src/launcher/CMakeFiles/mesos-default-executor.dir/build.make src/launcher/CMakeFiles/mesos-default-executor.dir/build
-.PHONY : mesos-default-executor/fast
-
-#=============================================================================
-# Target rules for targets named mesos-local
-
-# Build rule for target.
-mesos-local: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-local
-.PHONY : mesos-local
-
-# fast build rule for target.
-mesos-local/fast:
-	$(MAKE) -f src/local/CMakeFiles/mesos-local.dir/build.make src/local/CMakeFiles/mesos-local.dir/build
-.PHONY : mesos-local/fast
-
-#=============================================================================
-# Target rules for targets named mesos-log
-
-# Build rule for target.
-mesos-log: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-log
-.PHONY : mesos-log
-
-# fast build rule for target.
-mesos-log/fast:
-	$(MAKE) -f src/log/CMakeFiles/mesos-log.dir/build.make src/log/CMakeFiles/mesos-log.dir/build
-.PHONY : mesos-log/fast
-
-#=============================================================================
-# Target rules for targets named mesos-master
-
-# Build rule for target.
-mesos-master: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-master
-.PHONY : mesos-master
-
-# fast build rule for target.
-mesos-master/fast:
-	$(MAKE) -f src/master/CMakeFiles/mesos-master.dir/build.make src/master/CMakeFiles/mesos-master.dir/build
-.PHONY : mesos-master/fast
-
-#=============================================================================
-# Target rules for targets named mesos-agent
-
-# Build rule for target.
-mesos-agent: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-agent
-.PHONY : mesos-agent
-
-# fast build rule for target.
-mesos-agent/fast:
-	$(MAKE) -f src/slave/CMakeFiles/mesos-agent.dir/build.make src/slave/CMakeFiles/mesos-agent.dir/build
-.PHONY : mesos-agent/fast
-
-#=============================================================================
-# Target rules for targets named mesos-logrotate-logger
-
-# Build rule for target.
-mesos-logrotate-logger: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-logrotate-logger
-.PHONY : mesos-logrotate-logger
-
-# fast build rule for target.
-mesos-logrotate-logger/fast:
-	$(MAKE) -f src/slave/container_loggers/CMakeFiles/mesos-logrotate-logger.dir/build.make src/slave/container_loggers/CMakeFiles/mesos-logrotate-logger.dir/build
-.PHONY : mesos-logrotate-logger/fast
-
-#=============================================================================
-# Target rules for targets named logrotate_container_logger
-
-# Build rule for target.
-logrotate_container_logger: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 logrotate_container_logger
-.PHONY : logrotate_container_logger
-
-# fast build rule for target.
-logrotate_container_logger/fast:
-	$(MAKE) -f src/slave/container_loggers/CMakeFiles/logrotate_container_logger.dir/build.make src/slave/container_loggers/CMakeFiles/logrotate_container_logger.dir/build
-.PHONY : logrotate_container_logger/fast
-
-#=============================================================================
-# Target rules for targets named load_qos_controller
-
-# Build rule for target.
-load_qos_controller: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 load_qos_controller
-.PHONY : load_qos_controller
-
-# fast build rule for target.
-load_qos_controller/fast:
-	$(MAKE) -f src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build.make src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build
-.PHONY : load_qos_controller/fast
-
-#=============================================================================
-# Target rules for targets named fixed_resource_estimator
-
-# Build rule for target.
-fixed_resource_estimator: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 fixed_resource_estimator
-.PHONY : fixed_resource_estimator
-
-# fast build rule for target.
-fixed_resource_estimator/fast:
-	$(MAKE) -f src/slave/resource_estimators/CMakeFiles/fixed_resource_estimator.dir/build.make src/slave/resource_estimators/CMakeFiles/fixed_resource_estimator.dir/build
-.PHONY : fixed_resource_estimator/fast
-
-#=============================================================================
-# Target rules for targets named mesos-cni-port-mapper
-
-# Build rule for target.
-mesos-cni-port-mapper: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-cni-port-mapper
-.PHONY : mesos-cni-port-mapper
-
-# fast build rule for target.
-mesos-cni-port-mapper/fast:
-	$(MAKE) -f src/slave/containerizer/mesos/CMakeFiles/mesos-cni-port-mapper.dir/build.make src/slave/containerizer/mesos/CMakeFiles/mesos-cni-port-mapper.dir/build
-.PHONY : mesos-cni-port-mapper/fast
-
-#=============================================================================
-# Target rules for targets named mesos-io-switchboard
-
-# Build rule for target.
-mesos-io-switchboard: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-io-switchboard
-.PHONY : mesos-io-switchboard
-
-# fast build rule for target.
-mesos-io-switchboard/fast:
-	$(MAKE) -f src/slave/containerizer/mesos/CMakeFiles/mesos-io-switchboard.dir/build.make src/slave/containerizer/mesos/CMakeFiles/mesos-io-switchboard.dir/build
-.PHONY : mesos-io-switchboard/fast
-
-#=============================================================================
-# Target rules for targets named mesos-containerizer
-
-# Build rule for target.
-mesos-containerizer: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-containerizer
-.PHONY : mesos-containerizer
-
-# fast build rule for target.
-mesos-containerizer/fast:
-	$(MAKE) -f src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/build.make src/slave/containerizer/mesos/CMakeFiles/mesos-containerizer.dir/build
-.PHONY : mesos-containerizer/fast
-
-#=============================================================================
-# Target rules for targets named mesos-usage
-
-# Build rule for target.
-mesos-usage: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-usage
-.PHONY : mesos-usage
-
-# fast build rule for target.
-mesos-usage/fast:
-	$(MAKE) -f src/usage/CMakeFiles/mesos-usage.dir/build.make src/usage/CMakeFiles/mesos-usage.dir/build
-.PHONY : mesos-usage/fast
-
-#=============================================================================
-# Target rules for targets named test-helper
-
-# Build rule for target.
-test-helper: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-helper
-.PHONY : test-helper
-
-# fast build rule for target.
-test-helper/fast:
-	$(MAKE) -f src/tests/CMakeFiles/test-helper.dir/build.make src/tests/CMakeFiles/test-helper.dir/build
-.PHONY : test-helper/fast
-
-#=============================================================================
-# Target rules for targets named mesos-tests
-
-# Build rule for target.
-mesos-tests: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 mesos-tests
-.PHONY : mesos-tests
-
-# fast build rule for target.
-mesos-tests/fast:
-	$(MAKE) -f src/tests/CMakeFiles/mesos-tests.dir/build.make src/tests/CMakeFiles/mesos-tests.dir/build
-.PHONY : mesos-tests/fast
+foo/fast:
+	$(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/build
+.PHONY : foo/fast
 
 # Help Target
 help:
@@ -1051,10 +414,8 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... tests"
 	@echo "... test"
 	@echo "... package"
-	@echo "... check"
 	@echo "... mesos-and-binaries"
 	@echo "... make_bin_src_dir"
 	@echo "... package_source"
@@ -1062,67 +423,20 @@ help:
 	@echo "... elfio-3.2"
 	@echo "... glog-0.3.3"
 	@echo "... libev-4.22"
-	@echo "... protobuf-2.6.1"
 	@echo "... picojson-1.3.0"
 	@echo "... nvml-352.79"
 	@echo "... http_parser-2.6.2"
-	@echo "... gmock-1.7.0"
-	@echo "... leveldb-1.19"
 	@echo "... boost-1.53.0"
 	@echo "... zookeeper-3.4.8"
-	@echo "... stout-tests"
 	@echo "... process-0.0.1"
 	@echo "... test-linkee"
 	@echo "... libprocess-tests"
-	@echo "... mesos-1.3.2"
-	@echo "... mesos-protobufs"
-	@echo "... mesos-tcp-connect"
-	@echo "... mesos-execute"
-	@echo "... mesos-docker-executor"
-	@echo "... test-http-executor"
-	@echo "... test-framework"
-	@echo "... persistent-volume-framework"
-	@echo "... testisolator"
-	@echo "... testcontainer_logger"
-	@echo "... testauthorizer"
-	@echo "... testauthentication"
-	@echo "... testanonymous"
-	@echo "... testallocator"
-	@echo "... test-executor"
-	@echo "... testmastercontender"
-	@echo "... testmasterdetector"
-	@echo "... testhook"
-	@echo "... balloon-framework"
-	@echo "... no-executor-framework"
-	@echo "... testqos_controller"
-	@echo "... load-generator-framework"
-	@echo "... long-lived-executor"
-	@echo "... testhttpauthenticator"
-	@echo "... balloon-executor"
-	@echo "... test-http-framework"
-	@echo "... disk-full-framework"
-	@echo "... docker-no-executor-framework"
-	@echo "... dynamic-reservation-framework"
-	@echo "... examplemodule"
-	@echo "... testresource_estimator"
-	@echo "... long-lived-framework"
-	@echo "... mesos-fetcher"
-	@echo "... mesos-executor"
-	@echo "... mesos-default-executor"
-	@echo "... mesos-local"
-	@echo "... mesos-log"
-	@echo "... mesos-master"
-	@echo "... mesos-agent"
-	@echo "... mesos-logrotate-logger"
-	@echo "... logrotate_container_logger"
-	@echo "... load_qos_controller"
-	@echo "... fixed_resource_estimator"
-	@echo "... mesos-cni-port-mapper"
-	@echo "... mesos-io-switchboard"
-	@echo "... mesos-containerizer"
-	@echo "... mesos-usage"
-	@echo "... test-helper"
-	@echo "... mesos-tests"
+	@echo "... test-slave"
+	@echo "... test-master"
+	@echo "... client_protobuf"
+	@echo "... client_server_message_event"
+	@echo "... lele_hello_main"
+	@echo "... foo"
 .PHONY : help
 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lilelr/open-source/mesos-1.3.2/src/slave/container_loggers/logrotate.cpp" "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/container_loggers/CMakeFiles/mesos-logrotate-logger.dir/logrotate.cpp.o"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/src/slave/container_loggers/logrotate.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/container_loggers/CMakeFiles/mesos-logrotate-logger.dir/logrotate.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -49,9 +49,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/CMakeFiles/mesos-1.3.2.dir/DependInfo.cmake"
-  "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/CMakeFiles/mesos-protobufs.dir/DependInfo.cmake"
-  "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/CMakeFiles/mesos-1.3.2.dir/DependInfo.cmake"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/CMakeFiles/mesos-protobufs.dir/DependInfo.cmake"
+  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

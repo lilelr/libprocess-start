@@ -106,16 +106,16 @@ add_custom_target(
   COMMAND ${CMAKE_COMMAND} -E make_directory ${MESOS_BIN_SRC_DIR})
 
 # CONFIGURE AGENT.
-##################
-include(AgentConfigure)
-
-# CONFIGURE MASTER.
-##################
-include(MasterConfigure)
-
-# CONFIGURE EXAMPLE MODULES AND FRAMEWORKS.
-###########################################
-include(ExamplesConfigure)
+###################
+#include(AgentConfigure)
+#
+## CONFIGURE MASTER.
+###################
+#include(MasterConfigure)
+#
+## CONFIGURE EXAMPLE MODULES AND FRAMEWORKS.
+############################################
+#include(ExamplesConfigure)
 
 # DEFINE MESOS BUILD TARGETS.
 #############################

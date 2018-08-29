@@ -46,10 +46,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/tests/CMakeFiles/mesos-tests.dir/depend.make
@@ -62,16 +62,16 @@ include src/tests/CMakeFiles/mesos-tests.dir/flags.make
 
 src/tests/CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.o: ../src/tests/active_user_test_helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/active_user_test_helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/active_user_test_helper.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/active_user_test_helper.cpp > CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/active_user_test_helper.cpp > CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/active_user_test_helper.cpp -o CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/active_user_test_helper.cpp -o CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.o.requires:
 
@@ -86,16 +86,16 @@ src/tests/CMakeFiles/mesos-tests.dir/active_user_test_helper.cpp.o.provides.buil
 
 src/tests/CMakeFiles/mesos-tests.dir/cluster.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/cluster.cpp.o: ../src/tests/cluster.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/cluster.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/cluster.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/cluster.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/cluster.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/cluster.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/cluster.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/cluster.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/cluster.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/cluster.cpp > CMakeFiles/mesos-tests.dir/cluster.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/cluster.cpp > CMakeFiles/mesos-tests.dir/cluster.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/cluster.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/cluster.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/cluster.cpp -o CMakeFiles/mesos-tests.dir/cluster.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/cluster.cpp -o CMakeFiles/mesos-tests.dir/cluster.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/cluster.cpp.o.requires:
 
@@ -110,16 +110,16 @@ src/tests/CMakeFiles/mesos-tests.dir/cluster.cpp.o.provides.build: src/tests/CMa
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer.cpp.o: ../src/tests/containerizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer.cpp > CMakeFiles/mesos-tests.dir/containerizer.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer.cpp > CMakeFiles/mesos-tests.dir/containerizer.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer.cpp -o CMakeFiles/mesos-tests.dir/containerizer.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer.cpp -o CMakeFiles/mesos-tests.dir/containerizer.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer.cpp.o.requires:
 
@@ -134,16 +134,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer.cpp.o.provides.build: src/tes
 
 src/tests/CMakeFiles/mesos-tests.dir/environment.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/environment.cpp.o: ../src/tests/environment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/environment.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/environment.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/environment.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/environment.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/environment.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/environment.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/environment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/environment.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/environment.cpp > CMakeFiles/mesos-tests.dir/environment.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/environment.cpp > CMakeFiles/mesos-tests.dir/environment.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/environment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/environment.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/environment.cpp -o CMakeFiles/mesos-tests.dir/environment.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/environment.cpp -o CMakeFiles/mesos-tests.dir/environment.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/environment.cpp.o.requires:
 
@@ -158,16 +158,16 @@ src/tests/CMakeFiles/mesos-tests.dir/environment.cpp.o.provides.build: src/tests
 
 src/tests/CMakeFiles/mesos-tests.dir/flags.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/flags.cpp.o: ../src/tests/flags.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/flags.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/flags.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/flags.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/flags.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/flags.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/flags.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/flags.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/flags.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/flags.cpp > CMakeFiles/mesos-tests.dir/flags.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/flags.cpp > CMakeFiles/mesos-tests.dir/flags.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/flags.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/flags.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/flags.cpp -o CMakeFiles/mesos-tests.dir/flags.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/flags.cpp -o CMakeFiles/mesos-tests.dir/flags.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/flags.cpp.o.requires:
 
@@ -182,16 +182,16 @@ src/tests/CMakeFiles/mesos-tests.dir/flags.cpp.o.provides.build: src/tests/CMake
 
 src/tests/CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.o: ../src/tests/http_server_test_helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/http_server_test_helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/http_server_test_helper.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/http_server_test_helper.cpp > CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/http_server_test_helper.cpp > CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/http_server_test_helper.cpp -o CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/http_server_test_helper.cpp -o CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.o.requires:
 
@@ -206,16 +206,16 @@ src/tests/CMakeFiles/mesos-tests.dir/http_server_test_helper.cpp.o.provides.buil
 
 src/tests/CMakeFiles/mesos-tests.dir/main.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/main.cpp.o: ../src/tests/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/main.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/main.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/main.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/main.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/main.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/main.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/main.cpp > CMakeFiles/mesos-tests.dir/main.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/main.cpp > CMakeFiles/mesos-tests.dir/main.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/main.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/main.cpp -o CMakeFiles/mesos-tests.dir/main.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/main.cpp -o CMakeFiles/mesos-tests.dir/main.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/main.cpp.o.requires:
 
@@ -230,16 +230,16 @@ src/tests/CMakeFiles/mesos-tests.dir/main.cpp.o.provides.build: src/tests/CMakeF
 
 src/tests/CMakeFiles/mesos-tests.dir/mesos.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/mesos.cpp.o: ../src/tests/mesos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/mesos.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/mesos.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/mesos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/mesos.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/mesos.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mesos.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/mesos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/mesos.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/mesos.cpp > CMakeFiles/mesos-tests.dir/mesos.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mesos.cpp > CMakeFiles/mesos-tests.dir/mesos.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/mesos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/mesos.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/mesos.cpp -o CMakeFiles/mesos-tests.dir/mesos.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mesos.cpp -o CMakeFiles/mesos-tests.dir/mesos.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/mesos.cpp.o.requires:
 
@@ -254,16 +254,16 @@ src/tests/CMakeFiles/mesos-tests.dir/mesos.cpp.o.provides.build: src/tests/CMake
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_docker.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/mock_docker.cpp.o: ../src/tests/mock_docker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/mock_docker.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/mock_docker.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/mock_docker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/mock_docker.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/mock_docker.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mock_docker.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_docker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/mock_docker.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/mock_docker.cpp > CMakeFiles/mesos-tests.dir/mock_docker.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mock_docker.cpp > CMakeFiles/mesos-tests.dir/mock_docker.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_docker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/mock_docker.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/mock_docker.cpp -o CMakeFiles/mesos-tests.dir/mock_docker.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mock_docker.cpp -o CMakeFiles/mesos-tests.dir/mock_docker.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_docker.cpp.o.requires:
 
@@ -278,16 +278,16 @@ src/tests/CMakeFiles/mesos-tests.dir/mock_docker.cpp.o.provides.build: src/tests
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_registrar.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/mock_registrar.cpp.o: ../src/tests/mock_registrar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/mock_registrar.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/mock_registrar.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/mock_registrar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/mock_registrar.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/mock_registrar.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mock_registrar.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_registrar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/mock_registrar.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/mock_registrar.cpp > CMakeFiles/mesos-tests.dir/mock_registrar.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mock_registrar.cpp > CMakeFiles/mesos-tests.dir/mock_registrar.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_registrar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/mock_registrar.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/mock_registrar.cpp -o CMakeFiles/mesos-tests.dir/mock_registrar.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mock_registrar.cpp -o CMakeFiles/mesos-tests.dir/mock_registrar.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_registrar.cpp.o.requires:
 
@@ -302,16 +302,16 @@ src/tests/CMakeFiles/mesos-tests.dir/mock_registrar.cpp.o.provides.build: src/te
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_slave.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/mock_slave.cpp.o: ../src/tests/mock_slave.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/mock_slave.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/mock_slave.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/mock_slave.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/mock_slave.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/mock_slave.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mock_slave.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_slave.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/mock_slave.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/mock_slave.cpp > CMakeFiles/mesos-tests.dir/mock_slave.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mock_slave.cpp > CMakeFiles/mesos-tests.dir/mock_slave.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_slave.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/mock_slave.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/mock_slave.cpp -o CMakeFiles/mesos-tests.dir/mock_slave.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/mock_slave.cpp -o CMakeFiles/mesos-tests.dir/mock_slave.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/mock_slave.cpp.o.requires:
 
@@ -326,16 +326,16 @@ src/tests/CMakeFiles/mesos-tests.dir/mock_slave.cpp.o.provides.build: src/tests/
 
 src/tests/CMakeFiles/mesos-tests.dir/module.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/module.cpp.o: ../src/tests/module.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/module.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/module.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/module.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/module.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/module.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/module.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/module.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/module.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/module.cpp > CMakeFiles/mesos-tests.dir/module.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/module.cpp > CMakeFiles/mesos-tests.dir/module.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/module.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/module.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/module.cpp -o CMakeFiles/mesos-tests.dir/module.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/module.cpp -o CMakeFiles/mesos-tests.dir/module.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/module.cpp.o.requires:
 
@@ -350,16 +350,16 @@ src/tests/CMakeFiles/mesos-tests.dir/module.cpp.o.provides.build: src/tests/CMak
 
 src/tests/CMakeFiles/mesos-tests.dir/resources_utils.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/resources_utils.cpp.o: ../src/tests/resources_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/resources_utils.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/resources_utils.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/resources_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/resources_utils.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/resources_utils.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/resources_utils.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/resources_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/resources_utils.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/resources_utils.cpp > CMakeFiles/mesos-tests.dir/resources_utils.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/resources_utils.cpp > CMakeFiles/mesos-tests.dir/resources_utils.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/resources_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/resources_utils.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/resources_utils.cpp -o CMakeFiles/mesos-tests.dir/resources_utils.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/resources_utils.cpp -o CMakeFiles/mesos-tests.dir/resources_utils.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/resources_utils.cpp.o.requires:
 
@@ -374,16 +374,16 @@ src/tests/CMakeFiles/mesos-tests.dir/resources_utils.cpp.o.provides.build: src/t
 
 src/tests/CMakeFiles/mesos-tests.dir/utils.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/utils.cpp.o: ../src/tests/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/utils.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/utils.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/utils.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/utils.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/utils.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/utils.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/utils.cpp > CMakeFiles/mesos-tests.dir/utils.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/utils.cpp > CMakeFiles/mesos-tests.dir/utils.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/utils.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/utils.cpp -o CMakeFiles/mesos-tests.dir/utils.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/utils.cpp -o CMakeFiles/mesos-tests.dir/utils.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/utils.cpp.o.requires:
 
@@ -398,16 +398,16 @@ src/tests/CMakeFiles/mesos-tests.dir/utils.cpp.o.provides.build: src/tests/CMake
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.o: ../src/tests/containerizer/launcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/launcher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/launcher.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/launcher.cpp > CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/launcher.cpp > CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/launcher.cpp -o CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/launcher.cpp -o CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.o.requires:
 
@@ -422,16 +422,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/launcher.cpp.o.provides.build
 
 src/tests/CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.o: ../src/tests/kill_policy_test_helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/kill_policy_test_helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/kill_policy_test_helper.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/kill_policy_test_helper.cpp > CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/kill_policy_test_helper.cpp > CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/kill_policy_test_helper.cpp -o CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/kill_policy_test_helper.cpp -o CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.o.requires:
 
@@ -446,16 +446,16 @@ src/tests/CMakeFiles/mesos-tests.dir/kill_policy_test_helper.cpp.o.provides.buil
 
 src/tests/CMakeFiles/mesos-tests.dir/script.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/script.cpp.o: ../src/tests/script.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/script.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/script.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/script.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/script.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/script.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/script.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/script.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/script.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/script.cpp > CMakeFiles/mesos-tests.dir/script.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/script.cpp > CMakeFiles/mesos-tests.dir/script.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/script.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/script.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/script.cpp -o CMakeFiles/mesos-tests.dir/script.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/script.cpp -o CMakeFiles/mesos-tests.dir/script.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/script.cpp.o.requires:
 
@@ -470,16 +470,16 @@ src/tests/CMakeFiles/mesos-tests.dir/script.cpp.o.provides.build: src/tests/CMak
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.o: ../src/tests/containerizer/memory_test_helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/memory_test_helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/memory_test_helper.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/memory_test_helper.cpp > CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/memory_test_helper.cpp > CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/memory_test_helper.cpp -o CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/memory_test_helper.cpp -o CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.o.requires:
 
@@ -494,16 +494,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_test_helper.cpp.o.prov
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.o: ../src/tests/containerizer/capabilities_test_helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/capabilities_test_helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/capabilities_test_helper.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/capabilities_test_helper.cpp > CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/capabilities_test_helper.cpp > CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/capabilities_test_helper.cpp -o CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/capabilities_test_helper.cpp -o CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.o.requires:
 
@@ -518,16 +518,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_test_helper.cpp.
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.o: ../src/tests/containerizer/setns_test_helper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/setns_test_helper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/setns_test_helper.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/setns_test_helper.cpp > CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/setns_test_helper.cpp > CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/setns_test_helper.cpp -o CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/setns_test_helper.cpp -o CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.o.requires:
 
@@ -542,16 +542,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/setns_test_helper.cpp.o.provi
 
 src/tests/CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.o: ../src/tests/anonymous_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/anonymous_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/anonymous_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/anonymous_tests.cpp > CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/anonymous_tests.cpp > CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/anonymous_tests.cpp -o CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/anonymous_tests.cpp -o CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.o.requires:
 
@@ -566,16 +566,16 @@ src/tests/CMakeFiles/mesos-tests.dir/anonymous_tests.cpp.o.provides.build: src/t
 
 src/tests/CMakeFiles/mesos-tests.dir/api_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/api_tests.cpp.o: ../src/tests/api_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/api_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/api_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/api_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/api_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/api_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/api_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/api_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/api_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/api_tests.cpp > CMakeFiles/mesos-tests.dir/api_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/api_tests.cpp > CMakeFiles/mesos-tests.dir/api_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/api_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/api_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/api_tests.cpp -o CMakeFiles/mesos-tests.dir/api_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/api_tests.cpp -o CMakeFiles/mesos-tests.dir/api_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/api_tests.cpp.o.requires:
 
@@ -590,16 +590,16 @@ src/tests/CMakeFiles/mesos-tests.dir/api_tests.cpp.o.provides.build: src/tests/C
 
 src/tests/CMakeFiles/mesos-tests.dir/attributes_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/attributes_tests.cpp.o: ../src/tests/attributes_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/attributes_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/attributes_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/attributes_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/attributes_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/attributes_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/attributes_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/attributes_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/attributes_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/attributes_tests.cpp > CMakeFiles/mesos-tests.dir/attributes_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/attributes_tests.cpp > CMakeFiles/mesos-tests.dir/attributes_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/attributes_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/attributes_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/attributes_tests.cpp -o CMakeFiles/mesos-tests.dir/attributes_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/attributes_tests.cpp -o CMakeFiles/mesos-tests.dir/attributes_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/attributes_tests.cpp.o.requires:
 
@@ -614,16 +614,16 @@ src/tests/CMakeFiles/mesos-tests.dir/attributes_tests.cpp.o.provides.build: src/
 
 src/tests/CMakeFiles/mesos-tests.dir/authentication_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/authentication_tests.cpp.o: ../src/tests/authentication_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/authentication_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/authentication_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/authentication_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/authentication_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/authentication_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/authentication_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/authentication_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/authentication_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/authentication_tests.cpp > CMakeFiles/mesos-tests.dir/authentication_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/authentication_tests.cpp > CMakeFiles/mesos-tests.dir/authentication_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/authentication_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/authentication_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/authentication_tests.cpp -o CMakeFiles/mesos-tests.dir/authentication_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/authentication_tests.cpp -o CMakeFiles/mesos-tests.dir/authentication_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/authentication_tests.cpp.o.requires:
 
@@ -638,16 +638,16 @@ src/tests/CMakeFiles/mesos-tests.dir/authentication_tests.cpp.o.provides.build: 
 
 src/tests/CMakeFiles/mesos-tests.dir/check_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/check_tests.cpp.o: ../src/tests/check_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/check_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/check_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/check_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/check_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/check_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/check_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/check_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/check_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/check_tests.cpp > CMakeFiles/mesos-tests.dir/check_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/check_tests.cpp > CMakeFiles/mesos-tests.dir/check_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/check_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/check_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/check_tests.cpp -o CMakeFiles/mesos-tests.dir/check_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/check_tests.cpp -o CMakeFiles/mesos-tests.dir/check_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/check_tests.cpp.o.requires:
 
@@ -662,16 +662,16 @@ src/tests/CMakeFiles/mesos-tests.dir/check_tests.cpp.o.provides.build: src/tests
 
 src/tests/CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.o: ../src/tests/command_executor_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/command_executor_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/command_executor_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/command_executor_tests.cpp > CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/command_executor_tests.cpp > CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/command_executor_tests.cpp -o CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/command_executor_tests.cpp -o CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.o.requires:
 
@@ -686,16 +686,16 @@ src/tests/CMakeFiles/mesos-tests.dir/command_executor_tests.cpp.o.provides.build
 
 src/tests/CMakeFiles/mesos-tests.dir/credentials_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/credentials_tests.cpp.o: ../src/tests/credentials_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/credentials_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/credentials_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/credentials_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/credentials_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/credentials_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/credentials_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/credentials_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/credentials_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/credentials_tests.cpp > CMakeFiles/mesos-tests.dir/credentials_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/credentials_tests.cpp > CMakeFiles/mesos-tests.dir/credentials_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/credentials_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/credentials_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/credentials_tests.cpp -o CMakeFiles/mesos-tests.dir/credentials_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/credentials_tests.cpp -o CMakeFiles/mesos-tests.dir/credentials_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/credentials_tests.cpp.o.requires:
 
@@ -710,16 +710,16 @@ src/tests/CMakeFiles/mesos-tests.dir/credentials_tests.cpp.o.provides.build: src
 
 src/tests/CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.o: ../src/tests/default_executor_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/default_executor_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/default_executor_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/default_executor_tests.cpp > CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/default_executor_tests.cpp > CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/default_executor_tests.cpp -o CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/default_executor_tests.cpp -o CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.o.requires:
 
@@ -734,16 +734,16 @@ src/tests/CMakeFiles/mesos-tests.dir/default_executor_tests.cpp.o.provides.build
 
 src/tests/CMakeFiles/mesos-tests.dir/exception_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/exception_tests.cpp.o: ../src/tests/exception_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/exception_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/exception_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/exception_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/exception_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/exception_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/exception_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/exception_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/exception_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/exception_tests.cpp > CMakeFiles/mesos-tests.dir/exception_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/exception_tests.cpp > CMakeFiles/mesos-tests.dir/exception_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/exception_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/exception_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/exception_tests.cpp -o CMakeFiles/mesos-tests.dir/exception_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/exception_tests.cpp -o CMakeFiles/mesos-tests.dir/exception_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/exception_tests.cpp.o.requires:
 
@@ -758,16 +758,16 @@ src/tests/CMakeFiles/mesos-tests.dir/exception_tests.cpp.o.provides.build: src/t
 
 src/tests/CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.o: ../src/tests/executor_http_api_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/executor_http_api_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/executor_http_api_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/executor_http_api_tests.cpp > CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/executor_http_api_tests.cpp > CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/executor_http_api_tests.cpp -o CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/executor_http_api_tests.cpp -o CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.o.requires:
 
@@ -782,16 +782,16 @@ src/tests/CMakeFiles/mesos-tests.dir/executor_http_api_tests.cpp.o.provides.buil
 
 src/tests/CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.o: ../src/tests/fault_tolerance_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/fault_tolerance_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/fault_tolerance_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/fault_tolerance_tests.cpp > CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/fault_tolerance_tests.cpp > CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/fault_tolerance_tests.cpp -o CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/fault_tolerance_tests.cpp -o CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.o.requires:
 
@@ -806,16 +806,16 @@ src/tests/CMakeFiles/mesos-tests.dir/fault_tolerance_tests.cpp.o.provides.build:
 
 src/tests/CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.o: ../src/tests/fetcher_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/fetcher_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/fetcher_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/fetcher_tests.cpp > CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/fetcher_tests.cpp > CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/fetcher_tests.cpp -o CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/fetcher_tests.cpp -o CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.o.requires:
 
@@ -830,16 +830,16 @@ src/tests/CMakeFiles/mesos-tests.dir/fetcher_tests.cpp.o.provides.build: src/tes
 
 src/tests/CMakeFiles/mesos-tests.dir/files_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/files_tests.cpp.o: ../src/tests/files_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/files_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/files_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/files_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/files_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/files_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/files_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/files_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/files_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/files_tests.cpp > CMakeFiles/mesos-tests.dir/files_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/files_tests.cpp > CMakeFiles/mesos-tests.dir/files_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/files_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/files_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/files_tests.cpp -o CMakeFiles/mesos-tests.dir/files_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/files_tests.cpp -o CMakeFiles/mesos-tests.dir/files_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/files_tests.cpp.o.requires:
 
@@ -854,16 +854,16 @@ src/tests/CMakeFiles/mesos-tests.dir/files_tests.cpp.o.provides.build: src/tests
 
 src/tests/CMakeFiles/mesos-tests.dir/gc_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/gc_tests.cpp.o: ../src/tests/gc_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/gc_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/gc_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/gc_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/gc_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/gc_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/gc_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/gc_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/gc_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/gc_tests.cpp > CMakeFiles/mesos-tests.dir/gc_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/gc_tests.cpp > CMakeFiles/mesos-tests.dir/gc_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/gc_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/gc_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/gc_tests.cpp -o CMakeFiles/mesos-tests.dir/gc_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/gc_tests.cpp -o CMakeFiles/mesos-tests.dir/gc_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/gc_tests.cpp.o.requires:
 
@@ -878,16 +878,16 @@ src/tests/CMakeFiles/mesos-tests.dir/gc_tests.cpp.o.provides.build: src/tests/CM
 
 src/tests/CMakeFiles/mesos-tests.dir/health_check_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/health_check_tests.cpp.o: ../src/tests/health_check_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/health_check_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/health_check_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/health_check_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/health_check_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/health_check_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/health_check_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/health_check_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/health_check_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/health_check_tests.cpp > CMakeFiles/mesos-tests.dir/health_check_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/health_check_tests.cpp > CMakeFiles/mesos-tests.dir/health_check_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/health_check_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/health_check_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/health_check_tests.cpp -o CMakeFiles/mesos-tests.dir/health_check_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/health_check_tests.cpp -o CMakeFiles/mesos-tests.dir/health_check_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/health_check_tests.cpp.o.requires:
 
@@ -902,16 +902,16 @@ src/tests/CMakeFiles/mesos-tests.dir/health_check_tests.cpp.o.provides.build: sr
 
 src/tests/CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.o: ../src/tests/hierarchical_allocator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/hierarchical_allocator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/hierarchical_allocator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/hierarchical_allocator_tests.cpp > CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/hierarchical_allocator_tests.cpp > CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/hierarchical_allocator_tests.cpp -o CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/hierarchical_allocator_tests.cpp -o CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.o.requires:
 
@@ -926,16 +926,16 @@ src/tests/CMakeFiles/mesos-tests.dir/hierarchical_allocator_tests.cpp.o.provides
 
 src/tests/CMakeFiles/mesos-tests.dir/hook_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/hook_tests.cpp.o: ../src/tests/hook_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/hook_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/hook_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/hook_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/hook_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/hook_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/hook_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/hook_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/hook_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/hook_tests.cpp > CMakeFiles/mesos-tests.dir/hook_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/hook_tests.cpp > CMakeFiles/mesos-tests.dir/hook_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/hook_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/hook_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/hook_tests.cpp -o CMakeFiles/mesos-tests.dir/hook_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/hook_tests.cpp -o CMakeFiles/mesos-tests.dir/hook_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/hook_tests.cpp.o.requires:
 
@@ -950,16 +950,16 @@ src/tests/CMakeFiles/mesos-tests.dir/hook_tests.cpp.o.provides.build: src/tests/
 
 src/tests/CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.o: ../src/tests/http_authentication_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/http_authentication_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/http_authentication_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/http_authentication_tests.cpp > CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/http_authentication_tests.cpp > CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/http_authentication_tests.cpp -o CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/http_authentication_tests.cpp -o CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.o.requires:
 
@@ -974,16 +974,16 @@ src/tests/CMakeFiles/mesos-tests.dir/http_authentication_tests.cpp.o.provides.bu
 
 src/tests/CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.o: ../src/tests/http_fault_tolerance_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/http_fault_tolerance_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/http_fault_tolerance_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/http_fault_tolerance_tests.cpp > CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/http_fault_tolerance_tests.cpp > CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/http_fault_tolerance_tests.cpp -o CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/http_fault_tolerance_tests.cpp -o CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.o.requires:
 
@@ -998,16 +998,16 @@ src/tests/CMakeFiles/mesos-tests.dir/http_fault_tolerance_tests.cpp.o.provides.b
 
 src/tests/CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.o: ../src/tests/master_maintenance_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/master_maintenance_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_maintenance_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/master_maintenance_tests.cpp > CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_maintenance_tests.cpp > CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/master_maintenance_tests.cpp -o CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_maintenance_tests.cpp -o CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.o.requires:
 
@@ -1022,16 +1022,16 @@ src/tests/CMakeFiles/mesos-tests.dir/master_maintenance_tests.cpp.o.provides.bui
 
 src/tests/CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.o: ../src/tests/master_slave_reconciliation_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/master_slave_reconciliation_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_slave_reconciliation_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/master_slave_reconciliation_tests.cpp > CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_slave_reconciliation_tests.cpp > CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/master_slave_reconciliation_tests.cpp -o CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_slave_reconciliation_tests.cpp -o CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.o.requires:
 
@@ -1046,16 +1046,16 @@ src/tests/CMakeFiles/mesos-tests.dir/master_slave_reconciliation_tests.cpp.o.pro
 
 src/tests/CMakeFiles/mesos-tests.dir/partition_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/partition_tests.cpp.o: ../src/tests/partition_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/partition_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/partition_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/partition_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/partition_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/partition_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/partition_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/partition_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/partition_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/partition_tests.cpp > CMakeFiles/mesos-tests.dir/partition_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/partition_tests.cpp > CMakeFiles/mesos-tests.dir/partition_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/partition_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/partition_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/partition_tests.cpp -o CMakeFiles/mesos-tests.dir/partition_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/partition_tests.cpp -o CMakeFiles/mesos-tests.dir/partition_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/partition_tests.cpp.o.requires:
 
@@ -1070,16 +1070,16 @@ src/tests/CMakeFiles/mesos-tests.dir/partition_tests.cpp.o.provides.build: src/t
 
 src/tests/CMakeFiles/mesos-tests.dir/paths_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/paths_tests.cpp.o: ../src/tests/paths_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/paths_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/paths_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/paths_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/paths_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/paths_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/paths_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/paths_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/paths_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/paths_tests.cpp > CMakeFiles/mesos-tests.dir/paths_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/paths_tests.cpp > CMakeFiles/mesos-tests.dir/paths_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/paths_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/paths_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/paths_tests.cpp -o CMakeFiles/mesos-tests.dir/paths_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/paths_tests.cpp -o CMakeFiles/mesos-tests.dir/paths_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/paths_tests.cpp.o.requires:
 
@@ -1094,16 +1094,16 @@ src/tests/CMakeFiles/mesos-tests.dir/paths_tests.cpp.o.provides.build: src/tests
 
 src/tests/CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.o: ../src/tests/protobuf_io_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/protobuf_io_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/protobuf_io_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/protobuf_io_tests.cpp > CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/protobuf_io_tests.cpp > CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/protobuf_io_tests.cpp -o CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/protobuf_io_tests.cpp -o CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.o.requires:
 
@@ -1118,16 +1118,16 @@ src/tests/CMakeFiles/mesos-tests.dir/protobuf_io_tests.cpp.o.provides.build: src
 
 src/tests/CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.o: ../src/tests/rate_limiting_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/rate_limiting_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/rate_limiting_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/rate_limiting_tests.cpp > CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/rate_limiting_tests.cpp > CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/rate_limiting_tests.cpp -o CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/rate_limiting_tests.cpp -o CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.o.requires:
 
@@ -1142,16 +1142,16 @@ src/tests/CMakeFiles/mesos-tests.dir/rate_limiting_tests.cpp.o.provides.build: s
 
 src/tests/CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.o: ../src/tests/resource_offers_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/resource_offers_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/resource_offers_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/resource_offers_tests.cpp > CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/resource_offers_tests.cpp > CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/resource_offers_tests.cpp -o CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/resource_offers_tests.cpp -o CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.o.requires:
 
@@ -1166,16 +1166,16 @@ src/tests/CMakeFiles/mesos-tests.dir/resource_offers_tests.cpp.o.provides.build:
 
 src/tests/CMakeFiles/mesos-tests.dir/resources_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/resources_tests.cpp.o: ../src/tests/resources_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/resources_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/resources_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/resources_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/resources_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/resources_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/resources_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/resources_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/resources_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/resources_tests.cpp > CMakeFiles/mesos-tests.dir/resources_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/resources_tests.cpp > CMakeFiles/mesos-tests.dir/resources_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/resources_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/resources_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/resources_tests.cpp -o CMakeFiles/mesos-tests.dir/resources_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/resources_tests.cpp -o CMakeFiles/mesos-tests.dir/resources_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/resources_tests.cpp.o.requires:
 
@@ -1190,16 +1190,16 @@ src/tests/CMakeFiles/mesos-tests.dir/resources_tests.cpp.o.provides.build: src/t
 
 src/tests/CMakeFiles/mesos-tests.dir/role_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/role_tests.cpp.o: ../src/tests/role_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/role_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/role_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/role_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/role_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/role_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/role_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/role_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/role_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/role_tests.cpp > CMakeFiles/mesos-tests.dir/role_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/role_tests.cpp > CMakeFiles/mesos-tests.dir/role_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/role_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/role_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/role_tests.cpp -o CMakeFiles/mesos-tests.dir/role_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/role_tests.cpp -o CMakeFiles/mesos-tests.dir/role_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/role_tests.cpp.o.requires:
 
@@ -1214,16 +1214,16 @@ src/tests/CMakeFiles/mesos-tests.dir/role_tests.cpp.o.provides.build: src/tests/
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.o: ../src/tests/scheduler_driver_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_driver_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_driver_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_driver_tests.cpp > CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_driver_tests.cpp > CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_driver_tests.cpp -o CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_driver_tests.cpp -o CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.o.requires:
 
@@ -1238,16 +1238,16 @@ src/tests/CMakeFiles/mesos-tests.dir/scheduler_driver_tests.cpp.o.provides.build
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.o: ../src/tests/scheduler_event_call_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_event_call_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_event_call_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_event_call_tests.cpp > CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_event_call_tests.cpp > CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_event_call_tests.cpp -o CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_event_call_tests.cpp -o CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.o.requires:
 
@@ -1262,16 +1262,16 @@ src/tests/CMakeFiles/mesos-tests.dir/scheduler_event_call_tests.cpp.o.provides.b
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.o: ../src/tests/scheduler_http_api_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_http_api_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_http_api_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_http_api_tests.cpp > CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_http_api_tests.cpp > CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_http_api_tests.cpp -o CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_http_api_tests.cpp -o CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.o.requires:
 
@@ -1286,16 +1286,16 @@ src/tests/CMakeFiles/mesos-tests.dir/scheduler_http_api_tests.cpp.o.provides.bui
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.o: ../src/tests/scheduler_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_tests.cpp > CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_tests.cpp > CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/scheduler_tests.cpp -o CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/scheduler_tests.cpp -o CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.o.requires:
 
@@ -1310,16 +1310,16 @@ src/tests/CMakeFiles/mesos-tests.dir/scheduler_tests.cpp.o.provides.build: src/t
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/slave_tests.cpp.o: ../src/tests/slave_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/slave_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/slave_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/slave_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/slave_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/slave_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_tests.cpp > CMakeFiles/mesos-tests.dir/slave_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_tests.cpp > CMakeFiles/mesos-tests.dir/slave_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/slave_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_tests.cpp -o CMakeFiles/mesos-tests.dir/slave_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_tests.cpp -o CMakeFiles/mesos-tests.dir/slave_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_tests.cpp.o.requires:
 
@@ -1334,16 +1334,16 @@ src/tests/CMakeFiles/mesos-tests.dir/slave_tests.cpp.o.provides.build: src/tests
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.o: ../src/tests/slave_validation_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_validation_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_validation_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_validation_tests.cpp > CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_validation_tests.cpp > CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_validation_tests.cpp -o CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_validation_tests.cpp -o CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.o.requires:
 
@@ -1358,16 +1358,16 @@ src/tests/CMakeFiles/mesos-tests.dir/slave_validation_tests.cpp.o.provides.build
 
 src/tests/CMakeFiles/mesos-tests.dir/sorter_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/sorter_tests.cpp.o: ../src/tests/sorter_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/sorter_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/sorter_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/sorter_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/sorter_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/sorter_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/sorter_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/sorter_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/sorter_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/sorter_tests.cpp > CMakeFiles/mesos-tests.dir/sorter_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/sorter_tests.cpp > CMakeFiles/mesos-tests.dir/sorter_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/sorter_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/sorter_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/sorter_tests.cpp -o CMakeFiles/mesos-tests.dir/sorter_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/sorter_tests.cpp -o CMakeFiles/mesos-tests.dir/sorter_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/sorter_tests.cpp.o.requires:
 
@@ -1382,16 +1382,16 @@ src/tests/CMakeFiles/mesos-tests.dir/sorter_tests.cpp.o.provides.build: src/test
 
 src/tests/CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.o: ../src/tests/status_update_manager_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/status_update_manager_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/status_update_manager_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/status_update_manager_tests.cpp > CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/status_update_manager_tests.cpp > CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/status_update_manager_tests.cpp -o CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/status_update_manager_tests.cpp -o CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.o.requires:
 
@@ -1406,16 +1406,16 @@ src/tests/CMakeFiles/mesos-tests.dir/status_update_manager_tests.cpp.o.provides.
 
 src/tests/CMakeFiles/mesos-tests.dir/uri_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/uri_tests.cpp.o: ../src/tests/uri_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/uri_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/uri_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/uri_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/uri_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/uri_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/uri_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/uri_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/uri_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/uri_tests.cpp > CMakeFiles/mesos-tests.dir/uri_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/uri_tests.cpp > CMakeFiles/mesos-tests.dir/uri_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/uri_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/uri_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/uri_tests.cpp -o CMakeFiles/mesos-tests.dir/uri_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/uri_tests.cpp -o CMakeFiles/mesos-tests.dir/uri_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/uri_tests.cpp.o.requires:
 
@@ -1430,16 +1430,16 @@ src/tests/CMakeFiles/mesos-tests.dir/uri_tests.cpp.o.provides.build: src/tests/C
 
 src/tests/CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.o: ../src/tests/uri_fetcher_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/uri_fetcher_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/uri_fetcher_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/uri_fetcher_tests.cpp > CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/uri_fetcher_tests.cpp > CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/uri_fetcher_tests.cpp -o CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/uri_fetcher_tests.cpp -o CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.o.requires:
 
@@ -1454,16 +1454,16 @@ src/tests/CMakeFiles/mesos-tests.dir/uri_fetcher_tests.cpp.o.provides.build: src
 
 src/tests/CMakeFiles/mesos-tests.dir/values_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/values_tests.cpp.o: ../src/tests/values_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/values_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/values_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/values_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/values_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/values_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/values_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/values_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/values_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/values_tests.cpp > CMakeFiles/mesos-tests.dir/values_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/values_tests.cpp > CMakeFiles/mesos-tests.dir/values_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/values_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/values_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/values_tests.cpp -o CMakeFiles/mesos-tests.dir/values_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/values_tests.cpp -o CMakeFiles/mesos-tests.dir/values_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/values_tests.cpp.o.requires:
 
@@ -1478,16 +1478,16 @@ src/tests/CMakeFiles/mesos-tests.dir/values_tests.cpp.o.provides.build: src/test
 
 src/tests/CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.o: ../src/tests/zookeeper_url_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/zookeeper_url_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/zookeeper_url_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/zookeeper_url_tests.cpp > CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/zookeeper_url_tests.cpp > CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/zookeeper_url_tests.cpp -o CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/zookeeper_url_tests.cpp -o CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.o.requires:
 
@@ -1502,16 +1502,16 @@ src/tests/CMakeFiles/mesos-tests.dir/zookeeper_url_tests.cpp.o.provides.build: s
 
 src/tests/CMakeFiles/mesos-tests.dir/common/http_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/common/http_tests.cpp.o: ../src/tests/common/http_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/common/http_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/common/http_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/common/http_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/common/http_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/common/http_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/http_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/common/http_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/common/http_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/common/http_tests.cpp > CMakeFiles/mesos-tests.dir/common/http_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/http_tests.cpp > CMakeFiles/mesos-tests.dir/common/http_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/common/http_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/common/http_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/common/http_tests.cpp -o CMakeFiles/mesos-tests.dir/common/http_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/http_tests.cpp -o CMakeFiles/mesos-tests.dir/common/http_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/common/http_tests.cpp.o.requires:
 
@@ -1526,16 +1526,16 @@ src/tests/CMakeFiles/mesos-tests.dir/common/http_tests.cpp.o.provides.build: src
 
 src/tests/CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.o: ../src/tests/common/recordio_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/common/recordio_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/recordio_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/common/recordio_tests.cpp > CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/recordio_tests.cpp > CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/common/recordio_tests.cpp -o CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/recordio_tests.cpp -o CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.o.requires:
 
@@ -1550,16 +1550,16 @@ src/tests/CMakeFiles/mesos-tests.dir/common/recordio_tests.cpp.o.provides.build:
 
 src/tests/CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.o: ../src/tests/common/type_utils_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/common/type_utils_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/type_utils_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/common/type_utils_tests.cpp > CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/type_utils_tests.cpp > CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/common/type_utils_tests.cpp -o CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/type_utils_tests.cpp -o CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.o.requires:
 
@@ -1574,16 +1574,16 @@ src/tests/CMakeFiles/mesos-tests.dir/common/type_utils_tests.cpp.o.provides.buil
 
 src/tests/CMakeFiles/mesos-tests.dir/authorization_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/authorization_tests.cpp.o: ../src/tests/authorization_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/authorization_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/authorization_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/authorization_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/authorization_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/authorization_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/authorization_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/authorization_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/authorization_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/authorization_tests.cpp > CMakeFiles/mesos-tests.dir/authorization_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/authorization_tests.cpp > CMakeFiles/mesos-tests.dir/authorization_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/authorization_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/authorization_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/authorization_tests.cpp -o CMakeFiles/mesos-tests.dir/authorization_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/authorization_tests.cpp -o CMakeFiles/mesos-tests.dir/authorization_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/authorization_tests.cpp.o.requires:
 
@@ -1598,16 +1598,16 @@ src/tests/CMakeFiles/mesos-tests.dir/authorization_tests.cpp.o.provides.build: s
 
 src/tests/CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.o: ../src/tests/container_logger_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/container_logger_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/container_logger_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/container_logger_tests.cpp > CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/container_logger_tests.cpp > CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/container_logger_tests.cpp -o CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/container_logger_tests.cpp -o CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.o.requires:
 
@@ -1622,16 +1622,16 @@ src/tests/CMakeFiles/mesos-tests.dir/container_logger_tests.cpp.o.provides.build
 
 src/tests/CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.o: ../src/tests/cram_md5_authentication_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/cram_md5_authentication_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/cram_md5_authentication_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/cram_md5_authentication_tests.cpp > CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/cram_md5_authentication_tests.cpp > CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/cram_md5_authentication_tests.cpp -o CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/cram_md5_authentication_tests.cpp -o CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.o.requires:
 
@@ -1646,16 +1646,16 @@ src/tests/CMakeFiles/mesos-tests.dir/cram_md5_authentication_tests.cpp.o.provide
 
 src/tests/CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.o: ../src/tests/disk_quota_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/disk_quota_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/disk_quota_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/disk_quota_tests.cpp > CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/disk_quota_tests.cpp > CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/disk_quota_tests.cpp -o CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/disk_quota_tests.cpp -o CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.o.requires:
 
@@ -1670,16 +1670,16 @@ src/tests/CMakeFiles/mesos-tests.dir/disk_quota_tests.cpp.o.provides.build: src/
 
 src/tests/CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.o: ../src/tests/dynamic_weights_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/dynamic_weights_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/dynamic_weights_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/dynamic_weights_tests.cpp > CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/dynamic_weights_tests.cpp > CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/dynamic_weights_tests.cpp -o CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/dynamic_weights_tests.cpp -o CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.o.requires:
 
@@ -1694,16 +1694,16 @@ src/tests/CMakeFiles/mesos-tests.dir/dynamic_weights_tests.cpp.o.provides.build:
 
 src/tests/CMakeFiles/mesos-tests.dir/examples_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/examples_tests.cpp.o: ../src/tests/examples_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/examples_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/examples_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/examples_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/examples_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/examples_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/examples_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/examples_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/examples_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/examples_tests.cpp > CMakeFiles/mesos-tests.dir/examples_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/examples_tests.cpp > CMakeFiles/mesos-tests.dir/examples_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/examples_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/examples_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/examples_tests.cpp -o CMakeFiles/mesos-tests.dir/examples_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/examples_tests.cpp -o CMakeFiles/mesos-tests.dir/examples_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/examples_tests.cpp.o.requires:
 
@@ -1718,16 +1718,16 @@ src/tests/CMakeFiles/mesos-tests.dir/examples_tests.cpp.o.provides.build: src/te
 
 src/tests/CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.o: ../src/tests/fetcher_cache_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/fetcher_cache_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/fetcher_cache_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/fetcher_cache_tests.cpp > CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/fetcher_cache_tests.cpp > CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/fetcher_cache_tests.cpp -o CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/fetcher_cache_tests.cpp -o CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.o.requires:
 
@@ -1742,16 +1742,16 @@ src/tests/CMakeFiles/mesos-tests.dir/fetcher_cache_tests.cpp.o.provides.build: s
 
 src/tests/CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.o: ../src/tests/hdfs_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/hdfs_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/hdfs_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/hdfs_tests.cpp > CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/hdfs_tests.cpp > CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/hdfs_tests.cpp -o CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/hdfs_tests.cpp -o CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.o.requires:
 
@@ -1766,16 +1766,16 @@ src/tests/CMakeFiles/mesos-tests.dir/hdfs_tests.cpp.o.provides.build: src/tests/
 
 src/tests/CMakeFiles/mesos-tests.dir/log_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/log_tests.cpp.o: ../src/tests/log_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/log_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/log_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/log_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/log_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/log_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/log_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/log_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/log_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/log_tests.cpp > CMakeFiles/mesos-tests.dir/log_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/log_tests.cpp > CMakeFiles/mesos-tests.dir/log_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/log_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/log_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/log_tests.cpp -o CMakeFiles/mesos-tests.dir/log_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/log_tests.cpp -o CMakeFiles/mesos-tests.dir/log_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/log_tests.cpp.o.requires:
 
@@ -1790,16 +1790,16 @@ src/tests/CMakeFiles/mesos-tests.dir/log_tests.cpp.o.provides.build: src/tests/C
 
 src/tests/CMakeFiles/mesos-tests.dir/logging_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/logging_tests.cpp.o: ../src/tests/logging_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/logging_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/logging_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/logging_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/logging_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/logging_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/logging_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/logging_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/logging_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/logging_tests.cpp > CMakeFiles/mesos-tests.dir/logging_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/logging_tests.cpp > CMakeFiles/mesos-tests.dir/logging_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/logging_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/logging_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/logging_tests.cpp -o CMakeFiles/mesos-tests.dir/logging_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/logging_tests.cpp -o CMakeFiles/mesos-tests.dir/logging_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/logging_tests.cpp.o.requires:
 
@@ -1814,16 +1814,16 @@ src/tests/CMakeFiles/mesos-tests.dir/logging_tests.cpp.o.provides.build: src/tes
 
 src/tests/CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.o: ../src/tests/master_allocator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/master_allocator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_allocator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/master_allocator_tests.cpp > CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_allocator_tests.cpp > CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/master_allocator_tests.cpp -o CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_allocator_tests.cpp -o CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.o.requires:
 
@@ -1838,16 +1838,16 @@ src/tests/CMakeFiles/mesos-tests.dir/master_allocator_tests.cpp.o.provides.build
 
 src/tests/CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.o: ../src/tests/master_authorization_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/master_authorization_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_authorization_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/master_authorization_tests.cpp > CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_authorization_tests.cpp > CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/master_authorization_tests.cpp -o CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_authorization_tests.cpp -o CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.o.requires:
 
@@ -1862,16 +1862,16 @@ src/tests/CMakeFiles/mesos-tests.dir/master_authorization_tests.cpp.o.provides.b
 
 src/tests/CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.o: ../src/tests/master_contender_detector_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/master_contender_detector_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_contender_detector_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/master_contender_detector_tests.cpp > CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_contender_detector_tests.cpp > CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/master_contender_detector_tests.cpp -o CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_contender_detector_tests.cpp -o CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.o.requires:
 
@@ -1886,16 +1886,16 @@ src/tests/CMakeFiles/mesos-tests.dir/master_contender_detector_tests.cpp.o.provi
 
 src/tests/CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.o: ../src/tests/master_quota_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/master_quota_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_quota_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/master_quota_tests.cpp > CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_quota_tests.cpp > CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/master_quota_tests.cpp -o CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_quota_tests.cpp -o CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.o.requires:
 
@@ -1910,16 +1910,16 @@ src/tests/CMakeFiles/mesos-tests.dir/master_quota_tests.cpp.o.provides.build: sr
 
 src/tests/CMakeFiles/mesos-tests.dir/master_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/master_tests.cpp.o: ../src/tests/master_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/master_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/master_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/master_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/master_tests.cpp > CMakeFiles/mesos-tests.dir/master_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_tests.cpp > CMakeFiles/mesos-tests.dir/master_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/master_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/master_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/master_tests.cpp -o CMakeFiles/mesos-tests.dir/master_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_tests.cpp -o CMakeFiles/mesos-tests.dir/master_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/master_tests.cpp.o.requires:
 
@@ -1934,16 +1934,16 @@ src/tests/CMakeFiles/mesos-tests.dir/master_tests.cpp.o.provides.build: src/test
 
 src/tests/CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.o: ../src/tests/master_validation_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/master_validation_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_validation_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/master_validation_tests.cpp > CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_validation_tests.cpp > CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/master_validation_tests.cpp -o CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/master_validation_tests.cpp -o CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.o.requires:
 
@@ -1958,16 +1958,16 @@ src/tests/CMakeFiles/mesos-tests.dir/master_validation_tests.cpp.o.provides.buil
 
 src/tests/CMakeFiles/mesos-tests.dir/metrics_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/metrics_tests.cpp.o: ../src/tests/metrics_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/metrics_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/metrics_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/metrics_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/metrics_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/metrics_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/metrics_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/metrics_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/metrics_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/metrics_tests.cpp > CMakeFiles/mesos-tests.dir/metrics_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/metrics_tests.cpp > CMakeFiles/mesos-tests.dir/metrics_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/metrics_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/metrics_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/metrics_tests.cpp -o CMakeFiles/mesos-tests.dir/metrics_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/metrics_tests.cpp -o CMakeFiles/mesos-tests.dir/metrics_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/metrics_tests.cpp.o.requires:
 
@@ -1982,16 +1982,16 @@ src/tests/CMakeFiles/mesos-tests.dir/metrics_tests.cpp.o.provides.build: src/tes
 
 src/tests/CMakeFiles/mesos-tests.dir/module_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/module_tests.cpp.o: ../src/tests/module_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/module_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/module_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/module_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/module_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/module_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/module_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/module_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/module_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/module_tests.cpp > CMakeFiles/mesos-tests.dir/module_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/module_tests.cpp > CMakeFiles/mesos-tests.dir/module_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/module_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/module_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/module_tests.cpp -o CMakeFiles/mesos-tests.dir/module_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/module_tests.cpp -o CMakeFiles/mesos-tests.dir/module_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/module_tests.cpp.o.requires:
 
@@ -2006,16 +2006,16 @@ src/tests/CMakeFiles/mesos-tests.dir/module_tests.cpp.o.provides.build: src/test
 
 src/tests/CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.o: ../src/tests/oversubscription_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/oversubscription_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/oversubscription_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/oversubscription_tests.cpp > CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/oversubscription_tests.cpp > CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/oversubscription_tests.cpp -o CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/oversubscription_tests.cpp -o CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.o.requires:
 
@@ -2030,16 +2030,16 @@ src/tests/CMakeFiles/mesos-tests.dir/oversubscription_tests.cpp.o.provides.build
 
 src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.o: ../src/tests/persistent_volume_endpoints_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/persistent_volume_endpoints_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/persistent_volume_endpoints_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/persistent_volume_endpoints_tests.cpp > CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/persistent_volume_endpoints_tests.cpp > CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/persistent_volume_endpoints_tests.cpp -o CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/persistent_volume_endpoints_tests.cpp -o CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.o.requires:
 
@@ -2054,16 +2054,16 @@ src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_endpoints_tests.cpp.o.pro
 
 src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.o: ../src/tests/persistent_volume_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/persistent_volume_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/persistent_volume_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/persistent_volume_tests.cpp > CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/persistent_volume_tests.cpp > CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/persistent_volume_tests.cpp -o CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/persistent_volume_tests.cpp -o CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.o.requires:
 
@@ -2078,16 +2078,16 @@ src/tests/CMakeFiles/mesos-tests.dir/persistent_volume_tests.cpp.o.provides.buil
 
 src/tests/CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.o: ../src/tests/protobuf_utils_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/protobuf_utils_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/protobuf_utils_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/protobuf_utils_tests.cpp > CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/protobuf_utils_tests.cpp > CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/protobuf_utils_tests.cpp -o CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/protobuf_utils_tests.cpp -o CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.o.requires:
 
@@ -2102,16 +2102,16 @@ src/tests/CMakeFiles/mesos-tests.dir/protobuf_utils_tests.cpp.o.provides.build: 
 
 src/tests/CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.o: ../src/tests/reconciliation_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/reconciliation_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/reconciliation_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/reconciliation_tests.cpp > CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/reconciliation_tests.cpp > CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/reconciliation_tests.cpp -o CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/reconciliation_tests.cpp -o CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.o.requires:
 
@@ -2126,16 +2126,16 @@ src/tests/CMakeFiles/mesos-tests.dir/reconciliation_tests.cpp.o.provides.build: 
 
 src/tests/CMakeFiles/mesos-tests.dir/registrar_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/registrar_tests.cpp.o: ../src/tests/registrar_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/registrar_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/registrar_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/registrar_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/registrar_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/registrar_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/registrar_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/registrar_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/registrar_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/registrar_tests.cpp > CMakeFiles/mesos-tests.dir/registrar_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/registrar_tests.cpp > CMakeFiles/mesos-tests.dir/registrar_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/registrar_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/registrar_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/registrar_tests.cpp -o CMakeFiles/mesos-tests.dir/registrar_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/registrar_tests.cpp -o CMakeFiles/mesos-tests.dir/registrar_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/registrar_tests.cpp.o.requires:
 
@@ -2150,16 +2150,16 @@ src/tests/CMakeFiles/mesos-tests.dir/registrar_tests.cpp.o.provides.build: src/t
 
 src/tests/CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.o: ../src/tests/reservation_endpoints_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/reservation_endpoints_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/reservation_endpoints_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/reservation_endpoints_tests.cpp > CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/reservation_endpoints_tests.cpp > CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/reservation_endpoints_tests.cpp -o CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/reservation_endpoints_tests.cpp -o CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.o.requires:
 
@@ -2174,16 +2174,16 @@ src/tests/CMakeFiles/mesos-tests.dir/reservation_endpoints_tests.cpp.o.provides.
 
 src/tests/CMakeFiles/mesos-tests.dir/reservation_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/reservation_tests.cpp.o: ../src/tests/reservation_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/reservation_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/reservation_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/reservation_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/reservation_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/reservation_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/reservation_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/reservation_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/reservation_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/reservation_tests.cpp > CMakeFiles/mesos-tests.dir/reservation_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/reservation_tests.cpp > CMakeFiles/mesos-tests.dir/reservation_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/reservation_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/reservation_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/reservation_tests.cpp -o CMakeFiles/mesos-tests.dir/reservation_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/reservation_tests.cpp -o CMakeFiles/mesos-tests.dir/reservation_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/reservation_tests.cpp.o.requires:
 
@@ -2198,16 +2198,16 @@ src/tests/CMakeFiles/mesos-tests.dir/reservation_tests.cpp.o.provides.build: src
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.o: ../src/tests/slave_authorization_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_authorization_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_authorization_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_authorization_tests.cpp > CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_authorization_tests.cpp > CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_authorization_tests.cpp -o CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_authorization_tests.cpp -o CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.o.requires:
 
@@ -2222,16 +2222,16 @@ src/tests/CMakeFiles/mesos-tests.dir/slave_authorization_tests.cpp.o.provides.bu
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.o: ../src/tests/slave_recovery_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_recovery_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_recovery_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_recovery_tests.cpp > CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_recovery_tests.cpp > CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/slave_recovery_tests.cpp -o CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/slave_recovery_tests.cpp -o CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.o.requires:
 
@@ -2246,16 +2246,16 @@ src/tests/CMakeFiles/mesos-tests.dir/slave_recovery_tests.cpp.o.provides.build: 
 
 src/tests/CMakeFiles/mesos-tests.dir/state_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/state_tests.cpp.o: ../src/tests/state_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/state_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/state_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/state_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/state_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/state_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/state_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/state_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/state_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/state_tests.cpp > CMakeFiles/mesos-tests.dir/state_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/state_tests.cpp > CMakeFiles/mesos-tests.dir/state_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/state_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/state_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/state_tests.cpp -o CMakeFiles/mesos-tests.dir/state_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/state_tests.cpp -o CMakeFiles/mesos-tests.dir/state_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/state_tests.cpp.o.requires:
 
@@ -2270,16 +2270,16 @@ src/tests/CMakeFiles/mesos-tests.dir/state_tests.cpp.o.provides.build: src/tests
 
 src/tests/CMakeFiles/mesos-tests.dir/teardown_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/teardown_tests.cpp.o: ../src/tests/teardown_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/teardown_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/teardown_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/teardown_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/teardown_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/teardown_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/teardown_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/teardown_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/teardown_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/teardown_tests.cpp > CMakeFiles/mesos-tests.dir/teardown_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/teardown_tests.cpp > CMakeFiles/mesos-tests.dir/teardown_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/teardown_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/teardown_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/teardown_tests.cpp -o CMakeFiles/mesos-tests.dir/teardown_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/teardown_tests.cpp -o CMakeFiles/mesos-tests.dir/teardown_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/teardown_tests.cpp.o.requires:
 
@@ -2294,16 +2294,16 @@ src/tests/CMakeFiles/mesos-tests.dir/teardown_tests.cpp.o.provides.build: src/te
 
 src/tests/CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.o: ../src/tests/upgrade_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/upgrade_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/upgrade_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/upgrade_tests.cpp > CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/upgrade_tests.cpp > CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/upgrade_tests.cpp -o CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/upgrade_tests.cpp -o CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.o.requires:
 
@@ -2318,16 +2318,16 @@ src/tests/CMakeFiles/mesos-tests.dir/upgrade_tests.cpp.o.provides.build: src/tes
 
 src/tests/CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.o: ../src/tests/common/command_utils_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/common/command_utils_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/command_utils_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/common/command_utils_tests.cpp > CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/command_utils_tests.cpp > CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/common/command_utils_tests.cpp -o CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/common/command_utils_tests.cpp -o CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.o.requires:
 
@@ -2342,16 +2342,16 @@ src/tests/CMakeFiles/mesos-tests.dir/common/command_utils_tests.cpp.o.provides.b
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.o: ../src/tests/containerizer/appc_spec_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/appc_spec_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/appc_spec_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/appc_spec_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/appc_spec_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/appc_spec_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/appc_spec_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.o.requires:
 
@@ -2366,16 +2366,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/appc_spec_tests.cpp.o.provide
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.o: ../src/tests/containerizer/composing_containerizer_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/composing_containerizer_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/composing_containerizer_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/composing_containerizer_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/composing_containerizer_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/composing_containerizer_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/composing_containerizer_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests.cpp.o.requires:
 
@@ -2390,16 +2390,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/composing_containerizer_tests
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.o: ../src/tests/containerizer/cpu_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cpu_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cpu_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cpu_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cpu_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cpu_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cpu_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.o.requires:
 
@@ -2414,16 +2414,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/cpu_isolator_tests.cpp.o.prov
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.o: ../src/tests/containerizer/docker_containerizer_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_containerizer_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_containerizer_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_containerizer_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_containerizer_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_containerizer_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_containerizer_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cpp.o.requires:
 
@@ -2438,16 +2438,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_containerizer_tests.cp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.o: ../src/tests/containerizer/docker_spec_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_spec_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_spec_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_spec_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_spec_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_spec_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_spec_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.o.requires:
 
@@ -2462,16 +2462,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_spec_tests.cpp.o.provi
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.o: ../src/tests/containerizer/docker_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.o.requires:
 
@@ -2486,16 +2486,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_tests.cpp.o.provides.b
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.o: ../src/tests/containerizer/io_switchboard_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/io_switchboard_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/io_switchboard_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/io_switchboard_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/io_switchboard_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/io_switchboard_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/io_switchboard_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.o.requires:
 
@@ -2510,16 +2510,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/io_switchboard_tests.cpp.o.pr
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.o: ../src/tests/containerizer/isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.o.requires:
 
@@ -2534,16 +2534,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/isolator_tests.cpp.o.provides
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.o: ../src/tests/containerizer/memory_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/memory_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/memory_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/memory_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/memory_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/memory_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/memory_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.o.requires:
 
@@ -2558,16 +2558,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_isolator_tests.cpp.o.p
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.o: ../src/tests/containerizer/mesos_containerizer_paths_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/mesos_containerizer_paths_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/mesos_containerizer_paths_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/mesos_containerizer_paths_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/mesos_containerizer_paths_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/mesos_containerizer_paths_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/mesos_containerizer_paths_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tests.cpp.o.requires:
 
@@ -2582,16 +2582,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_paths_tes
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.o: ../src/tests/containerizer/mesos_containerizer_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/mesos_containerizer_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/mesos_containerizer_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/mesos_containerizer_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/mesos_containerizer_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/mesos_containerizer_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/mesos_containerizer_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp.o.requires:
 
@@ -2606,16 +2606,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/mesos_containerizer_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.o: ../src/tests/containerizer/oci_spec_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/oci_spec_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/oci_spec_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/oci_spec_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/oci_spec_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/oci_spec_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/oci_spec_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.o.requires:
 
@@ -2630,16 +2630,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/oci_spec_tests.cpp.o.provides
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.o: ../src/tests/containerizer/posix_rlimits_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/posix_rlimits_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/posix_rlimits_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/posix_rlimits_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/posix_rlimits_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/posix_rlimits_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/posix_rlimits_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.cpp.o.requires:
 
@@ -2654,16 +2654,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/posix_rlimits_isolator_tests.
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.o: ../src/tests/containerizer/provisioner_appc_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_appc_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_appc_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_appc_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_appc_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_appc_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_appc_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.o.requires:
 
@@ -2678,16 +2678,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_appc_tests.cpp.o.
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.o: ../src/tests/containerizer/provisioner_backend_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_backend_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_backend_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_backend_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_backend_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_backend_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_backend_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp.o.requires:
 
@@ -2702,16 +2702,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_backend_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.o: ../src/tests/containerizer/provisioner_docker_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_docker_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_docker_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_docker_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_docker_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_docker_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_docker_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.o.requires:
 
@@ -2726,16 +2726,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_docker_tests.cpp.
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.o: ../src/tests/containerizer/provisioner_paths_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_paths_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_paths_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_paths_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_paths_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/provisioner_paths_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/provisioner_paths_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.o.requires:
 
@@ -2750,16 +2750,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/provisioner_paths_tests.cpp.o
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.o: ../src/tests/containerizer/volume_sandbox_path_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/volume_sandbox_path_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/volume_sandbox_path_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/volume_sandbox_path_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/volume_sandbox_path_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/volume_sandbox_path_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/volume_sandbox_path_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_tests.cpp.o.requires:
 
@@ -2774,16 +2774,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_sandbox_path_isolator_
 
 src/tests/CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.o: ../src/tests/ldcache_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/ldcache_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/ldcache_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/ldcache_tests.cpp > CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/ldcache_tests.cpp > CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/ldcache_tests.cpp -o CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/ldcache_tests.cpp -o CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.o.requires:
 
@@ -2798,16 +2798,16 @@ src/tests/CMakeFiles/mesos-tests.dir/ldcache_tests.cpp.o.provides.build: src/tes
 
 src/tests/CMakeFiles/mesos-tests.dir/ldd_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/ldd_tests.cpp.o: ../src/tests/ldd_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/ldd_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/ldd_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/ldd_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/ldd_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/ldd_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/ldd_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/ldd_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/ldd_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/ldd_tests.cpp > CMakeFiles/mesos-tests.dir/ldd_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/ldd_tests.cpp > CMakeFiles/mesos-tests.dir/ldd_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/ldd_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/ldd_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/ldd_tests.cpp -o CMakeFiles/mesos-tests.dir/ldd_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/ldd_tests.cpp -o CMakeFiles/mesos-tests.dir/ldd_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/ldd_tests.cpp.o.requires:
 
@@ -2822,16 +2822,16 @@ src/tests/CMakeFiles/mesos-tests.dir/ldd_tests.cpp.o.provides.build: src/tests/C
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.o: ../src/tests/containerizer/capabilities_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/capabilities_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/capabilities_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/capabilities_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/capabilities_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/capabilities_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/capabilities_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.o.requires:
 
@@ -2846,16 +2846,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/capabilities_tests.cpp.o.prov
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.o: ../src/tests/containerizer/cgroups_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cgroups_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cgroups_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cgroups_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cgroups_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cgroups_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cgroups_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.o.requires:
 
@@ -2870,16 +2870,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_isolator_tests.cpp.o.
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.o: ../src/tests/containerizer/cgroups_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cgroups_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cgroups_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cgroups_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cgroups_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cgroups_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cgroups_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.o.requires:
 
@@ -2894,16 +2894,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/cgroups_tests.cpp.o.provides.
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.o: ../src/tests/containerizer/cni_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cni_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cni_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cni_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cni_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/cni_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/cni_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.o.requires:
 
@@ -2918,16 +2918,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/cni_isolator_tests.cpp.o.prov
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.o: ../src/tests/containerizer/docker_volume_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_volume_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_volume_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_volume_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_volume_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/docker_volume_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/docker_volume_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.cpp.o.requires:
 
@@ -2942,16 +2942,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/docker_volume_isolator_tests.
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.o: ../src/tests/containerizer/fs_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/fs_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/fs_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/fs_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/fs_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/fs_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/fs_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.o.requires:
 
@@ -2966,16 +2966,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/fs_tests.cpp.o.provides.build
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.o: ../src/tests/containerizer/linux_capabilities_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/linux_capabilities_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/linux_capabilities_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/linux_capabilities_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/linux_capabilities_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/linux_capabilities_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/linux_capabilities_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_tests.cpp.o.requires:
 
@@ -2990,16 +2990,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_capabilities_isolator_t
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.o: ../src/tests/containerizer/linux_filesystem_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/linux_filesystem_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/linux_filesystem_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/linux_filesystem_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/linux_filesystem_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/linux_filesystem_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/linux_filesystem_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tests.cpp.o.requires:
 
@@ -3014,16 +3014,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/linux_filesystem_isolator_tes
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.o: ../src/tests/containerizer/memory_pressure_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/memory_pressure_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/memory_pressure_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/memory_pressure_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/memory_pressure_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/memory_pressure_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/memory_pressure_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.o.requires:
 
@@ -3038,16 +3038,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/memory_pressure_tests.cpp.o.p
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.o: ../src/tests/containerizer/nested_mesos_containerizer_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/nested_mesos_containerizer_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/nested_mesos_containerizer_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/nested_mesos_containerizer_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/nested_mesos_containerizer_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/nested_mesos_containerizer_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/nested_mesos_containerizer_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_tests.cpp.o.requires:
 
@@ -3062,16 +3062,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/nested_mesos_containerizer_te
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.o: ../src/tests/containerizer/ns_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/ns_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/ns_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/ns_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/ns_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/ns_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/ns_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.o.requires:
 
@@ -3086,16 +3086,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/ns_tests.cpp.o.provides.build
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.o: ../src/tests/containerizer/nvidia_gpu_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/nvidia_gpu_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/nvidia_gpu_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/nvidia_gpu_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/nvidia_gpu_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/nvidia_gpu_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/nvidia_gpu_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp.o.requires:
 
@@ -3110,16 +3110,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/nvidia_gpu_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.o: ../src/tests/containerizer/perf_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/perf_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/perf_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/perf_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/perf_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/perf_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/perf_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.o.requires:
 
@@ -3134,16 +3134,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/perf_tests.cpp.o.provides.bui
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.o: ../src/tests/containerizer/rootfs.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/rootfs.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/rootfs.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/rootfs.cpp > CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/rootfs.cpp > CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/rootfs.cpp -o CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/rootfs.cpp -o CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.o.requires:
 
@@ -3158,16 +3158,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/rootfs.cpp.o.provides.build: 
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.o: ../src/tests/containerizer/runtime_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/runtime_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/runtime_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/runtime_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/runtime_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/runtime_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/runtime_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.o.requires:
 
@@ -3182,16 +3182,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/runtime_isolator_tests.cpp.o.
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.o: ../src/tests/containerizer/sched_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/sched_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/sched_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/sched_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/sched_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/sched_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/sched_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.o.requires:
 
@@ -3206,16 +3206,16 @@ src/tests/CMakeFiles/mesos-tests.dir/containerizer/sched_tests.cpp.o.provides.bu
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.o: src/tests/CMakeFiles/mesos-tests.dir/flags.make
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.o: ../src/tests/containerizer/volume_image_isolator_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/volume_image_isolator_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/volume_image_isolator_tests.cpp
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/volume_image_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/volume_image_isolator_tests.cpp > CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.i
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/tests/containerizer/volume_image_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/tests/containerizer/volume_image_isolator_tests.cpp -o CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.s
 
 src/tests/CMakeFiles/mesos-tests.dir/containerizer/volume_image_isolator_tests.cpp.o.requires:
 
@@ -3513,8 +3513,8 @@ src/mesos-tests: 3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c/lib/libzooke
 src/mesos-tests: 3rdparty/leveldb-1.19/src/leveldb-1.19/out-static/libleveldb.a
 src/mesos-tests: /usr/lib/x86_64-linux-gnu/libz.so
 src/mesos-tests: src/tests/CMakeFiles/mesos-tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Linking CXX executable ../mesos-tests"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mesos-tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Linking CXX executable ../mesos-tests"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mesos-tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/tests/CMakeFiles/mesos-tests.dir/build: src/mesos-tests
@@ -3657,10 +3657,10 @@ src/tests/CMakeFiles/mesos-tests.dir/requires: src/tests/CMakeFiles/mesos-tests.
 .PHONY : src/tests/CMakeFiles/mesos-tests.dir/requires
 
 src/tests/CMakeFiles/mesos-tests.dir/clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests && $(CMAKE_COMMAND) -P CMakeFiles/mesos-tests.dir/cmake_clean.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests && $(CMAKE_COMMAND) -P CMakeFiles/mesos-tests.dir/cmake_clean.cmake
 .PHONY : src/tests/CMakeFiles/mesos-tests.dir/clean
 
 src/tests/CMakeFiles/mesos-tests.dir/depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2/src/tests /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/mesos-tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2/src/tests /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/CMakeFiles/mesos-tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/tests/CMakeFiles/mesos-tests.dir/depend
 

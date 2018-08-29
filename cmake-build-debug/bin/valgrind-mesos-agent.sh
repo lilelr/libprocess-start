@@ -20,7 +20,7 @@
 # installed that first sets up some flags via environment variables.
 
 # Use colors for errors.
-. /home/lilelr/open-source/mesos-1.3.2/support/colors.sh
+. /home/lilelr/open-source/bak_mesos-1.3.2/support/colors.sh
 
 # Default valgrind tool is "memcheck".
 VALGRINDTOOL=memcheck
@@ -34,7 +34,7 @@ do
   esac
 done
 
-LIBTOOL=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/libtool
+LIBTOOL=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/libtool
 
 test ! -e ${LIBTOOL} && \
   echo "${RED}Failed to find ${LIBTOOL}, have you run configure?${NORMAL}" \
@@ -47,7 +47,7 @@ test $? != 0 && \
   echo "${RED}Generated libtool doesn't appear to support valgrind${NORMAL}" \
   && exit 1
 
-. /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/bin/mesos-agent-flags.sh
+. /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/bin/mesos-agent-flags.sh
 
 exec ${LIBTOOL} --mode=execute valgrind --tool=${VALGRINDTOOL} \
-  /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/mesos-agent "${@}"
+  /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/mesos-agent "${@}"

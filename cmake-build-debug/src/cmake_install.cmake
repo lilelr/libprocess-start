@@ -1,4 +1,4 @@
-# Install script for directory: /home/lilelr/open-source/mesos-1.3.2/src
+# Install script for directory: /home/lilelr/open-source/bak_mesos-1.3.2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,18 +34,18 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/checks/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/cli/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/docker/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/launcher/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/local/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/log/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/master/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/usage/cmake_install.cmake")
-  include("/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/tests/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/checks/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/cli/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/docker/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/launcher/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/local/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/log/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/master/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/containerizer/mesos/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/usage/cmake_install.cmake")
+  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/tests/cmake_install.cmake")
 
 endif()
 

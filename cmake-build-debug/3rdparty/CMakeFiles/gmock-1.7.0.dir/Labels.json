@@ -4,43 +4,43 @@
 	[
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/gmock-1.7.0"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/gmock-1.7.0"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/gmock-1.7.0.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/gmock-1.7.0.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/gmock-1.7.0-complete.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/gmock-1.7.0-complete.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-install.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-install.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-mkdir.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-mkdir.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-download.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-download.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-update.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-update.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-patch.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-patch.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-configure.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-configure.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-build.rule"
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/gmock-1.7.0/src/gmock-1.7.0-stamp/gmock-1.7.0-build.rule"
 		}
 	],
 	"target" : 

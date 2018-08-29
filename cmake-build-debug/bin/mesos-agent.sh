@@ -19,6 +19,6 @@
 # This is a wrapper for running mesos-agent before it is installed
 # that sets up some flags environment variables.
 
-. /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/bin/mesos-agent-flags.sh
+. /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/bin/mesos-agent-flags.sh
 
-exec /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/mesos-agent "${@}"
+exec /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/mesos-agent "${@}"

@@ -16,5 +16,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-. /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/bin/mesos-master-flags.sh
-. /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/bin/mesos-agent-flags.sh
+. /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/bin/mesos-master-flags.sh
+. /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/bin/mesos-agent-flags.sh

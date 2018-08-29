@@ -51,10 +51,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -70,39 +70,6 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/home/lilelr/clion-2017.2.2/bin/cmake/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
-# Special rule for the target package_source
-package_source:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
-.PHONY : package_source
-
-# Special rule for the target package_source
-package_source/fast: package_source
-
-.PHONY : package_source/fast
-
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -114,16 +81,49 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/home/lilelr/clion-2017.2.2/bin/cmake/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
+
+# Special rule for the target package_source
+package_source:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
+.PHONY : package_source
+
+# Special rule for the target package_source
+package_source/fast: package_source
+
+.PHONY : package_source/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/progress.marks
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles 0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/progress.marks
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/clean
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,22 +133,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/preinstall
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/preinstall
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rdparty/CMakeFiles/elfio-3.2.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/elfio-3.2.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/elfio-3.2.dir/rule
 .PHONY : 3rdparty/CMakeFiles/elfio-3.2.dir/rule
 
 # Convenience name for target.
@@ -158,12 +158,12 @@ elfio-3.2: 3rdparty/CMakeFiles/elfio-3.2.dir/rule
 
 # fast build rule for target.
 elfio-3.2/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/elfio-3.2.dir/build.make 3rdparty/CMakeFiles/elfio-3.2.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/elfio-3.2.dir/build.make 3rdparty/CMakeFiles/elfio-3.2.dir/build
 .PHONY : elfio-3.2/fast
 
 # Convenience name for target.
 3rdparty/CMakeFiles/glog-0.3.3.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/glog-0.3.3.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/glog-0.3.3.dir/rule
 .PHONY : 3rdparty/CMakeFiles/glog-0.3.3.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ glog-0.3.3: 3rdparty/CMakeFiles/glog-0.3.3.dir/rule
 
 # fast build rule for target.
 glog-0.3.3/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/glog-0.3.3.dir/build.make 3rdparty/CMakeFiles/glog-0.3.3.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/glog-0.3.3.dir/build.make 3rdparty/CMakeFiles/glog-0.3.3.dir/build
 .PHONY : glog-0.3.3/fast
 
 # Convenience name for target.
 3rdparty/CMakeFiles/libev-4.22.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/libev-4.22.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/libev-4.22.dir/rule
 .PHONY : 3rdparty/CMakeFiles/libev-4.22.dir/rule
 
 # Convenience name for target.
@@ -188,27 +188,12 @@ libev-4.22: 3rdparty/CMakeFiles/libev-4.22.dir/rule
 
 # fast build rule for target.
 libev-4.22/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/libev-4.22.dir/build.make 3rdparty/CMakeFiles/libev-4.22.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/libev-4.22.dir/build.make 3rdparty/CMakeFiles/libev-4.22.dir/build
 .PHONY : libev-4.22/fast
 
 # Convenience name for target.
-3rdparty/CMakeFiles/protobuf-2.6.1.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/protobuf-2.6.1.dir/rule
-.PHONY : 3rdparty/CMakeFiles/protobuf-2.6.1.dir/rule
-
-# Convenience name for target.
-protobuf-2.6.1: 3rdparty/CMakeFiles/protobuf-2.6.1.dir/rule
-
-.PHONY : protobuf-2.6.1
-
-# fast build rule for target.
-protobuf-2.6.1/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/protobuf-2.6.1.dir/build.make 3rdparty/CMakeFiles/protobuf-2.6.1.dir/build
-.PHONY : protobuf-2.6.1/fast
-
-# Convenience name for target.
 3rdparty/CMakeFiles/picojson-1.3.0.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/picojson-1.3.0.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/picojson-1.3.0.dir/rule
 .PHONY : 3rdparty/CMakeFiles/picojson-1.3.0.dir/rule
 
 # Convenience name for target.
@@ -218,12 +203,12 @@ picojson-1.3.0: 3rdparty/CMakeFiles/picojson-1.3.0.dir/rule
 
 # fast build rule for target.
 picojson-1.3.0/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/picojson-1.3.0.dir/build.make 3rdparty/CMakeFiles/picojson-1.3.0.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/picojson-1.3.0.dir/build.make 3rdparty/CMakeFiles/picojson-1.3.0.dir/build
 .PHONY : picojson-1.3.0/fast
 
 # Convenience name for target.
 3rdparty/CMakeFiles/nvml-352.79.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/nvml-352.79.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/nvml-352.79.dir/rule
 .PHONY : 3rdparty/CMakeFiles/nvml-352.79.dir/rule
 
 # Convenience name for target.
@@ -233,12 +218,12 @@ nvml-352.79: 3rdparty/CMakeFiles/nvml-352.79.dir/rule
 
 # fast build rule for target.
 nvml-352.79/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/nvml-352.79.dir/build.make 3rdparty/CMakeFiles/nvml-352.79.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/nvml-352.79.dir/build.make 3rdparty/CMakeFiles/nvml-352.79.dir/build
 .PHONY : nvml-352.79/fast
 
 # Convenience name for target.
 3rdparty/CMakeFiles/http_parser-2.6.2.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/http_parser-2.6.2.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/http_parser-2.6.2.dir/rule
 .PHONY : 3rdparty/CMakeFiles/http_parser-2.6.2.dir/rule
 
 # Convenience name for target.
@@ -248,42 +233,12 @@ http_parser-2.6.2: 3rdparty/CMakeFiles/http_parser-2.6.2.dir/rule
 
 # fast build rule for target.
 http_parser-2.6.2/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/http_parser-2.6.2.dir/build.make 3rdparty/CMakeFiles/http_parser-2.6.2.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/http_parser-2.6.2.dir/build.make 3rdparty/CMakeFiles/http_parser-2.6.2.dir/build
 .PHONY : http_parser-2.6.2/fast
 
 # Convenience name for target.
-3rdparty/CMakeFiles/gmock-1.7.0.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/gmock-1.7.0.dir/rule
-.PHONY : 3rdparty/CMakeFiles/gmock-1.7.0.dir/rule
-
-# Convenience name for target.
-gmock-1.7.0: 3rdparty/CMakeFiles/gmock-1.7.0.dir/rule
-
-.PHONY : gmock-1.7.0
-
-# fast build rule for target.
-gmock-1.7.0/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/gmock-1.7.0.dir/build.make 3rdparty/CMakeFiles/gmock-1.7.0.dir/build
-.PHONY : gmock-1.7.0/fast
-
-# Convenience name for target.
-3rdparty/CMakeFiles/leveldb-1.19.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/leveldb-1.19.dir/rule
-.PHONY : 3rdparty/CMakeFiles/leveldb-1.19.dir/rule
-
-# Convenience name for target.
-leveldb-1.19: 3rdparty/CMakeFiles/leveldb-1.19.dir/rule
-
-.PHONY : leveldb-1.19
-
-# fast build rule for target.
-leveldb-1.19/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/leveldb-1.19.dir/build.make 3rdparty/CMakeFiles/leveldb-1.19.dir/build
-.PHONY : leveldb-1.19/fast
-
-# Convenience name for target.
 3rdparty/CMakeFiles/boost-1.53.0.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/boost-1.53.0.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/boost-1.53.0.dir/rule
 .PHONY : 3rdparty/CMakeFiles/boost-1.53.0.dir/rule
 
 # Convenience name for target.
@@ -293,12 +248,12 @@ boost-1.53.0: 3rdparty/CMakeFiles/boost-1.53.0.dir/rule
 
 # fast build rule for target.
 boost-1.53.0/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/boost-1.53.0.dir/build.make 3rdparty/CMakeFiles/boost-1.53.0.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/boost-1.53.0.dir/build.make 3rdparty/CMakeFiles/boost-1.53.0.dir/build
 .PHONY : boost-1.53.0/fast
 
 # Convenience name for target.
 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/rule
 .PHONY : 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/rule
 
 # Convenience name for target.
@@ -308,7 +263,7 @@ zookeeper-3.4.8: 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/rule
 
 # fast build rule for target.
 zookeeper-3.4.8/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build.make 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build.make 3rdparty/CMakeFiles/zookeeper-3.4.8.dir/build
 .PHONY : zookeeper-3.4.8/fast
 
 # Help Target
@@ -318,19 +273,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... package_source"
 	@echo "... package"
 	@echo "... elfio-3.2"
 	@echo "... glog-0.3.3"
 	@echo "... libev-4.22"
-	@echo "... protobuf-2.6.1"
 	@echo "... picojson-1.3.0"
 	@echo "... nvml-352.79"
 	@echo "... http_parser-2.6.2"
-	@echo "... edit_cache"
-	@echo "... gmock-1.7.0"
-	@echo "... leveldb-1.19"
+	@echo "... package_source"
 	@echo "... boost-1.53.0"
 	@echo "... zookeeper-3.4.8"
 .PHONY : help
@@ -344,6 +296,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -51,10 +51,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -95,7 +95,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackConfig.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -106,7 +106,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cpack --config ./CPackSourceConfig.cmake /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -116,14 +116,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/slave/qos_controllers/CMakeFiles/progress.marks
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/qos_controllers/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles 0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/slave/qos_controllers/CMakeFiles/progress.marks
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/qos_controllers/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/qos_controllers/clean
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/qos_controllers/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,22 +133,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/qos_controllers/preinstall
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/qos_controllers/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/qos_controllers/preinstall
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/qos_controllers/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/rule:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/rule
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/rule
 .PHONY : src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/rule
 
 # Convenience name for target.
@@ -158,7 +158,7 @@ load_qos_controller: src/slave/qos_controllers/CMakeFiles/load_qos_controller.di
 
 # fast build rule for target.
 load_qos_controller/fast:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build.make src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build.make src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build
 .PHONY : load_qos_controller/fast
 
 load.o: load.cpp.o
@@ -167,7 +167,7 @@ load.o: load.cpp.o
 
 # target to build an object file
 load.cpp.o:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build.make src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/load.cpp.o
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build.make src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/load.cpp.o
 .PHONY : load.cpp.o
 
 load.i: load.cpp.i
@@ -176,7 +176,7 @@ load.i: load.cpp.i
 
 # target to preprocess a source file
 load.cpp.i:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build.make src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/load.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build.make src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/load.cpp.i
 .PHONY : load.cpp.i
 
 load.s: load.cpp.s
@@ -185,7 +185,7 @@ load.s: load.cpp.s
 
 # target to generate assembly for a file
 load.cpp.s:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build.make src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/load.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/build.make src/slave/qos_controllers/CMakeFiles/load_qos_controller.dir/load.cpp.s
 .PHONY : load.cpp.s
 
 # Help Target
@@ -214,6 +214,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

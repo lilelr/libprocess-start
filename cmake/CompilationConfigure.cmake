@@ -356,11 +356,11 @@ endif (WIN32)
 
 # Emit the BUILD_DATE, BUILD_TIME, and BUILD_USER variables into a file.
 # This will be updated each time `cmake` is run.
-configure_file(
-  "${CMAKE_SOURCE_DIR}/src/common/build_config.hpp.in"
-  "${CMAKE_BINARY_DIR}/src/common/build_config.hpp"
-  @ONLY
-  )
+#configure_file(
+#  "${CMAKE_SOURCE_DIR}/src/common/build_config.hpp.in"
+#  "${CMAKE_BINARY_DIR}/src/common/build_config.hpp"
+#  @ONLY
+#  )
 
 # TODO(hausdorff): (MESOS-5902) Populate this value when we integrate Java
 # support.

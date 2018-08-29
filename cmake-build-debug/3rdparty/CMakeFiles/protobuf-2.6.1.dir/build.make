@@ -46,10 +46,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 # Utility rule file for protobuf-2.6.1.
 
@@ -67,54 +67,54 @@ include 3rdparty/CMakeFiles/protobuf-2.6.1.dir/progress.make
 3rdparty/CMakeFiles/protobuf-2.6.1-complete: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-configure
 3rdparty/CMakeFiles/protobuf-2.6.1-complete: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-build
 3rdparty/CMakeFiles/protobuf-2.6.1-complete: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'protobuf-2.6.1'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1-complete
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'protobuf-2.6.1'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1-complete
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-done
 
 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-install: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'protobuf-2.6.1'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && make install
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'protobuf-2.6.1'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && make install
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-install
 
 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'protobuf-2.6.1'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/tmp
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'protobuf-2.6.1'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/tmp
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E make_directory /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-mkdir
 
 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-download: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-urlinfo.txt
 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-download: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (verify and extract) for 'protobuf-2.6.1'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -P /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/verify-protobuf-2.6.1.cmake
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -P /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/extract-protobuf-2.6.1.cmake
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (verify and extract) for 'protobuf-2.6.1'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -P /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/verify-protobuf-2.6.1.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -P /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/extract-protobuf-2.6.1.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-download
 
 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-update: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'protobuf-2.6.1'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo_append
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'protobuf-2.6.1'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo_append
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-update
 
 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-patch: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'protobuf-2.6.1'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1 && test ! -e /home/lilelr/open-source/mesos-1.3.2/3rdparty/protobuf-2.6.1.patch || patch -p1 < /home/lilelr/open-source/mesos-1.3.2/3rdparty/protobuf-2.6.1.patch
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1 && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'protobuf-2.6.1'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1 && test ! -e /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/protobuf-2.6.1.patch || patch -p1 < /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/protobuf-2.6.1.patch
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1 && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-patch
 
 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-configure: 3rdparty/protobuf-2.6.1/tmp/protobuf-2.6.1-cfgcmd.txt
 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-configure: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-update
 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-configure: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'protobuf-2.6.1'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1/src/../configure --prefix=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'protobuf-2.6.1'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1/src/../configure --prefix=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-configure
 
 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-build: 3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'protobuf-2.6.1'"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && make
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'protobuf-2.6.1'"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && make
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-build
 
 protobuf-2.6.1: 3rdparty/CMakeFiles/protobuf-2.6.1
 protobuf-2.6.1: 3rdparty/CMakeFiles/protobuf-2.6.1-complete
@@ -135,10 +135,10 @@ protobuf-2.6.1: 3rdparty/CMakeFiles/protobuf-2.6.1.dir/build.make
 .PHONY : 3rdparty/CMakeFiles/protobuf-2.6.1.dir/build
 
 3rdparty/CMakeFiles/protobuf-2.6.1.dir/clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/protobuf-2.6.1.dir/cmake_clean.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/protobuf-2.6.1.dir/cmake_clean.cmake
 .PHONY : 3rdparty/CMakeFiles/protobuf-2.6.1.dir/clean
 
 3rdparty/CMakeFiles/protobuf-2.6.1.dir/depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2/3rdparty /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdparty/CMakeFiles/protobuf-2.6.1.dir/depend
 

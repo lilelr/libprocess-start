@@ -1,4 +1,4 @@
-# Install script for directory: /home/lilelr/open-source/mesos-1.3.2/3rdparty/stout/tests
+# Install script for directory: /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/stout/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

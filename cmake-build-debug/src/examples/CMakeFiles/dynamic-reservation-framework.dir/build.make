@@ -46,10 +46,10 @@ RM = /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lilelr/open-source/mesos-1.3.2
+CMAKE_SOURCE_DIR = /home/lilelr/open-source/bak_mesos-1.3.2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include src/examples/CMakeFiles/dynamic-reservation-framework.dir/depend.make
@@ -62,16 +62,16 @@ include src/examples/CMakeFiles/dynamic-reservation-framework.dir/flags.make
 
 src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.o: src/examples/CMakeFiles/dynamic-reservation-framework.dir/flags.make
 src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.o: ../src/examples/dynamic_reservation_framework.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.o"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.o -c /home/lilelr/open-source/mesos-1.3.2/src/examples/dynamic_reservation_framework.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.o"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.o -c /home/lilelr/open-source/bak_mesos-1.3.2/src/examples/dynamic_reservation_framework.cpp
 
 src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.i"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/mesos-1.3.2/src/examples/dynamic_reservation_framework.cpp > CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.i
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lilelr/open-source/bak_mesos-1.3.2/src/examples/dynamic_reservation_framework.cpp > CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.i
 
 src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.s"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/mesos-1.3.2/src/examples/dynamic_reservation_framework.cpp -o CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.s
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lilelr/open-source/bak_mesos-1.3.2/src/examples/dynamic_reservation_framework.cpp -o CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.s
 
 src/examples/CMakeFiles/dynamic-reservation-framework.dir/dynamic_reservation_framework.cpp.o.requires:
 
@@ -104,8 +104,8 @@ src/dynamic-reservation-framework: /usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
 src/dynamic-reservation-framework: 3rdparty/leveldb-1.19/src/leveldb-1.19/out-static/libleveldb.a
 src/dynamic-reservation-framework: /usr/lib/x86_64-linux-gnu/libz.so
 src/dynamic-reservation-framework: src/examples/CMakeFiles/dynamic-reservation-framework.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../dynamic-reservation-framework"
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dynamic-reservation-framework.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../dynamic-reservation-framework"
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/dynamic-reservation-framework.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/examples/CMakeFiles/dynamic-reservation-framework.dir/build: src/dynamic-reservation-framework
@@ -117,10 +117,10 @@ src/examples/CMakeFiles/dynamic-reservation-framework.dir/requires: src/examples
 .PHONY : src/examples/CMakeFiles/dynamic-reservation-framework.dir/requires
 
 src/examples/CMakeFiles/dynamic-reservation-framework.dir/clean:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -P CMakeFiles/dynamic-reservation-framework.dir/cmake_clean.cmake
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples && $(CMAKE_COMMAND) -P CMakeFiles/dynamic-reservation-framework.dir/cmake_clean.cmake
 .PHONY : src/examples/CMakeFiles/dynamic-reservation-framework.dir/clean
 
 src/examples/CMakeFiles/dynamic-reservation-framework.dir/depend:
-	cd /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/mesos-1.3.2 /home/lilelr/open-source/mesos-1.3.2/src/examples /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples /home/lilelr/open-source/mesos-1.3.2/cmake-build-debug/src/examples/CMakeFiles/dynamic-reservation-framework.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2 /home/lilelr/open-source/bak_mesos-1.3.2/src/examples /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/src/examples/CMakeFiles/dynamic-reservation-framework.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/examples/CMakeFiles/dynamic-reservation-framework.dir/depend
 
