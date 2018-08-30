@@ -12,7 +12,7 @@ else (NOT WIN32)
   cmake_minimum_required(VERSION 3.7.0)
 endif (NOT WIN32)
 
-project(Mesos)
+project(libprocess-start)
 
 
 
@@ -48,7 +48,7 @@ include(Versions)
 include(cotire)
 
 # Configuration.
-include(MesosConfigure)
+include(StartConfigure)
 include(CompilationConfigure)
 include(ProcessConfigure)
 

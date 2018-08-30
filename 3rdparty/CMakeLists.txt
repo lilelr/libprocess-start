@@ -246,28 +246,28 @@ endif (WIN32)
 
 # Windows third-party libraries. Windows has no package manager, so we download
 # them here.
-###############################################################################
-if (WIN32)
-  # TODO(hausdorff): maybe try to incorporate this into findpackage for Windows
-  ExternalProject_Add(
-    ${CURL_TARGET}
-    PREFIX            ${CURL_CMAKE_ROOT}
-    CMAKE_ARGS        -DBUILD_CURL_TESTS=OFF -DCURL_STATICLIB=ON -DCMAKE_C_FLAGS_DEBUG="/MTd"
-    PATCH_COMMAND     ${CMAKE_NOOP}
-    BUILD_COMMAND     msbuild /p:RuntimeLibrary=MT_StaticDebug lib/libcurl.vcxproj
-    INSTALL_COMMAND   ${CMAKE_NOOP}
-    URL               ${CURL_URL}
-  )
-
-  ExternalProject_Add(
-    ${ZLIB_TARGET}
-    PREFIX          ${ZLIB_CMAKE_ROOT}
-    CMAKE_ARGS      -DBUILD_SHARED_LIBS=OFF
-    BUILD_COMMAND   ${GLOG_BUILD_CMD}
-    INSTALL_COMMAND ${CMAKE_NOOP}
-    URL             ${ZLIB_URL}
-  )
-endif (WIN32)
+################################################################################
+#if (WIN32)
+#  # TODO(hausdorff): maybe try to incorporate this into findpackage for Windows
+#  ExternalProject_Add(
+#    ${CURL_TARGET}
+#    PREFIX            ${CURL_CMAKE_ROOT}
+#    CMAKE_ARGS        -DBUILD_CURL_TESTS=OFF -DCURL_STATICLIB=ON -DCMAKE_C_FLAGS_DEBUG="/MTd"
+#    PATCH_COMMAND     ${CMAKE_NOOP}
+#    BUILD_COMMAND     msbuild /p:RuntimeLibrary=MT_StaticDebug lib/libcurl.vcxproj
+#    INSTALL_COMMAND   ${CMAKE_NOOP}
+#    URL               ${CURL_URL}
+#  )
+#
+#  ExternalProject_Add(
+#    ${ZLIB_TARGET}
+#    PREFIX          ${ZLIB_CMAKE_ROOT}
+#    CMAKE_ARGS      -DBUILD_SHARED_LIBS=OFF
+#    BUILD_COMMAND   ${GLOG_BUILD_CMD}
+#    INSTALL_COMMAND ${CMAKE_NOOP}
+#    URL             ${ZLIB_URL}
+#  )
+#endif (WIN32)
 
 
 # DEPENDENCIES FOR THE PROCESS LIBRARY TESTS AND STOUT TESTS.
@@ -359,11 +359,11 @@ add_subdirectory(libprocess)
 set(LEVELDB_URL   ${FETCH_URL}/leveldb-${LEVELDB_VERSION}.tar.gz)
 # NOTE: The Windows version of ZooKeeper is patched and only available in the
 # 3rdparty repo, not the local repo.
-if (NOT WIN32)
-  set(ZOOKEEPER_URL ${FETCH_URL}/zookeeper-${ZOOKEEPER_VERSION}.tar.gz)
-elseif (WIN32)
-  set(ZOOKEEPER_URL ${3RDPARTY_DEPENDENCIES}/zookeeper-${ZOOKEEPER_VERSION}.tar.gz)
-endif (NOT WIN32)
+#if (NOT WIN32)
+#  set(ZOOKEEPER_URL ${FETCH_URL}/zookeeper-${ZOOKEEPER_VERSION}.tar.gz)
+#elseif (WIN32)
+#  set(ZOOKEEPER_URL ${3RDPARTY_DEPENDENCIES}/zookeeper-${ZOOKEEPER_VERSION}.tar.gz)
+#endif (NOT WIN32)
 
 
 # Third-party libraries. Tell the build system how to pull in and build third-

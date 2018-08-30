@@ -24,7 +24,7 @@ string(TOUPPER "${CMAKE_SYSTEM_PROCESSOR}" SYS_ARCH)
 # CMAKE CONFIGURE LOGO.
 #######################
 message(STATUS "************************************************************")
-message(STATUS "********* Beginning Mesos CMake configuration step *********")
+message(STATUS "********* Beginning libprocess-start CMake configuration step *********")
 message(STATUS "************************************************************")
 message(STATUS "INSTALLATION PREFIX: ${CMAKE_INSTALL_PREFIX}")
 message(STATUS "MACHINE SPECS:")
@@ -55,7 +55,7 @@ include(CompilationConfigure)
 # NOTE: The third-party configuration variables exported here are used
 # throughout the project, so it's important that this config script goes here.
 
-include(Mesos3rdpartyConfigure)
+include(Start3rdpartyConfigure)
 include(Process3rdpartyConfigure)
 #
 ## Generate a batch script that will build Mesos. Any project referencing Mesos

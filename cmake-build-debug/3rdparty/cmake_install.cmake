@@ -1,4 +1,4 @@
-# Install script for directory: /home/lilelr/open-source/bak_mesos-1.3.2/3rdparty
+# Install script for directory: /home/lilelr/open-source/libprocess-start/3rdparty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/cmake_install.cmake")
+  include("/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/libprocess/cmake_install.cmake")
 
 endif()
 

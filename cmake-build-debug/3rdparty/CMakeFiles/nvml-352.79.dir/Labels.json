@@ -4,43 +4,43 @@
 	[
 		
 		{
-			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/nvml-352.79"
+			"file" : "/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/nvml-352.79"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/nvml-352.79.rule"
+			"file" : "/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/nvml-352.79.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/nvml-352.79-complete.rule"
+			"file" : "/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/nvml-352.79-complete.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-install.rule"
+			"file" : "/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-install.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-mkdir.rule"
+			"file" : "/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-mkdir.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-download.rule"
+			"file" : "/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-download.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-update.rule"
+			"file" : "/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-update.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-patch.rule"
+			"file" : "/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-patch.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-configure.rule"
+			"file" : "/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-configure.rule"
 		},
 		
 		{
-			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-build.rule"
+			"file" : "/home/lilelr/open-source/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-build.rule"
 		}
 	],
 	"target" : 

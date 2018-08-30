@@ -42,7 +42,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/lilelr/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/RepositoryInfo.txt.in"
   "/home/lilelr/clion-2017.2.2/bin/cmake/share/cmake-3.8/Modules/SelectLibraryConfigurations.cmake"
   "../3rdparty/CMakeLists.txt"
-  "../3rdparty/cmake/Mesos3rdpartyConfigure.cmake"
+  "../3rdparty/cmake/Start3rdpartyConfigure.cmake"
   "../3rdparty/cmake/Versions.cmake"
   "../3rdparty/cmake/cotire.cmake"
   "../3rdparty/libprocess/CMakeLists.txt"
@@ -71,7 +71,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.8.2/CMakeSystem.cmake"
   "../cmake/Common.cmake"
   "../cmake/CompilationConfigure.cmake"
-  "../cmake/MesosConfigure.cmake"
+  "../cmake/StartConfigure.cmake"
   "../my_hello/CMakeLists.txt"
   "../my_hello/proto/CMakeLists.txt"
   )
