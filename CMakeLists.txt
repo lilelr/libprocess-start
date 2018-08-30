@@ -40,7 +40,7 @@ list(
 #endif()
 
 # Macros.
-#include(Common)
+include(Common)
 include(External)
 include(PatchCommand)
 include(Versions)

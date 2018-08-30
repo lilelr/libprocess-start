@@ -74,7 +74,7 @@ include 3rdparty/CMakeFiles/http_parser-2.6.2.dir/progress.make
 
 3rdparty/http_parser-2.6.2/src/http_parser-2.6.2-stamp/http_parser-2.6.2-install: 3rdparty/http_parser-2.6.2/src/http_parser-2.6.2-stamp/http_parser-2.6.2-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'http_parser-2.6.2'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2-build && $(MAKE) install
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2-stamp/http_parser-2.6.2-install
 
 3rdparty/http_parser-2.6.2/src/http_parser-2.6.2-stamp/http_parser-2.6.2-mkdir:

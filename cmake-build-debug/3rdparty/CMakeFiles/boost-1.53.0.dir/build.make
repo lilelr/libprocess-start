@@ -74,7 +74,7 @@ include 3rdparty/CMakeFiles/boost-1.53.0.dir/progress.make
 
 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-install: 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'boost-1.53.0'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-build && $(MAKE) install
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-install
 
 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-mkdir:
@@ -108,12 +108,12 @@ include 3rdparty/CMakeFiles/boost-1.53.0.dir/progress.make
 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-configure: 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-update
 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-configure: 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'boost-1.53.0'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake "-GCodeBlocks - Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-configure
 
 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-build: 3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'boost-1.53.0'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-build && $(MAKE)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0-stamp/boost-1.53.0-build
 
 boost-1.53.0: 3rdparty/CMakeFiles/boost-1.53.0

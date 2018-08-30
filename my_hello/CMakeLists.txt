@@ -40,12 +40,23 @@ cmake_minimum_required(VERSION 2.8)
 #
 #PROTOC_TO_INCLUDE_DIR(LELEMASTER                mesos/lelemaster)
 
+include(CheckCXXCompilerFlag)
+CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
+if(COMPILER_SUPPORTS_CXX11)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+elseif(COMPILER_SUPPORTS_CXX0X)
+  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+else()
+  message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
+endif()
+
 add_subdirectory(proto)
 
 set(LELE_HELLO "lele_hello_main")
 set(lele_hello_SRC Lele_hello.cpp)
 
-
+message(${PROJECT_BINARY_DIR})
 # Define third-party include directories. Tells compiler toolchain where to get
 # headers for our third party libs (e.g., -I/path/to/glog on Linux).
 ###############################################################################
@@ -53,10 +64,7 @@ set(LELE_INCLUDE_DIRS
         ${LELE_INCLUDE_DIRS}
         ${MESOS_PUBLIC_INCLUDE_DIR}
         # Contains (e.g.) compiled *.pb.h files.
-        ${MESOS_BIN_INCLUDE_DIR}
-        ${MESOS_BIN_INCLUDE_DIR}/mesos
-        ${MESOS_BIN_SRC_DIR}
-        ${MESOS_SRC_DIR}
+        ${PROJECT_BINARY_DIR}/proto/
         ${PROJECT_BINARY_DIR}/my_hello/proto/
         )
 
@@ -114,14 +122,14 @@ add_executable(client_protobuf ${client_protobuf_SRC})
 target_link_libraries(client_protobuf foo protobuf ${LELE_LIBS})
 
 # test_master
-set(test_master_SRC test-master.cpp)
-add_executable(test-master ${test_master_SRC})
-target_link_libraries(test-master foo protobuf ${LELE_LIBS})
+#set(test_master_SRC test-master.cpp)
+#add_executable(test-master ${test_master_SRC})
+#target_link_libraries(test-master foo protobuf ${LELE_LIBS})
 
 # test_slave
-set(test-slave_SRC test-slave.cpp)
-add_executable(test-slave ${test-slave_SRC})
-target_link_libraries(test-slave foo protobuf ${LELE_LIBS})
+#set(test-slave_SRC test-slave.cpp)
+#add_executable(test-slave ${test-slave_SRC})
+#target_link_libraries(test-slave foo protobuf ${LELE_LIBS})
 
 # future promise
 set(future_promise_SRC future_promise.cpp)

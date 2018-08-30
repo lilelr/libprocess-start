@@ -74,7 +74,7 @@ include 3rdparty/CMakeFiles/nvml-352.79.dir/progress.make
 
 3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-install: 3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'nvml-352.79'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-build && $(MAKE) install
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-install
 
 3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-mkdir:
@@ -108,12 +108,12 @@ include 3rdparty/CMakeFiles/nvml-352.79.dir/progress.make
 3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-configure: 3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-update
 3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-configure: 3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'nvml-352.79'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake "-GCodeBlocks - Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-configure
 
 3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-build: 3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'nvml-352.79'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-build && $(MAKE)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79-stamp/nvml-352.79-build
 
 nvml-352.79: 3rdparty/CMakeFiles/nvml-352.79

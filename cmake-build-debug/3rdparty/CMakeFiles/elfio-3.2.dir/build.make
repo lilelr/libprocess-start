@@ -74,7 +74,7 @@ include 3rdparty/CMakeFiles/elfio-3.2.dir/progress.make
 
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-install: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'elfio-3.2'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && $(MAKE) install
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-install
 
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-mkdir:
@@ -108,12 +108,12 @@ include 3rdparty/CMakeFiles/elfio-3.2.dir/progress.make
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-update
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'elfio-3.2'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake "-GCodeBlocks - Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure
 
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-build: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'elfio-3.2'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && $(MAKE)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-build
 
 elfio-3.2: 3rdparty/CMakeFiles/elfio-3.2

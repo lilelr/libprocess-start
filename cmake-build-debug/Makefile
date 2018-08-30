@@ -238,19 +238,6 @@ http_parser-2.6.2/fast:
 .PHONY : http_parser-2.6.2/fast
 
 #=============================================================================
-# Target rules for targets named PREFIX
-
-# Build rule for target.
-PREFIX: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PREFIX
-.PHONY : PREFIX
-
-# fast build rule for target.
-PREFIX/fast:
-	$(MAKE) -f 3rdparty/CMakeFiles/PREFIX.dir/build.make 3rdparty/CMakeFiles/PREFIX.dir/build
-.PHONY : PREFIX/fast
-
-#=============================================================================
 # Target rules for targets named process-0.0.1
 
 # Build rule for target.
@@ -290,30 +277,17 @@ libprocess-tests/fast:
 .PHONY : libprocess-tests/fast
 
 #=============================================================================
-# Target rules for targets named lele_hello_main
+# Target rules for targets named future_promise
 
 # Build rule for target.
-lele_hello_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lele_hello_main
-.PHONY : lele_hello_main
+future_promise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 future_promise
+.PHONY : future_promise
 
 # fast build rule for target.
-lele_hello_main/fast:
-	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/build
-.PHONY : lele_hello_main/fast
-
-#=============================================================================
-# Target rules for targets named client_server_message_event
-
-# Build rule for target.
-client_server_message_event: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 client_server_message_event
-.PHONY : client_server_message_event
-
-# fast build rule for target.
-client_server_message_event/fast:
-	$(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/build
-.PHONY : client_server_message_event/fast
+future_promise/fast:
+	$(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/build
+.PHONY : future_promise/fast
 
 #=============================================================================
 # Target rules for targets named client_protobuf
@@ -329,43 +303,30 @@ client_protobuf/fast:
 .PHONY : client_protobuf/fast
 
 #=============================================================================
-# Target rules for targets named test-master
+# Target rules for targets named client_server_message_event
 
 # Build rule for target.
-test-master: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-master
-.PHONY : test-master
+client_server_message_event: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client_server_message_event
+.PHONY : client_server_message_event
 
 # fast build rule for target.
-test-master/fast:
-	$(MAKE) -f my_hello/CMakeFiles/test-master.dir/build.make my_hello/CMakeFiles/test-master.dir/build
-.PHONY : test-master/fast
+client_server_message_event/fast:
+	$(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/build
+.PHONY : client_server_message_event/fast
 
 #=============================================================================
-# Target rules for targets named future_promise
+# Target rules for targets named lele_hello_main
 
 # Build rule for target.
-future_promise: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 future_promise
-.PHONY : future_promise
+lele_hello_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lele_hello_main
+.PHONY : lele_hello_main
 
 # fast build rule for target.
-future_promise/fast:
-	$(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/build
-.PHONY : future_promise/fast
-
-#=============================================================================
-# Target rules for targets named test-slave
-
-# Build rule for target.
-test-slave: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test-slave
-.PHONY : test-slave
-
-# fast build rule for target.
-test-slave/fast:
-	$(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/build
-.PHONY : test-slave/fast
+lele_hello_main/fast:
+	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/build
+.PHONY : lele_hello_main/fast
 
 #=============================================================================
 # Target rules for targets named foo
@@ -398,16 +359,13 @@ help:
 	@echo "... picojson-1.3.0"
 	@echo "... nvml-352.79"
 	@echo "... http_parser-2.6.2"
-	@echo "... PREFIX"
 	@echo "... process-0.0.1"
 	@echo "... test-linkee"
 	@echo "... libprocess-tests"
-	@echo "... lele_hello_main"
-	@echo "... client_server_message_event"
-	@echo "... client_protobuf"
-	@echo "... test-master"
 	@echo "... future_promise"
-	@echo "... test-slave"
+	@echo "... client_protobuf"
+	@echo "... client_server_message_event"
+	@echo "... lele_hello_main"
 	@echo "... foo"
 .PHONY : help
 

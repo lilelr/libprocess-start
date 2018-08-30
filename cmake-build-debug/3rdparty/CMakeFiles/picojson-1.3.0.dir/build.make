@@ -74,7 +74,7 @@ include 3rdparty/CMakeFiles/picojson-1.3.0.dir/progress.make
 
 3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-install: 3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'picojson-1.3.0'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-build && $(MAKE) install
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-install
 
 3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-mkdir:
@@ -108,12 +108,12 @@ include 3rdparty/CMakeFiles/picojson-1.3.0.dir/progress.make
 3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-configure: 3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-update
 3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-configure: 3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'picojson-1.3.0'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake "-GCodeBlocks - Unix Makefiles" /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-configure
 
 3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-build: 3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-configure
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'picojson-1.3.0'"
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-build && $(MAKE)
+	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E echo
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-build && /home/lilelr/clion-2017.2.2/bin/cmake/bin/cmake -E touch /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0-stamp/picojson-1.3.0-build
 
 picojson-1.3.0: 3rdparty/CMakeFiles/picojson-1.3.0

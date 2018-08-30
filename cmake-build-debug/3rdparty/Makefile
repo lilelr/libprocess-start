@@ -81,17 +81,6 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/home/lilelr/clion-2017.2.2/bin/cmake/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
@@ -102,6 +91,17 @@ package: preinstall
 package/fast: package
 
 .PHONY : package/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/home/lilelr/clion-2017.2.2/bin/cmake/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
 
 # Special rule for the target package_source
 package_source:
@@ -251,21 +251,6 @@ http_parser-2.6.2/fast:
 	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/http_parser-2.6.2.dir/build.make 3rdparty/CMakeFiles/http_parser-2.6.2.dir/build
 .PHONY : http_parser-2.6.2/fast
 
-# Convenience name for target.
-3rdparty/CMakeFiles/PREFIX.dir/rule:
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/CMakeFiles/PREFIX.dir/rule
-.PHONY : 3rdparty/CMakeFiles/PREFIX.dir/rule
-
-# Convenience name for target.
-PREFIX: 3rdparty/CMakeFiles/PREFIX.dir/rule
-
-.PHONY : PREFIX
-
-# fast build rule for target.
-PREFIX/fast:
-	cd /home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug && $(MAKE) -f 3rdparty/CMakeFiles/PREFIX.dir/build.make 3rdparty/CMakeFiles/PREFIX.dir/build
-.PHONY : PREFIX/fast
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -274,9 +259,9 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test"
 	@echo "... boost-1.53.0"
 	@echo "... package"
+	@echo "... test"
 	@echo "... elfio-3.2"
 	@echo "... glog-0.3.3"
 	@echo "... libev-4.22"
@@ -284,7 +269,6 @@ help:
 	@echo "... nvml-352.79"
 	@echo "... http_parser-2.6.2"
 	@echo "... package_source"
-	@echo "... PREFIX"
 .PHONY : help
 
 
