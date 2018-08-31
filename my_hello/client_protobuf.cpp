@@ -62,22 +62,25 @@ public:
         });
 
         install<Offer>(&Client::report_from_server, &Offer::key);
-        UPID masterUPID("my_master@10.211.55.4:46694");
-        server = masterUPID;
 
-        Offer k;
-        string client_id = this->self();
-        k.set_key(client_id);
-        k.set_value("leoox");
-        k.set_lele_label("OS:linux");
-        send(server, k);
-        cout<<"pinf"<<endl;
+
+
+//        cout<<"pinf"<<endl;
 
     }
 
     void report_from_server(const string& key){
         cout<<"report from server"<<endl;
         cout<<key<<endl;
+    }
+
+    void send_server_a_message(){
+        Offer k;
+        string client_id = this->self();
+        k.set_key(client_id);
+        k.set_value("leoox");
+        k.set_lele_label("OS:linux");
+        send(server, k);
     }
 
 
@@ -93,6 +96,12 @@ int main(){
     cout<<endl;
     cout<<"Running client on "<<process::address().ip<<":"<<process::address().port<<endl;
     cout<< "PID"<<endl;
+    cout<<"please input the master UPID:"<<endl;
+    string master_str;
+    cin>>master_str;
+    UPID masterUPID(master_str);
+    client.server = masterUPID;
+    client.send_server_a_message();
     process::wait(client.self());
 //    const PID<Master> masterPid = master.self();
 //    cout<<masterUPID<<endl;
