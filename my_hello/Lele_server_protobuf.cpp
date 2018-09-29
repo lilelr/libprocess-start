@@ -90,6 +90,7 @@ int main(){
     Offer k;
     k.set_key("company");
     k.set_value("leoox");
+
     k.set_lele_label("OS:linux");
      process::initialize("master");
     Master master;

@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/CONFIGURE_COMMAND"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/CONFIGURE_COMMAND.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/CONFIGURE_COMMAND-complete.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CONFIGURE_COMMAND-prefix/src/CONFIGURE_COMMAND-stamp/CONFIGURE_COMMAND-install.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CONFIGURE_COMMAND-prefix/src/CONFIGURE_COMMAND-stamp/CONFIGURE_COMMAND-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CONFIGURE_COMMAND-prefix/src/CONFIGURE_COMMAND-stamp/CONFIGURE_COMMAND-download.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CONFIGURE_COMMAND-prefix/src/CONFIGURE_COMMAND-stamp/CONFIGURE_COMMAND-update.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CONFIGURE_COMMAND-prefix/src/CONFIGURE_COMMAND-stamp/CONFIGURE_COMMAND-patch.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CONFIGURE_COMMAND-prefix/src/CONFIGURE_COMMAND-stamp/CONFIGURE_COMMAND-configure.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CONFIGURE_COMMAND-prefix/src/CONFIGURE_COMMAND-stamp/CONFIGURE_COMMAND-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "CONFIGURE_COMMAND" ],
+		"name" : "CONFIGURE_COMMAND"
+	}
+}

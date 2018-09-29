@@ -1,1 +1,1 @@
-cmd='/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1/src/../configure;--prefix=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib'
+cmd='/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1/src/../configure;--prefix=/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib'

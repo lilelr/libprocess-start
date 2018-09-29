@@ -1,0 +1,3 @@
+repository='external project URL'
+module='/home/lilelr/open-source/bak_mesos-1.3.2/3rdparty/elfio-.tar.gz'
+tag=''

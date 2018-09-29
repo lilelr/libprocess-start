@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfoo.a  CMakeFiles/foo.dir/Offer.pb.cc.o CMakeFiles/foo.dir/addressbook.pb.cc.o
+/usr/bin/ranlib libfoo.a

@@ -1,0 +1,1 @@
+cmd='cd;&&;./configure;--enable-shared=no;--with-pic;--srcdir=.;--prefix='

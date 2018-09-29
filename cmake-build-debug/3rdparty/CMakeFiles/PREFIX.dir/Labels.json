@@ -1,0 +1,51 @@
+
+{
+	"sources" : 
+	[
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/PREFIX"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/PREFIX.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/CMakeFiles/PREFIX-complete.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-install.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-mkdir.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-download.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-update.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-patch.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-configure.rule"
+		},
+		
+		{
+			"file" : "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/PREFIX-prefix/src/PREFIX-stamp/PREFIX-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : [ "PREFIX" ],
+		"name" : "PREFIX"
+	}
+}
