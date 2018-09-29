@@ -41,7 +41,7 @@
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/future_promise.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/client_protobuf.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/client_server_message_event.dir
-/home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/lele_hello_main.dir
+/home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/lele_server_protobuf.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/proto/CMakeFiles/rebuild_cache.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/proto/CMakeFiles/edit_cache.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/proto/CMakeFiles/package_source.dir

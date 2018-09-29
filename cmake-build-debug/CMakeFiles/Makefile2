@@ -519,7 +519,7 @@ clean: 3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/clean
 my_hello/all: my_hello/CMakeFiles/future_promise.dir/all
 my_hello/all: my_hello/CMakeFiles/client_protobuf.dir/all
 my_hello/all: my_hello/CMakeFiles/client_server_message_event.dir/all
-my_hello/all: my_hello/CMakeFiles/lele_hello_main.dir/all
+my_hello/all: my_hello/CMakeFiles/lele_server_protobuf.dir/all
 my_hello/all: my_hello/proto/all
 
 .PHONY : my_hello/all
@@ -528,7 +528,7 @@ my_hello/all: my_hello/proto/all
 my_hello/clean: my_hello/CMakeFiles/future_promise.dir/clean
 my_hello/clean: my_hello/CMakeFiles/client_protobuf.dir/clean
 my_hello/clean: my_hello/CMakeFiles/client_server_message_event.dir/clean
-my_hello/clean: my_hello/CMakeFiles/lele_hello_main.dir/clean
+my_hello/clean: my_hello/CMakeFiles/lele_server_protobuf.dir/clean
 my_hello/clean: my_hello/proto/clean
 
 .PHONY : my_hello/clean
@@ -653,40 +653,40 @@ clean: my_hello/CMakeFiles/client_server_message_event.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target my_hello/CMakeFiles/lele_hello_main.dir
+# Target rules for target my_hello/CMakeFiles/lele_server_protobuf.dir
 
 # All Build rule for target.
-my_hello/CMakeFiles/lele_hello_main.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
-my_hello/CMakeFiles/lele_hello_main.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
-	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/depend
-	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target lele_hello_main"
-.PHONY : my_hello/CMakeFiles/lele_hello_main.dir/all
+my_hello/CMakeFiles/lele_server_protobuf.dir/all: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/all
+my_hello/CMakeFiles/lele_server_protobuf.dir/all: my_hello/proto/CMakeFiles/foo.dir/all
+	$(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/depend
+	$(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lilelr/open-source/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target lele_server_protobuf"
+.PHONY : my_hello/CMakeFiles/lele_server_protobuf.dir/all
 
 # Include target in all.
-all: my_hello/CMakeFiles/lele_hello_main.dir/all
+all: my_hello/CMakeFiles/lele_server_protobuf.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-my_hello/CMakeFiles/lele_hello_main.dir/rule: cmake_check_build_system
+my_hello/CMakeFiles/lele_server_protobuf.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/libprocess-start/cmake-build-debug/CMakeFiles 26
-	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/lele_hello_main.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/lele_server_protobuf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lilelr/open-source/libprocess-start/cmake-build-debug/CMakeFiles 0
-.PHONY : my_hello/CMakeFiles/lele_hello_main.dir/rule
+.PHONY : my_hello/CMakeFiles/lele_server_protobuf.dir/rule
 
 # Convenience name for target.
-lele_hello_main: my_hello/CMakeFiles/lele_hello_main.dir/rule
+lele_server_protobuf: my_hello/CMakeFiles/lele_server_protobuf.dir/rule
 
-.PHONY : lele_hello_main
-
-# clean rule for target.
-my_hello/CMakeFiles/lele_hello_main.dir/clean:
-	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/clean
-.PHONY : my_hello/CMakeFiles/lele_hello_main.dir/clean
+.PHONY : lele_server_protobuf
 
 # clean rule for target.
-clean: my_hello/CMakeFiles/lele_hello_main.dir/clean
+my_hello/CMakeFiles/lele_server_protobuf.dir/clean:
+	$(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/clean
+.PHONY : my_hello/CMakeFiles/lele_server_protobuf.dir/clean
+
+# clean rule for target.
+clean: my_hello/CMakeFiles/lele_server_protobuf.dir/clean
 
 .PHONY : clean
 

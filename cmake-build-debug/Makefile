@@ -316,17 +316,17 @@ client_server_message_event/fast:
 .PHONY : client_server_message_event/fast
 
 #=============================================================================
-# Target rules for targets named lele_hello_main
+# Target rules for targets named lele_server_protobuf
 
 # Build rule for target.
-lele_hello_main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lele_hello_main
-.PHONY : lele_hello_main
+lele_server_protobuf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lele_server_protobuf
+.PHONY : lele_server_protobuf
 
 # fast build rule for target.
-lele_hello_main/fast:
-	$(MAKE) -f my_hello/CMakeFiles/lele_hello_main.dir/build.make my_hello/CMakeFiles/lele_hello_main.dir/build
-.PHONY : lele_hello_main/fast
+lele_server_protobuf/fast:
+	$(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/build
+.PHONY : lele_server_protobuf/fast
 
 #=============================================================================
 # Target rules for targets named foo
@@ -365,7 +365,7 @@ help:
 	@echo "... future_promise"
 	@echo "... client_protobuf"
 	@echo "... client_server_message_event"
-	@echo "... lele_hello_main"
+	@echo "... lele_server_protobuf"
 	@echo "... foo"
 .PHONY : help
 

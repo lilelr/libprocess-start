@@ -108,6 +108,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "my_hello/CMakeFiles/future_promise.dir/DependInfo.cmake"
   "my_hello/CMakeFiles/client_protobuf.dir/DependInfo.cmake"
   "my_hello/CMakeFiles/client_server_message_event.dir/DependInfo.cmake"
-  "my_hello/CMakeFiles/lele_hello_main.dir/DependInfo.cmake"
+  "my_hello/CMakeFiles/lele_server_protobuf.dir/DependInfo.cmake"
   "my_hello/proto/CMakeFiles/foo.dir/DependInfo.cmake"
   )

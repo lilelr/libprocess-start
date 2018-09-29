@@ -53,8 +53,8 @@ endif()
 
 add_subdirectory(proto)
 
-set(LELE_HELLO "lele_hello_main")
-set(lele_hello_SRC Lele_hello.cpp)
+set(LELE_HELLO "lele_server_protobuf")
+set(lele_hello_SRC Lele_server_protobuf.cpp)
 
 message(${PROJECT_BINARY_DIR})
 # Define third-party include directories. Tells compiler toolchain where to get
@@ -134,5 +134,5 @@ target_link_libraries(client_protobuf foo protobuf ${LELE_LIBS})
 # future promise
 set(future_promise_SRC future_promise.cpp)
 add_executable(future_promise ${future_promise_SRC})
-target_link_libraries(future_promise foo protobuf ${LELE_LIBS})
+target_link_libraries(future_promise foo protobuf ${LELE_LIBS} pthread gmock gtest)
 

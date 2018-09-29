@@ -497,7 +497,7 @@ TEST(FutureTest, Discard3)
 // GTEST_IS_THREADSAFE is not defined on Windows. See MESOS-5903.
 TEST_TEMP_DISABLED_ON_WINDOWS(FutureTest, Select)
 {
-  ASSERT_TRUE(GTEST_IS_THREADSAFE);
+//  ASSERT_TRUE(GTEST_IS_THREADSAFE);
 
   Promise<int> promise1;
   Promise<int> promise2;
