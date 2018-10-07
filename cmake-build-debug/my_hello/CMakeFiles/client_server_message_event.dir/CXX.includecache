@@ -1150,7 +1150,7 @@ stout/try.hpp
 stout/windows.hpp
 -
 
-/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/client_server_message_event.cpp
+/home/marcie/libprocess-start/my_hello/client_server_message_event.cpp
 iostream
 -
 sstream

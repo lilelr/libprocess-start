@@ -1,4 +1,4 @@
-/home/wqn/software/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/wqn/libprocess-start
+/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/marcie/libprocess-start
 Don't forget to buy one apple
 Don't forget to buy one orange
 Don't forget to buy one pear
@@ -31,7 +31,7 @@ Don't forget to buy one beer
 -- ************************************************************
 -- Performing Test COMPILER_SUPPORTS_CXX11
 -- Performing Test COMPILER_SUPPORTS_CXX11 - Success
-/home/wqn/libprocess-start
+/home/marcie/libprocess-start
 -- Found APR library: /usr/lib/x86_64-linux-gnu/libapr-1.so
 -- Found APR header: /usr/include/apr-1.0
 -- Found SVN library: /usr/lib/x86_64-linux-gnu/libsvn_delta-1.so;/usr/lib/x86_64-linux-gnu/libsvn_diff-1.so;/usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
@@ -50,8 +50,8 @@ Don't forget to buy one beer
 -- Performing Test COMPILER_SUPPORTS_CXX0X - Success
 -- Found Protobuf: /usr/local/lib/libprotobuf.so;-lpthread (found version "2.6.1") 
 -- protobuf library found
-/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include
-/home/wqn/libprocess-start/cmake-build-debug
+/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include
+/home/marcie/libprocess-start/cmake-build-debug
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/wqn/libprocess-start/cmake-build-debug
+-- Build files have been written to: /home/marcie/libprocess-start/cmake-build-debug

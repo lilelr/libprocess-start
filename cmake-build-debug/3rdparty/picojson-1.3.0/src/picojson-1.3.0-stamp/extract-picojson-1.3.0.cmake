@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/wqn/libprocess-start/3rdparty/picojson-1.3.0.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0" ABSOLUTE)
+get_filename_component(filename "/home/marcie/libprocess-start/3rdparty/picojson-1.3.0.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

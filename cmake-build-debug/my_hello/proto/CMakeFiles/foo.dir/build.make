@@ -37,19 +37,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/wqn/software/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wqn/libprocess-start
+CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wqn/libprocess-start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include my_hello/proto/CMakeFiles/foo.dir/depend.make
@@ -62,45 +62,45 @@ include my_hello/proto/CMakeFiles/foo.dir/flags.make
 
 my_hello/proto/Offer.pb.cc: ../my_hello/proto/Offer.proto
 my_hello/proto/Offer.pb.cc: /usr/local/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on Offer.proto"
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && /usr/local/bin/protoc --cpp_out=/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto -I /home/wqn/libprocess-start/my_hello/proto /home/wqn/libprocess-start/my_hello/proto/Offer.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running C++ protocol buffer compiler on Offer.proto"
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && /usr/local/bin/protoc --cpp_out=/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto -I /home/marcie/libprocess-start/my_hello/proto /home/marcie/libprocess-start/my_hello/proto/Offer.proto
 
 my_hello/proto/Offer.pb.h: my_hello/proto/Offer.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate my_hello/proto/Offer.pb.h
 
 my_hello/proto/addressbook.pb.cc: ../my_hello/proto/addressbook.proto
 my_hello/proto/addressbook.pb.cc: /usr/local/bin/protoc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running C++ protocol buffer compiler on addressbook.proto"
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && /usr/local/bin/protoc --cpp_out=/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto -I /home/wqn/libprocess-start/my_hello/proto /home/wqn/libprocess-start/my_hello/proto/addressbook.proto
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Running C++ protocol buffer compiler on addressbook.proto"
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && /usr/local/bin/protoc --cpp_out=/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto -I /home/marcie/libprocess-start/my_hello/proto /home/marcie/libprocess-start/my_hello/proto/addressbook.proto
 
 my_hello/proto/addressbook.pb.h: my_hello/proto/addressbook.pb.cc
 	@$(CMAKE_COMMAND) -E touch_nocreate my_hello/proto/addressbook.pb.h
 
 my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.o: my_hello/proto/CMakeFiles/foo.dir/flags.make
 my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.o: my_hello/proto/Offer.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foo.dir/Offer.pb.cc.o -c /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foo.dir/Offer.pb.cc.o -c /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc
 
 my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/foo.dir/Offer.pb.cc.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc > CMakeFiles/foo.dir/Offer.pb.cc.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc > CMakeFiles/foo.dir/Offer.pb.cc.i
 
 my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foo.dir/Offer.pb.cc.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc -o CMakeFiles/foo.dir/Offer.pb.cc.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc -o CMakeFiles/foo.dir/Offer.pb.cc.s
 
 my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.o: my_hello/proto/CMakeFiles/foo.dir/flags.make
 my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.o: my_hello/proto/addressbook.pb.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foo.dir/addressbook.pb.cc.o -c /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/foo.dir/addressbook.pb.cc.o -c /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc
 
 my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/foo.dir/addressbook.pb.cc.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc > CMakeFiles/foo.dir/addressbook.pb.cc.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc > CMakeFiles/foo.dir/addressbook.pb.cc.i
 
 my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/foo.dir/addressbook.pb.cc.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc -o CMakeFiles/foo.dir/addressbook.pb.cc.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc -o CMakeFiles/foo.dir/addressbook.pb.cc.s
 
 # Object files for target foo
 foo_OBJECTS = \
@@ -114,9 +114,9 @@ my_hello/proto/libfoo.a: my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.o
 my_hello/proto/libfoo.a: my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.o
 my_hello/proto/libfoo.a: my_hello/proto/CMakeFiles/foo.dir/build.make
 my_hello/proto/libfoo.a: my_hello/proto/CMakeFiles/foo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libfoo.a"
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && $(CMAKE_COMMAND) -P CMakeFiles/foo.dir/cmake_clean_target.cmake
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libfoo.a"
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && $(CMAKE_COMMAND) -P CMakeFiles/foo.dir/cmake_clean_target.cmake
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/foo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 my_hello/proto/CMakeFiles/foo.dir/build: my_hello/proto/libfoo.a
@@ -124,13 +124,13 @@ my_hello/proto/CMakeFiles/foo.dir/build: my_hello/proto/libfoo.a
 .PHONY : my_hello/proto/CMakeFiles/foo.dir/build
 
 my_hello/proto/CMakeFiles/foo.dir/clean:
-	cd /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto && $(CMAKE_COMMAND) -P CMakeFiles/foo.dir/cmake_clean.cmake
+	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto && $(CMAKE_COMMAND) -P CMakeFiles/foo.dir/cmake_clean.cmake
 .PHONY : my_hello/proto/CMakeFiles/foo.dir/clean
 
 my_hello/proto/CMakeFiles/foo.dir/depend: my_hello/proto/Offer.pb.cc
 my_hello/proto/CMakeFiles/foo.dir/depend: my_hello/proto/Offer.pb.h
 my_hello/proto/CMakeFiles/foo.dir/depend: my_hello/proto/addressbook.pb.cc
 my_hello/proto/CMakeFiles/foo.dir/depend: my_hello/proto/addressbook.pb.h
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wqn/libprocess-start /home/wqn/libprocess-start/my_hello/proto /home/wqn/libprocess-start/cmake-build-debug /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto /home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/CMakeFiles/foo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcie/libprocess-start /home/marcie/libprocess-start/my_hello/proto /home/marcie/libprocess-start/cmake-build-debug /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/CMakeFiles/foo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_hello/proto/CMakeFiles/foo.dir/depend
 

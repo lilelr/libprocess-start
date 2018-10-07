@@ -37,19 +37,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/wqn/software/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wqn/libprocess-start
+CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wqn/libprocess-start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/depend.make
@@ -62,302 +62,302 @@ include 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.o: ../3rdparty/libprocess/src/subprocess_posix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/subprocess_posix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/subprocess_posix.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/subprocess_posix.cpp > CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/subprocess_posix.cpp > CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/subprocess_posix.cpp -o CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/subprocess_posix.cpp -o CMakeFiles/process-0.0.1.dir/subprocess_posix.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.o: ../3rdparty/libprocess/src/authenticator_manager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/authenticator_manager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/authenticator_manager.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/authenticator_manager.cpp > CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/authenticator_manager.cpp > CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/authenticator_manager.cpp -o CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/authenticator_manager.cpp -o CMakeFiles/process-0.0.1.dir/authenticator_manager.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator.cpp.o: ../3rdparty/libprocess/src/authenticator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/authenticator.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/authenticator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/authenticator.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/authenticator.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/authenticator.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/authenticator.cpp > CMakeFiles/process-0.0.1.dir/authenticator.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/authenticator.cpp > CMakeFiles/process-0.0.1.dir/authenticator.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/authenticator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/authenticator.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/authenticator.cpp -o CMakeFiles/process-0.0.1.dir/authenticator.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/authenticator.cpp -o CMakeFiles/process-0.0.1.dir/authenticator.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/clock.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/clock.cpp.o: ../3rdparty/libprocess/src/clock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/clock.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/clock.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/clock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/clock.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/clock.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/clock.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/clock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/clock.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/clock.cpp > CMakeFiles/process-0.0.1.dir/clock.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/clock.cpp > CMakeFiles/process-0.0.1.dir/clock.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/clock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/clock.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/clock.cpp -o CMakeFiles/process-0.0.1.dir/clock.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/clock.cpp -o CMakeFiles/process-0.0.1.dir/clock.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/firewall.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/firewall.cpp.o: ../3rdparty/libprocess/src/firewall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/firewall.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/firewall.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/firewall.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/firewall.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/firewall.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/firewall.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/firewall.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/firewall.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/firewall.cpp > CMakeFiles/process-0.0.1.dir/firewall.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/firewall.cpp > CMakeFiles/process-0.0.1.dir/firewall.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/firewall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/firewall.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/firewall.cpp -o CMakeFiles/process-0.0.1.dir/firewall.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/firewall.cpp -o CMakeFiles/process-0.0.1.dir/firewall.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/help.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/help.cpp.o: ../3rdparty/libprocess/src/help.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/help.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/help.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/help.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/help.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/help.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/help.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/help.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/help.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/help.cpp > CMakeFiles/process-0.0.1.dir/help.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/help.cpp > CMakeFiles/process-0.0.1.dir/help.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/help.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/help.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/help.cpp -o CMakeFiles/process-0.0.1.dir/help.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/help.cpp -o CMakeFiles/process-0.0.1.dir/help.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/http.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/http.cpp.o: ../3rdparty/libprocess/src/http.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/http.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/http.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/http.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/http.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/http.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/http.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/http.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/http.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/http.cpp > CMakeFiles/process-0.0.1.dir/http.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/http.cpp > CMakeFiles/process-0.0.1.dir/http.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/http.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/http.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/http.cpp -o CMakeFiles/process-0.0.1.dir/http.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/http.cpp -o CMakeFiles/process-0.0.1.dir/http.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/io.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/io.cpp.o: ../3rdparty/libprocess/src/io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/io.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/io.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/io.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/io.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/io.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/io.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/io.cpp > CMakeFiles/process-0.0.1.dir/io.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/io.cpp > CMakeFiles/process-0.0.1.dir/io.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/io.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/io.cpp -o CMakeFiles/process-0.0.1.dir/io.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/io.cpp -o CMakeFiles/process-0.0.1.dir/io.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/latch.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/latch.cpp.o: ../3rdparty/libprocess/src/latch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/latch.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/latch.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/latch.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/latch.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/latch.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/latch.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/latch.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/latch.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/latch.cpp > CMakeFiles/process-0.0.1.dir/latch.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/latch.cpp > CMakeFiles/process-0.0.1.dir/latch.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/latch.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/latch.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/latch.cpp -o CMakeFiles/process-0.0.1.dir/latch.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/latch.cpp -o CMakeFiles/process-0.0.1.dir/latch.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/logging.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/logging.cpp.o: ../3rdparty/libprocess/src/logging.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/logging.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/logging.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/logging.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/logging.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/logging.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/logging.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/logging.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/logging.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/logging.cpp > CMakeFiles/process-0.0.1.dir/logging.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/logging.cpp > CMakeFiles/process-0.0.1.dir/logging.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/logging.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/logging.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/logging.cpp -o CMakeFiles/process-0.0.1.dir/logging.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/logging.cpp -o CMakeFiles/process-0.0.1.dir/logging.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.o: ../3rdparty/libprocess/src/metrics/metrics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/metrics/metrics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/metrics/metrics.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/metrics/metrics.cpp > CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/metrics/metrics.cpp > CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/metrics/metrics.cpp -o CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/metrics/metrics.cpp -o CMakeFiles/process-0.0.1.dir/metrics/metrics.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/mime.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/mime.cpp.o: ../3rdparty/libprocess/src/mime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/mime.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/mime.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/mime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/mime.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/mime.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/mime.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/mime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/mime.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/mime.cpp > CMakeFiles/process-0.0.1.dir/mime.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/mime.cpp > CMakeFiles/process-0.0.1.dir/mime.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/mime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/mime.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/mime.cpp -o CMakeFiles/process-0.0.1.dir/mime.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/mime.cpp -o CMakeFiles/process-0.0.1.dir/mime.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/pid.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/pid.cpp.o: ../3rdparty/libprocess/src/pid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/pid.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/pid.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/pid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/pid.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/pid.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/pid.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/pid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/pid.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/pid.cpp > CMakeFiles/process-0.0.1.dir/pid.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/pid.cpp > CMakeFiles/process-0.0.1.dir/pid.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/pid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/pid.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/pid.cpp -o CMakeFiles/process-0.0.1.dir/pid.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/pid.cpp -o CMakeFiles/process-0.0.1.dir/pid.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/poll_socket.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/poll_socket.cpp.o: ../3rdparty/libprocess/src/poll_socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/poll_socket.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/poll_socket.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/poll_socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/poll_socket.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/poll_socket.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/poll_socket.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/poll_socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/poll_socket.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/poll_socket.cpp > CMakeFiles/process-0.0.1.dir/poll_socket.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/poll_socket.cpp > CMakeFiles/process-0.0.1.dir/poll_socket.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/poll_socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/poll_socket.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/poll_socket.cpp -o CMakeFiles/process-0.0.1.dir/poll_socket.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/poll_socket.cpp -o CMakeFiles/process-0.0.1.dir/poll_socket.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/profiler.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/profiler.cpp.o: ../3rdparty/libprocess/src/profiler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/profiler.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/profiler.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/profiler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/profiler.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/profiler.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/profiler.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/profiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/profiler.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/profiler.cpp > CMakeFiles/process-0.0.1.dir/profiler.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/profiler.cpp > CMakeFiles/process-0.0.1.dir/profiler.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/profiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/profiler.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/profiler.cpp -o CMakeFiles/process-0.0.1.dir/profiler.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/profiler.cpp -o CMakeFiles/process-0.0.1.dir/profiler.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/process.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/process.cpp.o: ../3rdparty/libprocess/src/process.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/process.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/process.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/process.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/process.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/process.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/process.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/process.cpp > CMakeFiles/process-0.0.1.dir/process.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/process.cpp > CMakeFiles/process-0.0.1.dir/process.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/process.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/process.cpp -o CMakeFiles/process-0.0.1.dir/process.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/process.cpp -o CMakeFiles/process-0.0.1.dir/process.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/reap.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/reap.cpp.o: ../3rdparty/libprocess/src/reap.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/reap.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/reap.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/reap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/reap.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/reap.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/reap.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/reap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/reap.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/reap.cpp > CMakeFiles/process-0.0.1.dir/reap.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/reap.cpp > CMakeFiles/process-0.0.1.dir/reap.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/reap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/reap.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/reap.cpp -o CMakeFiles/process-0.0.1.dir/reap.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/reap.cpp -o CMakeFiles/process-0.0.1.dir/reap.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/socket.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/socket.cpp.o: ../3rdparty/libprocess/src/socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/socket.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/socket.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/socket.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/socket.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/socket.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/socket.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/socket.cpp > CMakeFiles/process-0.0.1.dir/socket.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/socket.cpp > CMakeFiles/process-0.0.1.dir/socket.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/socket.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/socket.cpp -o CMakeFiles/process-0.0.1.dir/socket.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/socket.cpp -o CMakeFiles/process-0.0.1.dir/socket.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess.cpp.o: ../3rdparty/libprocess/src/subprocess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/subprocess.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/subprocess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/subprocess.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/subprocess.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/subprocess.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/subprocess.cpp > CMakeFiles/process-0.0.1.dir/subprocess.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/subprocess.cpp > CMakeFiles/process-0.0.1.dir/subprocess.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/subprocess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/subprocess.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/subprocess.cpp -o CMakeFiles/process-0.0.1.dir/subprocess.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/subprocess.cpp -o CMakeFiles/process-0.0.1.dir/subprocess.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/time.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/time.cpp.o: ../3rdparty/libprocess/src/time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/time.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/time.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/time.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/time.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/time.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/time.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/time.cpp > CMakeFiles/process-0.0.1.dir/time.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/time.cpp > CMakeFiles/process-0.0.1.dir/time.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/time.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/time.cpp -o CMakeFiles/process-0.0.1.dir/time.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/time.cpp -o CMakeFiles/process-0.0.1.dir/time.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/timeseries.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/timeseries.cpp.o: ../3rdparty/libprocess/src/timeseries.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/timeseries.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/timeseries.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/timeseries.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/timeseries.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/timeseries.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/timeseries.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/timeseries.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/timeseries.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/timeseries.cpp > CMakeFiles/process-0.0.1.dir/timeseries.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/timeseries.cpp > CMakeFiles/process-0.0.1.dir/timeseries.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/timeseries.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/timeseries.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/timeseries.cpp -o CMakeFiles/process-0.0.1.dir/timeseries.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/timeseries.cpp -o CMakeFiles/process-0.0.1.dir/timeseries.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev.cpp.o: ../3rdparty/libprocess/src/libev.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/libev.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/libev.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/libev.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/libev.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/libev.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/libev.cpp > CMakeFiles/process-0.0.1.dir/libev.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/libev.cpp > CMakeFiles/process-0.0.1.dir/libev.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/libev.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/libev.cpp -o CMakeFiles/process-0.0.1.dir/libev.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/libev.cpp -o CMakeFiles/process-0.0.1.dir/libev.cpp.s
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev_poll.cpp.o: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/flags.make
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev_poll.cpp.o: ../3rdparty/libprocess/src/libev_poll.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev_poll.cpp.o"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/libev_poll.cpp.o -c /home/wqn/libprocess-start/3rdparty/libprocess/src/libev_poll.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev_poll.cpp.o"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/process-0.0.1.dir/libev_poll.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/libev_poll.cpp
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev_poll.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/process-0.0.1.dir/libev_poll.cpp.i"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wqn/libprocess-start/3rdparty/libprocess/src/libev_poll.cpp > CMakeFiles/process-0.0.1.dir/libev_poll.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/libev_poll.cpp > CMakeFiles/process-0.0.1.dir/libev_poll.cpp.i
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/libev_poll.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/process-0.0.1.dir/libev_poll.cpp.s"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wqn/libprocess-start/3rdparty/libprocess/src/libev_poll.cpp -o CMakeFiles/process-0.0.1.dir/libev_poll.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/libev_poll.cpp -o CMakeFiles/process-0.0.1.dir/libev_poll.cpp.s
 
 # Object files for target process-0.0.1
 process__0_0_1_OBJECTS = \
@@ -423,9 +423,9 @@ process__0_0_1_EXTERNAL_OBJECTS =
 3rdparty/libprocess/src/libprocess-0.0.1.so.0.0.1: /usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
 3rdparty/libprocess/src/libprocess-0.0.1.so.0.0.1: /usr/lib/x86_64-linux-gnu/libz.so
 3rdparty/libprocess/src/libprocess-0.0.1.so.0.0.1: 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX shared library libprocess-0.0.1.so"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/process-0.0.1.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && $(CMAKE_COMMAND) -E cmake_symlink_library libprocess-0.0.1.so.0.0.1 libprocess-0.0.1.so.0 libprocess-0.0.1.so
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX shared library libprocess-0.0.1.so"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/process-0.0.1.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && $(CMAKE_COMMAND) -E cmake_symlink_library libprocess-0.0.1.so.0.0.1 libprocess-0.0.1.so.0 libprocess-0.0.1.so
 
 3rdparty/libprocess/src/libprocess-0.0.1.so.0: 3rdparty/libprocess/src/libprocess-0.0.1.so.0.0.1
 	@$(CMAKE_COMMAND) -E touch_nocreate 3rdparty/libprocess/src/libprocess-0.0.1.so.0
@@ -439,10 +439,10 @@ process__0_0_1_EXTERNAL_OBJECTS =
 .PHONY : 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/build
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/clean:
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && $(CMAKE_COMMAND) -P CMakeFiles/process-0.0.1.dir/cmake_clean.cmake
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src && $(CMAKE_COMMAND) -P CMakeFiles/process-0.0.1.dir/cmake_clean.cmake
 .PHONY : 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/clean
 
 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/depend:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wqn/libprocess-start /home/wqn/libprocess-start/3rdparty/libprocess/src /home/wqn/libprocess-start/cmake-build-debug /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcie/libprocess-start /home/marcie/libprocess-start/3rdparty/libprocess/src /home/marcie/libprocess-start/cmake-build-debug /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/depend
 

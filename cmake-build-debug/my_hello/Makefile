@@ -42,19 +42,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/wqn/software/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wqn/libprocess-start
+CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wqn/libprocess-start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/wqn/libprocess-start/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/wqn/software/clion/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -73,7 +73,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/wqn/software/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -84,7 +84,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/wqn/libprocess-start/cmake-build-debug && /home/wqn/software/clion/bin/cmake/linux/bin/cpack --config ./CPackSourceConfig.cmake /home/wqn/libprocess-start/cmake-build-debug/CPackSourceConfig.cmake
+	cd /home/marcie/libprocess-start/cmake-build-debug && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cpack --config ./CPackSourceConfig.cmake /home/marcie/libprocess-start/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -95,7 +95,7 @@ package_source/fast: package_source
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/home/wqn/software/clion/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
+	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -106,7 +106,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/wqn/libprocess-start/cmake-build-debug && /home/wqn/software/clion/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
+	cd /home/marcie/libprocess-start/cmake-build-debug && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -116,14 +116,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/wqn/libprocess-start/cmake-build-debug/CMakeFiles /home/wqn/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/progress.marks
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wqn/libprocess-start/cmake-build-debug/CMakeFiles 0
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles /home/marcie/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/progress.marks
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/clean
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,22 +133,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/preinstall
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/preinstall
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 my_hello/CMakeFiles/lele_server_protobuf.dir/rule:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/lele_server_protobuf.dir/rule
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/lele_server_protobuf.dir/rule
 .PHONY : my_hello/CMakeFiles/lele_server_protobuf.dir/rule
 
 # Convenience name for target.
@@ -158,12 +158,12 @@ lele_server_protobuf: my_hello/CMakeFiles/lele_server_protobuf.dir/rule
 
 # fast build rule for target.
 lele_server_protobuf/fast:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/build
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/build
 .PHONY : lele_server_protobuf/fast
 
 # Convenience name for target.
 my_hello/CMakeFiles/client_server_message_event.dir/rule:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/client_server_message_event.dir/rule
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/client_server_message_event.dir/rule
 .PHONY : my_hello/CMakeFiles/client_server_message_event.dir/rule
 
 # Convenience name for target.
@@ -173,12 +173,12 @@ client_server_message_event: my_hello/CMakeFiles/client_server_message_event.dir
 
 # fast build rule for target.
 client_server_message_event/fast:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/build
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/build
 .PHONY : client_server_message_event/fast
 
 # Convenience name for target.
 my_hello/CMakeFiles/client_protobuf.dir/rule:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/client_protobuf.dir/rule
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/client_protobuf.dir/rule
 .PHONY : my_hello/CMakeFiles/client_protobuf.dir/rule
 
 # Convenience name for target.
@@ -188,7 +188,7 @@ client_protobuf: my_hello/CMakeFiles/client_protobuf.dir/rule
 
 # fast build rule for target.
 client_protobuf/fast:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/build
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/build
 .PHONY : client_protobuf/fast
 
 Lele_server_protobuf.o: Lele_server_protobuf.cpp.o
@@ -197,7 +197,7 @@ Lele_server_protobuf.o: Lele_server_protobuf.cpp.o
 
 # target to build an object file
 Lele_server_protobuf.cpp.o:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/Lele_server_protobuf.cpp.o
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/Lele_server_protobuf.cpp.o
 .PHONY : Lele_server_protobuf.cpp.o
 
 Lele_server_protobuf.i: Lele_server_protobuf.cpp.i
@@ -206,7 +206,7 @@ Lele_server_protobuf.i: Lele_server_protobuf.cpp.i
 
 # target to preprocess a source file
 Lele_server_protobuf.cpp.i:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/Lele_server_protobuf.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/Lele_server_protobuf.cpp.i
 .PHONY : Lele_server_protobuf.cpp.i
 
 Lele_server_protobuf.s: Lele_server_protobuf.cpp.s
@@ -215,7 +215,7 @@ Lele_server_protobuf.s: Lele_server_protobuf.cpp.s
 
 # target to generate assembly for a file
 Lele_server_protobuf.cpp.s:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/Lele_server_protobuf.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/Lele_server_protobuf.cpp.s
 .PHONY : Lele_server_protobuf.cpp.s
 
 client_protobuf.o: client_protobuf.cpp.o
@@ -224,7 +224,7 @@ client_protobuf.o: client_protobuf.cpp.o
 
 # target to build an object file
 client_protobuf.cpp.o:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/client_protobuf.cpp.o
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/client_protobuf.cpp.o
 .PHONY : client_protobuf.cpp.o
 
 client_protobuf.i: client_protobuf.cpp.i
@@ -233,7 +233,7 @@ client_protobuf.i: client_protobuf.cpp.i
 
 # target to preprocess a source file
 client_protobuf.cpp.i:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/client_protobuf.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/client_protobuf.cpp.i
 .PHONY : client_protobuf.cpp.i
 
 client_protobuf.s: client_protobuf.cpp.s
@@ -242,7 +242,7 @@ client_protobuf.s: client_protobuf.cpp.s
 
 # target to generate assembly for a file
 client_protobuf.cpp.s:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/client_protobuf.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/client_protobuf.cpp.s
 .PHONY : client_protobuf.cpp.s
 
 client_server_message_event.o: client_server_message_event.cpp.o
@@ -251,7 +251,7 @@ client_server_message_event.o: client_server_message_event.cpp.o
 
 # target to build an object file
 client_server_message_event.cpp.o:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o
 .PHONY : client_server_message_event.cpp.o
 
 client_server_message_event.i: client_server_message_event.cpp.i
@@ -260,7 +260,7 @@ client_server_message_event.i: client_server_message_event.cpp.i
 
 # target to preprocess a source file
 client_server_message_event.cpp.i:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.i
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.i
 .PHONY : client_server_message_event.cpp.i
 
 client_server_message_event.s: client_server_message_event.cpp.s
@@ -269,7 +269,7 @@ client_server_message_event.s: client_server_message_event.cpp.s
 
 # target to generate assembly for a file
 client_server_message_event.cpp.s:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.s
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.s
 .PHONY : client_server_message_event.cpp.s
 
 # Help Target
@@ -306,6 +306,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

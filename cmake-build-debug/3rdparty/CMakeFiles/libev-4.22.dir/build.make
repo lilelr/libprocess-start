@@ -37,19 +37,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/wqn/software/clion/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wqn/libprocess-start
+CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wqn/libprocess-start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
 
 # Utility rule file for libev-4.22.
 
@@ -67,54 +67,54 @@ include 3rdparty/CMakeFiles/libev-4.22.dir/progress.make
 3rdparty/CMakeFiles/libev-4.22-complete: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-configure
 3rdparty/CMakeFiles/libev-4.22-complete: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-build
 3rdparty/CMakeFiles/libev-4.22-complete: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libev-4.22'"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E make_directory /home/wqn/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E touch /home/wqn/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/libev-4.22-complete
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E touch /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'libev-4.22'"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/libev-4.22-complete
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-done
 
 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-install: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'libev-4.22'"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && mkdir -p /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-lib/lib && cp -r /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build/.libs/. /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-lib/lib
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E touch /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'libev-4.22'"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && mkdir -p /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-lib/lib && cp -r /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build/.libs/. /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-lib/lib
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-install
 
 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'libev-4.22'"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E make_directory /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E make_directory /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E make_directory /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E make_directory /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/tmp
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E make_directory /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E make_directory /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E touch /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'libev-4.22'"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/tmp
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-mkdir
 
 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-download: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-urlinfo.txt
 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-download: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (verify and extract) for 'libev-4.22'"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -P /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/verify-libev-4.22.cmake
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -P /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/extract-libev-4.22.cmake
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E touch /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (verify and extract) for 'libev-4.22'"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -P /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/verify-libev-4.22.cmake
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -P /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/extract-libev-4.22.cmake
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-download
 
 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-update: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'libev-4.22'"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E echo_append
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E touch /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'libev-4.22'"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E echo_append
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-update
 
 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-patch: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'libev-4.22'"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22 && test ! -e /home/wqn/libprocess-start/3rdparty/libev-4.22.patch || patch -p1 < /home/wqn/libprocess-start/3rdparty/libev-4.22.patch
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22 && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E touch /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Performing patch step for 'libev-4.22'"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22 && test ! -e /home/marcie/libprocess-start/3rdparty/libev-4.22.patch || patch -p1 < /home/marcie/libprocess-start/3rdparty/libev-4.22.patch
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22 && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-patch
 
 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-configure: 3rdparty/libev-4.22/tmp/libev-4.22-cfgcmd.txt
 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-configure: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-update
 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-configure: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'libev-4.22'"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22/configure --prefix=/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-lib
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E touch /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'libev-4.22'"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22/configure --prefix=/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-lib
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-configure
 
 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-build: 3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'libev-4.22'"
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && make
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && /home/wqn/software/clion/bin/cmake/linux/bin/cmake -E touch /home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'libev-4.22'"
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && make
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-build && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22-stamp/libev-4.22-build
 
 libev-4.22: 3rdparty/CMakeFiles/libev-4.22
 libev-4.22: 3rdparty/CMakeFiles/libev-4.22-complete
@@ -135,10 +135,10 @@ libev-4.22: 3rdparty/CMakeFiles/libev-4.22.dir/build.make
 .PHONY : 3rdparty/CMakeFiles/libev-4.22.dir/build
 
 3rdparty/CMakeFiles/libev-4.22.dir/clean:
-	cd /home/wqn/libprocess-start/cmake-build-debug/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/libev-4.22.dir/cmake_clean.cmake
+	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/libev-4.22.dir/cmake_clean.cmake
 .PHONY : 3rdparty/CMakeFiles/libev-4.22.dir/clean
 
 3rdparty/CMakeFiles/libev-4.22.dir/depend:
-	cd /home/wqn/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wqn/libprocess-start /home/wqn/libprocess-start/3rdparty /home/wqn/libprocess-start/cmake-build-debug /home/wqn/libprocess-start/cmake-build-debug/3rdparty /home/wqn/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/libev-4.22.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcie/libprocess-start /home/marcie/libprocess-start/3rdparty /home/marcie/libprocess-start/cmake-build-debug /home/marcie/libprocess-start/cmake-build-debug/3rdparty /home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/libev-4.22.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdparty/CMakeFiles/libev-4.22.dir/depend
 

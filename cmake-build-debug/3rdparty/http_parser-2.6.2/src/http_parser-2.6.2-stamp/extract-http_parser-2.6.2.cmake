@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/wqn/libprocess-start/3rdparty/http-parser-2.6.2.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2" ABSOLUTE)
+get_filename_component(filename "/home/marcie/libprocess-start/3rdparty/http-parser-2.6.2.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

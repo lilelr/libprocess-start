@@ -1150,7 +1150,7 @@ stout/try.hpp
 stout/windows.hpp
 -
 
-/home/wqn/libprocess-start/my_hello/client_protobuf.cpp
+/home/marcie/libprocess-start/my_hello/client_protobuf.cpp
 iostream
 -
 sstream
@@ -1170,7 +1170,7 @@ process/protobuf.hpp
 addressbook.pb.h
 -
 Offer.pb.h
-/home/wqn/libprocess-start/my_hello/Offer.pb.h
+/home/marcie/libprocess-start/my_hello/Offer.pb.h
 
 3rdparty/boost-1.53.0/src/boost-1.53.0/boost/aligned_storage.hpp
 cstddef

@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/wqn/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_84f99/fast"
-/usr/bin/make -f CMakeFiles/cmTC_84f99.dir/build.make CMakeFiles/cmTC_84f99.dir/build
-make[1]: Entering directory '/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_84f99.dir/CheckSymbolExists.c.o
-/usr/bin/cc   -O2    -o CMakeFiles/cmTC_84f99.dir/CheckSymbolExists.c.o   -c /home/wqn/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_84f99
-/home/wqn/software/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84f99.dir/link.txt --verbose=1
-/usr/bin/cc    -O2     -rdynamic CMakeFiles/cmTC_84f99.dir/CheckSymbolExists.c.o  -o cmTC_84f99 
-CMakeFiles/cmTC_84f99.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Run Build Command:"/usr/bin/make" "cmTC_719c5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_719c5.dir/build.make CMakeFiles/cmTC_719c5.dir/build
+make[1]: Entering directory '/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_719c5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O2    -o CMakeFiles/cmTC_719c5.dir/CheckSymbolExists.c.o   -c /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_719c5
+/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_719c5.dir/link.txt --verbose=1
+/usr/bin/cc    -O2     -rdynamic CMakeFiles/cmTC_719c5.dir/CheckSymbolExists.c.o  -o cmTC_719c5 
+CMakeFiles/cmTC_719c5.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text.startup+0x6)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_84f99.dir/build.make:86: recipe for target 'cmTC_84f99' failed
-make[1]: *** [cmTC_84f99] Error 1
-make[1]: Leaving directory '/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_84f99/fast' failed
-make: *** [cmTC_84f99/fast] Error 2
+CMakeFiles/cmTC_719c5.dir/build.make:86: recipe for target 'cmTC_719c5' failed
+make[1]: *** [cmTC_719c5] Error 1
+make[1]: Leaving directory '/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_719c5/fast' failed
+make: *** [cmTC_719c5/fast] Error 2
 
-File /home/wqn/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/wqn/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a15d6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a15d6.dir/build.make CMakeFiles/cmTC_a15d6.dir/build
-make[1]: Entering directory '/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a15d6.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -O2 -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a15d6.dir/CheckFunctionExists.c.o   -c /home/wqn/software/clion/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a15d6
-/home/wqn/software/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a15d6.dir/link.txt --verbose=1
-/usr/bin/cc    -O2 -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a15d6.dir/CheckFunctionExists.c.o  -o cmTC_a15d6 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_1ba36/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1ba36.dir/build.make CMakeFiles/cmTC_1ba36.dir/build
+make[1]: Entering directory '/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ba36.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -O2 -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1ba36.dir/CheckFunctionExists.c.o   -c /home/marcie/clion-2018.2.2/bin/cmake/linux/share/cmake-3.12/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1ba36
+/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ba36.dir/link.txt --verbose=1
+/usr/bin/cc    -O2 -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_1ba36.dir/CheckFunctionExists.c.o  -o cmTC_1ba36 -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_a15d6.dir/build.make:86: recipe for target 'cmTC_a15d6' failed
-make[1]: *** [cmTC_a15d6] Error 1
-make[1]: Leaving directory '/home/wqn/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:121: recipe for target 'cmTC_a15d6/fast' failed
-make: *** [cmTC_a15d6/fast] Error 2
+CMakeFiles/cmTC_1ba36.dir/build.make:86: recipe for target 'cmTC_1ba36' failed
+make[1]: *** [cmTC_1ba36] Error 1
+make[1]: Leaving directory '/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:121: recipe for target 'cmTC_1ba36/fast' failed
+make: *** [cmTC_1ba36/fast] Error 2
 
 

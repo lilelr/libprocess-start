@@ -8,148 +8,148 @@
 		<Option virtualFolders="CMake Files\;CMake Files\my_hello\;CMake Files\my_hello\proto\;CMake Files\cmake\;CMake Files\3rdparty\;CMake Files\3rdparty\libprocess\;CMake Files\3rdparty\libprocess\cmake\;CMake Files\3rdparty\libprocess\cmake\macros\;CMake Files\3rdparty\libprocess\src\;CMake Files\3rdparty\libprocess\src\tests\;CMake Files\3rdparty\cmake\;CMake Files\3rdparty\stout\;CMake Files\3rdparty\stout\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\3rdparty\;CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\;CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\tmp\;CMake Files\cmake-build-debug\3rdparty\elfio-3.2\;CMake Files\cmake-build-debug\3rdparty\elfio-3.2\tmp\;CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\;CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\tmp\;CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\;CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\tmp\;CMake Files\cmake-build-debug\3rdparty\nvml-352.79\;CMake Files\cmake-build-debug\3rdparty\nvml-352.79\tmp\;CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\;CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\tmp\;CMake Files\cmake-build-debug\3rdparty\libev-4.22\;CMake Files\cmake-build-debug\3rdparty\libev-4.22\tmp\;CMake Files\cmake-build-debug\3rdparty\protobuf-2.6.1\;CMake Files\cmake-build-debug\3rdparty\protobuf-2.6.1\tmp\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="package_source">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="package">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="picojson-1.3.0">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 picojson-1.3.0"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 picojson-1.3.0"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="glog-0.3.3">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 glog-0.3.3"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 glog-0.3.3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libev-4.22">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 libev-4.22"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 libev-4.22"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="protobuf-2.6.1">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 protobuf-2.6.1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 protobuf-2.6.1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="elfio-3.2">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 elfio-3.2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 elfio-3.2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="boost-1.53.0">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 boost-1.53.0"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 boost-1.53.0"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nvml-352.79">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 nvml-352.79"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 nvml-352.79"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="http_parser-2.6.2">
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 http_parser-2.6.2"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 http_parser-2.6.2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="process-0.0.1">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/libprocess-0.0.1.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/libprocess-0.0.1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -165,18 +165,18 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -187,15 +187,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 process-0.0.1"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 process-0.0.1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="process-0.0.1/fast">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/libprocess-0.0.1.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/libprocess-0.0.1.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
 				<Option compiler="gcc"/>
@@ -211,18 +211,18 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -233,15 +233,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 process-0.0.1/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 process-0.0.1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libprocess-tests">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/libprocess-tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/libprocess-tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -257,21 +257,21 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add option="-DBUILD_DIR=&quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests&quot;"/>
+					<Add option="-DBUILD_DIR=&quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests&quot;"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/src"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/.."/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/src"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/.."/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -282,15 +282,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 libprocess-tests"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 libprocess-tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="libprocess-tests/fast">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/libprocess-tests" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/libprocess-tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -306,21 +306,21 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add option="-DBUILD_DIR=&quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests&quot;"/>
+					<Add option="-DBUILD_DIR=&quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests&quot;"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/src"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/.."/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/src"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/.."/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -331,15 +331,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 libprocess-tests/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 libprocess-tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test-linkee">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/test-linkee" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/test-linkee" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -355,21 +355,21 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add option="-DBUILD_DIR=&quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests&quot;"/>
+					<Add option="-DBUILD_DIR=&quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests&quot;"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/src"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/.."/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/src"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/.."/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -380,15 +380,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 test-linkee"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 test-linkee"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test-linkee/fast">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/test-linkee" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/test-linkee" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -404,21 +404,21 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add option="-DBUILD_DIR=&quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests&quot;"/>
+					<Add option="-DBUILD_DIR=&quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests&quot;"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/src"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/.."/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/src"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/.."/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -429,15 +429,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 test-linkee/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 test-linkee/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lele_server_protobuf">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/my_hello/lele_server_protobuf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/my_hello/lele_server_protobuf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/my_hello"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -453,21 +453,21 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/proto"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -478,15 +478,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 lele_server_protobuf"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 lele_server_protobuf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="lele_server_protobuf/fast">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/my_hello/lele_server_protobuf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/my_hello/lele_server_protobuf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/my_hello"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -502,21 +502,21 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/proto"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -527,15 +527,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 lele_server_protobuf/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 lele_server_protobuf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="client_server_message_event">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/my_hello/client_server_message_event" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/my_hello/client_server_message_event" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/my_hello"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -551,21 +551,21 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/proto"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -576,15 +576,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 client_server_message_event"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 client_server_message_event"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="client_server_message_event/fast">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/my_hello/client_server_message_event" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/my_hello/client_server_message_event" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/my_hello"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -600,21 +600,21 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/proto"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -625,15 +625,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 client_server_message_event/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 client_server_message_event/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="client_protobuf">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/my_hello/client_protobuf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/my_hello/client_protobuf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/my_hello"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -649,21 +649,21 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/proto"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -674,15 +674,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 client_protobuf"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 client_protobuf"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="client_protobuf/fast">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/my_hello/client_protobuf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/my_hello/client_protobuf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/my_hello"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -698,21 +698,21 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/proto"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/libprocess/include"/>
 					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/wqn/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/home/marcie/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -723,15 +723,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 client_protobuf/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 client_protobuf/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="foo">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/libfoo.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/libfoo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -747,7 +747,7 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -758,15 +758,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 foo"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 foo"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="foo/fast">
-				<Option output="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/libfoo.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto"/>
+				<Option output="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/libfoo.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -782,7 +782,7 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -793,302 +793,302 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 foo/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 foo/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/authenticator.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/authenticator.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/authenticator_manager.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/authenticator_manager.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/authenticator_manager.hpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/authenticator_manager.hpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/clock.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/clock.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/config.hpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/config.hpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/decoder.hpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/decoder.hpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/encoder.hpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/encoder.hpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/event_loop.hpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/event_loop.hpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/firewall.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/firewall.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/gate.hpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/gate.hpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/help.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/help.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/http.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/http.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/io.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/io.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/latch.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/latch.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/libev.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/libev.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/libev.hpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/libev.hpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/libev_poll.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/libev_poll.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/logging.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/logging.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/metrics/metrics.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/metrics/metrics.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/mime.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/mime.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/pid.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/pid.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/poll_socket.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/poll_socket.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/poll_socket.hpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/poll_socket.hpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/process.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/process.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/process_reference.hpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/process_reference.hpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/profiler.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/profiler.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/reap.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/reap.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/socket.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/socket.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/subprocess.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/subprocess.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/subprocess_posix.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/subprocess_posix.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/after_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/after_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/collect_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/collect_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/decoder_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/decoder_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/encoder_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/encoder_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/future_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/future_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/http_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/http_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/io_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/io_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/limiter_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/limiter_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/loop_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/loop_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/main.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/main.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/metrics_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/metrics_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/mutex_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/mutex_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/owned_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/owned_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/process_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/process_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/queue_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/queue_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/reap_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/reap_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/sequence_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/sequence_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/shared_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/shared_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/socket_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/socket_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/statistics_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/statistics_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/subprocess_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/subprocess_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/system_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/system_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/test_linkee.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/test_linkee.cpp">
 			<Option target="test-linkee"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/time_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/time_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/timeseries_tests.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/timeseries_tests.cpp">
 			<Option target="libprocess-tests"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/time.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/time.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/timeseries.cpp">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/timeseries.cpp">
 			<Option target="process-0.0.1"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc">
 			<Option target="foo"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc.rule">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc.rule">
 			<Option target="foo"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.h">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.h">
 			<Option target="foo"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc">
 			<Option target="foo"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc.rule">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc.rule">
 			<Option target="foo"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.h">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.h">
 			<Option target="foo"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/my_hello/Lele_server_protobuf.cpp">
+		<Unit filename="/home/marcie/libprocess-start/my_hello/Lele_server_protobuf.cpp">
 			<Option target="lele_server_protobuf"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/my_hello/client_protobuf.cpp">
+		<Unit filename="/home/marcie/libprocess-start/my_hello/client_protobuf.cpp">
 			<Option target="client_protobuf"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/my_hello/client_server_message_event.cpp">
+		<Unit filename="/home/marcie/libprocess-start/my_hello/client_server_message_event.cpp">
 			<Option target="client_server_message_event"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/CMakeLists.txt">
+		<Unit filename="/home/marcie/libprocess-start/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/my_hello/CMakeLists.txt">
+		<Unit filename="/home/marcie/libprocess-start/my_hello/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\my_hello\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/my_hello/proto/CMakeLists.txt">
+		<Unit filename="/home/marcie/libprocess-start/my_hello/proto/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\my_hello\proto\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake/Common.cmake">
+		<Unit filename="/home/marcie/libprocess-start/cmake/Common.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake/CompilationConfigure.cmake">
+		<Unit filename="/home/marcie/libprocess-start/cmake/CompilationConfigure.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake/StartConfigure.cmake">
+		<Unit filename="/home/marcie/libprocess-start/cmake/StartConfigure.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/CMakeLists.txt">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rdparty\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/CMakeLists.txt">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rdparty\libprocess\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/cmake/Process3rdpartyConfigure.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/cmake/Process3rdpartyConfigure.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\libprocess\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/cmake/ProcessConfigure.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/cmake/ProcessConfigure.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\libprocess\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/cmake/ProcessTestsConfigure.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/cmake/ProcessTestsConfigure.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\libprocess\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/cmake/macros/External.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/cmake/macros/External.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\libprocess\cmake\macros\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/cmake/macros/PatchCommand.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/cmake/macros/PatchCommand.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\libprocess\cmake\macros\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/CMakeLists.txt">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rdparty\libprocess\src\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/libprocess/src/tests/CMakeLists.txt">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/libprocess/src/tests/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\3rdparty\libprocess\src\tests\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/cmake/Start3rdpartyConfigure.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/cmake/Start3rdpartyConfigure.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/cmake/Versions.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/cmake/Versions.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/cmake/cotire.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/cmake/cotire.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/stout/cmake/FindApr.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/stout/cmake/FindApr.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\stout\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/stout/cmake/FindPackageHelper.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/stout/cmake/FindPackageHelper.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\stout\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/stout/cmake/FindSvn.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/stout/cmake/FindSvn.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\stout\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/stout/cmake/GroupSource.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/stout/cmake/GroupSource.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\stout\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/3rdparty/stout/cmake/StoutConfigure.cmake">
+		<Unit filename="/home/marcie/libprocess-start/3rdparty/stout/cmake/StoutConfigure.cmake">
 			<Option virtualFolder="CMake Files\3rdparty\stout\cmake\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0-prefix/tmp/boost-1.53.0-cfgcmd.txt.in">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0-prefix/tmp/boost-1.53.0-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\tmp\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/tmp/elfio-3.2-cfgcmd.txt.in">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/tmp/elfio-3.2-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\elfio-3.2\tmp\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/tmp/glog-0.3.3-cfgcmd.txt.in">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/tmp/glog-0.3.3-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\tmp\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/tmp/picojson-1.3.0-cfgcmd.txt.in">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/tmp/picojson-1.3.0-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\tmp\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/tmp/nvml-352.79-cfgcmd.txt.in">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/tmp/nvml-352.79-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\nvml-352.79\tmp\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/tmp/http_parser-2.6.2-cfgcmd.txt.in">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/tmp/http_parser-2.6.2-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\tmp\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/tmp/libev-4.22-cfgcmd.txt.in">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/tmp/libev-4.22-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\libev-4.22\tmp\"/>
 		</Unit>
-		<Unit filename="/home/wqn/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/tmp/protobuf-2.6.1-cfgcmd.txt.in">
+		<Unit filename="/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/tmp/protobuf-2.6.1-cfgcmd.txt.in">
 			<Option virtualFolder="CMake Files\cmake-build-debug\3rdparty\protobuf-2.6.1\tmp\"/>
 		</Unit>
 	</Project>

@@ -3,12 +3,12 @@
 
 cmake_minimum_required(VERSION 3.5)
 
-if("/home/wqn/libprocess-start/3rdparty/picojson-1.3.0.tar.gz" STREQUAL "")
+if("/home/marcie/libprocess-start/3rdparty/picojson-1.3.0.tar.gz" STREQUAL "")
   message(FATAL_ERROR "LOCAL can't be empty")
 endif()
 
-if(NOT EXISTS "/home/wqn/libprocess-start/3rdparty/picojson-1.3.0.tar.gz")
-  message(FATAL_ERROR "File not found: /home/wqn/libprocess-start/3rdparty/picojson-1.3.0.tar.gz")
+if(NOT EXISTS "/home/marcie/libprocess-start/3rdparty/picojson-1.3.0.tar.gz")
+  message(FATAL_ERROR "File not found: /home/marcie/libprocess-start/3rdparty/picojson-1.3.0.tar.gz")
 endif()
 
 if("" STREQUAL "")
@@ -21,13 +21,13 @@ if("" STREQUAL "")
 endif()
 
 message(STATUS "verifying file...
-     file='/home/wqn/libprocess-start/3rdparty/picojson-1.3.0.tar.gz'")
+     file='/home/marcie/libprocess-start/3rdparty/picojson-1.3.0.tar.gz'")
 
-file("" "/home/wqn/libprocess-start/3rdparty/picojson-1.3.0.tar.gz" actual_value)
+file("" "/home/marcie/libprocess-start/3rdparty/picojson-1.3.0.tar.gz" actual_value)
 
 if(NOT "${actual_value}" STREQUAL "")
   message(FATAL_ERROR "error:  hash of
-  /home/wqn/libprocess-start/3rdparty/picojson-1.3.0.tar.gz
+  /home/marcie/libprocess-start/3rdparty/picojson-1.3.0.tar.gz
 does not match expected value
   expected: ''
     actual: '${actual_value}'

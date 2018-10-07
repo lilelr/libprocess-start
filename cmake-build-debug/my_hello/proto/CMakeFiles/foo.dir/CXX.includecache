@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc
+/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc
 Offer.pb.h
-/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.h
+/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.h
 algorithm
 -
 google/protobuf/stubs/common.h
@@ -28,7 +28,7 @@ google/protobuf/reflection_ops.h
 google/protobuf/wire_format.h
 -
 
-/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.h
+/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.h
 string
 -
 google/protobuf/stubs/common.h
@@ -44,9 +44,9 @@ google/protobuf/extension_set.h
 google/protobuf/unknown_field_set.h
 -
 
-/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc
+/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc
 addressbook.pb.h
-/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.h
+/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.h
 algorithm
 -
 google/protobuf/stubs/common.h
@@ -66,7 +66,7 @@ google/protobuf/reflection_ops.h
 google/protobuf/wire_format.h
 -
 
-/home/wqn/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.h
+/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.h
 string
 -
 google/protobuf/stubs/common.h
