@@ -1,4 +1,4 @@
-# Install script for directory: /home/marcie/libprocess-start/3rdparty/libprocess/src
+# Install script for directory: /home/weiguow/project/libprocess-start/3rdparty/libprocess/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

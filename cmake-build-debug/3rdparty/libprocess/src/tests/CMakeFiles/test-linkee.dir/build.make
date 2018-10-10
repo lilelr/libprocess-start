@@ -37,19 +37,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/weiguow/clion/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/weiguow/clion/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
+CMAKE_SOURCE_DIR = /home/weiguow/project/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/weiguow/project/libprocess-start/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/depend.make
@@ -62,16 +62,16 @@ include 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/flags.make
 
 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/test_linkee.cpp.o: 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/flags.make
 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/test_linkee.cpp.o: ../3rdparty/libprocess/src/tests/test_linkee.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/test_linkee.cpp.o"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-linkee.dir/test_linkee.cpp.o -c /home/marcie/libprocess-start/3rdparty/libprocess/src/tests/test_linkee.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/test_linkee.cpp.o"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/test-linkee.dir/test_linkee.cpp.o -c /home/weiguow/project/libprocess-start/3rdparty/libprocess/src/tests/test_linkee.cpp
 
 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/test_linkee.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-linkee.dir/test_linkee.cpp.i"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/3rdparty/libprocess/src/tests/test_linkee.cpp > CMakeFiles/test-linkee.dir/test_linkee.cpp.i
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weiguow/project/libprocess-start/3rdparty/libprocess/src/tests/test_linkee.cpp > CMakeFiles/test-linkee.dir/test_linkee.cpp.i
 
 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/test_linkee.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-linkee.dir/test_linkee.cpp.s"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/3rdparty/libprocess/src/tests/test_linkee.cpp -o CMakeFiles/test-linkee.dir/test_linkee.cpp.s
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weiguow/project/libprocess-start/3rdparty/libprocess/src/tests/test_linkee.cpp -o CMakeFiles/test-linkee.dir/test_linkee.cpp.s
 
 # Object files for target test-linkee
 test__linkee_OBJECTS = \
@@ -94,8 +94,8 @@ test__linkee_EXTERNAL_OBJECTS =
 3rdparty/libprocess/src/tests/test-linkee: /usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
 3rdparty/libprocess/src/tests/test-linkee: /usr/lib/x86_64-linux-gnu/libz.so
 3rdparty/libprocess/src/tests/test-linkee: 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test-linkee"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-linkee.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test-linkee"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test-linkee.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/build: 3rdparty/libprocess/src/tests/test-linkee
@@ -103,10 +103,10 @@ test__linkee_EXTERNAL_OBJECTS =
 .PHONY : 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/build
 
 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/clean:
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests && $(CMAKE_COMMAND) -P CMakeFiles/test-linkee.dir/cmake_clean.cmake
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests && $(CMAKE_COMMAND) -P CMakeFiles/test-linkee.dir/cmake_clean.cmake
 .PHONY : 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/clean
 
 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/depend:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcie/libprocess-start /home/marcie/libprocess-start/3rdparty/libprocess/src/tests /home/marcie/libprocess-start/cmake-build-debug /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests /home/marcie/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weiguow/project/libprocess-start /home/weiguow/project/libprocess-start/3rdparty/libprocess/src/tests /home/weiguow/project/libprocess-start/cmake-build-debug /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/depend
 

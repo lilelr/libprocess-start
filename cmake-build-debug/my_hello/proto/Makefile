@@ -42,19 +42,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/weiguow/clion/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/weiguow/clion/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
+CMAKE_SOURCE_DIR = /home/weiguow/project/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/weiguow/project/libprocess-start/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/weiguow/clion/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -73,7 +73,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/weiguow/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -84,7 +84,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
+	/home/weiguow/clion/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -95,7 +95,7 @@ test/fast: test
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/marcie/libprocess-start/cmake-build-debug && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && /home/weiguow/clion/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -106,7 +106,7 @@ package/fast: package
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/marcie/libprocess-start/cmake-build-debug && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cpack --config ./CPackSourceConfig.cmake /home/marcie/libprocess-start/cmake-build-debug/CPackSourceConfig.cmake
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && /home/weiguow/clion/bin/cmake/linux/bin/cpack --config ./CPackSourceConfig.cmake /home/weiguow/project/libprocess-start/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -116,14 +116,14 @@ package_source/fast: package_source
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles /home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/CMakeFiles/progress.marks
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles 0
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles /home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto/CMakeFiles/progress.marks
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/clean
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/clean
 .PHONY : clean
 
 # The main clean target
@@ -133,22 +133,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/preinstall
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/preinstall
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 my_hello/proto/CMakeFiles/foo.dir/rule:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/CMakeFiles/foo.dir/rule
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/CMakeFiles/foo.dir/rule
 .PHONY : my_hello/proto/CMakeFiles/foo.dir/rule
 
 # Convenience name for target.
@@ -158,7 +158,7 @@ foo: my_hello/proto/CMakeFiles/foo.dir/rule
 
 # fast build rule for target.
 foo/fast:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/build
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/build
 .PHONY : foo/fast
 
 Offer.pb.o: Offer.pb.cc.o
@@ -167,7 +167,7 @@ Offer.pb.o: Offer.pb.cc.o
 
 # target to build an object file
 Offer.pb.cc.o:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.o
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.o
 .PHONY : Offer.pb.cc.o
 
 Offer.pb.i: Offer.pb.cc.i
@@ -176,7 +176,7 @@ Offer.pb.i: Offer.pb.cc.i
 
 # target to preprocess a source file
 Offer.pb.cc.i:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.i
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.i
 .PHONY : Offer.pb.cc.i
 
 Offer.pb.s: Offer.pb.cc.s
@@ -185,7 +185,7 @@ Offer.pb.s: Offer.pb.cc.s
 
 # target to generate assembly for a file
 Offer.pb.cc.s:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.s
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.s
 .PHONY : Offer.pb.cc.s
 
 addressbook.pb.o: addressbook.pb.cc.o
@@ -194,7 +194,7 @@ addressbook.pb.o: addressbook.pb.cc.o
 
 # target to build an object file
 addressbook.pb.cc.o:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.o
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.o
 .PHONY : addressbook.pb.cc.o
 
 addressbook.pb.i: addressbook.pb.cc.i
@@ -203,7 +203,7 @@ addressbook.pb.i: addressbook.pb.cc.i
 
 # target to preprocess a source file
 addressbook.pb.cc.i:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.i
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.i
 .PHONY : addressbook.pb.cc.i
 
 addressbook.pb.s: addressbook.pb.cc.s
@@ -212,7 +212,7 @@ addressbook.pb.s: addressbook.pb.cc.s
 
 # target to generate assembly for a file
 addressbook.pb.cc.s:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.s
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.s
 .PHONY : addressbook.pb.cc.s
 
 # Help Target
@@ -244,6 +244,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

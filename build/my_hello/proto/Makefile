@@ -51,10 +51,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wqn/libprocess-start
+CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wqn/libprocess-start/build
+CMAKE_BINARY_DIR = /home/marcie/libprocess-start/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,14 +94,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wqn/libprocess-start/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wqn/libprocess-start/build/CMakeFiles /home/wqn/libprocess-start/build/my_hello/proto/CMakeFiles/progress.marks
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wqn/libprocess-start/build/CMakeFiles 0
+	cd /home/marcie/libprocess-start/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/marcie/libprocess-start/build/CMakeFiles /home/marcie/libprocess-start/build/my_hello/proto/CMakeFiles/progress.marks
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcie/libprocess-start/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/clean
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/clean
 .PHONY : clean
 
 # The main clean target
@@ -111,22 +111,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/preinstall
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/preinstall
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wqn/libprocess-start/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/marcie/libprocess-start/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 my_hello/proto/CMakeFiles/foo.dir/rule:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/CMakeFiles/foo.dir/rule
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 my_hello/proto/CMakeFiles/foo.dir/rule
 .PHONY : my_hello/proto/CMakeFiles/foo.dir/rule
 
 # Convenience name for target.
@@ -136,7 +136,7 @@ foo: my_hello/proto/CMakeFiles/foo.dir/rule
 
 # fast build rule for target.
 foo/fast:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/build
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/build
 .PHONY : foo/fast
 
 Offer.pb.o: Offer.pb.cc.o
@@ -145,7 +145,7 @@ Offer.pb.o: Offer.pb.cc.o
 
 # target to build an object file
 Offer.pb.cc.o:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.o
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.o
 .PHONY : Offer.pb.cc.o
 
 Offer.pb.i: Offer.pb.cc.i
@@ -154,7 +154,7 @@ Offer.pb.i: Offer.pb.cc.i
 
 # target to preprocess a source file
 Offer.pb.cc.i:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.i
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.i
 .PHONY : Offer.pb.cc.i
 
 Offer.pb.s: Offer.pb.cc.s
@@ -163,7 +163,7 @@ Offer.pb.s: Offer.pb.cc.s
 
 # target to generate assembly for a file
 Offer.pb.cc.s:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.s
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/Offer.pb.cc.s
 .PHONY : Offer.pb.cc.s
 
 addressbook.pb.o: addressbook.pb.cc.o
@@ -172,7 +172,7 @@ addressbook.pb.o: addressbook.pb.cc.o
 
 # target to build an object file
 addressbook.pb.cc.o:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.o
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.o
 .PHONY : addressbook.pb.cc.o
 
 addressbook.pb.i: addressbook.pb.cc.i
@@ -181,7 +181,7 @@ addressbook.pb.i: addressbook.pb.cc.i
 
 # target to preprocess a source file
 addressbook.pb.cc.i:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.i
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.i
 .PHONY : addressbook.pb.cc.i
 
 addressbook.pb.s: addressbook.pb.cc.s
@@ -190,7 +190,7 @@ addressbook.pb.s: addressbook.pb.cc.s
 
 # target to generate assembly for a file
 addressbook.pb.cc.s:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.s
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/addressbook.pb.cc.s
 .PHONY : addressbook.pb.cc.s
 
 # Help Target
@@ -220,6 +220,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wqn/libprocess-start/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/marcie/libprocess-start/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

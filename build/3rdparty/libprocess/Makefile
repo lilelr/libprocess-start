@@ -51,10 +51,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wqn/libprocess-start
+CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wqn/libprocess-start/build
+CMAKE_BINARY_DIR = /home/marcie/libprocess-start/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,14 +94,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wqn/libprocess-start/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wqn/libprocess-start/build/CMakeFiles /home/wqn/libprocess-start/build/3rdparty/libprocess/CMakeFiles/progress.marks
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wqn/libprocess-start/build/CMakeFiles 0
+	cd /home/marcie/libprocess-start/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/marcie/libprocess-start/build/CMakeFiles /home/marcie/libprocess-start/build/3rdparty/libprocess/CMakeFiles/progress.marks
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcie/libprocess-start/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/clean
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/clean
 .PHONY : clean
 
 # The main clean target
@@ -111,17 +111,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/preinstall
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wqn/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/preinstall
+	cd /home/marcie/libprocess-start/build && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/libprocess/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wqn/libprocess-start/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/marcie/libprocess-start/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -144,6 +144,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wqn/libprocess-start/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/marcie/libprocess-start/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

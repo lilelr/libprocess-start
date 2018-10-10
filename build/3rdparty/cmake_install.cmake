@@ -1,4 +1,4 @@
-# Install script for directory: /home/wqn/libprocess-start/3rdparty
+# Install script for directory: /home/marcie/libprocess-start/3rdparty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/wqn/libprocess-start/build/3rdparty/libprocess/cmake_install.cmake")
+  include("/home/marcie/libprocess-start/build/3rdparty/libprocess/cmake_install.cmake")
 
 endif()
 

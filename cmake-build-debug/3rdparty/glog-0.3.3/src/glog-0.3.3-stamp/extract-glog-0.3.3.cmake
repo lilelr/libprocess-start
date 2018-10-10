@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/marcie/libprocess-start/3rdparty/glog-0.3.3.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3" ABSOLUTE)
+get_filename_component(filename "/home/weiguow/project/libprocess-start/3rdparty/glog-0.3.3.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

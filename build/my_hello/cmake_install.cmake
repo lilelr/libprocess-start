@@ -1,4 +1,4 @@
-# Install script for directory: /home/wqn/libprocess-start/my_hello
+# Install script for directory: /home/marcie/libprocess-start/my_hello
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/wqn/libprocess-start/build/my_hello/proto/cmake_install.cmake")
+  include("/home/marcie/libprocess-start/build/my_hello/proto/cmake_install.cmake")
 
 endif()
 

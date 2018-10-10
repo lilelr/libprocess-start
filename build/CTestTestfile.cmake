@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/wqn/libprocess-start
-# Build directory: /home/wqn/libprocess-start/build
+# Source directory: /home/marcie/libprocess-start
+# Build directory: /home/marcie/libprocess-start/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

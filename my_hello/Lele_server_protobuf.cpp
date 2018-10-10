@@ -43,17 +43,27 @@ using process::http::InternalServerError;
 using std::string;
 using namespace std;
 
-class Master:public ProtobufProcess<Master>{
+class Master : public ProtobufProcess<Master> {
 
 public:
-    Master():ProcessBase("my_master"){
+    Master() : ProcessBase("my_master") {
     }
 
 
-    virtual void initialize()
-    {
-//     route("/vars", &MyProcess::vars);
-        route("/vars","hello ", [=] (const Request& request) {
+    virtual void initialize() {
+
+//route("/add",)
+        route("/add", "Adds the two query arguments", [](Request request) {
+            int a = 3;
+            int b = 4;
+            std::ostringstream result;
+            result << " { " << "\"result\":" << a + b << "}";
+            JSON::Value body = JSON::parse(result.str()).get();
+            return OK(body);
+        });
+
+//route("/vars", &MyProcess::vars);
+        route("/vars", "hello ", [=](const Request &request) {
             string body = "... vars here ...";
             OK response;
             response.headers["Content-Type"] = "text/plain";
@@ -64,42 +74,41 @@ public:
             return response;
         });
 
-//     install("stop", &MyProcess::stop);
-        install("stop", [=] (const UPID& from, const string& body) {
+//install("stop", &MyProcess::stop);
+        install("stop", [=](const UPID &from, const string &body) {
             terminate(self());
         });
 
         install<Offer>(&Master::report_from_client, &Offer::key);
     }
 
-    void report_from_client(const string& key){
-        cout<<"entering into report"<<endl;
-        cout<<key<<endl;
+    void report_from_client(const string &key) {
+        cout << "entering into report" << endl;
+        cout << key << endl;
         UPID clientUPID(key);
 
         Offer server_offer;
         server_offer.set_key("server_key");
         server_offer.set_value("server_value");
         server_offer.set_lele_label("server_label");
-        send(clientUPID,server_offer);
+        send(clientUPID, server_offer);
     }
 
 };
 
-int main(){
+int main() {
     Offer k;
     k.set_key("company");
     k.set_value("leoox");
-
     k.set_lele_label("OS:linux");
-     process::initialize("master");
+    process::initialize("master");
     Master master;
-    process:PID<Master> cur_master =  process::spawn(master);
-    cout<<"Running server on "<<process::address().ip<<":"<<process::address().port<<endl;
-    cout<< "PID"<<endl;
+    PID<Master> cur_master = process::spawn(master);
+    cout << "Running server on " << process::address().ip << ":" << process::address().port << endl;
+    cout << "PID" << endl;
 
     const PID<Master> masterPid = master.self();
-    cout<<masterPid<<endl;
+    cout << masterPid << endl;
 //    process::dispatch(masterPid,&Master::report,k.key());
     process::wait(master.self());
 //    delete master;

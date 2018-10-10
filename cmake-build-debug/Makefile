@@ -42,19 +42,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/weiguow/clion/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/weiguow/clion/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
+CMAKE_SOURCE_DIR = /home/weiguow/project/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/weiguow/project/libprocess-start/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/weiguow/clion/bin/cmake/linux/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -73,7 +73,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cpack --config ./CPackSourceConfig.cmake /home/marcie/libprocess-start/cmake-build-debug/CPackSourceConfig.cmake
+	/home/weiguow/clion/bin/cmake/linux/bin/cpack --config ./CPackSourceConfig.cmake /home/weiguow/project/libprocess-start/cmake-build-debug/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -84,7 +84,7 @@ package_source/fast: package_source
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/weiguow/clion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -95,7 +95,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
+	/home/weiguow/clion/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -106,7 +106,7 @@ package/fast: package
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/home/marcie/clion-2018.2.2/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
+	/home/weiguow/clion/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
 .PHONY : test
 
 # Special rule for the target test
@@ -116,9 +116,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles /home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marcie/libprocess-start/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -290,17 +290,30 @@ test-linkee/fast:
 .PHONY : test-linkee/fast
 
 #=============================================================================
-# Target rules for targets named lele_server_protobuf
+# Target rules for targets named test-master
 
 # Build rule for target.
-lele_server_protobuf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 lele_server_protobuf
-.PHONY : lele_server_protobuf
+test-master: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test-master
+.PHONY : test-master
 
 # fast build rule for target.
-lele_server_protobuf/fast:
-	$(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/build
-.PHONY : lele_server_protobuf/fast
+test-master/fast:
+	$(MAKE) -f my_hello/CMakeFiles/test-master.dir/build.make my_hello/CMakeFiles/test-master.dir/build
+.PHONY : test-master/fast
+
+#=============================================================================
+# Target rules for targets named client_protobuf
+
+# Build rule for target.
+client_protobuf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 client_protobuf
+.PHONY : client_protobuf
+
+# fast build rule for target.
+client_protobuf/fast:
+	$(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/build
+.PHONY : client_protobuf/fast
 
 #=============================================================================
 # Target rules for targets named client_server_message_event
@@ -316,17 +329,43 @@ client_server_message_event/fast:
 .PHONY : client_server_message_event/fast
 
 #=============================================================================
-# Target rules for targets named client_protobuf
+# Target rules for targets named lele_server_protobuf
 
 # Build rule for target.
-client_protobuf: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 client_protobuf
-.PHONY : client_protobuf
+lele_server_protobuf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lele_server_protobuf
+.PHONY : lele_server_protobuf
 
 # fast build rule for target.
-client_protobuf/fast:
-	$(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/build
-.PHONY : client_protobuf/fast
+lele_server_protobuf/fast:
+	$(MAKE) -f my_hello/CMakeFiles/lele_server_protobuf.dir/build.make my_hello/CMakeFiles/lele_server_protobuf.dir/build
+.PHONY : lele_server_protobuf/fast
+
+#=============================================================================
+# Target rules for targets named future_promise
+
+# Build rule for target.
+future_promise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 future_promise
+.PHONY : future_promise
+
+# fast build rule for target.
+future_promise/fast:
+	$(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/build
+.PHONY : future_promise/fast
+
+#=============================================================================
+# Target rules for targets named test-slave
+
+# Build rule for target.
+test-slave: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test-slave
+.PHONY : test-slave
+
+# fast build rule for target.
+test-slave/fast:
+	$(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/build
+.PHONY : test-slave/fast
 
 #=============================================================================
 # Target rules for targets named foo
@@ -363,9 +402,12 @@ help:
 	@echo "... process-0.0.1"
 	@echo "... libprocess-tests"
 	@echo "... test-linkee"
-	@echo "... lele_server_protobuf"
-	@echo "... client_server_message_event"
+	@echo "... test-master"
 	@echo "... client_protobuf"
+	@echo "... client_server_message_event"
+	@echo "... lele_server_protobuf"
+	@echo "... future_promise"
+	@echo "... test-slave"
 	@echo "... foo"
 .PHONY : help
 

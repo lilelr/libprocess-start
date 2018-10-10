@@ -77,7 +77,7 @@ my_hello/CMakeFiles/lele_server_protobuf.dir/Lele_server_protobuf.cpp.o
  ../3rdparty/stout/include/stout/windows/error.hpp
  ../3rdparty/stout/include/stout/windows/format.hpp
  ../3rdparty/stout/include/stout/windows/net.hpp
- /home/marcie/libprocess-start/my_hello/Lele_server_protobuf.cpp
+ /home/weiguow/project/libprocess-start/my_hello/Lele_server_protobuf.cpp
  3rdparty/boost-1.53.0/src/boost-1.53.0/boost/aligned_storage.hpp
  3rdparty/boost-1.53.0/src/boost-1.53.0/boost/array.hpp
  3rdparty/boost-1.53.0/src/boost-1.53.0/boost/assert.hpp

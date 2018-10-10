@@ -1,5 +1,5 @@
 libglog_la-demangle.lo: \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/demangle.cc \
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/demangle.cc \
  /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -14,7 +14,7 @@ libglog_la-demangle.lo: \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
  /usr/include/x86_64-linux-gnu/bits/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/demangle.h \
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/demangle.h \
  src/config.h
 
 /usr/include/stdc-predef.h:
@@ -53,6 +53,6 @@ libglog_la-demangle.lo: \
 
 /usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
-/home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/demangle.h:
+/home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/demangle.h:
 
 src/config.h:

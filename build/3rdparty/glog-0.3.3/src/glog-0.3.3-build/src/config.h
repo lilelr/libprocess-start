@@ -31,6 +31,9 @@
 /* Define to 1 if you have the <libunwind.h> header file. */
 /* #undef HAVE_LIBUNWIND_H */
 
+/* define if you have google gflags library */
+/* #undef HAVE_LIB_GFLAGS */
+
 /* define if you have google gmock library */
 /* #undef HAVE_LIB_GMOCK */
 
@@ -157,7 +160,7 @@
 #define STL_NAMESPACE std
 
 /* location of source code */
-#define TEST_SRC_DIR "/home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/.."
+#define TEST_SRC_DIR "/home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/.."
 
 /* Version number of package */
 #define VERSION "0.3.3"

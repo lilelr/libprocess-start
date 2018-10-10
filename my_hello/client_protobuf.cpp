@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <sstream>
 
@@ -30,22 +29,22 @@ using process::http::OK;
 using process::http::InternalServerError;
 
 using std::string;
+
 using namespace std;
 
-class Client:public ProtobufProcess<Client>{
+class Client : public ProtobufProcess<Client> {
 
 public:
 
     UPID server;
 
-    Client():ProcessBase("my_client"){
+    Client() : ProcessBase("my_client") {  //注册myclient
     }
 
 
-    virtual void initialize()
-    {
+    virtual void initialize() {
 //     route("/vars", &MyProcess::vars);
-        route("/vars","hello ", [=] (const Request& request) {
+        route("/vars", "hello ", [=](const Request &request) {
             string body = "... vars here ...";
             OK response;
             response.headers["Content-Type"] = "text/plain";
@@ -57,7 +56,7 @@ public:
         });
 
 //     install("stop", &MyProcess::stop);
-        install("stop", [=] (const UPID& from, const string& body) {
+        install("stop", [=](const UPID &from, const string &body) {
             terminate(self());
         });
 
@@ -69,12 +68,12 @@ public:
 
     }
 
-    void report_from_server(const string& key){
-        cout<<"report from server"<<endl;
-        cout<<key<<endl;
+    void report_from_server(const string &key) {
+        cout << "report from server" << endl;
+        cout << key << endl;
     }
 
-    void send_server_a_message(){
+    void send_server_a_message() {
         Offer k;
         string client_id = this->self();
         k.set_key(client_id);
@@ -84,21 +83,20 @@ public:
     }
 
 
-
 };
 
-int main(){
-
-//    UPID masterUPID("my_master@10.211.55.4:37210");
+int main() {
 
     Client client;
-    process:PID<Client> cur_client =  process::spawn(client);
-    cout<<endl;
-    cout<<"Running client on "<<process::address().ip<<":"<<process::address().port<<endl;
-    cout<< "PID"<<endl;
-    cout<<"please input the master UPID:"<<endl;
-    string master_str;
-    cin>>master_str;
+    process:
+    PID<Client> cur_client = process::spawn(client);
+    cout << endl;
+    cout << "Running client on " << process::address().ip << ":" << process::address().port << endl;  //显示ip地址和端口
+    cout << "PID" << endl;
+    cout << "please input the master UPID:" << endl;
+
+    string master_str;  //
+    cin >> master_str;
     UPID masterUPID(master_str);
     client.server = masterUPID;
     client.send_server_a_message();

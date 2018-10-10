@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/marcie/libprocess-start/3rdparty/elfio-3.2.tar.gz" ABSOLUTE)
-get_filename_component(directory "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2" ABSOLUTE)
+get_filename_component(filename "/home/weiguow/project/libprocess-start/3rdparty/elfio-3.2.tar.gz" ABSOLUTE)
+get_filename_component(directory "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

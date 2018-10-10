@@ -1,4 +1,4 @@
-prefix=/home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib
+prefix=/home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

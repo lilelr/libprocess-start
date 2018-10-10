@@ -59,6 +59,13 @@ add_subdirectory(3rdparty)
 add_subdirectory(my_hello)
 #add_subdirectory(src)
 
+##future promise
+#add_subdirectory(./google/googletest)
+#include_directories(./google/googletest/include)
+#link_directories(./google/googletest)
+#add_excutable(libprocess-start future_promise.cpp)
+#set(LIBRARIES test pthread)
+#target_link_libraries(future_promise ${LIBRARIES})
 
 # TESTS.
 ########

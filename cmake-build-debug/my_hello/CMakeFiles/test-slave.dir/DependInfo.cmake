@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/test-slave.cpp" "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/CMakeFiles/test-slave.dir/test-slave.cpp.o"
+  "/home/weiguow/project/libprocess-start/my_hello/test-slave.cpp" "/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/test-slave.dir/test-slave.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,6 +25,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "proto"
+  "my_hello/proto"
   "../3rdparty/libprocess/include"
   "/usr/include/apr-1.0"
   "3rdparty/boost-1.53.0/src/boost-1.53.0"
@@ -38,14 +40,12 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"
   "3rdparty/libev-4.22/src/libev-4.22"
   "3rdparty/leveldb-1.19/src/leveldb-1.19/include"
-  "/mesos"
-  "my_hello/proto"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/my_hello/proto/CMakeFiles/foo.dir/DependInfo.cmake"
-  "/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
+  "/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto/CMakeFiles/foo.dir/DependInfo.cmake"
+  "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

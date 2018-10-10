@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1-complete.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/protobuf-2.6.1-complete.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-install.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-install.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-mkdir.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-mkdir.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-download.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-download.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-update.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-update.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-patch.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-patch.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-configure.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-configure.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-build.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-stamp/protobuf-2.6.1-build.rule"
 		}
 	],
 	"target" : 

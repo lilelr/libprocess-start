@@ -1,5 +1,5 @@
 stl_logging_unittest-stl_logging_unittest.o: \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/stl_logging_unittest.cc \
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/stl_logging_unittest.cc \
  /usr/include/stdc-predef.h src/config.h src/glog/stl_logging.h \
  /usr/include/c++/5/deque /usr/include/c++/5/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/5/bits/c++config.h \
@@ -118,11 +118,11 @@ stl_logging_unittest-stl_logging_unittest.o: \
  /usr/include/x86_64-linux-gnu/bits/unistd.h \
  /usr/lib/gcc/x86_64-linux-gnu/5/include/stdint.h /usr/include/stdint.h \
  /usr/include/inttypes.h \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/glog/log_severity.h \
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/glog/log_severity.h \
  src/glog/vlog_is_on.h \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/googletest.h \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/utilities.h \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/mutex.h \
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/googletest.h \
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/utilities.h \
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/mutex.h \
  /usr/include/assert.h /usr/include/setjmp.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp2.h /usr/include/libio.h \
  /usr/include/_G_config.h /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
@@ -135,7 +135,7 @@ stl_logging_unittest-stl_logging_unittest.o: \
  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
  /usr/include/x86_64-linux-gnu/bits/uio.h \
  /usr/include/x86_64-linux-gnu/bits/fcntl2.h \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/commandlineflags.h
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/commandlineflags.h
 
 /usr/include/stdc-predef.h:
 
@@ -473,15 +473,15 @@ src/glog/logging.h:
 
 /usr/include/inttypes.h:
 
-/home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/glog/log_severity.h:
+/home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/glog/log_severity.h:
 
 src/glog/vlog_is_on.h:
 
-/home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/googletest.h:
+/home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/googletest.h:
 
-/home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/utilities.h:
+/home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/utilities.h:
 
-/home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/mutex.h:
+/home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/mutex.h:
 
 /usr/include/assert.h:
 
@@ -515,4 +515,4 @@ src/glog/vlog_is_on.h:
 
 /usr/include/x86_64-linux-gnu/bits/fcntl2.h:
 
-/home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/commandlineflags.h:
+/home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/commandlineflags.h:

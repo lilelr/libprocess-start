@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc
+/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.cc
 Offer.pb.h
-/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.h
+/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.h
 algorithm
 -
 google/protobuf/stubs/common.h
@@ -28,7 +28,7 @@ google/protobuf/reflection_ops.h
 google/protobuf/wire_format.h
 -
 
-/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.h
+/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto/Offer.pb.h
 string
 -
 google/protobuf/stubs/common.h
@@ -40,46 +40,6 @@ google/protobuf/message.h
 google/protobuf/repeated_field.h
 -
 google/protobuf/extension_set.h
--
-google/protobuf/unknown_field_set.h
--
-
-/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.cc
-addressbook.pb.h
-/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.h
-algorithm
--
-google/protobuf/stubs/common.h
--
-google/protobuf/stubs/once.h
--
-google/protobuf/io/coded_stream.h
--
-google/protobuf/wire_format_lite_inl.h
--
-google/protobuf/descriptor.h
--
-google/protobuf/generated_message_reflection.h
--
-google/protobuf/reflection_ops.h
--
-google/protobuf/wire_format.h
--
-
-/home/marcie/libprocess-start/cmake-build-debug/my_hello/proto/addressbook.pb.h
-string
--
-google/protobuf/stubs/common.h
--
-google/protobuf/generated_message_util.h
--
-google/protobuf/message.h
--
-google/protobuf/repeated_field.h
--
-google/protobuf/extension_set.h
--
-google/protobuf/generated_enum_reflection.h
 -
 google/protobuf/unknown_field_set.h
 -

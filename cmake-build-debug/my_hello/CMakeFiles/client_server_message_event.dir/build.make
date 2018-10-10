@@ -37,19 +37,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/weiguow/clion/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/weiguow/clion/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
+CMAKE_SOURCE_DIR = /home/weiguow/project/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/weiguow/project/libprocess-start/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include my_hello/CMakeFiles/client_server_message_event.dir/depend.make
@@ -62,16 +62,16 @@ include my_hello/CMakeFiles/client_server_message_event.dir/flags.make
 
 my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o: my_hello/CMakeFiles/client_server_message_event.dir/flags.make
 my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o: ../my_hello/client_server_message_event.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o"
-	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o -c /home/marcie/libprocess-start/my_hello/client_server_message_event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/my_hello && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o -c /home/weiguow/project/libprocess-start/my_hello/client_server_message_event.cpp
 
 my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.i"
-	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marcie/libprocess-start/my_hello/client_server_message_event.cpp > CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.i
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/my_hello && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/weiguow/project/libprocess-start/my_hello/client_server_message_event.cpp > CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.i
 
 my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.s"
-	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marcie/libprocess-start/my_hello/client_server_message_event.cpp -o CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.s
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/my_hello && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/weiguow/project/libprocess-start/my_hello/client_server_message_event.cpp -o CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.s
 
 # Object files for target client_server_message_event
 client_server_message_event_OBJECTS = \
@@ -106,8 +106,8 @@ my_hello/client_server_message_event: /usr/lib/x86_64-linux-gnu/libsvn_diff-1.so
 my_hello/client_server_message_event: /usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
 my_hello/client_server_message_event: /usr/lib/x86_64-linux-gnu/libz.so
 my_hello/client_server_message_event: my_hello/CMakeFiles/client_server_message_event.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable client_server_message_event"
-	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client_server_message_event.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable client_server_message_event"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/my_hello && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client_server_message_event.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 my_hello/CMakeFiles/client_server_message_event.dir/build: my_hello/client_server_message_event
@@ -115,10 +115,10 @@ my_hello/CMakeFiles/client_server_message_event.dir/build: my_hello/client_serve
 .PHONY : my_hello/CMakeFiles/client_server_message_event.dir/build
 
 my_hello/CMakeFiles/client_server_message_event.dir/clean:
-	cd /home/marcie/libprocess-start/cmake-build-debug/my_hello && $(CMAKE_COMMAND) -P CMakeFiles/client_server_message_event.dir/cmake_clean.cmake
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/my_hello && $(CMAKE_COMMAND) -P CMakeFiles/client_server_message_event.dir/cmake_clean.cmake
 .PHONY : my_hello/CMakeFiles/client_server_message_event.dir/clean
 
 my_hello/CMakeFiles/client_server_message_event.dir/depend:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcie/libprocess-start /home/marcie/libprocess-start/my_hello /home/marcie/libprocess-start/cmake-build-debug /home/marcie/libprocess-start/cmake-build-debug/my_hello /home/marcie/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/client_server_message_event.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weiguow/project/libprocess-start /home/weiguow/project/libprocess-start/my_hello /home/weiguow/project/libprocess-start/cmake-build-debug /home/weiguow/project/libprocess-start/cmake-build-debug/my_hello /home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/client_server_message_event.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : my_hello/CMakeFiles/client_server_message_event.dir/depend
 

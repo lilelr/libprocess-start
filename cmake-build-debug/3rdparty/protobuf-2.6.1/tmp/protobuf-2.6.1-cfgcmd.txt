@@ -1,1 +1,1 @@
-cmd='/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1/src/../configure;--prefix=/home/marcie/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib'
+cmd='/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1/src/../configure;--prefix=/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib'

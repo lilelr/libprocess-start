@@ -1,4 +1,4 @@
-# Install script for directory: /home/wqn/libprocess-start/my_hello/proto
+# Install script for directory: /home/marcie/libprocess-start/my_hello/proto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

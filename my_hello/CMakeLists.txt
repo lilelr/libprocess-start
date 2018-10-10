@@ -122,17 +122,18 @@ add_executable(client_protobuf ${client_protobuf_SRC})
 target_link_libraries(client_protobuf foo protobuf ${LELE_LIBS})
 
 # test_master
-#set(test_master_SRC test-master.cpp)
-#add_executable(test-master ${test_master_SRC})
-#target_link_libraries(test-master foo protobuf ${LELE_LIBS})
+set(test_master_SRC test-master.cpp)
+add_executable(test-master ${test_master_SRC})
+target_link_libraries(test-master foo protobuf ${LELE_LIBS})
 
 # test_slave
-#set(test-slave_SRC test-slave.cpp)
-#add_executable(test-slave ${test-slave_SRC})
-#target_link_libraries(test-slave foo protobuf ${LELE_LIBS})
+set(test-slave_SRC test-slave.cpp)
+add_executable(test-slave ${test-slave_SRC})
+target_link_libraries(test-slave foo protobuf ${LELE_LIBS})
 
 # future promise
-#set(future_promise_SRC future_promise.cpp)
-#add_executable(future_promise ${future_promise_SRC})
-#target_link_libraries(future_promise foo protobuf ${LELE_LIBS} pthread gmock gtest)
+set(future_promise_SRC future_promise.cpp)
+add_executable(future_promise ${future_promise_SRC})
+target_link_libraries(future_promise foo protobuf ${LELE_LIBS} pthread gmock gtest)
+
 

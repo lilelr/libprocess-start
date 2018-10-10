@@ -1,7 +1,7 @@
 
 #include <iostream>
 #include <sstream>
-//#include <gtest/gtest.h>
+#include "./google/googletest/include/gtest/gtest.h"
 
 #include <process/defer.hpp>
 #include <process/dispatch.hpp>

@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2-complete.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2-complete.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-install.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-install.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-mkdir.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-mkdir.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-download.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-download.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-update.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-update.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-patch.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-patch.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure.rule"
 		},
 		{
-			"file" : "/home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-build.rule"
+			"file" : "/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-build.rule"
 		}
 	],
 	"target" : 

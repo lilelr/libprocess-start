@@ -37,19 +37,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/weiguow/clion/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E remove -f
+RM = /home/weiguow/clion/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/marcie/libprocess-start
+CMAKE_SOURCE_DIR = /home/weiguow/project/libprocess-start
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/marcie/libprocess-start/cmake-build-debug
+CMAKE_BINARY_DIR = /home/weiguow/project/libprocess-start/cmake-build-debug
 
 # Utility rule file for elfio-3.2.
 
@@ -67,54 +67,54 @@ include 3rdparty/CMakeFiles/elfio-3.2.dir/progress.make
 3rdparty/CMakeFiles/elfio-3.2-complete: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure
 3rdparty/CMakeFiles/elfio-3.2-complete: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-build
 3rdparty/CMakeFiles/elfio-3.2-complete: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'elfio-3.2'"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2-complete
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'elfio-3.2'"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E make_directory /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E touch /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2-complete
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E touch /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-done
 
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-install: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'elfio-3.2'"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E echo
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing install step for 'elfio-3.2'"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E echo
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E touch /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-install
 
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'elfio-3.2'"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/tmp
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E make_directory /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'elfio-3.2'"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E make_directory /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E make_directory /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E make_directory /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E make_directory /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/tmp
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E make_directory /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E make_directory /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E touch /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-mkdir
 
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-download: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-urlinfo.txt
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-download: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (verify and extract) for 'elfio-3.2'"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -P /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/verify-elfio-3.2.cmake
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -P /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/extract-elfio-3.2.cmake
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (verify and extract) for 'elfio-3.2'"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src && /home/weiguow/clion/bin/cmake/linux/bin/cmake -P /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/verify-elfio-3.2.cmake
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src && /home/weiguow/clion/bin/cmake/linux/bin/cmake -P /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/extract-elfio-3.2.cmake
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E touch /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-download
 
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-update: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'elfio-3.2'"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E echo_append
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'elfio-3.2'"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E echo_append
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E touch /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-update
 
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-patch: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'elfio-3.2'"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E echo_append
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'elfio-3.2'"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E echo_append
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E touch /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-patch
 
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure: 3rdparty/elfio-3.2/tmp/elfio-3.2-cfgcmd.txt
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-update
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'elfio-3.2'"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E echo
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'elfio-3.2'"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E echo
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E touch /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure
 
 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-build: 3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/marcie/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'elfio-3.2'"
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E echo
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/marcie/clion-2018.2.2/bin/cmake/linux/bin/cmake -E touch /home/marcie/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/weiguow/project/libprocess-start/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'elfio-3.2'"
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E echo
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-build && /home/weiguow/clion/bin/cmake/linux/bin/cmake -E touch /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2-stamp/elfio-3.2-build
 
 elfio-3.2: 3rdparty/CMakeFiles/elfio-3.2
 elfio-3.2: 3rdparty/CMakeFiles/elfio-3.2-complete
@@ -135,10 +135,10 @@ elfio-3.2: 3rdparty/CMakeFiles/elfio-3.2.dir/build.make
 .PHONY : 3rdparty/CMakeFiles/elfio-3.2.dir/build
 
 3rdparty/CMakeFiles/elfio-3.2.dir/clean:
-	cd /home/marcie/libprocess-start/cmake-build-debug/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/elfio-3.2.dir/cmake_clean.cmake
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty && $(CMAKE_COMMAND) -P CMakeFiles/elfio-3.2.dir/cmake_clean.cmake
 .PHONY : 3rdparty/CMakeFiles/elfio-3.2.dir/clean
 
 3rdparty/CMakeFiles/elfio-3.2.dir/depend:
-	cd /home/marcie/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/marcie/libprocess-start /home/marcie/libprocess-start/3rdparty /home/marcie/libprocess-start/cmake-build-debug /home/marcie/libprocess-start/cmake-build-debug/3rdparty /home/marcie/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/weiguow/project/libprocess-start /home/weiguow/project/libprocess-start/3rdparty /home/weiguow/project/libprocess-start/cmake-build-debug /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/CMakeFiles/elfio-3.2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : 3rdparty/CMakeFiles/elfio-3.2.dir/depend
 

@@ -1,5 +1,5 @@
 logging_striptest0-logging_striptest_main.o: \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/logging_striptest_main.cc \
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/logging_striptest_main.cc \
  /usr/include/stdc-predef.h /usr/include/stdio.h /usr/include/features.h \
  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -101,9 +101,9 @@ logging_striptest0-logging_striptest_main.o: \
  /usr/include/x86_64-linux-gnu/bits/sigset.h \
  /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/inttypes.h \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/glog/log_severity.h \
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/glog/log_severity.h \
  src/glog/vlog_is_on.h \
- /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/commandlineflags.h \
+ /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/commandlineflags.h \
  src/config.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/alloca.h \
@@ -381,11 +381,11 @@ src/glog/logging.h:
 
 /usr/include/inttypes.h:
 
-/home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/glog/log_severity.h:
+/home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/glog/log_severity.h:
 
 src/glog/vlog_is_on.h:
 
-/home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/commandlineflags.h:
+/home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../src/base/commandlineflags.h:
 
 src/config.h:
 

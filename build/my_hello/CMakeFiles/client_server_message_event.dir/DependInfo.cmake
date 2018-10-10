@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wqn/libprocess-start/my_hello/client_server_message_event.cpp" "/home/wqn/libprocess-start/build/my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o"
+  "/home/marcie/libprocess-start/my_hello/client_server_message_event.cpp" "/home/marcie/libprocess-start/build/my_hello/CMakeFiles/client_server_message_event.dir/client_server_message_event.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -45,8 +45,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/wqn/libprocess-start/build/my_hello/proto/CMakeFiles/foo.dir/DependInfo.cmake"
-  "/home/wqn/libprocess-start/build/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
+  "/home/marcie/libprocess-start/build/my_hello/proto/CMakeFiles/foo.dir/DependInfo.cmake"
+  "/home/marcie/libprocess-start/build/3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

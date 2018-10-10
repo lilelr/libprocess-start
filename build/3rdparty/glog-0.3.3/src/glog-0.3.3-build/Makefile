@@ -19,7 +19,7 @@
 
 
 
-VPATH = /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/..
+VPATH = /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/..
 pkgdatadir = $(datadir)/glog
 pkgincludedir = $(includedir)/glog
 pkglibdir = $(libdir)/glog
@@ -329,13 +329,13 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/missing --run aclocal-1.11
+ACLOCAL = ${SHELL} /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/missing --run aclocal-1.11
 AMTAR = $${TAR-tar}
 AR = ar
-AUTOCONF = ${SHELL} /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/missing --run autoconf
-AUTOHEADER = ${SHELL} /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/missing --run autoheader
-AUTOMAKE = ${SHELL} /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/missing --run automake-1.11
-AWK = gawk
+AUTOCONF = ${SHELL} /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/missing --run autoconf
+AUTOHEADER = ${SHELL} /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/missing --run autoheader
+AUTOMAKE = ${SHELL} /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/missing --run automake-1.11
+AWK = mawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
 CFLAGS = -g -O2
@@ -376,11 +376,11 @@ LDFLAGS =
 LIBOBJS = 
 LIBS = -lpthread 
 LIBTOOL = $(SHELL) $(top_builddir)/libtool
-LIBTOOL_DEPS = /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../ltmain.sh
+LIBTOOL_DEPS = /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/../ltmain.sh
 LIPO = 
 LN_S = ln -s
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/missing --run makeinfo
+MAKEINFO = ${SHELL} /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/missing --run makeinfo
 MANIFEST_TOOL = :
 MKDIR_P = /bin/mkdir -p
 NM = /usr/bin/nm -B
@@ -407,10 +407,10 @@ SHELL = /bin/bash
 STRIP = strip
 UNWIND_LIBS = 
 VERSION = 0.3.3
-abs_builddir = /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3-build
-abs_srcdir = /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/..
-abs_top_builddir = /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3-build
-abs_top_srcdir = /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/..
+abs_builddir = /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3-build
+abs_srcdir = /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/..
+abs_top_builddir = /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3-build
+abs_top_srcdir = /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/..
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -457,7 +457,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/install-sh
+install_sh = ${SHELL} /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -466,17 +466,17 @@ mandir = ${datarootdir}/man
 mkdir_p = /bin/mkdir -p
 oldincludedir = /usr/include
 pdfdir = ${docdir}
-prefix = /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib
+prefix = /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib
 program_transform_name = s,x,x,
 psdir = ${docdir}
 sbindir = ${exec_prefix}/sbin
 sharedstatedir = ${prefix}/com
-srcdir = /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/..
+srcdir = /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/..
 sysconfdir = ${prefix}/etc
 target_alias = 
 top_build_prefix = 
 top_builddir = .
-top_srcdir = /home/wqn/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/..
+top_srcdir = /home/marcie/libprocess-start/build/3rdparty/glog-0.3.3/src/glog-0.3.3/src/..
 
 # Make sure that when we re-make ./configure, we get the macros we need
 ACLOCAL_AMFLAGS = -I m4
