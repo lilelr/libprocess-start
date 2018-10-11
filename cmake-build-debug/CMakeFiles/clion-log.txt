@@ -20,7 +20,6 @@ Don't forget to buy one beer
 -- Found APR header: /usr/include/apr-1.0
 -- Found SVN library: /usr/lib/x86_64-linux-gnu/libsvn_delta-1.so;/usr/lib/x86_64-linux-gnu/libsvn_diff-1.so;/usr/lib/x86_64-linux-gnu/libsvn_subr-1.so
 -- Found SVN header: /usr/include/subversion-1
--- Found Protobuf: /usr/local/lib/libprotobuf.so;-pthread (found version "2.6.1") 
 -- protobuf library found
 /home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include
 /home/weiguow/project/libprocess-start/cmake-build-debug

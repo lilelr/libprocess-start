@@ -5,7 +5,7 @@ foreach(item ${items_to_buy})
   message("Don't forget to buy one ${item}")
 endforeach()
 
-
+#Check System
 if (NOT WIN32)
   cmake_minimum_required(VERSION 2.8.10)
 else (NOT WIN32)
@@ -13,8 +13,6 @@ else (NOT WIN32)
 endif (NOT WIN32)
 
 project(libprocess-start)
-
-
 
 # CMAKE MODULE SETUP.f
 #####################
