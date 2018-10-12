@@ -19,6 +19,7 @@ project(libprocess-start)
 # CMAKE MODULE SETUP.f
 #####################
 # Paths that are searched when `include(...)` is called.
+# 添加include 命令所搜索的路径
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/3rdparty/cmake)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake)
@@ -40,7 +41,9 @@ list(
 #endif()
 
 # Macros.
+# /home/lilelr/open-source/libprocess-start/cmake
 include(Common)
+# ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake/macros
 include(External)
 include(PatchCommand)
 include(Versions)

@@ -74,6 +74,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../cmake/StartConfigure.cmake"
   "../my_hello/CMakeLists.txt"
   "../my_hello/proto/CMakeLists.txt"
+  "../my_hello/stout_learning/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -91,6 +92,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "3rdparty/libprocess/src/tests/CMakeFiles/CMakeDirectoryInformation.cmake"
   "my_hello/CMakeFiles/CMakeDirectoryInformation.cmake"
   "my_hello/proto/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "my_hello/stout_learning/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -105,9 +107,14 @@ set(CMAKE_DEPEND_INFO_FILES
   "3rdparty/libprocess/src/CMakeFiles/process-0.0.1.dir/DependInfo.cmake"
   "3rdparty/libprocess/src/tests/CMakeFiles/test-linkee.dir/DependInfo.cmake"
   "3rdparty/libprocess/src/tests/CMakeFiles/libprocess-tests.dir/DependInfo.cmake"
-  "my_hello/CMakeFiles/future_promise.dir/DependInfo.cmake"
-  "my_hello/CMakeFiles/client_protobuf.dir/DependInfo.cmake"
-  "my_hello/CMakeFiles/client_server_message_event.dir/DependInfo.cmake"
   "my_hello/CMakeFiles/lele_server_protobuf.dir/DependInfo.cmake"
+  "my_hello/CMakeFiles/client_server_message_event.dir/DependInfo.cmake"
+  "my_hello/CMakeFiles/lele_http_simple_process.dir/DependInfo.cmake"
+  "my_hello/CMakeFiles/client_protobuf.dir/DependInfo.cmake"
+  "my_hello/CMakeFiles/http_process_learning.dir/DependInfo.cmake"
+  "my_hello/CMakeFiles/simpleserver.dir/DependInfo.cmake"
+  "my_hello/CMakeFiles/future_promise.dir/DependInfo.cmake"
   "my_hello/proto/CMakeFiles/foo.dir/DependInfo.cmake"
+  "my_hello/stout_learning/CMakeFiles/lele_option_usage_main.dir/DependInfo.cmake"
+  "my_hello/stout_learning/CMakeFiles/lele_stout_my_learning_main.dir/DependInfo.cmake"
   )
