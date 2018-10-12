@@ -136,9 +136,8 @@ set(future_promise_SRC future_promise.cpp)
 add_executable(future_promise ${future_promise_SRC})
 target_link_libraries(future_promise foo protobuf ${LELE_LIBS} pthread gmock gtest)
 
-
-<<<<<<< HEAD
-=======
+#
+#<<<<<<< HEAD=======
 set(http_process_learning_SRC http_process_learning.cpp)
 add_executable(http_process_learning ${http_process_learning_SRC})
 target_link_libraries(http_process_learning foo ${LELE_LIBS})
@@ -152,4 +151,4 @@ target_link_libraries(simpleserver foo ${LELE_LIBS})
 set(lele_http_simple_process_SRC lele_http_simple_process.cpp)
 add_executable(lele_http_simple_process ${lele_http_simple_process_SRC})
 target_link_libraries(lele_http_simple_process foo ${LELE_LIBS})
->>>>>>> 9c868adb55ca1a515d681c5a624368a01e9c6cfc
+#>>>>>>> 9c868adb55ca1a515d681c5a624368a01e9c6cfc

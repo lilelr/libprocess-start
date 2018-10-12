@@ -5,7 +5,7 @@
 		<Option title="libprocess-start"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\my_hello\;CMake Files\my_hello\proto\;CMake Files\cmake\;CMake Files\3rdparty\;CMake Files\3rdparty\libprocess\;CMake Files\3rdparty\libprocess\cmake\;CMake Files\3rdparty\libprocess\cmake\macros\;CMake Files\3rdparty\libprocess\src\;CMake Files\3rdparty\libprocess\src\tests\;CMake Files\3rdparty\cmake\;CMake Files\3rdparty\stout\;CMake Files\3rdparty\stout\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\3rdparty\;CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\;CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\tmp\;CMake Files\cmake-build-debug\3rdparty\elfio-3.2\;CMake Files\cmake-build-debug\3rdparty\elfio-3.2\tmp\;CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\;CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\tmp\;CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\;CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\tmp\;CMake Files\cmake-build-debug\3rdparty\nvml-352.79\;CMake Files\cmake-build-debug\3rdparty\nvml-352.79\tmp\;CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\;CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\tmp\;CMake Files\cmake-build-debug\3rdparty\libev-4.22\;CMake Files\cmake-build-debug\3rdparty\libev-4.22\tmp\;CMake Files\cmake-build-debug\3rdparty\protobuf-2.6.1\;CMake Files\cmake-build-debug\3rdparty\protobuf-2.6.1\tmp\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\my_hello\;CMake Files\my_hello\proto\;CMake Files\my_hello\stout_learning\;CMake Files\cmake\;CMake Files\3rdparty\;CMake Files\3rdparty\libprocess\;CMake Files\3rdparty\libprocess\cmake\;CMake Files\3rdparty\libprocess\cmake\macros\;CMake Files\3rdparty\libprocess\src\;CMake Files\3rdparty\libprocess\src\tests\;CMake Files\3rdparty\cmake\;CMake Files\3rdparty\stout\;CMake Files\3rdparty\stout\cmake\;CMake Files\cmake-build-debug\;CMake Files\cmake-build-debug\3rdparty\;CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\;CMake Files\cmake-build-debug\3rdparty\boost-1.53.0-prefix\tmp\;CMake Files\cmake-build-debug\3rdparty\elfio-3.2\;CMake Files\cmake-build-debug\3rdparty\elfio-3.2\tmp\;CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\;CMake Files\cmake-build-debug\3rdparty\glog-0.3.3\tmp\;CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\;CMake Files\cmake-build-debug\3rdparty\picojson-1.3.0\tmp\;CMake Files\cmake-build-debug\3rdparty\nvml-352.79\;CMake Files\cmake-build-debug\3rdparty\nvml-352.79\tmp\;CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\;CMake Files\cmake-build-debug\3rdparty\http_parser-2.6.2\tmp\;CMake Files\cmake-build-debug\3rdparty\libev-4.22\;CMake Files\cmake-build-debug\3rdparty\libev-4.22\tmp\;CMake Files\cmake-build-debug\3rdparty\protobuf-2.6.1\;CMake Files\cmake-build-debug\3rdparty\protobuf-2.6.1\tmp\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug"/>
@@ -631,6 +631,104 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="http_process_learning">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/http_process_learning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/usr/include/apr-1.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/usr/include/subversion-1"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 http_process_learning"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http_process_learning/fast">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/http_process_learning" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/usr/include/apr-1.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/usr/include/subversion-1"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 http_process_learning/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="client_server_message_event">
 				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/client_server_message_event" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
@@ -724,6 +822,104 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 client_server_message_event/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lele_http_simple_process">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/lele_http_simple_process" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/usr/include/apr-1.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/usr/include/subversion-1"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 lele_http_simple_process"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lele_http_simple_process/fast">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/lele_http_simple_process" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/usr/include/apr-1.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/usr/include/subversion-1"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 lele_http_simple_process/fast"/>
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
@@ -827,104 +1023,6 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="future_promise">
-				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/future_promise" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DHAS_AUTHENTICATION=1"/>
-					<Add option="-DPICOJSON_USE_INT64"/>
-					<Add option="-D__STDC_FORMAT_MACROS"/>
-					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
-					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
-					<Add option="-DVERSION=&quot;&quot;"/>
-					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
-					<Add option="-DUSE_STATIC_LIB"/>
-					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
-					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
-					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/proto"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
-					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/libprocess/include"/>
-					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
-					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 future_promise"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="future_promise/fast">
-				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/future_promise" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add option="-DHAS_AUTHENTICATION=1"/>
-					<Add option="-DPICOJSON_USE_INT64"/>
-					<Add option="-D__STDC_FORMAT_MACROS"/>
-					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
-					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
-					<Add option="-DVERSION=&quot;&quot;"/>
-					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
-					<Add option="-DUSE_STATIC_LIB"/>
-					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
-					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
-					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/proto"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
-					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/libprocess/include"/>
-					<Add directory="/usr/include/apr-1.0"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
-					<Add directory="/usr/include/subversion-1"/>
-					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/stout/include"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
-					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
-					<Add directory="/usr/include/c++/5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
-					<Add directory="/usr/include/c++/5/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 future_promise/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="test-slave">
 				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/test-slave" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
@@ -1023,6 +1121,202 @@
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="simpleserver">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/simpleserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/usr/include/apr-1.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/usr/include/subversion-1"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 simpleserver"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleserver/fast">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/simpleserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/usr/include/apr-1.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/usr/include/subversion-1"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 simpleserver/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="future_promise">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/future_promise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/usr/include/apr-1.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/usr/include/subversion-1"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 future_promise"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="future_promise/fast">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/future_promise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/libprocess/include"/>
+					<Add directory="/usr/include/apr-1.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/boost-1.53.0/src/boost-1.53.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/elfio-3.2/src/elfio-3.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/nvml-352.79/src/nvml-352.79"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/picojson-1.3.0/src/picojson-1.3.0"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include"/>
+					<Add directory="/usr/include/subversion-1"/>
+					<Add directory="/home/weiguow/project/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/http_parser-2.6.2/src/http_parser-2.6.2"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/libev-4.22/src/libev-4.22"/>
+					<Add directory="/home/weiguow/project/libprocess-start/cmake-build-debug/3rdparty/leveldb-1.19/src/leveldb-1.19/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 future_promise/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="foo">
 				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto/libfoo.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto"/>
@@ -1091,6 +1385,146 @@
 					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lele_stout_my_learning_main">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/lele_stout_my_learning_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/lilelr/open-source/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 lele_stout_my_learning_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lele_stout_my_learning_main/fast">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/lele_stout_my_learning_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/lilelr/open-source/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 lele_stout_my_learning_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lele_option_usage_main">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/lele_option_usage_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/lilelr/open-source/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 lele_option_usage_main"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lele_option_usage_main/fast">
+				<Option output="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/lele_option_usage_main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAS_AUTHENTICATION=1"/>
+					<Add option="-DPICOJSON_USE_INT64"/>
+					<Add option="-D__STDC_FORMAT_MACROS"/>
+					<Add option="-DPKGLIBEXECDIR=&quot;/usr/local/libexec/mesos&quot;"/>
+					<Add option="-DLIBDIR=&quot;/usr/local/libmesos&quot;"/>
+					<Add option="-DVERSION=&quot;&quot;"/>
+					<Add option="-DPKGDATADIR=&quot;/usr/local/share/mesos&quot;"/>
+					<Add option="-DUSE_STATIC_LIB"/>
+					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
+					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
+					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
+					<Add directory="/home/lilelr/open-source/libprocess-start/3rdparty/stout/include"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 lele_option_usage_main/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
@@ -1295,6 +1729,21 @@
 		<Unit filename="/home/weiguow/project/libprocess-start/my_hello/future_promise.cpp">
 			<Option target="future_promise"/>
 		</Unit>
+		<Unit filename="/home/weiguow/project/libprocess-start/my_hello/http_process_learning.cpp">
+			<Option target="http_process_learning"/>
+		</Unit>
+		<Unit filename="/home/weiguow/project/libprocess-start/my_hello/lele_http_simple_process.cpp">
+			<Option target="lele_http_simple_process"/>
+		</Unit>
+		<Unit filename="/home/weiguow/project/libprocess-start/my_hello/simpleserver.cpp">
+			<Option target="simpleserver"/>
+		</Unit>
+		<Unit filename="/home/weiguow/project/libprocess-start/my_hello/stout_learning/lele_option_usage.cpp">
+			<Option target="lele_option_usage_main"/>
+		</Unit>
+		<Unit filename="/home/weiguow/project/libprocess-start/my_hello/stout_learning/lele_stout_my_learning.cpp">
+			<Option target="lele_stout_my_learning_main"/>
+		</Unit>
 		<Unit filename="/home/weiguow/project/libprocess-start/my_hello/test-master.cpp">
 			<Option target="test-master"/>
 		</Unit>
@@ -1309,6 +1758,9 @@
 		</Unit>
 		<Unit filename="/home/weiguow/project/libprocess-start/my_hello/proto/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\my_hello\proto\"/>
+		</Unit>
+		<Unit filename="/home/weiguow/project/libprocess-start/my_hello/stout_learning/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\my_hello\stout_learning\"/>
 		</Unit>
 		<Unit filename="/home/weiguow/project/libprocess-start/cmake/Common.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>

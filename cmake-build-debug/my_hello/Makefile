@@ -92,17 +92,6 @@ package_source/fast: package_source
 
 .PHONY : package_source/fast
 
-# Special rule for the target package
-package: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/weiguow/project/libprocess-start/cmake-build-debug && /home/weiguow/clion/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
-.PHONY : package
-
-# Special rule for the target package
-package/fast: package
-
-.PHONY : package/fast
-
 # Special rule for the target test
 test:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
@@ -113,6 +102,17 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target package
+package: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && /home/weiguow/clion/bin/cmake/linux/bin/cpack --config ./CPackConfig.cmake
+.PHONY : package
+
+# Special rule for the target package
+package/fast: package
+
+.PHONY : package/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -177,6 +177,21 @@ client_protobuf/fast:
 .PHONY : client_protobuf/fast
 
 # Convenience name for target.
+my_hello/CMakeFiles/http_process_learning.dir/rule:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/http_process_learning.dir/rule
+.PHONY : my_hello/CMakeFiles/http_process_learning.dir/rule
+
+# Convenience name for target.
+http_process_learning: my_hello/CMakeFiles/http_process_learning.dir/rule
+
+.PHONY : http_process_learning
+
+# fast build rule for target.
+http_process_learning/fast:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/http_process_learning.dir/build.make my_hello/CMakeFiles/http_process_learning.dir/build
+.PHONY : http_process_learning/fast
+
+# Convenience name for target.
 my_hello/CMakeFiles/client_server_message_event.dir/rule:
 	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/client_server_message_event.dir/rule
 .PHONY : my_hello/CMakeFiles/client_server_message_event.dir/rule
@@ -190,6 +205,21 @@ client_server_message_event: my_hello/CMakeFiles/client_server_message_event.dir
 client_server_message_event/fast:
 	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/build
 .PHONY : client_server_message_event/fast
+
+# Convenience name for target.
+my_hello/CMakeFiles/lele_http_simple_process.dir/rule:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/lele_http_simple_process.dir/rule
+.PHONY : my_hello/CMakeFiles/lele_http_simple_process.dir/rule
+
+# Convenience name for target.
+lele_http_simple_process: my_hello/CMakeFiles/lele_http_simple_process.dir/rule
+
+.PHONY : lele_http_simple_process
+
+# fast build rule for target.
+lele_http_simple_process/fast:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_http_simple_process.dir/build.make my_hello/CMakeFiles/lele_http_simple_process.dir/build
+.PHONY : lele_http_simple_process/fast
 
 # Convenience name for target.
 my_hello/CMakeFiles/lele_server_protobuf.dir/rule:
@@ -207,21 +237,6 @@ lele_server_protobuf/fast:
 .PHONY : lele_server_protobuf/fast
 
 # Convenience name for target.
-my_hello/CMakeFiles/future_promise.dir/rule:
-	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/future_promise.dir/rule
-.PHONY : my_hello/CMakeFiles/future_promise.dir/rule
-
-# Convenience name for target.
-future_promise: my_hello/CMakeFiles/future_promise.dir/rule
-
-.PHONY : future_promise
-
-# fast build rule for target.
-future_promise/fast:
-	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/build
-.PHONY : future_promise/fast
-
-# Convenience name for target.
 my_hello/CMakeFiles/test-slave.dir/rule:
 	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/test-slave.dir/rule
 .PHONY : my_hello/CMakeFiles/test-slave.dir/rule
@@ -235,6 +250,36 @@ test-slave: my_hello/CMakeFiles/test-slave.dir/rule
 test-slave/fast:
 	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/build
 .PHONY : test-slave/fast
+
+# Convenience name for target.
+my_hello/CMakeFiles/simpleserver.dir/rule:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/simpleserver.dir/rule
+.PHONY : my_hello/CMakeFiles/simpleserver.dir/rule
+
+# Convenience name for target.
+simpleserver: my_hello/CMakeFiles/simpleserver.dir/rule
+
+.PHONY : simpleserver
+
+# fast build rule for target.
+simpleserver/fast:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/simpleserver.dir/build.make my_hello/CMakeFiles/simpleserver.dir/build
+.PHONY : simpleserver/fast
+
+# Convenience name for target.
+my_hello/CMakeFiles/future_promise.dir/rule:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 my_hello/CMakeFiles/future_promise.dir/rule
+.PHONY : my_hello/CMakeFiles/future_promise.dir/rule
+
+# Convenience name for target.
+future_promise: my_hello/CMakeFiles/future_promise.dir/rule
+
+.PHONY : future_promise
+
+# fast build rule for target.
+future_promise/fast:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/build
+.PHONY : future_promise/fast
 
 Lele_server_protobuf.o: Lele_server_protobuf.cpp.o
 
@@ -344,6 +389,87 @@ future_promise.cpp.s:
 	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/future_promise.cpp.s
 .PHONY : future_promise.cpp.s
 
+http_process_learning.o: http_process_learning.cpp.o
+
+.PHONY : http_process_learning.o
+
+# target to build an object file
+http_process_learning.cpp.o:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/http_process_learning.dir/build.make my_hello/CMakeFiles/http_process_learning.dir/http_process_learning.cpp.o
+.PHONY : http_process_learning.cpp.o
+
+http_process_learning.i: http_process_learning.cpp.i
+
+.PHONY : http_process_learning.i
+
+# target to preprocess a source file
+http_process_learning.cpp.i:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/http_process_learning.dir/build.make my_hello/CMakeFiles/http_process_learning.dir/http_process_learning.cpp.i
+.PHONY : http_process_learning.cpp.i
+
+http_process_learning.s: http_process_learning.cpp.s
+
+.PHONY : http_process_learning.s
+
+# target to generate assembly for a file
+http_process_learning.cpp.s:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/http_process_learning.dir/build.make my_hello/CMakeFiles/http_process_learning.dir/http_process_learning.cpp.s
+.PHONY : http_process_learning.cpp.s
+
+lele_http_simple_process.o: lele_http_simple_process.cpp.o
+
+.PHONY : lele_http_simple_process.o
+
+# target to build an object file
+lele_http_simple_process.cpp.o:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_http_simple_process.dir/build.make my_hello/CMakeFiles/lele_http_simple_process.dir/lele_http_simple_process.cpp.o
+.PHONY : lele_http_simple_process.cpp.o
+
+lele_http_simple_process.i: lele_http_simple_process.cpp.i
+
+.PHONY : lele_http_simple_process.i
+
+# target to preprocess a source file
+lele_http_simple_process.cpp.i:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_http_simple_process.dir/build.make my_hello/CMakeFiles/lele_http_simple_process.dir/lele_http_simple_process.cpp.i
+.PHONY : lele_http_simple_process.cpp.i
+
+lele_http_simple_process.s: lele_http_simple_process.cpp.s
+
+.PHONY : lele_http_simple_process.s
+
+# target to generate assembly for a file
+lele_http_simple_process.cpp.s:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/lele_http_simple_process.dir/build.make my_hello/CMakeFiles/lele_http_simple_process.dir/lele_http_simple_process.cpp.s
+.PHONY : lele_http_simple_process.cpp.s
+
+simpleserver.o: simpleserver.cpp.o
+
+.PHONY : simpleserver.o
+
+# target to build an object file
+simpleserver.cpp.o:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/simpleserver.dir/build.make my_hello/CMakeFiles/simpleserver.dir/simpleserver.cpp.o
+.PHONY : simpleserver.cpp.o
+
+simpleserver.i: simpleserver.cpp.i
+
+.PHONY : simpleserver.i
+
+# target to preprocess a source file
+simpleserver.cpp.i:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/simpleserver.dir/build.make my_hello/CMakeFiles/simpleserver.dir/simpleserver.cpp.i
+.PHONY : simpleserver.cpp.i
+
+simpleserver.s: simpleserver.cpp.s
+
+.PHONY : simpleserver.s
+
+# target to generate assembly for a file
+simpleserver.cpp.s:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/simpleserver.dir/build.make my_hello/CMakeFiles/simpleserver.dir/simpleserver.cpp.s
+.PHONY : simpleserver.cpp.s
+
 test-master.o: test-master.cpp.o
 
 .PHONY : test-master.o
@@ -406,15 +532,18 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... package_source"
 	@echo "... test-master"
 	@echo "... client_protobuf"
+	@echo "... http_process_learning"
 	@echo "... client_server_message_event"
+	@echo "... lele_http_simple_process"
 	@echo "... lele_server_protobuf"
-	@echo "... package_source"
+	@echo "... test"
+	@echo "... test-slave"
+	@echo "... simpleserver"
 	@echo "... future_promise"
 	@echo "... package"
-	@echo "... test-slave"
-	@echo "... test"
 	@echo "... Lele_server_protobuf.o"
 	@echo "... Lele_server_protobuf.i"
 	@echo "... Lele_server_protobuf.s"
@@ -427,6 +556,15 @@ help:
 	@echo "... future_promise.o"
 	@echo "... future_promise.i"
 	@echo "... future_promise.s"
+	@echo "... http_process_learning.o"
+	@echo "... http_process_learning.i"
+	@echo "... http_process_learning.s"
+	@echo "... lele_http_simple_process.o"
+	@echo "... lele_http_simple_process.i"
+	@echo "... lele_http_simple_process.s"
+	@echo "... simpleserver.o"
+	@echo "... simpleserver.i"
+	@echo "... simpleserver.s"
 	@echo "... test-master.o"
 	@echo "... test-master.i"
 	@echo "... test-master.s"

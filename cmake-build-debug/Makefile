@@ -316,6 +316,19 @@ client_protobuf/fast:
 .PHONY : client_protobuf/fast
 
 #=============================================================================
+# Target rules for targets named http_process_learning
+
+# Build rule for target.
+http_process_learning: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 http_process_learning
+.PHONY : http_process_learning
+
+# fast build rule for target.
+http_process_learning/fast:
+	$(MAKE) -f my_hello/CMakeFiles/http_process_learning.dir/build.make my_hello/CMakeFiles/http_process_learning.dir/build
+.PHONY : http_process_learning/fast
+
+#=============================================================================
 # Target rules for targets named client_server_message_event
 
 # Build rule for target.
@@ -327,6 +340,19 @@ client_server_message_event: cmake_check_build_system
 client_server_message_event/fast:
 	$(MAKE) -f my_hello/CMakeFiles/client_server_message_event.dir/build.make my_hello/CMakeFiles/client_server_message_event.dir/build
 .PHONY : client_server_message_event/fast
+
+#=============================================================================
+# Target rules for targets named lele_http_simple_process
+
+# Build rule for target.
+lele_http_simple_process: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lele_http_simple_process
+.PHONY : lele_http_simple_process
+
+# fast build rule for target.
+lele_http_simple_process/fast:
+	$(MAKE) -f my_hello/CMakeFiles/lele_http_simple_process.dir/build.make my_hello/CMakeFiles/lele_http_simple_process.dir/build
+.PHONY : lele_http_simple_process/fast
 
 #=============================================================================
 # Target rules for targets named lele_server_protobuf
@@ -342,19 +368,6 @@ lele_server_protobuf/fast:
 .PHONY : lele_server_protobuf/fast
 
 #=============================================================================
-# Target rules for targets named future_promise
-
-# Build rule for target.
-future_promise: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 future_promise
-.PHONY : future_promise
-
-# fast build rule for target.
-future_promise/fast:
-	$(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/build
-.PHONY : future_promise/fast
-
-#=============================================================================
 # Target rules for targets named test-slave
 
 # Build rule for target.
@@ -368,6 +381,32 @@ test-slave/fast:
 .PHONY : test-slave/fast
 
 #=============================================================================
+# Target rules for targets named simpleserver
+
+# Build rule for target.
+simpleserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 simpleserver
+.PHONY : simpleserver
+
+# fast build rule for target.
+simpleserver/fast:
+	$(MAKE) -f my_hello/CMakeFiles/simpleserver.dir/build.make my_hello/CMakeFiles/simpleserver.dir/build
+.PHONY : simpleserver/fast
+
+#=============================================================================
+# Target rules for targets named future_promise
+
+# Build rule for target.
+future_promise: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 future_promise
+.PHONY : future_promise
+
+# fast build rule for target.
+future_promise/fast:
+	$(MAKE) -f my_hello/CMakeFiles/future_promise.dir/build.make my_hello/CMakeFiles/future_promise.dir/build
+.PHONY : future_promise/fast
+
+#=============================================================================
 # Target rules for targets named foo
 
 # Build rule for target.
@@ -379,6 +418,32 @@ foo: cmake_check_build_system
 foo/fast:
 	$(MAKE) -f my_hello/proto/CMakeFiles/foo.dir/build.make my_hello/proto/CMakeFiles/foo.dir/build
 .PHONY : foo/fast
+
+#=============================================================================
+# Target rules for targets named lele_stout_my_learning_main
+
+# Build rule for target.
+lele_stout_my_learning_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lele_stout_my_learning_main
+.PHONY : lele_stout_my_learning_main
+
+# fast build rule for target.
+lele_stout_my_learning_main/fast:
+	$(MAKE) -f my_hello/stout_learning/CMakeFiles/lele_stout_my_learning_main.dir/build.make my_hello/stout_learning/CMakeFiles/lele_stout_my_learning_main.dir/build
+.PHONY : lele_stout_my_learning_main/fast
+
+#=============================================================================
+# Target rules for targets named lele_option_usage_main
+
+# Build rule for target.
+lele_option_usage_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lele_option_usage_main
+.PHONY : lele_option_usage_main
+
+# fast build rule for target.
+lele_option_usage_main/fast:
+	$(MAKE) -f my_hello/stout_learning/CMakeFiles/lele_option_usage_main.dir/build.make my_hello/stout_learning/CMakeFiles/lele_option_usage_main.dir/build
+.PHONY : lele_option_usage_main/fast
 
 # Help Target
 help:
@@ -404,11 +469,16 @@ help:
 	@echo "... test-linkee"
 	@echo "... test-master"
 	@echo "... client_protobuf"
+	@echo "... http_process_learning"
 	@echo "... client_server_message_event"
+	@echo "... lele_http_simple_process"
 	@echo "... lele_server_protobuf"
-	@echo "... future_promise"
 	@echo "... test-slave"
+	@echo "... simpleserver"
+	@echo "... future_promise"
 	@echo "... foo"
+	@echo "... lele_stout_my_learning_main"
+	@echo "... lele_option_usage_main"
 .PHONY : help
 
 
