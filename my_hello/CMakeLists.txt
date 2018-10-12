@@ -52,6 +52,7 @@ else()
 endif()
 
 add_subdirectory(proto)
+add_subdirectory(stout_learning)
 
 set(LELE_HELLO "lele_server_protobuf")
 set(lele_hello_SRC Lele_server_protobuf.cpp)
@@ -67,7 +68,8 @@ set(LELE_INCLUDE_DIRS
         ${PROJECT_BINARY_DIR}/proto/
         ${PROJECT_BINARY_DIR}/my_hello/proto/
         )
-
+message("71")
+message(${PROCESS_3RDPARTY_INCLUDE_DIRS})
 set(LELE_3RDPARTY_INCLUDE_DIRS
         ${LELE_3RDPARTY_INCLUDE_DIRS}
         ${PROCESS_INCLUDE_DIRS}
@@ -80,7 +82,6 @@ set(LELE_3RDPARTY_INCLUDE_DIRS
 # Linux).
 ########################################################################
 set(LELE_LIB_DIRS
-        ${LELE_LIB_DIRS}
         ${PROCESS_LIB_DIRS}
         )
 
@@ -88,7 +89,6 @@ set(LELE_LIB_DIRS
 # include our third-party libs (e.g., -lglog on Linux).
 #########################################################################
 set(LELE_LIBS
-        ${LELE_LIBS}
         ${PROCESS_LIBS}
         ${PROCESS_TARGET}
         )
@@ -137,3 +137,19 @@ add_executable(future_promise ${future_promise_SRC})
 target_link_libraries(future_promise foo protobuf ${LELE_LIBS} pthread gmock gtest)
 
 
+<<<<<<< HEAD
+=======
+set(http_process_learning_SRC http_process_learning.cpp)
+add_executable(http_process_learning ${http_process_learning_SRC})
+target_link_libraries(http_process_learning foo ${LELE_LIBS})
+
+
+set(simpleserver_SRC simpleserver.cpp)
+add_executable(simpleserver ${simpleserver_SRC})
+target_link_libraries(simpleserver foo ${LELE_LIBS})
+
+
+set(lele_http_simple_process_SRC lele_http_simple_process.cpp)
+add_executable(lele_http_simple_process ${lele_http_simple_process_SRC})
+target_link_libraries(lele_http_simple_process foo ${LELE_LIBS})
+>>>>>>> 9c868adb55ca1a515d681c5a624368a01e9c6cfc

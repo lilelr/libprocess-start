@@ -1,0 +1,9 @@
+/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/build/CMakeFiles/edit_cache.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/build/CMakeFiles/rebuild_cache.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/build/CMakeFiles/lele_hello_main.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/build/CMakeFiles/client_server_message_event.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/build/CMakeFiles/client_protobuf.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/build/CMakeFiles/future_promise.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/build/proto/CMakeFiles/edit_cache.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/build/proto/CMakeFiles/rebuild_cache.dir
+/home/lilelr/open-source/bak_mesos-1.3.2/my_hello/build/proto/CMakeFiles/foo.dir

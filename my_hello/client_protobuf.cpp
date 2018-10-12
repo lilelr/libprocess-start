@@ -100,6 +100,7 @@ int main() {
     UPID masterUPID(master_str);
     client.server = masterUPID;
     client.send_server_a_message();
+
     process::wait(client.self());
 //    const PID<Master> masterPid = master.self();
 //    cout<<masterUPID<<endl;

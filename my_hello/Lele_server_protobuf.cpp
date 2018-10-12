@@ -51,6 +51,7 @@ public:
 
 
     virtual void initialize() {
+<<<<<<< HEAD
 
 //route("/add",)
         route("/add", "Adds the two query arguments", [](Request request) {
@@ -75,6 +76,35 @@ public:
         });
 
 //install("stop", &MyProcess::stop);
+=======
+        route(
+                "/add",
+                "Adds the two query arguments",
+                [](Request request) {
+//                int a = numify<int>(request["a"]).get();
+//                int b = numify<int>(request["b"]).get();
+                    int a = 3;
+                    int b = 4;
+                    std::ostringstream result;
+                    result << "{ \"result\": " << a + b << "}";
+                    JSON::Value body = JSON::parse(result.str()).get();
+                    return OK(body);
+                });
+
+//     route("/vars", &MyProcess::vars);
+//        route("/vars", "hello ", [=]( Request &request) {
+//            string body = "... vars here ...";
+//            OK response;
+//            response.headers["Content-Type"] = "text/plain";
+//            std::ostringstream out;
+//            out << body.size();
+//            response.headers["Content-Length"] = out.str();
+//            response.body = body;
+//            return response;
+//        });
+
+//     install("stop", &MyProcess::stop);
+>>>>>>> 9c868adb55ca1a515d681c5a624368a01e9c6cfc
         install("stop", [=](const UPID &from, const string &body) {
             terminate(self());
         });
@@ -88,7 +118,7 @@ public:
         UPID clientUPID(key);
 
         Offer server_offer;
-        server_offer.set_key("server_key");
+        server_offer.set_key("李乐乐");
         server_offer.set_value("server_value");
         server_offer.set_lele_label("server_label");
         send(clientUPID, server_offer);
@@ -103,6 +133,10 @@ int main() {
     k.set_lele_label("OS:linux");
     process::initialize("master");
     Master master;
+<<<<<<< HEAD
+=======
+    process:
+>>>>>>> 9c868adb55ca1a515d681c5a624368a01e9c6cfc
     PID<Master> cur_master = process::spawn(master);
     cout << "Running server on " << process::address().ip << ":" << process::address().port << endl;
     cout << "PID" << endl;

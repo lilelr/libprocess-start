@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+ecf0044ad0473d683aeec028507c8eb5 proto/Offer.pb.cc
+ea9bb358a857716dd8c5e6fcd7be3662 proto/addressbook.pb.cc

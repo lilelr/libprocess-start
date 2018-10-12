@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11   CMakeFiles/client_protobuf.dir/client_protobuf.cpp.o  -o client_protobuf -rdynamic proto/libfoo.a -lprotobuf /usr/local/lib/libprotobuf.so -lpthread -lpthread -Wl,-rpath,/usr/local/lib 
