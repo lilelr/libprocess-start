@@ -41,18 +41,23 @@ list(
 #endif()
 
 # Macros.
-# /home/lilelr/open-source/libprocess-start/cmake
+# ${CMAKE_SOURCE_DIR}/cmake
 include(Common)
 # ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake/macros
 include(External)
+# ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake/macros
 include(PatchCommand)
+# ${CMAKE_SOURCE_DIR}/3rdparty/cmake
 include(Versions)
-#include(VsBuildCommand)
+# ${CMAKE_SOURCE_DIR}/3rdparty/cmake
 include(cotire)
 
 # Configuration.
+# ${CMAKE_SOURCE_DIR}/cmake
 include(StartConfigure)
+# ${CMAKE_SOURCE_DIR}/cmake
 include(CompilationConfigure)
+# ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake
 include(ProcessConfigure)
 
 

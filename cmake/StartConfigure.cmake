@@ -54,8 +54,9 @@ include(CompilationConfigure)
 ############################
 # NOTE: The third-party configuration variables exported here are used
 # throughout the project, so it's important that this config script goes here.
-
+# ${CMAKE_SOURCE_DIR}/3rdparty/cmake
 include(Start3rdpartyConfigure)
+# ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake
 include(Process3rdpartyConfigure)
 #
 ## Generate a batch script that will build Mesos. Any project referencing Mesos
