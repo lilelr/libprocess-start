@@ -21,3 +21,12 @@ target_link_libraries(lele_try_tests_main  gmock gtest pthread)
 set(lele_result_tests_SRC lele_result_tests.cpp)
 add_executable(lele_result_tests_main ${lele_result_tests_SRC})
 target_link_libraries(lele_result_tests_main  gmock gtest pthread)
+
+
+set(lele_none_tests_SRC lele_none_tests.cpp)
+add_executable(lele_none_tests_main ${lele_none_tests_SRC})
+target_link_libraries(lele_none_tests_main  gmock gtest pthread)
+
+set(lele_some_tests_SRC lele_some_tests.cpp)
+add_executable(lele_some_tests_main ${lele_some_tests_SRC})
+target_link_libraries(lele_some_tests_main  gmock gtest pthread)
