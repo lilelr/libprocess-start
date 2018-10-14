@@ -150,3 +150,5 @@ target_link_libraries(simpleserver foo ${LELE_LIBS})
 set(lele_http_simple_process_SRC lele_http_simple_process.cpp)
 add_executable(lele_http_simple_process ${lele_http_simple_process_SRC})
 target_link_libraries(lele_http_simple_process foo ${LELE_LIBS})
+
+message(${CMAKE_CURRENT_LIST_DIR})

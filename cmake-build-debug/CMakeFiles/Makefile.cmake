@@ -115,6 +115,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "my_hello/CMakeFiles/simpleserver.dir/DependInfo.cmake"
   "my_hello/CMakeFiles/future_promise.dir/DependInfo.cmake"
   "my_hello/proto/CMakeFiles/foo.dir/DependInfo.cmake"
+  "my_hello/stout_learning/CMakeFiles/lele_result_tests_main.dir/DependInfo.cmake"
+  "my_hello/stout_learning/CMakeFiles/lele_try_tests_main.dir/DependInfo.cmake"
   "my_hello/stout_learning/CMakeFiles/lele_option_usage_main.dir/DependInfo.cmake"
   "my_hello/stout_learning/CMakeFiles/lele_stout_my_learning_main.dir/DependInfo.cmake"
   )

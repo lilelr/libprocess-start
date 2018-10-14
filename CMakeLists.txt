@@ -13,6 +13,11 @@ else (NOT WIN32)
 endif (NOT WIN32)
 
 project(libprocess-start)
+message(${libprocess-start_BINARY_DIR})
+message(${libprocess-start_SOURCE_DIR})
+message(${CMAKE_BINARY_DIR})
+message(${CMAKE_SOURCE_DIR})
+message(${CMAKE_CURRENT_LIST_DIR})
 
 
 

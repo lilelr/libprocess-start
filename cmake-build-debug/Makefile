@@ -381,6 +381,32 @@ foo/fast:
 .PHONY : foo/fast
 
 #=============================================================================
+# Target rules for targets named lele_result_tests_main
+
+# Build rule for target.
+lele_result_tests_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lele_result_tests_main
+.PHONY : lele_result_tests_main
+
+# fast build rule for target.
+lele_result_tests_main/fast:
+	$(MAKE) -f my_hello/stout_learning/CMakeFiles/lele_result_tests_main.dir/build.make my_hello/stout_learning/CMakeFiles/lele_result_tests_main.dir/build
+.PHONY : lele_result_tests_main/fast
+
+#=============================================================================
+# Target rules for targets named lele_try_tests_main
+
+# Build rule for target.
+lele_try_tests_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 lele_try_tests_main
+.PHONY : lele_try_tests_main
+
+# fast build rule for target.
+lele_try_tests_main/fast:
+	$(MAKE) -f my_hello/stout_learning/CMakeFiles/lele_try_tests_main.dir/build.make my_hello/stout_learning/CMakeFiles/lele_try_tests_main.dir/build
+.PHONY : lele_try_tests_main/fast
+
+#=============================================================================
 # Target rules for targets named lele_option_usage_main
 
 # Build rule for target.
@@ -435,6 +461,8 @@ help:
 	@echo "... simpleserver"
 	@echo "... future_promise"
 	@echo "... foo"
+	@echo "... lele_result_tests_main"
+	@echo "... lele_try_tests_main"
 	@echo "... lele_option_usage_main"
 	@echo "... lele_stout_my_learning_main"
 .PHONY : help

@@ -53,8 +53,10 @@
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/proto/CMakeFiles/foo.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/stout_learning/CMakeFiles/rebuild_cache.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/stout_learning/CMakeFiles/edit_cache.dir
-/home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/stout_learning/CMakeFiles/package_source.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/stout_learning/CMakeFiles/test.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/stout_learning/CMakeFiles/package.dir
+/home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/stout_learning/CMakeFiles/package_source.dir
+/home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/stout_learning/CMakeFiles/lele_result_tests_main.dir
+/home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/stout_learning/CMakeFiles/lele_try_tests_main.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/stout_learning/CMakeFiles/lele_option_usage_main.dir
 /home/lilelr/open-source/libprocess-start/cmake-build-debug/my_hello/stout_learning/CMakeFiles/lele_stout_my_learning_main.dir

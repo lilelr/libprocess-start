@@ -12,3 +12,12 @@ target_link_libraries(lele_stout_my_learning_main  gmock gtest pthread)
 set(lele_option_usage_SRC lele_option_usage.cpp)
 add_executable(lele_option_usage_main ${lele_option_usage_SRC})
 target_link_libraries(lele_option_usage_main  gmock gtest pthread)
+
+set(lele_try_tests_SRC lele_try_tests.cpp)
+add_executable(lele_try_tests_main ${lele_try_tests_SRC})
+target_link_libraries(lele_try_tests_main  gmock gtest pthread)
+
+
+set(lele_result_tests_SRC lele_result_tests.cpp)
+add_executable(lele_result_tests_main ${lele_result_tests_SRC})
+target_link_libraries(lele_result_tests_main  gmock gtest pthread)
