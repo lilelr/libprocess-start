@@ -1405,7 +1405,6 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/lilelr/open-source/libprocess-start/3rdparty/stout/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1440,7 +1439,6 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/lilelr/open-source/libprocess-start/3rdparty/stout/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1475,7 +1473,6 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/lilelr/open-source/libprocess-start/3rdparty/stout/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
@@ -1510,7 +1507,6 @@
 					<Add option="-DUSE_CMAKE_BUILD_CONFIG"/>
 					<Add option="-DBUILD_JAVA_JVM_LIBRARY=&quot;&quot;"/>
 					<Add option="-DBUILD_FLAGS=&quot;&quot;"/>
-					<Add directory="/home/lilelr/open-source/libprocess-start/3rdparty/stout/include"/>
 					<Add directory="/usr/include/c++/5"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
 					<Add directory="/usr/include/c++/5/backward"/>
