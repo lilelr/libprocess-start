@@ -138,7 +138,6 @@ add_executable(future_promise ${future_promise_SRC})
 target_link_libraries(future_promise foo protobuf ${LELE_LIBS} pthread gmock gtest)
 
 #
-#<<<<<<< HEAD=======
 set(http_process_learning_SRC http_process_learning.cpp)
 add_executable(http_process_learning ${http_process_learning_SRC})
 target_link_libraries(http_process_learning foo ${LELE_LIBS})
