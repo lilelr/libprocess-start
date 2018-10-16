@@ -4,6 +4,9 @@ message(${PROCESS_LIBS}+"\n")
 message("${LELE_LIBS}")
 
 include_directories("/home/lilelr/open-source/libprocess-start/3rdparty/stout/include")
+
+add_subdirectory(os)
+
 set(lele_stout_my_learning_SRC lele_stout_my_learning.cpp)
 add_executable(lele_stout_my_learning_main ${lele_stout_my_learning_SRC})
 target_link_libraries(lele_stout_my_learning_main  gmock gtest pthread)

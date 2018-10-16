@@ -479,3 +479,11 @@ TEST_F(FsTest, Xattr)
   ASSERT_ERROR(os::getxattr(file, "user.mesos.test"));
 }
 #endif // __linux__ || __APPLE__
+
+
+int main(int argc, char** argv) {
+  // Initialize Google Mock/Test.
+  testing::InitGoogleMock(&argc, argv);
+
+  return RUN_ALL_TESTS();
+}

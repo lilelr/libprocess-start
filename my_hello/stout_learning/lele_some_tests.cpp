@@ -28,7 +28,8 @@ using std::string;
 
 TEST(SomeTest, Some)
 {
-  Option<int> o1 = Some(42);
+  Option<int> o1 ;
+        o1  = Some(42);
   EXPECT_SOME(o1);
   EXPECT_EQ(42, o1.get());
 
