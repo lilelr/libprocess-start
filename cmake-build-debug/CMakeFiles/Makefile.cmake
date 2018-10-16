@@ -78,6 +78,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../my_hello/CMakeLists.txt"
   "../my_hello/proto/CMakeLists.txt"
   "../my_hello/stout_learning/CMakeLists.txt"
+  "../my_hello/weiguo_stout_learning/CMakeLists.txt"
   )
 
 # The corresponding makefile is:
@@ -96,6 +97,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "my_hello/CMakeFiles/CMakeDirectoryInformation.cmake"
   "my_hello/proto/CMakeFiles/CMakeDirectoryInformation.cmake"
   "my_hello/stout_learning/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "my_hello/weiguo_stout_learning/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -121,6 +123,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "my_hello/CMakeFiles/simpleserver.dir/DependInfo.cmake"
   "my_hello/CMakeFiles/future_promise.dir/DependInfo.cmake"
   "my_hello/proto/CMakeFiles/foo.dir/DependInfo.cmake"
-  "my_hello/stout_learning/CMakeFiles/lele_stout_my_learning_main.dir/DependInfo.cmake"
   "my_hello/stout_learning/CMakeFiles/lele_option_usage_main.dir/DependInfo.cmake"
+  "my_hello/stout_learning/CMakeFiles/lele_stout_my_learning_main.dir/DependInfo.cmake"
+  "my_hello/stout_learning/CMakeFiles/lele_none_tests_main.dir/DependInfo.cmake"
+  "my_hello/stout_learning/CMakeFiles/lele_some_tests_main.dir/DependInfo.cmake"
+  "my_hello/stout_learning/CMakeFiles/lele_try_tests_main.dir/DependInfo.cmake"
+  "my_hello/stout_learning/CMakeFiles/lele_result_tests_main.dir/DependInfo.cmake"
+  "my_hello/weiguo_stout_learning/CMakeFiles/weiguo_nothing_tests.dir/DependInfo.cmake"
   )

@@ -1,0 +1,2 @@
+add_executable(weiguo_nothing_tests weiguo_nothing_tests.cpp)
+target_link_libraries(weiguo_nothing_tests gmock gtest pthread)

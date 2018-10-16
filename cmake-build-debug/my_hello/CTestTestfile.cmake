@@ -6,3 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("proto")
 subdirs("stout_learning")
+subdirs("weiguo_stout_learning")

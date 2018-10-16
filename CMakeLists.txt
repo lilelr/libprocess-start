@@ -13,10 +13,16 @@ else (NOT WIN32)
 endif (NOT WIN32)
 
 project(libprocess-start)
+message(${libprocess-start_BINARY_DIR})
+message(${libprocess-start_SOURCE_DIR})
+message(${CMAKE_BINARY_DIR})
+message(${CMAKE_SOURCE_DIR})
+message(${CMAKE_CURRENT_LIST_DIR})
 
 # CMAKE MODULE SETUP.f
 #####################
 # Paths that are searched when `include(...)` is called.
+# 添加include 命令所搜索的路径
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/cmake)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/3rdparty/cmake)
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake)
@@ -38,16 +44,23 @@ list(
 #endif()
 
 # Macros.
+# ${CMAKE_SOURCE_DIR}/cmake
 include(Common)
+# ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake/macros
 include(External)
+# ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake/macros
 include(PatchCommand)
+# ${CMAKE_SOURCE_DIR}/3rdparty/cmake
 include(Versions)
-#include(VsBuildCommand)
+# ${CMAKE_SOURCE_DIR}/3rdparty/cmake
 include(cotire)
 
 # Configuration.
+# ${CMAKE_SOURCE_DIR}/cmake
 include(StartConfigure)
+# ${CMAKE_SOURCE_DIR}/cmake
 include(CompilationConfigure)
+# ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake
 include(ProcessConfigure)
 
 

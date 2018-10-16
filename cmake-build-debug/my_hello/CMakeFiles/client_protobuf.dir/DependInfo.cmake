@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/weiguow/project/libprocess-start/my_hello/client_protobuf.cpp" "/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/client_protobuf.dir/client_protobuf.cpp.o"
+  "/home/weiguow/project/libprocess-start/my_hello/weiguo_stout_learning/weiguo_nothing_tests.cpp" "/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/CMakeFiles/client_protobuf.dir/weiguo_stout_learning/weiguo_nothing_tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

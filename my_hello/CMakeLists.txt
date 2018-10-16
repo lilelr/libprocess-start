@@ -53,6 +53,7 @@ endif()
 
 add_subdirectory(proto)
 add_subdirectory(stout_learning)
+add_subdirectory(weiguo_stout_learning)
 
 set(LELE_HELLO "lele_server_protobuf")
 set(lele_hello_SRC Lele_server_protobuf.cpp)
@@ -117,7 +118,7 @@ add_executable(client_server_message_event ${client_server_message_event_SRC})
 target_link_libraries(client_server_message_event foo protobuf ${LELE_LIBS})
 
 # client_protobuf
-set(client_protobuf_SRC client_protobuf.cpp)
+set(client_protobuf_SRC client_protobuf.cpp weiguo_stout_learning/weiguo_nothing_tests.cpp)
 add_executable(client_protobuf ${client_protobuf_SRC})
 target_link_libraries(client_protobuf foo protobuf ${LELE_LIBS})
 
@@ -151,4 +152,6 @@ target_link_libraries(simpleserver foo ${LELE_LIBS})
 set(lele_http_simple_process_SRC lele_http_simple_process.cpp)
 add_executable(lele_http_simple_process ${lele_http_simple_process_SRC})
 target_link_libraries(lele_http_simple_process foo ${LELE_LIBS})
-#>>>>>>> 9c868adb55ca1a515d681c5a624368a01e9c6cfc
+
+message(${CMAKE_CURRENT_LIST_DIR})
+

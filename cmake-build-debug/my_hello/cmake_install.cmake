@@ -41,6 +41,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/proto/cmake_install.cmake")
   include("/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/stout_learning/cmake_install.cmake")
+  include("/home/weiguow/project/libprocess-start/cmake-build-debug/my_hello/weiguo_stout_learning/cmake_install.cmake")
 
 endif()
 

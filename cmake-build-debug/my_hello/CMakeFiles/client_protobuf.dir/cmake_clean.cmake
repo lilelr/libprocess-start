@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/client_protobuf.dir/client_protobuf.cpp.o"
+  "CMakeFiles/client_protobuf.dir/weiguo_stout_learning/weiguo_nothing_tests.cpp.o"
   "client_protobuf.pdb"
   "client_protobuf"
 )

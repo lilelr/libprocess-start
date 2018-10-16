@@ -524,6 +524,33 @@ test-slave.cpp.s:
 	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/test-slave.dir/build.make my_hello/CMakeFiles/test-slave.dir/test-slave.cpp.s
 .PHONY : test-slave.cpp.s
 
+weiguo_stout_learning/weiguo_nothing_tests.o: weiguo_stout_learning/weiguo_nothing_tests.cpp.o
+
+.PHONY : weiguo_stout_learning/weiguo_nothing_tests.o
+
+# target to build an object file
+weiguo_stout_learning/weiguo_nothing_tests.cpp.o:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/weiguo_stout_learning/weiguo_nothing_tests.cpp.o
+.PHONY : weiguo_stout_learning/weiguo_nothing_tests.cpp.o
+
+weiguo_stout_learning/weiguo_nothing_tests.i: weiguo_stout_learning/weiguo_nothing_tests.cpp.i
+
+.PHONY : weiguo_stout_learning/weiguo_nothing_tests.i
+
+# target to preprocess a source file
+weiguo_stout_learning/weiguo_nothing_tests.cpp.i:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/weiguo_stout_learning/weiguo_nothing_tests.cpp.i
+.PHONY : weiguo_stout_learning/weiguo_nothing_tests.cpp.i
+
+weiguo_stout_learning/weiguo_nothing_tests.s: weiguo_stout_learning/weiguo_nothing_tests.cpp.s
+
+.PHONY : weiguo_stout_learning/weiguo_nothing_tests.s
+
+# target to generate assembly for a file
+weiguo_stout_learning/weiguo_nothing_tests.cpp.s:
+	cd /home/weiguow/project/libprocess-start/cmake-build-debug && $(MAKE) -f my_hello/CMakeFiles/client_protobuf.dir/build.make my_hello/CMakeFiles/client_protobuf.dir/weiguo_stout_learning/weiguo_nothing_tests.cpp.s
+.PHONY : weiguo_stout_learning/weiguo_nothing_tests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -571,6 +598,9 @@ help:
 	@echo "... test-slave.o"
 	@echo "... test-slave.i"
 	@echo "... test-slave.s"
+	@echo "... weiguo_stout_learning/weiguo_nothing_tests.o"
+	@echo "... weiguo_stout_learning/weiguo_nothing_tests.i"
+	@echo "... weiguo_stout_learning/weiguo_nothing_tests.s"
 .PHONY : help
 
 
