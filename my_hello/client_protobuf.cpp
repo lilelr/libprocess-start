@@ -1,5 +1,6 @@
 #include <iostream>
 #include <sstream>
+#include <fstream>
 
 #include <process/defer.hpp>
 #include <process/dispatch.hpp>
@@ -76,10 +77,58 @@ public:
     void send_server_a_message() {
         Offer k;
         string client_id = this->self();
+        string str_file =  test_read_a_file();
         k.set_key(client_id);
-        k.set_value("leoox");
+
+        k.set_value(str_file);
+//        k.set_value("leoox");
         k.set_lele_label("OS:linux");
         send(server, k);
+    }
+
+    void String2Image(string binFile,const char* outImage)
+    {
+        fstream imgFile(outImage,ios::binary|ios::out);
+
+        for(int i=0; i<binFile.length(); ++i)
+        {
+            imgFile << binFile[i];
+        }
+
+        imgFile.close();
+    }
+
+    string test_read_a_file(){
+        string str_f;
+//        ifstream myfile("/home/lilelr/open-source/PeparationLearning/src/li_le_lr/knowledge/iostream/code.txt",ios_base::in);
+        ifstream myfile("/home/lilelr/open-source/libprocess-start/my_hello/proto/program/hello_world_main",ios_base::in);
+        if(myfile.fail())
+        {
+            cout<<"文件读取失败或指定文件不存在!"<<endl;
+        }
+        else
+        {
+            char ch;
+            while(myfile.get(ch))
+            {
+                str_f+=ch;
+//                cout<<ch;
+//                cout.flush();
+            }
+            if(myfile.eof())
+            {
+                cout<<"文件内容已经全部读完"<<endl;
+                myfile.close();
+            }
+//            while(myfile.get(ch))
+//            {
+//                cout<<ch;
+//            }
+
+        }
+        cout<<str_f<<endl;
+        return str_f;
+//        system("pause");
     }
 
 
@@ -88,7 +137,8 @@ public:
 int main() {
 
     Client client;
-    process:
+//    string str;
+//    client.test_read_a_file(str);
     PID<Client> cur_client = process::spawn(client);
     cout << endl;
     cout << "Running client on " << process::address().ip << ":" << process::address().port << endl;  //显示ip地址和端口

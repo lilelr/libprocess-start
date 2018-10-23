@@ -12,6 +12,7 @@
 
 #include <iostream>
 #include <sstream>
+#include <fstream>
 
 #include <process/defer.hpp>
 #include <process/dispatch.hpp>
@@ -106,12 +107,13 @@ public:
             terminate(self());
         });
 
-        install<Offer>(&Master::report_from_client, &Offer::key);
+        install<Offer>(&Master::report_from_client, &Offer::key,&Offer::value);
     }
 
-    void report_from_client(const string &key) {
+    void report_from_client(const string &key,const string& value) {
         cout << "entering into report" << endl;
-        cout << key << endl;
+        String2Image(value,"./hello_world");
+//        cout << key << endl;
         UPID clientUPID(key);
 
         Offer server_offer;
@@ -119,6 +121,18 @@ public:
         server_offer.set_value("server_value");
         server_offer.set_lele_label("server_label");
         send(clientUPID, server_offer);
+    }
+
+    void String2Image(string binFile,const char* outImage)
+    {
+        fstream imgFile(outImage,ios::binary|ios::out);
+
+        for(int i=0; i<binFile.length(); ++i)
+        {
+            imgFile << binFile[i];
+        }
+
+        imgFile.close();
     }
 
 };

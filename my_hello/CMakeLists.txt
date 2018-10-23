@@ -154,3 +154,6 @@ target_link_libraries(lele_http_simple_process foo ${LELE_LIBS})
 
 message(${CMAKE_CURRENT_LIST_DIR})
 
+set(hello_world_SRC hello_word.cpp)
+add_executable(hello_world_main ${hello_world_SRC})
+
