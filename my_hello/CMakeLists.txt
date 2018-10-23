@@ -118,7 +118,7 @@ add_executable(client_server_message_event ${client_server_message_event_SRC})
 target_link_libraries(client_server_message_event foo protobuf ${LELE_LIBS})
 
 # client_protobuf
-set(client_protobuf_SRC client_protobuf.cpp weiguo_stout_learning/weiguo_nothing_tests.cpp)
+set(client_protobuf_SRC client_protobuf.cpp)
 add_executable(client_protobuf ${client_protobuf_SRC})
 target_link_libraries(client_protobuf foo protobuf ${LELE_LIBS})
 

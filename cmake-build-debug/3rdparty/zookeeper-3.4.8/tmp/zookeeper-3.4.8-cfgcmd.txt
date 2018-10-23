@@ -1,1 +1,0 @@
-cmd='cd;/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c;&&;./configure;--enable-shared=no;--with-pic;--srcdir=.;--prefix=/home/lilelr/open-source/bak_mesos-1.3.2/cmake-build-debug/3rdparty/zookeeper-3.4.8/src/zookeeper-3.4.8/src/c'

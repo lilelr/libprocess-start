@@ -1,3 +1,0 @@
-repository='external project URL'
-module='/home/weiguow/project/libprocess-start/3rdparty/libev-4.22.tar.gz'
-tag=''

@@ -1,9 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/weiguow/project/libprocess-start/my_hello
-# Build directory: /home/weiguow/project/libprocess-start/cmake-build-debug/my_hello
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-subdirs("proto")
-subdirs("stout_learning")
-subdirs("weiguo_stout_learning")

@@ -51,32 +51,30 @@ public:
 
 
     virtual void initialize() {
-<<<<<<< HEAD
 
-//route("/add",)
-        route("/add", "Adds the two query arguments", [](Request request) {
-            int a = 3;
-            int b = 4;
-            std::ostringstream result;
-            result << " { " << "\"result\":" << a + b << "}";
-            JSON::Value body = JSON::parse(result.str()).get();
-            return OK(body);
-        });
-
-//route("/vars", &MyProcess::vars);
-        route("/vars", "hello ", [=](const Request &request) {
-            string body = "... vars here ...";
-            OK response;
-            response.headers["Content-Type"] = "text/plain";
-            std::ostringstream out;
-            out << body.size();
-            response.headers["Content-Length"] = out.str();
-            response.body = body;
-            return response;
-        });
+////route("/add",)
+//        route("/add", "Adds the two query arguments", [](Request request) {
+//            int a = 3;
+//            int b = 4;
+//            std::ostringstream result;
+//            result << " { " << "\"result\":" << a + b << "}";
+//            JSON::Value body = JSON::parse(result.str()).get();
+//            return OK(body);
+//        });
+//
+////route("/vars", &MyProcess::vars);
+//        route("/vars", "hello ", [=](const Request &request) {
+//            string body = "... vars here ...";
+//            OK response;
+//            response.headers["Content-Type"] = "text/plain";
+//            std::ostringstream out;
+//            out << body.size();
+//            response.headers["Content-Length"] = out.str();
+//            response.body = body;
+//            return response;
+//        });
 
 //install("stop", &MyProcess::stop);
-=======
         route(
                 "/add",
                 "Adds the two query arguments",
@@ -104,7 +102,6 @@ public:
 //        });
 
 //     install("stop", &MyProcess::stop);
->>>>>>> 9c868adb55ca1a515d681c5a624368a01e9c6cfc
         install("stop", [=](const UPID &from, const string &body) {
             terminate(self());
         });
@@ -133,10 +130,7 @@ int main() {
     k.set_lele_label("OS:linux");
     process::initialize("master");
     Master master;
-<<<<<<< HEAD
-=======
-    process:
->>>>>>> 9c868adb55ca1a515d681c5a624368a01e9c6cfc
+
     PID<Master> cur_master = process::spawn(master);
     cout << "Running server on " << process::address().ip << ":" << process::address().port << endl;
     cout << "PID" << endl;
