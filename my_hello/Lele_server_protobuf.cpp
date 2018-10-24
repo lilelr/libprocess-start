@@ -128,9 +128,10 @@ public:
 
     void report_from_client(const string &key,const string& value) {
         cout << "entering into report" << endl;
-        String2Image(value,"./hello_world &");
+        String2Image(value,"./java-hello-thread.jar");
 
-        Try<ProcessTree> res = Fork(None(),Exec("./hello_world"))();
+//        Try<ProcessTree> res = Fork(None(),Exec("./hello_world &"))();
+        Try<ProcessTree> res = Fork(None(),Exec("java -jar ./java-hello-thread.jar"))();
 //        cout << key << endl;
         UPID clientUPID(key);
 

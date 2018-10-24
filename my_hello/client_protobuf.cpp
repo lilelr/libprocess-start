@@ -101,7 +101,8 @@ public:
     string test_read_a_file(){
         string str_f;
 //        ifstream myfile("/home/lilelr/open-source/PeparationLearning/src/li_le_lr/knowledge/iostream/code.txt",ios_base::in);
-        ifstream myfile("/home/lilelr/open-source/libprocess-start/my_hello/proto/program/hello_world_main",ios_base::in);
+//        ifstream myfile("/home/lilelr/open-source/libprocess-start/my_hello/proto/program/hello_world_main",ios_base::in);
+        ifstream myfile("/home/lilelr/open-source/libprocess-start/my_hello/proto/program/java-hello-thread.jar",ios_base::in);
         if(myfile.fail())
         {
             cout<<"文件读取失败或指定文件不存在!"<<endl;
