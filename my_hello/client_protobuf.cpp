@@ -126,7 +126,7 @@ public:
 //            }
 
         }
-        cout<<str_f<<endl;
+//        cout<<str_f<<endl;
         return str_f;
 //        system("pause");
     }
