@@ -12,7 +12,7 @@ target_link_libraries(lele_filesystem_tests_main  glog gmock gtest pthread)
 
 set(lele_process_tests_SRC process_tests.cpp)
 add_executable(lele_process_tests_main ${lele_process_tests_SRC})
-target_link_libraries(lele_process_tests_main  glog gmock gtest pthread)
+target_link_libraries(lele_process_tests_main rt glog gmock gtest pthread)
 
 
 

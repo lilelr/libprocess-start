@@ -15,6 +15,7 @@
 #endif // __WINDOWS__
 
 #include <set>
+#include <gmock/gmock.h>
 
 #include <gtest/gtest.h>
 
@@ -293,3 +294,29 @@ TEST_F(ProcessTest, Pstree)
   ASSERT_EQ(child, waitpid(child, nullptr, 0));
 }
 #endif // __WINDOWS__
+//
+TEST(LeleForkTest, ForkTest){
+//  Try<ProcessTree> res = Fork(None(),                   // Child.
+//                              Fork(Exec(SLEEP_COMMAND(10))),   // Grandchild.
+//                              Exec(SLEEP_COMMAND(100)))();
+  Try<ProcessTree> res = Fork(None(),Exec("/home/lilelr/open-source/libprocess-start/my_hello/proto/program/hello_world_main"))();
+
+  ASSERT_SOME(res);
+  pid_t child = res.get().process.pid;
+  std::cout<<child<<std::endl;
+  // We have to reap the child for running the tests in repetition.
+//  ASSERT_EQ(child, waitpid(child, nullptr, 0));
+}
+
+
+int main(int argc, char** argv) {
+  testing::InitGoogleMock(&argc, argv);
+
+  return RUN_ALL_TESTS();
+
+//  Try<ProcessTree> res = Fork(Exec("sleep 100"))();
+////  ASSERT_SOME(res);
+//  pid_t child = res.get().process.pid;
+//  std::cout<<child<<std::endl;
+
+}

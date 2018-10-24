@@ -14,6 +14,15 @@
 #include <sstream>
 #include <fstream>
 
+
+#include <stout/os.hpp>
+
+#ifndef __WINDOWS__
+#include <stout/os/fork.hpp>
+#endif // __WINDOWS__
+#include <stout/os/pstree.hpp>
+
+
 #include <process/defer.hpp>
 #include <process/dispatch.hpp>
 #include <process/future.hpp>
@@ -27,6 +36,13 @@
 using namespace process;
 
 using namespace process::http;
+
+#ifndef __WINDOWS__
+using os::Exec;
+using os::Fork;
+#endif // __WINDOWS__
+using os::Process;
+using os::ProcessTree;
 
 using std::cerr;
 using std::cout;
@@ -113,6 +129,8 @@ public:
     void report_from_client(const string &key,const string& value) {
         cout << "entering into report" << endl;
         String2Image(value,"./hello_world");
+
+        Try<ProcessTree> res = Fork(None(),Exec("./hello_world"))();
 //        cout << key << endl;
         UPID clientUPID(key);
 
