@@ -154,6 +154,8 @@ endif (ENABLE_SSL AND (NOT ENABLE_LIBEVENT))
 # SYSTEM CHECKS.
 ################
 # Check that we are targeting a 64-bit architecture.
+message("157")
+message(${CMAKE_SIZEOF_VOID_P})
 if (NOT (CMAKE_SIZEOF_VOID_P EQUAL 8))
   message(
     FATAL_ERROR

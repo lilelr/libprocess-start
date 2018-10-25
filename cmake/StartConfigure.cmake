@@ -48,6 +48,7 @@ enable_testing()
 
 # CONFIGURE COMPILER.
 #####################
+# ${CMAKE_SOURCE_DIR}/3rdparty/cmake
 include(CompilationConfigure)
 
 # THIRD-PARTY CONFIGURATION.
