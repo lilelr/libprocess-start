@@ -89,6 +89,8 @@ set(LELE_LIB_DIRS
 # Define third-party libs. Used to generate flags that the linker uses to
 # include our third-party libs (e.g., -lglog on Linux).
 #########################################################################
+# 3rdparty/libprocess/cmake/ProcessConfigure.cmake 139 ${Process_libs}
+# 49 ${PROCESS_TARGET}
 set(LELE_LIBS
         ${PROCESS_LIBS}
         ${PROCESS_TARGET}
@@ -156,4 +158,8 @@ message(${CMAKE_CURRENT_LIST_DIR})
 
 set(hello_world_SRC hello_word.cpp)
 add_executable(hello_world_main ${hello_world_SRC})
+
+
+add_subdirectory(libprocess_learning)
+
 

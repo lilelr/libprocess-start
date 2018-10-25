@@ -1,4 +1,5 @@
 add_subdirectory(os)
+add_subdirectory(stout_test)
 
 set(lele_stout_my_learning_SRC lele_stout_my_learning.cpp)
 add_executable(lele_stout_my_learning_main ${lele_stout_my_learning_SRC})

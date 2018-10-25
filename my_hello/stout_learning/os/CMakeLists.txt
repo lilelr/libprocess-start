@@ -15,4 +15,6 @@ add_executable(lele_process_tests_main ${lele_process_tests_SRC})
 target_link_libraries(lele_process_tests_main rt glog gmock gtest pthread)
 
 
-
+set(lele_sendfile_tests_SRC sendfile_tests.cpp)
+add_executable(lele_sendfile_tests_main ${lele_sendfile_tests_SRC})
+target_link_libraries(lele_sendfile_tests_main  glog gmock gtest pthread)

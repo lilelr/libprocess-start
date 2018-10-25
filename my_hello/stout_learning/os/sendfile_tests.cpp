@@ -91,3 +91,10 @@ TEST_F(OsSendfileTest, Sendfile)
   ASSERT_SOME(os::close(fd.get()));
   ASSERT_SOME(os::close(s[0]));
 }
+
+int main(int argc, char** argv) {
+  // Initialize Google Mock/Test.
+  testing::InitGoogleMock(&argc, argv);
+
+  return RUN_ALL_TESTS();
+}
