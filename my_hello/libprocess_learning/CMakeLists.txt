@@ -20,8 +20,8 @@ target_link_libraries(lele_collect_tests foo ${LELE_LIBS} gmock gtest pthread)
 add_executable(lele_mutex_tests mutex_tests.cpp)
 target_link_libraries(lele_mutex_tests foo ${LELE_LIBS} gmock gtest pthread)
 
-add_executable(lele_process_tests process_tests.cpp)
-target_link_libraries(lele_process_tests foo ${LELE_LIBS} gmock gtest pthread)
+#add_executable(lele_process_tests process_tests.cpp)
+#target_link_libraries(lele_process_tests foo ${LELE_LIBS} gmock gtest pthread)
 
 add_executable(lele_subprocess_tests subprocess_tests.cpp)
 target_link_libraries(lele_subprocess_tests foo ${LELE_LIBS} gmock gtest pthread)
