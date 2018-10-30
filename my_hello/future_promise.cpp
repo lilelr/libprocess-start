@@ -92,6 +92,9 @@ TEST(FutureTest, Repair){
 //    EXPECT_EQ(43,future2.get());
 }
 
+//TEST(FuturebasedTest, future_based){
+//    Future<int> f = process::collect(asn)
+//}
 
 int main(int argc, char** argv)
 {
