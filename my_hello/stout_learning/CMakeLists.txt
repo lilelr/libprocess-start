@@ -33,6 +33,10 @@ set(lele_ip_tests_SRC ip_tests.cpp)
 add_executable(lele_ip_tests_main ${lele_ip_tests_SRC})
 target_link_libraries(lele_ip_tests_main  gmock gtest pthread)
 
+set(lele_subcommand_SRC subcommand_tests.cpp)
+add_executable(lele_subcommand_main ${lele_subcommand_SRC})
+target_link_libraries(lele_subcommand_main  glog gmock gtest pthread)
+
 set(lele_proc_tests_SRC proc_tests.cpp)
 add_executable(lele_proc_tests_main ${lele_proc_tests_SRC})
 target_link_libraries(lele_proc_tests_main  glog gmock gtest pthread)

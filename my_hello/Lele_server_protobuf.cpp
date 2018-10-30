@@ -171,6 +171,8 @@ int main() {
 
     const PID<Master> masterPid = master.self();
     cout << masterPid << endl;
+//   string a =  getenv("LIBPROCESS_PORT");
+//    cout<<a<<endl;
 //    process::dispatch(masterPid,&Master::report,k.key());
     process::wait(master.self());
 //    delete master;

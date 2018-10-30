@@ -48,13 +48,24 @@ int main(){
         cout<<child<<endl;
         int grandchild = tree.get().children.front().process.pid;
         if(grandchild!=0){
-            // cgroup limit disk I/O
-            Try<Subprocess> limit_disk= subprocess("echo 50000 >  /sys/fs/cgroup/cpu/lele_three/cpu.cfs_quota_us");
+            cout<<grandchild<<endl;
+
+            // cgroup limit cpu
+            Try<Subprocess> limit_cpu= subprocess("echo 50000 >  /sys/fs/cgroup/cpu/lele_three/cpu.cfs_quota_us");
             string write_task = "echo "+stringify(grandchild)+" > /sys/fs/cgroup/cpu/lele_three/tasks";
+            Try<Subprocess> write_task_sub= subprocess(write_task);
+
+        }else{
+            cout<<child<<endl;
+
+            // cgroup limit cpu
+            Try<Subprocess> limit_cpu= subprocess("echo 50000 >  /sys/fs/cgroup/cpu/lele_three/cpu.cfs_quota_us");
+            string write_task = "echo "+stringify(child)+" > /sys/fs/cgroup/cpu/lele_three/tasks";
             Try<Subprocess> write_task_sub= subprocess(write_task);
         }
 
-        cout<<grandchild<<endl;
+        sleep(40);
+        kill(grandchild,9);
 //
     }
 
