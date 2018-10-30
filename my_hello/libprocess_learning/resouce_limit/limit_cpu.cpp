@@ -54,7 +54,8 @@ int main(){
             Try<Subprocess> limit_cpu= subprocess("echo 50000 >  /sys/fs/cgroup/cpu/lele_three/cpu.cfs_quota_us");
             string write_task = "echo "+stringify(grandchild)+" > /sys/fs/cgroup/cpu/lele_three/tasks";
             Try<Subprocess> write_task_sub= subprocess(write_task);
-
+            sleep(40);
+            kill(grandchild,9);
         }else{
             cout<<child<<endl;
 
@@ -62,11 +63,10 @@ int main(){
             Try<Subprocess> limit_cpu= subprocess("echo 50000 >  /sys/fs/cgroup/cpu/lele_three/cpu.cfs_quota_us");
             string write_task = "echo "+stringify(child)+" > /sys/fs/cgroup/cpu/lele_three/tasks";
             Try<Subprocess> write_task_sub= subprocess(write_task);
+            sleep(40);
+            kill(child,9);
         }
 
-        sleep(40);
-        kill(grandchild,9);
-//
     }
 
     return 0;
