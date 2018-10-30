@@ -37,7 +37,7 @@ int main(){
         cout<<"error occured when mkdir."<<endl;
         cout<<res.error()<<endl;
     }else{
-        Try<Subprocess> s = subprocess("sh /home/lilelr/open-source/libprocess-start/my_hello/libprocess_learning/resouce_limit/cpu.sh");
+        Try<Subprocess> s = subprocess("sh ./cpu.sh");
 //        Try<Subprocess> s = subprocess("sleep 100");
         int pp_id = s.get().pid();
         Try<ProcessTree> tree = os::pstree(pp_id);
