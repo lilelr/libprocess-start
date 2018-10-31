@@ -55,8 +55,6 @@ add_subdirectory(proto)
 add_subdirectory(stout_learning)
 add_subdirectory(weiguo_stout_learning)
 
-set(LELE_HELLO "lele_server_protobuf")
-set(lele_hello_SRC Lele_server_protobuf.cpp)
 
 message(${PROJECT_BINARY_DIR})
 # Define third-party include directories. Tells compiler toolchain where to get
@@ -109,6 +107,9 @@ link_directories(${LELE_LIB_DIRS})
 
 # THE LELE EXECUTABLE.
 #######################
+
+set(LELE_HELLO "lele_server_protobuf")
+set(lele_hello_SRC Lele_server_protobuf.cpp)
 add_executable(${LELE_HELLO} ${lele_hello_SRC})
 
 # ADD LINKER FLAGS (generates, e.g., -lglog on Linux).
@@ -161,5 +162,6 @@ add_executable(hello_world_main ${hello_world_SRC})
 
 
 add_subdirectory(libprocess_learning)
+add_subdirectory(teacher_student_actor)
 
 
