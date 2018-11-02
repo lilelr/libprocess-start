@@ -32,3 +32,6 @@ target_link_libraries(lele_limiter_tests foo ${LELE_LIBS} gmock gtest pthread)
 
 add_executable(lele_owned_tests owned_tests.cpp)
 target_link_libraries(lele_owned_tests foo ${LELE_LIBS} gmock gtest pthread)
+
+add_executable(lele_socket_tests socket_tests.cpp)
+target_link_libraries(lele_socket_tests foo ${LELE_LIBS} gmock gtest pthread)

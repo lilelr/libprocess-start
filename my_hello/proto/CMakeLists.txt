@@ -12,6 +12,7 @@ else()
 endif()
 
 include_directories(${PROTOBUF_INCLUDE_DIRS})
+message(${PROTOBUF_LIBRARIES})
 
 PROTOBUF_GENERATE_CPP(PROTO_SRCS PROTO_HDRS Offer.proto addressbook.proto)
 

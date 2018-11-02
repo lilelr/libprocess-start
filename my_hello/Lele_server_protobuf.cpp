@@ -92,6 +92,8 @@ public:
 //        });
 
 //install("stop", &MyProcess::stop);
+        // my_master@10.211.55.4:42331/
+        // http://10.211.55.4:43263/my_master/add
         route(
                 "/add",
                 "Adds the two query arguments",

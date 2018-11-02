@@ -56,7 +56,7 @@ add_subdirectory(stout_learning)
 add_subdirectory(weiguo_stout_learning)
 
 
-message(${PROJECT_BINARY_DIR})
+#message(${PROJECT_BINARY_DIR})
 # Define third-party include directories. Tells compiler toolchain where to get
 # headers for our third party libs (e.g., -I/path/to/glog on Linux).
 ###############################################################################

@@ -5,4 +5,4 @@ target_link_libraries(lele_disk_io_of_a_process foo ${LELE_LIBS} gmock gtest pth
 
 add_executable(lele_limit_cpu limit_cpu.cpp)
 
-target_link_libraries(lele_limit_cpu foo ${LELE_LIBS} gmock gtest pthread)
+target_link_libraries(lele_limit_cpu ${PROCESS_LIBS} ${PROCESS_TARGET} gmock gtest pthread)

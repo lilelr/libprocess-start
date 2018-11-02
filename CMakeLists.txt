@@ -1,9 +1,9 @@
 # set a list of items
-set(items_to_buy apple orange pear beer)
-# loop over the items
-foreach(item ${items_to_buy})
-  message("Don't forget to buy one ${item}")
-endforeach()
+#set(items_to_buy apple orange pear beer)
+## loop over the items
+#foreach(item ${items_to_buy})
+#  message("Don't forget to buy one ${item}")
+#endforeach()
 
 #Check System
 if (NOT WIN32)
@@ -13,11 +13,11 @@ else (NOT WIN32)
 endif (NOT WIN32)
 
 project(libprocess-start)
-message(${libprocess-start_BINARY_DIR})
-message(${libprocess-start_SOURCE_DIR})
-message(${CMAKE_BINARY_DIR})
-message(${CMAKE_SOURCE_DIR})
-message(${CMAKE_CURRENT_LIST_DIR})
+#message(${libprocess-start_BINARY_DIR})
+#message(${libprocess-start_SOURCE_DIR})
+#message(${CMAKE_BINARY_DIR})
+#message(${CMAKE_SOURCE_DIR})
+#message(${CMAKE_CURRENT_LIST_DIR})
 
 # CMAKE MODULE SETUP.f
 #####################
@@ -67,6 +67,8 @@ include(ProcessConfigure)
 # SUBDIRECTORIES.
 #################
 add_subdirectory(3rdparty)
+message("70"${PROCESS_LIBS})
+message("71" ${PROCESS_TARGET})
 add_subdirectory(my_hello)
 #add_subdirectory(src)
 

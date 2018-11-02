@@ -119,7 +119,7 @@ public:
     }
 
 private:
-    shared_ptr<Teacher>
+//    shared_ptr<Teacher>
 };
 
 int main() {
