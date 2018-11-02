@@ -93,17 +93,29 @@ public:
 
 //install("stop", &MyProcess::stop);
         // my_master@10.211.55.4:42331/
-        // http://10.211.55.4:43263/my_master/add
+        // http://10.211.55.4:36338/my_master/add
         route(
                 "/add",
                 "Adds the two query arguments",
                 [](Request request) {
+                    string request_method = request.method;
+                    std::cout<<request_method <<std::endl;
+                    string& tpath = request.url.path;
+                    std::cout<<tpath<<std::endl;
+                    int param_size = request.url.query.size();
+                    std::cout<< param_size<<std::endl;
+                    for(string key: request.url.query.keys()){
+                        std::cout<<"key:"<<key<<std::endl;
+                        std::cout<<"value:"<<request.url.query[key]<<std::endl;
+                    }
+
 //                int a = numify<int>(request["a"]).get();
 //                int b = numify<int>(request["b"]).get();
                     int a = 3;
                     int b = 4;
                     std::ostringstream result;
-                    result << "{ \"result\": " << a + b << "}";
+                    result << "{ \"result\": " <<"\"" <<request_method+tpath <<"\"" << "}";
+                    std::cout<<result.str()<<std::endl;
                     JSON::Value body = JSON::parse(result.str()).get();
                     return OK(body);
                 });
