@@ -120,17 +120,42 @@ public:
                     return OK(body);
                 });
 
-//     route("/vars", &MyProcess::vars);
-//        route("/vars", "hello ", [=]( Request &request) {
-//            string body = "... vars here ...";
-//            OK response;
-//            response.headers["Content-Type"] = "text/plain";
-//            std::ostringstream out;
-//            out << body.size();
-//            response.headers["Content-Length"] = out.str();
-//            response.body = body;
-//            return response;
-//        });
+        route(
+                "/post-test",
+                "post a file",
+                [](Request request) {
+                    string request_method = request.method;
+                    std::cout<<request_method <<std::endl;
+                    string& tpath = request.url.path;
+                    std::cout<<tpath<<std::endl;
+                    int param_size = request.url.query.size();
+                    std::cout<< param_size<<std::endl;
+                    for(string key: request.url.query.keys()){
+                        std::cout<<"key:"<<key<<std::endl;
+                        std::cout<<"value:"<<request.url.query[key]<<std::endl;
+                    }
+
+//                int a = numify<int>(request["a"]).get();
+//                int b = numify<int>(request["b"]).get();
+                    string body_str = request.body;
+                    cout<<body_str<<endl;
+                    Option<Pipe::Reader> pipe_reader = request.reader;
+                    if(pipe_reader.isSome()){
+                        Pipe::Reader reader = pipe_reader.get();
+                        Future<string> res = reader.readAll();
+                        if(res.isReady()){
+                            cout<<"pipe reader content"<<endl;
+                            cout<<res.get()<<endl;
+                        }
+                    }
+                    int a = 3;
+                    int b = 4;
+                    std::ostringstream result;
+                    result << "{ \"result\": " <<"\"" <<request_method+tpath <<"\"" << "}";
+                    std::cout<<result.str()<<std::endl;
+                    JSON::Value body = JSON::parse(result.str()).get();
+                    return OK(body);
+                });
 
 //     install("stop", &MyProcess::stop);
         install("stop", [=](const UPID &from, const string &body) {
