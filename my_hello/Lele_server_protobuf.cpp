@@ -195,10 +195,43 @@ public:
         imgFile.close();
     }
 
+    void dispatch1(){
+        process::dispatch(self(),&Master::dispatch2);
+        process::dispatch(self(),&Master::dispatch3,"dispatch1"); //死循环
+        process::dispatch(self(),&Master::dispatch4,1,2.6, "hello dispatch4");
+
+        Offer k;
+        string client_id = "lele_server_protobuf";
+        k.set_key(client_id);
+
+        k.set_value("dispatch 5");
+//        k.set_value("leoox");
+        k.set_lele_label("OS:linux");
+        process::dispatch(self(),&Master::dispatch5,k); //死循环
+    }
+//
+    void dispatch2(){
+        cout<<"dispatch2"<<endl;
+    }
+
+    void dispatch3(string recv_str){
+        cout<<"dispatch3 "<<recv_str<<endl;
+//        process::dispatch(self(),&Master::dispatch1); //死循环
+    }
+
+    void dispatch4(int a, double b, string c){
+        cout<<"dispatch4 "<<a<<" "<<b<<" "<<c<<endl;
+    }
+
+    void dispatch5(Offer o){
+        cout<<o.key()<<endl;
+        cout<<o.value()<<endl;
+    }
+
 };
 
 int main() {
-    
+
     // 绑定 IP
     os::setenv("LIBPROCESS_IP","10.211.55.4");
     // 绑定端口
@@ -212,9 +245,9 @@ int main() {
 
     const PID<Master> masterPid = master.self();
     cout << masterPid << endl;
+    master.dispatch1();
 //   string a =  getenv("LIBPROCESS_PORT");
 //    cout<<a<<endl;
-//    process::dispatch(masterPid,&Master::report,k.key());
     process::wait(master.self());
 //    delete master;
 //    Offer k;
