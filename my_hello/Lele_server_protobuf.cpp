@@ -198,10 +198,9 @@ public:
 };
 
 int main() {
-    Offer k;
-    k.set_key("company");
-    k.set_value("leoox");
-    k.set_lele_label("OS:linux");
+    
+    // 绑定 IP
+    os::setenv("LIBPROCESS_IP","10.211.55.4");
     // 绑定端口
     os::setenv("LIBPROCESS_PORT", stringify(5050));
     process::initialize("master");

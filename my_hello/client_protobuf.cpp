@@ -139,12 +139,15 @@ public:
 
 int main() {
 
-    Client client;
 //    string str;
 //    client.test_read_a_file(str);
+    // 绑定 IP
+    os::setenv("LIBPROCESS_IP","10.211.55.4");
     // 绑定端口
-    os::setenv("LIBPROCESS_PORT", stringify(5050));
+    os::setenv("LIBPROCESS_PORT", stringify(5051));
     process::initialize("slave");
+    Client client;
+
     PID<Client> cur_client = process::spawn(client);
     cout << endl;
     cout << "Running client on " << process::address().ip << ":" << process::address().port << endl;  //显示ip地址和端口
