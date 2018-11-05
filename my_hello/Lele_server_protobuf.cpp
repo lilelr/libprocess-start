@@ -69,6 +69,7 @@ public:
 
     virtual void initialize() {
 
+
 ////route("/add",)
 //        route("/add", "Adds the two query arguments", [](Request request) {
 //            int a = 3;
@@ -201,6 +202,8 @@ int main() {
     k.set_key("company");
     k.set_value("leoox");
     k.set_lele_label("OS:linux");
+    // 绑定端口
+    os::setenv("LIBPROCESS_PORT", stringify(5050));
     process::initialize("master");
     Master master;
 

@@ -2,6 +2,7 @@
 #include <sstream>
 #include <fstream>
 
+#include <stout/os.hpp>
 #include <process/defer.hpp>
 #include <process/dispatch.hpp>
 #include <process/future.hpp>
@@ -141,6 +142,9 @@ int main() {
     Client client;
 //    string str;
 //    client.test_read_a_file(str);
+    // 绑定端口
+    os::setenv("LIBPROCESS_PORT", stringify(5050));
+    process::initialize("slave");
     PID<Client> cur_client = process::spawn(client);
     cout << endl;
     cout << "Running client on " << process::address().ip << ":" << process::address().port << endl;  //显示ip地址和端口
