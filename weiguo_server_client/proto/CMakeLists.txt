@@ -1,7 +1,7 @@
 include_directories(${CMAKE_CURRENT_LIST_DIR})
 
 #找到protobuf
-#set(Protobuf_INCLUDE_DIR "/usr/include")
+set(Protobuf_INCLUDE_DIR "${CMAKE_BINARY_DIR}/3rdparty/protobuf-2.6.1/src/protobuf-2.6.1-lib/lib/include")
 find_package(Protobuf REQUIRED)
 
 if(PROTOBUF_FOUND)

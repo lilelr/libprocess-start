@@ -190,7 +190,7 @@ public:
 
 int main() {
     //绑定ip地址和端口号
-    os::setenv("LIBPROCESS_IP",strings::trim("172.20.110.137"));
+//    os::setenv("LIBPROCESS_IP",strings::trim("172.20.110.137"));
     os::setenv("LIBPROCESS_PORT",stringify(2573));
 
     process::initialize("master");  //初始化一个名为master的进程

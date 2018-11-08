@@ -82,7 +82,7 @@ include(ProcessConfigure)
 add_subdirectory(3rdparty)
 
 add_subdirectory(my_hello)
-#add_subdirectory(weiguo_server_client)
+add_subdirectory(weiguo_server_client)
 #add_subdirectory(src)
 
 ##future promise
