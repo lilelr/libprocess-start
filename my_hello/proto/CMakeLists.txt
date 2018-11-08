@@ -2,6 +2,7 @@ project(hello)
 cmake_minimum_required(VERSION 2.8)
 set(CMAKE_VERBOSE_MAKEFILE ON)
 
+set(Protobuf_INCLUDE_DIR "usr/local/include")
 find_package(Protobuf REQUIRED)
 
 if(PROTOBUF_FOUND)

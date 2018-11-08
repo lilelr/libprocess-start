@@ -67,9 +67,10 @@ include(ProcessConfigure)
 # SUBDIRECTORIES.
 #################
 add_subdirectory(3rdparty)
-message("70"${PROCESS_LIBS})
+message("70" ${PROCESS_LIBS})
 message("71" ${PROCESS_TARGET})
-add_subdirectory(my_hello)
+#add_subdirectory(my_hello)
+add_subdirectory(weiguo_server_client)
 #add_subdirectory(src)
 
 ##future promise
