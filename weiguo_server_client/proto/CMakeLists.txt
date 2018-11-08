@@ -1,7 +1,7 @@
 include_directories(${CMAKE_CURRENT_LIST_DIR})
 
 #找到protobuf
-set(Protobuf_INCLUDE_DIR "/usr/local/include")
+#set(Protobuf_INCLUDE_DIR "/usr/include")
 find_package(Protobuf REQUIRED)
 
 if(PROTOBUF_FOUND)

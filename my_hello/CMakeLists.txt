@@ -67,8 +67,8 @@ set(LELE_INCLUDE_DIRS
         ${PROJECT_BINARY_DIR}/proto/
         ${PROJECT_BINARY_DIR}/my_hello/proto/
         )
-message("71")
-message(${PROCESS_3RDPARTY_INCLUDE_DIRS})
+#message("71")
+#message(${PROCESS_3RDPARTY_INCLUDE_DIRS})
 set(LELE_3RDPARTY_INCLUDE_DIRS
         ${LELE_3RDPARTY_INCLUDE_DIRS}
         ${PROCESS_INCLUDE_DIRS}

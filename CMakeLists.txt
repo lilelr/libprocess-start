@@ -63,13 +63,25 @@ include(CompilationConfigure)
 # ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake
 include(ProcessConfigure)
 
-
+#
+#message("70" ${PROCESS_LIBS})
+#message("71" ${PROCESS_TARGET})
+#message("72" ${PROCESS_LIB_DIRS})
+#link_directories({PROCESS_LIB_DIRS})
 # SUBDIRECTORIES.
 #################
+#include_directories("/home/lemaker/open-source/libprocess-start/3rdparty/gmock-1.7.0/gtest/include")
+#include_directories("/home/lemaker/open-source/libprocess-start/3rdparty/gmock-1.7.0/include")
+#
+#list(APPEND PROCESS_LIB_DIRS "/home/lemaker/open-source/libprocess-start/3rdparty/glog-0.3.3/.libs")
+#
+#list(APPEND PROCESS_LIB_DIRS "/home/lemaker/open-source/libprocess-start/3rdparty/gmock-1.7.0/gtest/lib/.libs")
+#list(APPEND PROCESS_LIB_DIRS "/home/lemaker/open-source/libprocess-start/3rdparty/gmock-1.7.0/lib/.libs")
+#
+#link_directories({PROCESS_LIB_DIRS})
 add_subdirectory(3rdparty)
-message("70" ${PROCESS_LIBS})
-message("71" ${PROCESS_TARGET})
-#add_subdirectory(my_hello)
+
+add_subdirectory(my_hello)
 #add_subdirectory(weiguo_server_client)
 #add_subdirectory(src)
 
