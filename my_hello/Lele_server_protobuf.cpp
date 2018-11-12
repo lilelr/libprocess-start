@@ -168,11 +168,11 @@ public:
 
     void report_from_client(const string &key,const string& value) {
         cout << "entering into report" << endl;
-        String2Image(value,"./hello-python.py");
+        String2Image(value,"./hello.py");
 
 //        Try<ProcessTree> res = Fork(None(),Exec("./hello_world &"))();
 //        Try<ProcessTree> res = Fork(None(),Exec("java -jar ./java-hello-thread.jar"))();
-        Try<ProcessTree> res = Fork(None(),Exec("python3 ./hello-python.py"))();
+        Try<ProcessTree> res = Fork(None(),Exec("python ./hello.py"))();
 //        cout << key << endl;
         UPID clientUPID(key);
 

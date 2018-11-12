@@ -12,7 +12,6 @@
 
 #include <stout/try.hpp>
 #include <stout/os/mkdir.hpp>
-#include <process/gmock.hpp>
 #include <process/gtest.hpp>
 
 #include <stout/os.hpp>
