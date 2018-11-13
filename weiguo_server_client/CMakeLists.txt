@@ -43,7 +43,7 @@ link_directories(${WEIGUOW_LIB_DIRS})
 add_subdirectory(StudentManage)
 
 add_executable(weiguo_student_client student_slave.cpp)
-target_link_libraries(weiguo_student_client weiguo_foo ${WEIGUOW_LIBS} ${WEIGUOW_LIB_DIRS})
+target_link_libraries(weiguo_student_client weiguo_foo ${WEIGUOW_LIBS})
 
 add_executable(weiguo_teacher_server teacher_master.cpp)
-target_link_libraries(weiguo_teacher_server weiguo_foo protobuf ${WEIGUOW_LIBS} ${WEIGUOW_LIB_DIRS} )
+target_link_libraries(weiguo_teacher_server weiguo_foo protobuf ${WEIGUOW_LIBS})
