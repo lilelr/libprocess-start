@@ -6,7 +6,7 @@ set(protobuf_2_6_URL       https://github.com/google/protobuf/releases/download/
 set(protobuf_2_6_ROOT ${CMAKE_BINARY_DIR}/3rdparty/protobuf_2_6)
 set(protobuf_2_6_LIB_DIR ${protobuf_2_6_ROOT}/lib)
 set(protobuf_2_6_INCLUDE_DIR ${protobuf_2_6_ROOT}/include)
-message(9 ${protobuf_2_6_ROOT})
+#message(9 ${protobuf_2_6_ROOT})
 
 #set(glag_configure ${protobuf_2_6_ROOT}/src/protobuf_2_6/configure --prefix=${protobuf_2_6_ROOT})
 set(protobuf_2_6_configure cd ${protobuf_2_6_ROOT}/src/protobuf_2_6 && ./autogen.sh && ./configure --prefix=${protobuf_2_6_ROOT})
