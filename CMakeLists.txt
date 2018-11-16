@@ -63,6 +63,11 @@ include(CompilationConfigure)
 # ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake
 include(ProcessConfigure)
 
+# protobuf download and function
+# ${CMAKE_SOURCE_DIR}/cmake
+include(protobuf_download)
+include(protobuf_compile)
+
 #
 #message("70" ${PROCESS_LIBS})
 #message("71" ${PROCESS_TARGET})

@@ -30,7 +30,6 @@
 #include <process/process.hpp>
 #include <process/protobuf.hpp>
 
-#include <addressbook.pb.h>
 #include "Offer.pb.h"
 
 using namespace process;
