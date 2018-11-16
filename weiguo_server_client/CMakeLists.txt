@@ -42,8 +42,14 @@ link_directories(${WEIGUOW_LIB_DIRS})
 
 add_subdirectory(StudentManage)
 
+#use protobuf 2.6 to generate the relevant headers and cpps
+# 该函数定义在　cmake/porotobuf_compile.cmake 中，　其中foo　是将生成.cc 和　.h 包装成静态库，即　libfoo.a
+PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/weiguo_server_client/proto Student_pro  ${CMAKE_BINARY_DIR}/weiguo_server_client/proto weiguo_student_pro)
+PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/weiguo_server_client/proto Teacher_pro  ${CMAKE_BINARY_DIR}/weiguo_server_client/proto weiguo_teacher_pro)
+link_directories(${CMAKE_BINARY_DIR}/weiguo_server_client/)
+
 add_executable(weiguo_student_client student_slave.cpp)
-target_link_libraries(weiguo_student_client weiguo_foo ${WEIGUOW_LIBS})
+target_link_libraries(weiguo_student_client weiguo_student_pro ${WEIGUOW_LIBS})
 
 add_executable(weiguo_teacher_server teacher_master.cpp)
-target_link_libraries(weiguo_teacher_server weiguo_foo protobuf ${WEIGUOW_LIBS})
+target_link_libraries(weiguo_teacher_server weiguo_student_pro weiguo_teacher_pro ${WEIGUOW_LIBS})
