@@ -21,11 +21,6 @@
 #add_library(foo ${PROTO_SRCS} ${PROTO_HDRS})
 
 
-# 该函数定义在　cmake/porotobuf_compile.cmake 中，　其中foo　是将生成.cc 和　.h 包装成静态库，即　libproto_search_result．a
-PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/my_hello/proto Offer  ${CMAKE_BINARY_DIR}/my_hello/proto)
-
-include_directories(${CMAKE_BINARY_DIR}/my_hello/proto)
-
 #target_include_directories(foo
 #        PUBLIC
 #        "${Protobuf_INCLUDE_DIRS}")
