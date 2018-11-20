@@ -22,10 +22,10 @@
 #include <stout/path.hpp>
 #include <stout/some.hpp>
 #include <stout/utils.hpp>
-
 #include <stout/os/write.hpp>
-
 #include <stout/tests/utils.hpp>
+
+#include <process/process.hpp>
 
 using flags::Flag;
 using flags::FlagsBase;

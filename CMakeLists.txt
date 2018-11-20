@@ -65,8 +65,8 @@ include(ProcessConfigure)
 
 # protobuf download and function
 # ${CMAKE_SOURCE_DIR}/cmake
-include(protobuf_download)
-include(protobuf_compile)
+include(cmake/protobuf-2.6.1.cmake)
+include(cmake/protobuf-2.6.1-compile.cmake)
 
 #
 #message("70" ${PROCESS_LIBS})
@@ -86,7 +86,7 @@ include(protobuf_compile)
 #link_directories({PROCESS_LIB_DIRS})
 add_subdirectory(3rdparty)
 
-add_subdirectory(my_hello)
+#add_subdirectory(my_hello)
 add_subdirectory(weiguo_server_client)
 #add_subdirectory(src)
 
