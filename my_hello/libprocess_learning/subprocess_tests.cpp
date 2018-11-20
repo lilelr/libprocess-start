@@ -21,7 +21,7 @@
 #include <string>
 #include <vector>
 
-#include <process/gmock.hpp>
+//#include <process/gmock.hpp>
 #include <process/gtest.hpp>
 #include <process/io.hpp>
 #include <process/reap.hpp>

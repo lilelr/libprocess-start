@@ -73,7 +73,7 @@ add_executable(client_server_message_event ${client_server_message_event_SRC})
 target_link_libraries(client_server_message_event foo protobuf ${LELE_LIBS})
 
 # client_protobuf
-set(client_protobuf_SRC client_protobuf.cpp)
+set(client_protobuf_SRC client_protobuf.cpp ../zhangyixin/server_process.cpp ../zhangyixin/client_process.cpp)
 add_executable(client_protobuf ${client_protobuf_SRC})
 target_link_libraries(client_protobuf foo protobuf ${LELE_LIBS})
 #

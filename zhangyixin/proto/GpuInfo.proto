@@ -1,0 +1,8 @@
+message GpuInfo
+{
+  required string description = 1;
+  required bytes vendor = 2;
+  required string clock = 4;
+  optional string width = 3;
+  optional string version = 5;
+}

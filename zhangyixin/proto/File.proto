@@ -1,0 +1,8 @@
+message File
+{
+  optional string filename = 1;
+  required bytes filevalue = 2;
+  required string process_id = 5;
+  optional string filesize = 3;
+  optional string filewriter = 4;
+}
