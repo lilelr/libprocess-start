@@ -56,4 +56,4 @@ function(PROTOC_COMPILE PROTO_PATH PROTO_NAME OUT_PUT_PATH OUT_PUT_LIBRARY)
 endfunction()
 
 # example
-include_directories(${CMAKE_BINARY_DIR}/src)
+include_directories(${CMAKE_BINARY_DIR}/weiguo_server_client)

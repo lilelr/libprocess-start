@@ -65,10 +65,18 @@ include(ProcessConfigure)
 
 # protobuf download and function
 # ${CMAKE_SOURCE_DIR}/cmake
+#[[<<<<<<< HEAD
 #include(cmake/protobuf_download.cmake)
 #include(cmake/protobuf_compile.cmake)
+
 include(cmake/protobuf-2.6.1.cmake)
 include(cmake/protobuf-2.6.1-compile.cmake)
+=======
+
+#include(cmake/protobuf_download.cmake)
+#include(cmake/protobuf_compile.cmake)
+
+>>>>>>> aa0f00b2baf255374169da3a2e0685d05ebe0cda]]
 #
 #message("70" ${PROCESS_LIBS})
 #message("71" ${PROCESS_TARGET})
@@ -86,12 +94,15 @@ include(cmake/protobuf-2.6.1-compile.cmake)
 #
 #link_directories({PROCESS_LIB_DIRS})
 add_subdirectory(3rdparty)
-
 #add_subdirectory(my_hello)
+
+include(weiguo_server_client/cmake/protobuf-2.6.1.cmake)
 add_subdirectory(weiguo_server_client)
+
 add_subdirectory(zhangyixin)
 #add_subdirectory(src)
 
+#add_subdirectory(src)
 ##future promise
 #add_subdirectory(./google/googletest)
 #include_directories(./google/googletest/include)
