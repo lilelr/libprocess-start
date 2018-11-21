@@ -1,4 +1,4 @@
-function(PROTOC_COMPILE PROTO_PATH PROTO_NAME OUTPUT_PATH OUTPUT_LIBRARY)
+function(PROTOC_COMPILE_WEIGUO PROTO_PATH PROTO_NAME OUTPUT_PATH OUTPUT_LIBRARY)
     set(TO_INCLUDE_DIR
             --cpp_out=${OUTPUT_PATH}
             --proto_path=${PROTO_PATH}
@@ -22,11 +22,11 @@ function(PROTOC_COMPILE PROTO_PATH PROTO_NAME OUTPUT_PATH OUTPUT_LIBRARY)
 
     ADD_CUSTOM_COMMAND(
             OUTPUT   ${CC}  ${H}
-            COMMAND  ${PROTOBUF_COMPILER}  ${TO_INCLUDE_DIR}  ${PROTO}
+            COMMAND  ${PROTOBUF_COMPILER_WEIGUO}  ${TO_INCLUDE_DIR}  ${PROTO}
     )
 
     add_library(${OUTPUT_LIBRARY}  ${CC}  ${H})
 
 endfunction()
 
-include_directories(${CMAKE_BINARY_DIR}/server_client)
+include_directories(${CMAKE_BINARY_DIR}/weiguo_server_client/proto)
