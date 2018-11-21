@@ -4,4 +4,5 @@ message Offer
   required bytes value = 2;
   optional string hostname = 4;
   optional string lele_label = 5;
+
 }

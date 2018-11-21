@@ -1,8 +1,17 @@
-message GpuInfo
-{
-  required string description = 1;
-  required bytes vendor = 2;
-  required string clock = 4;
-  optional string width = 3;
-  optional string version = 5;
+message GpuInfo {
+  repeated GpuResult gpu_result = 1;
+}
+
+message GpuResult {
+   required string description =2;
+   required string product =3;
+   required string vendor =4;
+   optional string physical_id =5;
+   optional string bus_info =6;
+   optional string version =7;
+   optional string width =8;
+   optional string clock =9;
+   optional string capabilities =10;
+   optional string configuration =11;
+   optional string resources =12;
 }

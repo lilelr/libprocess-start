@@ -231,7 +231,7 @@ public:
 int main() {
     //Bind ip and port
 //    net::IP ip = process::address().ip;
-    os::setenv("LIBPROCESS_IP", strings::trim("172.20.110.81"));
+    os::setenv("LIBPROCESS_IP", strings::trim("172.20.110.100"));
     os::setenv("LIBPROCESS_PORT", stringify(2573));
 
     process::initialize("master");  //初始化一个名为master的进程

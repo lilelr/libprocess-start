@@ -40,11 +40,12 @@ endif()]]
 
 
 include_directories(${XIN_INCLUDE_DIRS})
-include_directories(/home/zyx/project/libprocess-start/cmake-build-debug/zhangyixin/proto/)
+include_directories(${CMAKE_BINARY_DIR}/zhangyixin/proto)
+message(hahahahhahahahahahha   ${CMAKE_BINARY_DIR})
 link_directories(${XIN_LIB_DIRS})
 
 add_subdirectory(proto)
-add_subdirectory(test)
+#add_subdirectory(test)
 
 
 PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/zhangyixin/proto Offer  ${CMAKE_BINARY_DIR}/zhangyixin/proto yx_Offer_pro)
@@ -58,8 +59,16 @@ target_link_libraries(yx_client yx_Offer_pro yx_File_pro protobuf ${XIN_LIBS})
 add_executable(yx_server server_process.cpp)
 target_link_libraries(yx_server yx_Offer_pro yx_File_pro protobuf ${XIN_LIBS})
 
-add_executable(yx_gpu_info gpu_info.cpp)
+#[[add_executable(yx_gpu_info gpu_info.cpp)
 target_link_libraries(yx_gpu_info yx_Offer_pro yx_GpuInfo_pro protobuf ${XIN_LIBS})
 
 add_executable(yx_gpu_test gpu_test.cpp)
-target_link_libraries(yx_gpu_test yx_Offer_pro yx_GpuInfo_pro protobuf ${XIN_LIBS})
+target_link_libraries(yx_gpu_test ${XIN_LIBS})]]
+
+set(Gpu_SRC gpu.cpp gpu.h)
+
+#[[add_executable(gpu ${Gpu_SRC} gpu_test.cpp)
+target_link_libraries(gpu yx_GpuInfo_pro ${XIN_LIBS})]]
+
+add_executable(yx_gpu ${Gpu_SRC} gpu_info.cpp)
+target_link_libraries(yx_gpu yx_GpuInfo_pro ${XIN_LIBS})

@@ -26,8 +26,10 @@
 
 #include <map>
 #include <string>
+#include <GpuInfo.pb.h>
 
-#include "GpuInfo.pb.h"
+#include "gpu.h"
+//#include "GpuInfo.pb.h"
 using namespace process;
 
 //using namespace process::http; //Path 歧义
@@ -47,36 +49,154 @@ using process::Clock;
 using std::string;
 using process::MAX_REAP_INTERVAL;
 
-class GetGpuInfo {
-public:
-    void set_description(string m_description) {
-        m_description = m_description;
+void split_part_string(std::string info) {
+//    GpuInfo gpu_protpo;
+
+ //   vector<GpuClass> gpuInfo_vec(2,GpuClass("none","none","none","none","none","none","none","none","none","none","none"));
+
+    vector<GpuClass> gpuInfo_class;
+    GpuClass gpu_class = GpuClass("none","none","none","none","none","none","none","none","none","none","none");
+
+    vector<string> tokens = strings::split(info,"\n");
+    vector<string>::iterator vec_iter;
+    vector<GpuClass>::iterator gpu_itr;
+
+    GpuInfo gpuInfoproto;
+    GpuResult *gpuResultproto;
+
+    //添加到protobuf中
+    //gpuResultproto = gpuInfoproto.add_gpu_result();
+
+    int index = 0; //gpu个数
+  //  int i_index = 0;
+
+    for(vec_iter = tokens.begin(); vec_iter != tokens.end(); vec_iter++){
+        cout <<*vec_iter << "!!!!!"<<endl;
+        if(strings::contains(*vec_iter, "display")){
+            index++;
+        }
+        std::string romove_bs = strings::trim(*vec_iter," ");
+        vector<string> line_token = strings::tokenize(romove_bs, ":", 2);
+
+        cout<<index<<endl;
+        //  cout << romove_bs << "@@@"<<endl;
+        //    cout << line_token[0] << "*****"<<endl;
+        for(vector<string>::iterator vec = line_token.begin();vec!=line_token.end();vec++){
+            //cout <<*vec<<endl;
+            if(*vec == "description"){
+//                gpuInfo_vec.push_back(getgpuinfo);
+                gpuInfo_class.push_back(gpu_class);
+                gpuInfo_class[index-1].set_description(strings::trim(*(vec+1)," "));
+
+                //添加到protobuf中
+                gpuResultproto = gpuInfoproto.add_gpu_result();
+                gpuResultproto->set_description(strings::trim(*(vec+1)," "));
+                //gpuResultproto.set_description(strings::trim(*(vec+1)," "));
+                //gpuInfo_vec[index-1].set_description(strings::trim(*(vec+1)," "));
+               // m_description = *(vec+1);
+                //m_description = *(vec+1);
+                // vector<string>::iterator h = vec + 1;
+              //  cout<<"hahaha"<<*(vec+1)<<endl;
+
+            }
+            else if(*vec == "product"){
+                gpuInfo_class[index-1].set_product(strings::trim(*(vec+1)," "));
+                // m_product = *(vec+1);
+                gpuResultproto->set_product(strings::trim(*(vec+1)," "));
+            }
+            else if(*vec == "vendor"){
+                gpuInfo_class[index-1].set_vendor(strings::trim(*(vec+1)," "));
+                // m_vendor = *(vec+1);
+                gpuResultproto->set_vendor(strings::trim(*(vec+1)," "));
+            }
+            else if(*vec == "physical id"){
+                gpuInfo_class[index-1].set_physical_id(strings::trim(*(vec+1)," "));
+                // m_physical_id = *(vec+1);
+                gpuResultproto->set_physical_id(strings::trim(*(vec+1)," "));
+
+            }
+            else if(*vec == "bus info"){
+                gpuInfo_class[index-1].set_bus_info(strings::trim(*(vec+1)," "));
+                //m_bus_info = *(vec+1);
+                gpuResultproto->set_bus_info(strings::trim(*(vec+1)," "));
+
+            }
+            else if(*vec == "version"){
+                gpuInfo_class[index-1].set_version(strings::trim(*(vec+1)," "));
+                // m_version = *(vec+1);
+                gpuResultproto->set_version(strings::trim(*(vec+1)," "));
+            }
+            else if(*vec == "width"){
+                gpuInfo_class[index-1].set_width(strings::trim(*(vec+1)," "));
+                // m_width = *(vec+1);
+                gpuResultproto->set_width(strings::trim(*(vec+1)," "));
+            }
+            else if(*vec == "clock"){
+                gpuInfo_class[index-1].set_clock(strings::trim(*(vec+1)," "));
+                // m_clock = *(vec+1);
+                gpuResultproto->set_clock(strings::trim(*(vec+1)," "));
+
+            }
+            else if(*vec == "capabilities"){
+                gpuInfo_class[index-1].set_capabilities(strings::trim(*(vec+1)," "));
+                // m_capabilities = *(vec+1);
+                gpuResultproto->set_capabilities(strings::trim(*(vec+1)," "));
+            }
+            else if(*vec == "configuration"){
+                gpuInfo_class[index-1].set_configuration(strings::trim(*(vec+1)," "));
+                // m_configuration = *(vec+1);
+
+                gpuResultproto->set_configuration(strings::trim(*(vec+1)," "));
+            }
+            else if(*vec == "resources"){
+                gpuInfo_class[index-1].set_resources(strings::trim(*(vec+1)," "));
+
+                //添加到protobuf中
+                gpuResultproto->set_resources(strings::trim(*(vec+1)," "));
+
+            }
+
+        }
+    }
+   // cout<<"fsddddddddd"<<endl;
+
+   // printf_test();
+    for(auto gpu_itr = gpuInfo_class.begin();gpu_itr!=gpuInfo_class.end();gpu_itr++){
+        cout<<"--------------------------------------"<<endl;
+
+        //cout<<*gpu_itr.operator->()->get_description()<<endl;
+        cout<<gpu_itr.operator->()->get_description()<<endl;
+        cout<<gpu_itr.operator->()->get_product()<<endl;
+        cout<<gpu_itr.operator->()->get_physical_id()<<endl;
+        cout<<gpu_itr.operator->()->get_bus_info()<<endl;
+        cout<<gpu_itr.operator->()->get_version()<<endl;
+        cout<<gpu_itr.operator->()->get_width()<<endl;
+        cout<<gpu_itr.operator->()->get_clock()<<endl;
+        cout<<gpu_itr.operator->()->get_configuration()<<endl;
+        cout<<gpu_itr.operator->()->get_capabilities()<<endl;
+        cout<<gpu_itr.operator->()->get_resources()<<endl;
     }
 
-    string get_description() {
-        return m_description;
+    GpuResult *inx;
+    cout<<"size : "<<gpuInfoproto.gpu_result_size()<<endl;
+    for(int i; i<gpuInfoproto.gpu_result_size(); i++){
+        inx = gpuInfoproto.mutable_gpu_result(i);
+        cout<<"第"<<i<<"组"<<inx->description()<<endl;
+        cout<<"第"<<i<<"组"<<inx->product()<<endl;
+        cout<<"第"<<i<<"组"<<inx->vendor()<<endl;
+        cout<<"第"<<i<<"组"<<inx->physical_id()<<endl;
+        cout<<"第"<<i<<"组"<<inx->bus_info()<<endl;
+        cout<<"第"<<i<<"组"<<inx->version()<<endl;
+        cout<<"第"<<i<<"组"<<inx->width()<<endl;
+        cout<<"第"<<i<<"组"<<inx->clock()<<endl;
+        cout<<"第"<<i<<"组"<<inx->capabilities()<<endl;
+        cout<<"第"<<i<<"组"<<inx->configuration()<<endl;
+        cout<<"第"<<i<<"组"<<inx->resources()<<endl;
+
     }
 
-    void executive_command();  //执行命令
-   // void split_all_string(string all_info);
-    void split_part_string(string info); //将结果拆分
-    void printf_test(); //测试输出
-
-private:
-    string m_description;
-    string m_product;
-    string m_vendor;
-    string m_physical_id;
-    string m_bus_info;
-    string m_version;
-    string m_width;
-    string m_clock;
-    string m_capabilities;
-    string m_configuration;
-    string m_resources;
-};
-
-void GetGpuInfo::executive_command(){
+}
+void executive_command(){
 /*    Try<Subprocess> s = subprocess(
             "lshw -numeric -class video",
             Subprocess::FD(STDIN_FILENO),
@@ -110,106 +230,14 @@ void GetGpuInfo::executive_command(){
                     "       capabilities: pm msi pciexpress bus_master cap_list\n"
                     "       configuration: driver=nvidia latency=0\n"
                     "       resources: iomemory:38600-385ff iomemory:38640-3863f irq:38 memory:f6000000-f6ffffff memory:386000000000-3863ffffffff memory:386400000000-386401ffffff";
-   // split_all_string(s_info);
+    // split_all_string(s_info);
     split_part_string(s_info);
 
 }
 
 
-void GetGpuInfo::split_part_string(std::string info) {
-    GpuInfo gpu_protpo;
-
-    vector<GetGpuInfo> gpuInfo_vec(3,GetGpuInfo());
-
-    vector<string> tokens = strings::split(info,"\n");
-    vector<string>::iterator vec_iter;
-    vector<GetGpuInfo>::iterator gpu_itr;
-
-    int index = 0; //gpu个数
-  //  int i_index = 0;
-
-    for(vec_iter = tokens.begin(); vec_iter != tokens.end(); vec_iter++){
-        cout <<*vec_iter << "!!!!!"<<endl;
-        if(strings::contains(*vec_iter, "display")){
-            index++;
-        }
-        std::string romove_bs = strings::trim(*vec_iter," ");
-        vector<string> line_token = strings::tokenize(romove_bs, ":", 2);
-
-        cout<<index<<endl;
-        //  cout << romove_bs << "@@@"<<endl;
-        //    cout << line_token[0] << "*****"<<endl;
-        for(vector<string>::iterator vec = line_token.begin();vec!=line_token.end();vec++){
-            //cout <<*vec<<endl;
-            if(*vec == "description"){
-                gpuInfo_vec[index].set_description(*(vec+1));
-                m_description = *(vec+1);
-                // vector<string>::iterator h = vec + 1;
-                //cout<<"hahaha"<<*(vec+1)<<endl;
-            }
-            else if(*vec == "product"){
-                m_product = *(vec+1);
-            }
-            else if(*vec == "vendor"){
-                m_vendor = *(vec+1);
-            }
-            else if(*vec == "physical id"){
-                m_physical_id = *(vec+1);
-            }
-            else if(*vec == "bus info"){
-                m_bus_info = *(vec+1);
-            }
-            else if(*vec == "version"){
-                m_version = *(vec+1);
-            }
-            else if(*vec == "width"){
-                m_width = *(vec+1);
-            }
-            else if(*vec == "clock"){
-                m_clock = *(vec+1);
-            }
-            else if(*vec == "capabilities"){
-                m_capabilities = *(vec+1);
-            }
-            else if(*vec == "configuration"){
-                m_configuration = *(vec+1);
-            }
-            else if(*vec == "resources"){
-                m_resources = *(vec+1);
-            }
-        }
-    }
-   // cout<<"fsddddddddd"<<endl;
-
-   // printf_test();
-    for(auto gpu_itr = gpuInfo_vec.begin();gpu_itr!=gpuInfo_vec.end();gpu_itr++){
-        cout<<"fsddddddddd"<<endl;
-
-        cout<<*gpu_itr.operator->()->get_description()<<endl;
-    }
-}
-
-void GetGpuInfo::printf_test() {
-    cout<<"---------------------------"<<endl;
-    cout<<"description :"<<m_description<<endl;
-    cout<<"product :"<<m_product<<endl;
-    cout<<"vendor :"<<m_vendor<<endl;
-    cout<<"physical id :"<<m_physical_id<<endl;
-    cout<<"bus info :"<<m_bus_info<<endl;
-    cout<<"version :"<<m_version<<endl;
-    cout<<"width :"<<m_width<<endl;
-    cout<<"clock :"<<m_clock<<endl;
-    cout<<"capabilities :"<<m_capabilities<<endl;
-    cout<<"configuration :"<<m_configuration<<endl;
-    cout<<"resources :"<<m_resources<<endl;
-}
-
 int main(){
-    GetGpuInfo gpuInfo;
-    gpuInfo.executive_command();
-/*    string ss = "resources: 1";
-    vector<string> line_token1 = strings::tokenize(ss, ":", 2);
-    cout << line_token1[0] << "*****"<<line_token1[1]<<endl;*/
+    executive_command();
 }
 
 
