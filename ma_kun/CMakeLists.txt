@@ -52,7 +52,8 @@ else()
 endif()
 
 add_subdirectory(proto)
-
+add_subdirectory(hwloc_example)
+add_subdirectory(dmi)
 
 #message(${PROJECT_BINARY_DIR})
 # Define third-party include directories. Tells compiler toolchain where to get
@@ -97,6 +98,7 @@ set(MAKUN_LIBS
 ############################################################################
 include_directories(SYSTEM ${MAKUN_3RDPARTY_INCLUDE_DIRS})
 include_directories(${MAKUN_INCLUDE_DIRS})
+include_directories(SYSTEM ${CMAKE_CURRENT_LIST_DIR})
 
 # LINKING LIBRARIES BY DIRECTORY (might generate, e.g., -L/path/to/thing on
 # Linux).
@@ -119,10 +121,10 @@ set(makun_client_SRC client_protobuf.cpp)
 add_executable(makun_client ${makun_client_SRC})
 target_link_libraries(makun_client foobar protobuf ${MAKUN_LIBS})
 
-#[[set(lele_http_simple_process_SRC lele_http_simple_process.cpp)
-add_executable(lele_http_simple_process ${lele_http_simple_process_SRC})
-target_link_libraries(lele_http_simple_process foo ${LELE_LIBS})]]
-
+#[[set(dmi_test_SRC dmi/dmi_test.cpp)
+add_executable(dmi_test ${dmi_test_SRC}
+        dmi/dmidecode.h dmi/dmidecode.cpp)
+target_link_libraries(dmi_test foobar protobuf ${MAKUN_LIBS})]]
 message(12345)
 
 

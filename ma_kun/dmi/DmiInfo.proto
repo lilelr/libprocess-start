@@ -1,0 +1,6 @@
+import "MemInfo.proto";
+
+message DmiInfo {
+    required string max_size = 1;
+    repeated MemInfo info = 2;
+}
