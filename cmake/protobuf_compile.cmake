@@ -19,7 +19,7 @@
 #       (a) SearchRequest_PROTO_H:        ${CMAKE_BINARY_DIR}/src/SearchRequest.pb.h
 
 
-message(18 ${CMAKE_SOURCE_DIR})
+#message(18 ${CMAKE_SOURCE_DIR})
 function(PROTOC_COMPILE PROTO_PATH PROTO_NAME OUT_PUT_PATH OUT_PUT_LIBRARY)
 
     set(TO_INCLUDE_DIR
@@ -30,7 +30,7 @@ function(PROTOC_COMPILE PROTO_PATH PROTO_NAME OUT_PUT_PATH OUT_PUT_LIBRARY)
     set(PROTO_VAR ${PROTO_NAME}_PROTO)    # e.g., SearchRequest_PROTO
     set(CC_VAR    ${PROTO_NAME}_PROTO_CC) # e.g., SearchRequest_CC
     set(H_VAR     ${PROTO_NAME}_PROTO_H)  # e.g., SearchRequest_H
-        message(29${PROTO_VAR})
+#        message(29${PROTO_VAR})
 
     # Fully qualified paths for the input .proto files and the output C files.
     set(PROTO ${PROTO_PATH}/${PROTO_NAME}.proto)
@@ -42,18 +42,18 @@ function(PROTOC_COMPILE PROTO_PATH PROTO_NAME OUT_PUT_PATH OUT_PUT_LIBRARY)
     set(${CC_VAR}    ${CC}    PARENT_SCOPE) # e.g., SearchRequest.pb.cc
     set(${H_VAR}     ${H}     PARENT_SCOPE) # e.g., SearchRequest.pb.h
 
-    message("compile the .proto file")
+#    message("compile the .proto file")
     # Compile the .proto file.
     ADD_CUSTOM_COMMAND(
             OUTPUT ${CC} ${H}
             # ${protobuf_2_6_compiler} 定义在　protobuf_download.cmake 中
             COMMAND ${protobuf_2_6_compiler} ${TO_INCLUDE_DIR} ${PROTO}
             )
-    message("ends compile the .proto file ")
+#    message("ends compile the .proto file ")
     # expose the library with ${OUT_PUT_LIBRARY} as the name formed from the generated headers and cpps
     add_library(${OUT_PUT_LIBRARY} ${CC} ${H})
 
 endfunction()
 
 # example
-include_directories(${CMAKE_BINARY_DIR}/src)
+include_directories(${CMAKE_BINARY_DIR}/weiguo_server_client)
