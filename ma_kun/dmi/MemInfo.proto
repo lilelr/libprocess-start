@@ -1,0 +1,5 @@
+message MemInfo {
+    required string size = 1;
+    required string type = 2;
+    required string speed = 3;
+}
