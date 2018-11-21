@@ -65,8 +65,12 @@ include(ProcessConfigure)
 
 # protobuf download and function
 # ${CMAKE_SOURCE_DIR}/cmake
-include(cmake/protobuf-2.6.1.cmake)
-include(cmake/protobuf-2.6.1-compile.cmake)
+#include(cmake/protobuf-2.6.1.cmake)
+#include(cmake/protobuf-2.6.1-compile.cmake)
+include(cmake/protobuf_compile.cmake)
+include(cmake/protobuf_download.cmake)
+
+include_directories(${PROJECT_SOURCE_DIR}/3rdparty/libprocess/include)
 
 #
 #message("70" ${PROCESS_LIBS})
