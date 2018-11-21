@@ -72,6 +72,9 @@ include(cmake/protobuf_download.cmake)
 
 include_directories(${PROJECT_SOURCE_DIR}/3rdparty/libprocess/include)
 
+#include(cmake/protobuf_download.cmake)
+#include(cmake/protobuf_compile.cmake)
+
 #
 #message("70" ${PROCESS_LIBS})
 #message("71" ${PROCESS_TARGET})
@@ -89,11 +92,12 @@ include_directories(${PROJECT_SOURCE_DIR}/3rdparty/libprocess/include)
 #
 #link_directories({PROCESS_LIB_DIRS})
 add_subdirectory(3rdparty)
-
 #add_subdirectory(my_hello)
-add_subdirectory(weiguo_server_client)
-#add_subdirectory(src)
 
+include(weiguo_server_client/cmake/protobuf-2.6.1.cmake)
+add_subdirectory(weiguo_server_client)
+
+#add_subdirectory(src)
 ##future promise
 #add_subdirectory(./google/googletest)
 #include_directories(./google/googletest/include)
