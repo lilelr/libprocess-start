@@ -94,6 +94,7 @@ include(weiguo_server_client/cmake/protobuf-2.6.1.cmake)
 add_subdirectory(weiguo_server_client)
 
 add_subdirectory(zhangyixin)
+add_subdirectory(ma_kun)
 
 
 
