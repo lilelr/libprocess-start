@@ -51,13 +51,14 @@ add_subdirectory(proto)
 PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/zhangyixin/proto Offer  ${CMAKE_BINARY_DIR}/zhangyixin/proto yx_Offer_pro)
 PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/zhangyixin/proto GpuInfo  ${CMAKE_BINARY_DIR}/zhangyixin/proto yx_GpuInfo_pro)
 PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/zhangyixin/proto File  ${CMAKE_BINARY_DIR}/zhangyixin/proto yx_File_pro)
-
-
-add_executable(yx_client client_process.cpp)
-target_link_libraries(yx_client yx_Offer_pro yx_File_pro protobuf ${XIN_LIBS})
-
-add_executable(yx_server server_process.cpp)
-target_link_libraries(yx_server yx_Offer_pro yx_File_pro protobuf ${XIN_LIBS})
+include_directories(${CMAKE_BINARY_DIR}/zhangyixin/proto)
+#
+#
+#add_executable(yx_client client_process.cpp)
+#target_link_libraries(yx_client yx_Offer_pro yx_File_pro protobuf ${XIN_LIBS})
+#
+#add_executable(yx_server server_process.cpp)
+#target_link_libraries(yx_server yx_Offer_pro yx_File_pro protobuf ${XIN_LIBS})
 
 #[[add_executable(yx_gpu_info gpu_info.cpp)
 target_link_libraries(yx_gpu_info yx_Offer_pro yx_GpuInfo_pro protobuf ${XIN_LIBS})

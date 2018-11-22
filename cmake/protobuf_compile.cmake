@@ -50,10 +50,9 @@ function(PROTOC_COMPILE PROTO_PATH PROTO_NAME OUT_PUT_PATH OUT_PUT_LIBRARY)
             COMMAND ${protobuf_2_6_compiler} ${TO_INCLUDE_DIR} ${PROTO}
             )
 #    message("ends compile the .proto file ")
+
     # expose the library with ${OUT_PUT_LIBRARY} as the name formed from the generated headers and cpps
     add_library(${OUT_PUT_LIBRARY} ${CC} ${H})
 
 endfunction()
 
-# example
-include_directories(${CMAKE_BINARY_DIR}/weiguo_server_client)
