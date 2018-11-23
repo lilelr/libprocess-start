@@ -98,12 +98,14 @@ link_directories(${PROJECT_SOURCE_DIR}/3rdparty/glog-0.3.3/build/.libs)
 #
 #link_directories({PROCESS_LIB_DIRS})
 add_subdirectory(3rdparty)
-#add_subdirectory(my_hello)
+add_subdirectory(my_hello)
 
-
+# include(weiguo_server_client/cmake/protobuf-2.6.1.cmake)
 add_subdirectory(weiguo_server_client)
-#add_subdirectory(zhangyixin)cd
-#add_subdirectory(ma_kun)
+
+add_subdirectory(zhangyixin)
+add_subdirectory(ma_kun)
+
 #
 
 
