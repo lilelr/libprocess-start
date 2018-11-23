@@ -1,7 +1,7 @@
 #CMake处理当前目录
 include_directories(${CMAKE_CURRENT_LIST_DIR})
 
-include_directories("/home/weiguow/project/libprocess-start/cmake-build-debug/weiguo_server_client/proto")
+include_directories(${CMAKE_BINARY_DIR}/weiguo_server_client/proto)
 
 set(WEIGUOW_LIB_DIRS ${PROCESS_LIB_DIRS})
 link_directories(${WEIGUOW_LIB_DIRS})

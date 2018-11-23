@@ -66,12 +66,22 @@ include(ProcessConfigure)
 
 include(cmake/protobuf_download.cmake)
 include(cmake/protobuf_compile.cmake)
+
+include_directories(${CMAKE_BINARY_DIR}/3rdparty/protobuf_2_6/include)
 # protobuf download and function
 
 include_directories(${PROJECT_SOURCE_DIR}/3rdparty/picojson-1.3.0)
 include_directories(${PROJECT_SOURCE_DIR}/3rdparty/stout/include)
 include_directories(${PROJECT_SOURCE_DIR}/3rdparty/libprocess/include)
 
+include_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/include)
+link_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/lib/.libs)
+
+include_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/gtest/include)
+link_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/gtest/lib/.libs)
+
+include_directories(${PROJECT_SOURCE_DIR}/3rdparty/glog-0.3.3/build/src/glog)
+link_directories(${PROJECT_SOURCE_DIR}/3rdparty/glog-0.3.3/build/.libs)
 #message("70" ${PROCESS_LIBS})
 #message("71" ${PROCESS_TARGET})
 #message("72" ${PROCESS_LIB_DIRS})
@@ -89,10 +99,14 @@ include_directories(${PROJECT_SOURCE_DIR}/3rdparty/libprocess/include)
 #link_directories({PROCESS_LIB_DIRS})
 add_subdirectory(3rdparty)
 
-#add_subdirectory(my_hello)
+add_subdirectory(my_hello)
+
+# include(weiguo_server_client/cmake/protobuf-2.6.1.cmake)
 add_subdirectory(weiguo_server_client)
-#add_subdirectory(zhangyixin)
-#add_subdirectory(ma_kun)
+
+add_subdirectory(zhangyixin)
+add_subdirectory(ma_kun)
+
 #
 
 
