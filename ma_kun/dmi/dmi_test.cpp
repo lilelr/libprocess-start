@@ -39,7 +39,8 @@ namespace io = process::io;
 int main(){
     Try<Subprocess> s = subprocess(
             //"echo 0 | sudo -S dmidecode | grep -A16 'Memory Device'| grep -E 'Size|Type:|Speed'",
-            "echo 0 | sudo -S dmidecode -t memory",
+            //"echo 0 | sudo -S dmidecode -t memory",
+            "sudo -S dmidecode -t memory",
             Subprocess::FD(STDIN_FILENO),
             Subprocess::PIPE(),
             Subprocess::FD(STDERR_FILENO));
@@ -87,7 +88,8 @@ int main(){
     shared_ptr<string> Unknown1(new string(strings::trim("No Module Installed")));
     shared_ptr<string> Unknown2(new string(strings::trim("Unknown")));
     Dmidecode ins = Dmidecode(Unknown1,Unknown2,Unknown2);
-    int num_map = 0;
+    //int num_map = 0;
+    int num_size = 0, num_type = 0, num_speed = 0;
     DmiInfo dmiInfo;
     MemInfo *tmp;
     //**********************************************************
@@ -146,30 +148,31 @@ int main(){
                     //shared_ptr<string> size(new string(*iter));
                     //string size1 = *iter;
                     vector_dmi.push_back(ins);
-                    vector_dmi[num_map].set_size(size);
+                    vector_dmi[num_size].set_size(size);
                     tmp = dmiInfo.add_info();
                     tmp->set_size(strings::trim(*iter));
                     //temp->speed = 1;
                     //dmiInfo.set_size(strings::trim(*iter));
-                    //num_size++;
+                    num_size++;
                 }
                 iter--;
             }
             if(strings::trim(*iter) == "Type") {
                 cout << "**********************************************" << endl;
                 iter++;
-                if(strings::trim(*iter) != "Unknown") {
+                //if(strings::trim(*iter) != "Unknown") {
+                if(num_size > num_type) {
                     map_info.insert(map<string, string>::value_type("Type", strings::trim(*iter)));
                     shared_ptr<string> type(new string(strings::trim(*iter)));
                     //shared_ptr<string> size1(new string(strings::trim("45363")));
                     //cout<<*size<<endl;
                 //    cout<<"当前的编号为："<<num_map<<endl;
                     //vector_dmi.push_back(ins);
-                    vector_dmi[num_map].set_type(type);
+                    vector_dmi[num_type].set_type(type);
                     tmp->set_type(strings::trim(*iter));
                     //vector_dmi.push_back();
                     //vector_dmi[num_type].set_type(size1);
-                    //num_type++;
+                    num_type++;
                 }
                 iter--;
             }
@@ -180,9 +183,9 @@ int main(){
                     map_info.insert(map<string, string>::value_type("Speed", strings::trim(*iter)));
                     shared_ptr<string> speed(new string(strings::trim(*iter)));
                     //shared_ptr<string> qwe = vector_dmi[0].get_size();;
-                    vector_dmi[num_map].set_speed(speed);
+                    vector_dmi[num_speed].set_speed(speed);
                     tmp->set_speed(strings::trim(*iter));
-                    num_map++;
+                    num_speed++;
                     //tmp->Clear();
                     //delete(tmp);
                     //free(tmp);
@@ -198,7 +201,7 @@ int main(){
         cout<<iter->first<<"*****"<<iter->second<<endl;
 
     }
-    cout<<num_map<<endl;
+    cout<<num_size<<num_type<<num_speed<<endl;
     for (auto iter = vector_dmi.begin(); iter != vector_dmi.end(); iter++){
         string a = *iter.operator->()->get_size();
         string b = *iter.operator->()->get_type();
