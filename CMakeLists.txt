@@ -88,11 +88,10 @@ include_directories(${PROJECT_SOURCE_DIR}/3rdparty/libprocess/include)
 #
 #link_directories({PROCESS_LIB_DIRS})
 add_subdirectory(3rdparty)
+
 #add_subdirectory(my_hello)
-
-
 add_subdirectory(weiguo_server_client)
-#add_subdirectory(zhangyixin)cd
+#add_subdirectory(zhangyixin)
 #add_subdirectory(ma_kun)
 #
 
