@@ -151,11 +151,9 @@ public:
 
         install<Transfile>(&Teacher_Master::report_from_client_python_file, &Transfile::key, &Transfile::value);
 
-        install<AllCpuInfo_SingleInfo>(&Teacher_Master::report_all_cpuinfo_to_client,&AllCpuInfo_SingleInfo::address);
+        install<SingleInfo>(&Teacher_Master::report_all_cpuinfo_to_client,&SingleInfo::address);
 
         install<AllCpuInfo>(&Teacher_Master::report_all_cpuinfo_to_client_2,&AllCpuInfo::key_cpu);
-
-//        install<SingleCpuInfo>(&Teacher_Master::get_client_cpu_request, &SingleCpuInfo::cpu);   //test for single cpu information
     }
 
 /*****************1.report student message to client*************************/
@@ -168,28 +166,12 @@ public:
 
 
 /*****************2.report cpu information***************************************/
-//    void get_client_cpu_request(const string &address){
-//
-//        SingleCpuInfo sci;
-//        UPID clientUPID(address);
-//        Try<list<CPU>> cpus = weiguo_proc::cpus();
-//        auto cpuinfo = cpus.get().front();
-//
-//        string cpuID = cpuinfo.cpuID;
-//        string coreID = cpuinfo.coreID;
-//
-//        sci.set_cpu("1");
-//        sci.set_cpuid(cpuID);
-//        sci.set_coreid(coreID);
-//
-//        send(clientUPID,sci);
-//    }
+
 
     void report_all_cpuinfo_to_client(const string &address){
 
         cout << address << endl;
-        int j = 0;
-        AllCpuInfo_SingleInfo as;
+        SingleInfo as;
 
         UPID clientUPID(address);
         Try<list<CPU>> cpus = weiguo_proc::cpus();
@@ -209,9 +191,9 @@ public:
         }
     }
 
-    void report_all_cpuinfo_to_client_2(const string &address){
+    void report_all_cpuinfo_to_client_2(const string &key_cpu){
         AllCpuInfo ac;
-        UPID clientUPID(address);
+        UPID clientUPID(key_cpu);
         Try<list<CPU>> cpus = weiguo_proc::cpus();
         for(auto i = cpus.get().begin();i!=cpus.get().end();i++){
             ac.add_sci()->set_cpuid(i->cpuID);

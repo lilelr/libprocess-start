@@ -6,6 +6,7 @@
 #include <fstream>
 #include <memory>
 #include <string>
+#include <vector>
 
 #include <process/defer.hpp>
 #include <process/dispatch.hpp>
@@ -16,7 +17,6 @@
 #include <student_pro.pb.h>
 #include <transfile.pb.h>
 #include <cpuinfo_pro.pb.h>
-
 
 using namespace process;
 
@@ -29,6 +29,7 @@ using std::string;
 using std::chrono::seconds;
 using std::ifstream;
 using std::ios_base;
+using std::vector;
 
 using process::Future;
 using process::Promise;
@@ -50,23 +51,37 @@ public:
             terminate(self());
         });
 
+        /**
+         * 函数名：install
+         * 参数类型：<想要监听的message名字>
+         * 注册的方法名字，以及该方法用到message参数
+         * install引入的名字是定义的message中的名字,而不是message本身文件的名字
+         * */
         install<Transfile>(&Student_Client::report_from_server, &Transfile::key);
 
-        install<AllCpuInfo_SingleInfo>(&Student_Client::report_cpuinfo_from_server_all, &AllCpuInfo_SingleInfo::cpuid,
-                                       &AllCpuInfo_SingleInfo::coreid, &AllCpuInfo_SingleInfo::physicalid,
-                                       &AllCpuInfo_SingleInfo::cpucores, &AllCpuInfo_SingleInfo::modelname,
-                                       &AllCpuInfo_SingleInfo::cpumhz, &AllCpuInfo_SingleInfo::l1dcache);
 
+        install<SingleInfo>(&Student_Client::report_cpuinfo_from_server_all, &SingleInfo::cpuid,
+                                       &SingleInfo::coreid, &SingleInfo::physicalid,
+                                       &SingleInfo::cpucores, &SingleInfo::modelname,
+                                       &SingleInfo::cpumhz, &SingleInfo::l1dcache);
+
+
+        install<AllCpuInfo>(&Student_Client::report_cpuinfo_from_server_all_test, &AllCpuInfo::sci);
     }
 
 /************************************1.CPU information***************************************/
+
+    /*
+     * 1.send_request_cpuinfo:test for send message*/
 
     /**
      * 2.to get all cpu information from master
      * */
     void send_request_cpuinfo_all() {
-        AllCpuInfo_SingleInfo as;
+        SingleInfo as;
         string client_id = this->self();
+
+        //although we just send the address,but we need to fix all the message
         as.set_address(client_id);
         send(server, as);
     }
@@ -74,7 +89,7 @@ public:
     /**
      * 3.get information from server
      * */
-    void report_cpuinfo_from_server(const string &cpuid, const string &coreid){
+    void report_cpuinfo_from_server(const string &cpuid, const string &coreid) {
         cout << "cpuID:" << coreid << " coreID:" << coreid << endl;
     }
 
@@ -93,12 +108,30 @@ public:
     /**
      * 5.send for all information
      * */
-     void send_server_a_key_cpu(){
-         AllCpuInfo ac;
-         string client_ID = this->self();
-         ac.set_key_cpu(client_ID);
-         send(server,ac);
-     }
+    void send_server_a_key_cpu() {
+        AllCpuInfo ac;
+        string client_ID = this->self();
+        ac.set_key_cpu(client_ID);
+        send(server, ac);
+    }
+
+    /**
+    * 6.for get all information
+     * take 40 messages
+     * */
+    void report_cpuinfo_from_server_all_test(vector<SingleInfo> sc) {
+
+        for (auto i = sc.begin(); i != sc.end(); i++) {
+            cout << i->cpuid() << i->coreid() << i->physicalid() <<
+                 i->cpucores() <<
+                 i->modelname() <<
+                 i->cpumhz() <<
+                 i->l1dcache() <<
+                 i->l1icache() <<
+                 i->l2cache() <<
+                 i->l3cache() << endl;
+        }
+    }
 
 /***************************************************************************************/
 
@@ -139,6 +172,16 @@ public:
 
 
 /*******************************3.send a file ***********************************/
+    //从服务端传输一个python文件到客户端
+    /*ios::app：　　　以追加的方式打开文件
+　　   ios::ate：　　　文件打开后定位到文件尾，ios:app就包含有此属性
+　　   ios::binary：　以二进制方式打开文件，缺省的方式是文本方式。两种方式的区别见前文
+　　   ios::in：　　　 文件以输入方式打开(文件数据输入到内存)
+　　   ios::out：　　　文件以输出方式打开(内存数据输出到文件)
+　　   ios::nocreate： 不建立文件，所以文件不存在时打开失败
+　　   ios::noreplace：不覆盖文件，所以打开文件时如果文件存在失败
+　　   ios::trunc：　　如果文件存在，把文件长度设为0
+     */
     string read_a_python_file() {
         string str_f;
         ifstream myfile("/home/weiguow/hello.py", ios_base::in);
@@ -184,6 +227,9 @@ int main() {
     client.send_server_a_file();  //传输python文件
     client.send_request_cpuinfo_all();
     client.send_server_a_key_cpu();
+
+//    client.send_request_cpuinfo();  //请求cpu中某个信息,测试用
+//    client.read_a_python_file();
     process::wait(client.self());
 
 
