@@ -66,6 +66,8 @@ include(ProcessConfigure)
 
 include(cmake/protobuf_download.cmake)
 include(cmake/protobuf_compile.cmake)
+
+include_directories(${CMAKE_BINARY_DIR}/3rdparty/protobuf_2_6/include)
 # protobuf download and function
 
 include_directories(${PROJECT_SOURCE_DIR}/3rdparty/picojson-1.3.0)
