@@ -72,6 +72,14 @@ include_directories(${PROJECT_SOURCE_DIR}/3rdparty/picojson-1.3.0)
 include_directories(${PROJECT_SOURCE_DIR}/3rdparty/stout/include)
 include_directories(${PROJECT_SOURCE_DIR}/3rdparty/libprocess/include)
 
+include_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/include)
+link_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/lib/.libs)
+
+include_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/gtest/include)
+link_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/gtest/lib/.libs)
+
+include_directories(${PROJECT_SOURCE_DIR}/3rdparty/glog-0.3.3/build/src/glog)
+link_directories(${PROJECT_SOURCE_DIR}/3rdparty/glog-0.3.3/build/.libs)
 #message("70" ${PROCESS_LIBS})
 #message("71" ${PROCESS_TARGET})
 #message("72" ${PROCESS_LIB_DIRS})
