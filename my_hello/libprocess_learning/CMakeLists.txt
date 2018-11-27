@@ -1,5 +1,6 @@
 add_subdirectory(http_related)
 add_subdirectory(resouce_limit)
+add_subdirectory(heartbeat)
 include_directories(${CMAKE_CURRENT_LIST_DIR}/http_related)
 
 add_executable(lele_after_tests after_tests.cpp)
