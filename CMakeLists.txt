@@ -13,11 +13,9 @@ else (NOT WIN32)
 endif (NOT WIN32)
 
 project(libprocess-start)
-#message(${libprocess-start_BINARY_DIR})
-#message(${libprocess-start_SOURCE_DIR})
-#message(${CMAKE_BINARY_DIR})
-#message(${CMAKE_SOURCE_DIR})
-#message(${CMAKE_CURRENT_LIST_DIR})
+execute_process(WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0
+        COMMAND  ./my_make.sh
+        )
 
 # CMAKE MODULE SETUP.f
 #####################
