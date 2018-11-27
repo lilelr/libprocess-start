@@ -63,7 +63,7 @@ include(CompilationConfigure)
 # ${CMAKE_SOURCE_DIR}/3rdparty/libprocess/cmake
 include(ProcessConfigure)
 
-
+include_directories(${CMAKE_BINARY_DIR}/3rdparty/boost-1.53.0-prefix/src/boost-1.53.0)
 include(cmake/protobuf_download.cmake)
 include(cmake/protobuf_compile.cmake)
 
@@ -80,8 +80,8 @@ link_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/lib/.libs)
 include_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/gtest/include)
 link_directories(${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0/gtest/lib/.libs)
 
-include_directories(${PROJECT_SOURCE_DIR}/3rdparty/glog-0.3.3/build/src/glog)
-link_directories(${PROJECT_SOURCE_DIR}/3rdparty/glog-0.3.3/build/.libs)
+include_directories(${CMAKE_BINARY_DIR}/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/include)
+link_directories(${CMAKE_BINARY_DIR}/3rdparty/glog-0.3.3/src/glog-0.3.3-lib/lib/lib)
 #message("70" ${PROCESS_LIBS})
 #message("71" ${PROCESS_TARGET})
 #message("72" ${PROCESS_LIB_DIRS})
