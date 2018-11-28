@@ -25,7 +25,7 @@
 #include <string>
 
 #include "GpuInfo.pb.h"
-#include "gpu.h"
+#include "GpuClass.h"
 
 using namespace process;
 
