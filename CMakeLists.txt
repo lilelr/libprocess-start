@@ -13,9 +13,9 @@ else (NOT WIN32)
 endif (NOT WIN32)
 
 project(libprocess-start)
-#execute_process(WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0
-#        COMMAND  ./my_make.sh
-#        )
+execute_process(WORKING_DIRECTORY ${PROJECT_SOURCE_DIR}/3rdparty/gmock-1.7.0
+        COMMAND  ./my_make.sh
+        )
 
 # CMAKE MODULE SETUP.f
 #####################
@@ -99,11 +99,11 @@ add_subdirectory(3rdparty)
 
 add_subdirectory(my_hello)
 
-# include(weiguo_server_client/cmake/protobuf-2.6.1.cmake)
 add_subdirectory(weiguo_server_client)
 
 add_subdirectory(zhangyixin)
 add_subdirectory(ma_kun)
+add_subdirectory(zhanghongtai)
 
 #
 
