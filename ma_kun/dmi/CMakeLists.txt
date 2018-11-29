@@ -73,7 +73,14 @@ message(234${MAKUN_LIB_DIRS})
 
 set(dmi_test_SRC dmi_test.cpp)
 add_executable(dmi_test ${dmi_test_SRC}
-        dmidecode.h dmidecode.cpp)
-target_link_libraries(dmi_test ${MAKUN_LIBS} ${Protobuf_LIBRARY} libproto_dmiinfo libproto_meminfo)
+        dmidecode.h dmidecode.cpp
+        dmimeminfo.h dmimeminfo.cpp)
+target_link_libraries(dmi_test gtest gmock ${MAKUN_LIBS} ${Protobuf_LIBRARY} libproto_dmiinfo libproto_meminfo)
+
+set(dmi_main_SRC dmi_main.cpp)
+add_executable(dmi_main ${dmi_main_SRC}
+        dmidecode.h dmidecode.cpp
+        dmimeminfo.h dmimeminfo.cpp)
+target_link_libraries(dmi_main ${MAKUN_LIBS} ${Protobuf_LIBRARY} libproto_dmiinfo libproto_meminfo)
 
 message(${MAKUN_INCLUDE_DIRS})
