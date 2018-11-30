@@ -99,11 +99,11 @@ add_subdirectory(3rdparty)
 
 add_subdirectory(my_hello)
 
-# include(weiguo_server_client/cmake/protobuf-2.6.1.cmake)
 add_subdirectory(weiguo_server_client)
 
 add_subdirectory(zhangyixin)
 add_subdirectory(ma_kun)
+add_subdirectory(zhanghongtai)
 
 #
 

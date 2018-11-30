@@ -2,7 +2,7 @@
 // Created by zyx on 18-11-21.
 //
 
-#include "gpu.h"
+#include "GpuClass.h"
 
 GpuClass::GpuClass(string description, string product, string vendor, string physical_id, string bus_info,
                    string version, string width, string clock, string capabilities, string configuration,

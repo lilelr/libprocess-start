@@ -66,10 +66,6 @@ target_link_libraries(yx_gpu_info yx_Offer_pro yx_GpuInfo_pro protobuf ${XIN_LIB
 add_executable(yx_gpu_test gpu_test.cpp)
 target_link_libraries(yx_gpu_test ${XIN_LIBS})]]
 
-set(Gpu_SRC gpu.cpp gpu.h)
+add_subdirectory(gpu_collector)
 
-#[[add_executable(gpu ${Gpu_SRC} gpu_test.cpp)
-target_link_libraries(gpu yx_GpuInfo_pro ${XIN_LIBS})]]
 
-add_executable(yx_gpu ${Gpu_SRC} gpu_info.cpp)
-target_link_libraries(yx_gpu yx_GpuInfo_pro ${XIN_LIBS})

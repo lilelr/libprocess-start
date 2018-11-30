@@ -1,0 +1,11 @@
+message MemoryCollection {
+    required string max_size = 1;
+    required int32 device_quantity = 2;
+    repeated MemInfo info = 3;
+}
+
+message MemInfo {
+    required string size = 1;
+    required string type = 2;
+    required string speed = 3;
+}

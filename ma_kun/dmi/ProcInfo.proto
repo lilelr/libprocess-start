@@ -1,0 +1,13 @@
+message ProcInfo {
+    required string MemTotal = 1;
+    required string MemFree = 2;
+    required string MemAvailable = 3;
+    required string Buffers = 4;
+    required string Cached = 5;
+    required string SwapTotal = 6;
+    required string SwapFree = 7;
+    required string Hugepagesize = 8;
+    required string DirectMap4k = 9;
+    required string DirectMap2M = 10;
+    required string DirectMap1G = 11;
+}
