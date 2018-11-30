@@ -1,0 +1,12 @@
+message Blockdevices_proto{
+        required string name =1;
+        required string size =2;
+        required string type =3;
+        required string disk_speed = 4;
+        required string disk_free = 5;
+        required string disk_available = 6;
+    }
+
+message Disk_proto{
+    repeated Blockdevices_proto blcokdevices = 1;
+}

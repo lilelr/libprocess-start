@@ -40,7 +40,7 @@
 #include <cpuinfo_pro.pb.h>
 
 #include <flags.h>
-#include <cpu_info.hpp>
+#include <cpu_info_class.hpp>
 
 using namespace process;
 using namespace process::http;
@@ -76,8 +76,6 @@ using flags::FlagsBase;
 using flags::Warnings;
 
 using utils::arraySize;
-
-using weiguo_proc::CPU;
 
 class Teacher_Master : public ProtobufProcess<Teacher_Master> {
 
@@ -151,8 +149,6 @@ public:
 
         install<Transfile>(&Teacher_Master::report_from_client_python_file, &Transfile::key, &Transfile::value);
 
-        install<SingleInfo>(&Teacher_Master::report_all_cpuinfo_to_client,&SingleInfo::address);
-
         install<AllCpuInfo>(&Teacher_Master::report_all_cpuinfo_to_client_2,&AllCpuInfo::key_cpu);
     }
 
@@ -167,53 +163,25 @@ public:
 
 /*****************2.report cpu information***************************************/
 
-
-    void report_all_cpuinfo_to_client(const string &address){
-
-        cout << address << endl;
-        SingleInfo as;
-
-        UPID clientUPID(address);
-        Try<list<CPU>> cpus = weiguo_proc::cpus();
-        for(auto i = cpus.get().begin();i!=cpus.get().end();i++){
-            as.set_cpuid(i->cpuID);
-            as.set_coreid(i->coreID);
-            as.set_physicalid(i->physicalID);
-            as.set_cpucores(i->cpucores);
-            as.set_modelname(i->modelname);
-            as.set_cpumhz(i->cpuMHz);
-            as.set_l1dcache(i->L1dcache);
-            as.set_l1icache(i->L1icache);
-            as.set_l2cache(i->L2cache);
-            as.set_l3cache(i->L3cache);
-            send(clientUPID,as);
-            as.Clear();
-        }
-    }
-
-    void report_all_cpuinfo_to_client_2(const string &key_cpu){
+    void report_all_cpuinfo_to_client_2(const string &address){
         AllCpuInfo ac;
-        UPID clientUPID(key_cpu);
-        Try<list<CPU>> cpus = weiguo_proc::cpus();
-        for(auto i = cpus.get().begin();i!=cpus.get().end();i++){
-            ac.add_sci()->set_cpuid(i->cpuID);
-            ac.add_sci()->set_coreid(i->coreID);
-            ac.add_sci()->set_physicalid((i->physicalID));
-            ac.add_sci()->set_cpucores(i->cpucores);
-            ac.add_sci()->set_modelname(i->modelname);
-            ac.add_sci()->set_cpumhz(i->cpuMHz);
-            ac.add_sci()->set_l1dcache(i->L1dcache);
-            ac.add_sci()->set_l1icache(i->L1icache);
-            ac.add_sci()->set_l2cache(i->L2cache);
-            ac.add_sci()->set_l3cache(i->L3cache);
-        }
+        UPID clientUPID(address);
+//        Try<list<CPU>> cpus = weiguo_proc::cpus();
 
-        for(auto i = ac.sci().begin();i!=ac.sci().end();i++){
-            cout << i->cpuid() << i->coreid() << i-> physicalid() << i->cpucores() << i->modelname()
-                 << i->modelname() << i->cpumhz() << i->l1dcache() << i->l1icache() << i->l2cache()
-                 << i->l3cache() << endl;
+        cpu_collector *cpus;
+        list<cpu_collector> cpu_info = cpus->get_cpu_info();
+        for(auto i= cpu_info.begin();i!=cpu_info.end();i++){
+            ac.add_sci()->set_cpuid(i->getCpuID());
+            ac.add_sci()->set_coreid(i->getCoreID());
+            ac.add_sci()->set_physicalid(i->getPhysicalID());
+            ac.add_sci()->set_cpucores(i->getCpucores());
+            ac.add_sci()->set_modelname(i->getModelname());
+            ac.add_sci()->set_cpumhz(i->getCpuMHz());
+            ac.add_sci()->set_l1dcache(i->getL1dcache());
+            ac.add_sci()->set_l1icache(i->getL1icache());
+            ac.add_sci()->set_l2cache(i->getL2cache());
+            ac.add_sci()->set_l3cache(i->getL3cache());
         }
-
         send(clientUPID,ac);
     }
 
