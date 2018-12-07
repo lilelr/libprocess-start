@@ -2,7 +2,7 @@
 // Created by marcie on 18-11-19.
 //
 
-#include <dmimeminfo.h>
+#include <MemoryCollector.hpp>
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 #include <stout/gtest.hpp>

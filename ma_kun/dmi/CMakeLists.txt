@@ -15,9 +15,9 @@ message(8 ${Protobuf_LIBRARY} ) # 8libprotobuf.so
 #add_dependencies(lele_protobuf_target protobuf)
 
 # 该函数定义在　cmake/porotobuf_compile.cmake 中，　其中libproto_search_result　是将生成.cc 和　.h 包装成静态库，即　libproto_search_result．a
-PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/ma_kun/dmi MemInfo ${CMAKE_BINARY_DIR}/ma_kun libproto_meminfo)
 include_directories(${CMAKE_BINARY_DIR}/ma_kun)
-PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/ma_kun/dmi DmiInfo ${CMAKE_BINARY_DIR}/ma_kun libproto_dmiinfo)
+PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/ma_kun/dmi MemoryCollection ${CMAKE_BINARY_DIR}/ma_kun libproto_dmiinfo)
+PROTOC_COMPILE(${CMAKE_SOURCE_DIR}/ma_kun/dmi ProcInfo ${CMAKE_BINARY_DIR}/ma_kun libproto_procinfo)
 
 include_directories(${SearchRequest_PROTO})
 include_directories(${SearchRequest_PROTO_CC})
@@ -71,16 +71,16 @@ set(MAKUN_LIBS
 link_directories(${MAKUN_LIB_DIRS})
 message(234${MAKUN_LIB_DIRS})
 
+#[[
 set(dmi_test_SRC dmi_test.cpp)
 add_executable(dmi_test ${dmi_test_SRC}
-        dmidecode.h dmidecode.cpp
-        dmimeminfo.h dmimeminfo.cpp)
-target_link_libraries(dmi_test gtest gmock ${MAKUN_LIBS} ${Protobuf_LIBRARY} libproto_dmiinfo libproto_meminfo)
+        MemoryCollector.hpp)
+target_link_libraries(dmi_test gtest gmock ${MAKUN_LIBS} ${Protobuf_LIBRARY} libproto_dmiinfo)
+]]
 
 set(dmi_main_SRC dmi_main.cpp)
 add_executable(dmi_main ${dmi_main_SRC}
-        dmidecode.h dmidecode.cpp
-        dmimeminfo.h dmimeminfo.cpp)
-target_link_libraries(dmi_main ${MAKUN_LIBS} ${Protobuf_LIBRARY} libproto_dmiinfo libproto_meminfo)
+        MemoryCollector.hpp procmeminfo.hpp)
+target_link_libraries(dmi_main ${MAKUN_LIBS} ${Protobuf_LIBRARY} libproto_dmiinfo libproto_procinfo)
 
 message(${MAKUN_INCLUDE_DIRS})
