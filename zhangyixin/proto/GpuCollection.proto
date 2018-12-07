@@ -1,8 +1,9 @@
-message GpuInfo {
-  repeated GpuResult gpu_result = 1;
+message GpuCollection {
+  repeated GpuInfo gpu_info = 1;
+  required int32 gpu_quantitiy = 2;
 }
 
-message GpuResult {
+message GpuInfo {
    required string description =2;
    required string product =3;
    required string vendor =4;

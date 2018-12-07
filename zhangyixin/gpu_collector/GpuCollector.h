@@ -7,8 +7,8 @@
 #include <process/future.hpp>
 #include <process/io.hpp>
 
-#include "GpuInfo.pb.h"
-#include "GpuClass.h"
+#include "GpuCollection.pb.h"
+//#include "GpuClass.h"
 
 using std::string;
 using std::cout;
@@ -25,13 +25,13 @@ using namespace process;
 class GpuCollector {
 private:
     string m_gpu_info;
-    vector<GpuClass> m_gpu_class;
-    GpuInfo m_gpu_proto;
+   // vector<GpuClass> m_gpu_class;
+    GpuCollection m_gpu_proto;
 public:
     string get_gpu_string() ;
     void split_gpu_string(string m_gpu_info) ;
-    vector<GpuClass> get_gpu_class() ;
-    GpuInfo get_gpu_proto();
+    //vector<GpuClass> get_gpu_class() ;
+    GpuCollection get_gpu_proto();
 };
 
 

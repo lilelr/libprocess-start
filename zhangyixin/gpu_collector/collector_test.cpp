@@ -9,7 +9,7 @@ int main(){
 
     gpuCollector.split_gpu_string(gpuCollector.get_gpu_string());
 
-    vector<GpuClass> gpuClass = gpuCollector.get_gpu_class();
+/*    vector<GpuClass> gpuClass = gpuCollector.get_gpu_class();
 
     for(auto itr = gpuClass.begin();itr!=gpuClass.end();itr++){
         cout<<"--------------------------------------"<<endl;
@@ -24,13 +24,17 @@ int main(){
         cout<<itr.operator->()->get_configuration()<<endl;
         cout<<itr.operator->()->get_capabilities()<<endl;
         cout<<itr.operator->()->get_resources()<<endl;
-    }
+    }*/
 
-    GpuInfo proto = gpuCollector.get_gpu_proto();
-    GpuResult *inx;
-    cout<<"size : "<<proto.gpu_result_size()<<endl;
-    for(int i; i<proto.gpu_result_size(); i++){
-        inx = proto.mutable_gpu_result(i);
+    GpuCollection proto = gpuCollector.get_gpu_proto();
+    GpuInfo *inx;
+
+    int num = proto.gpu_info_size();
+    proto.set_gpu_quantitiy(num);
+    cout<<"size : "<<proto.gpu_quantitiy()<<endl;
+
+    for(int i; i<proto.gpu_info_size(); i++){
+        inx = proto.mutable_gpu_info(i);
         cout<<"第"<<i<<"组"<<inx->description()<<endl;
         cout<<"第"<<i<<"组"<<inx->product()<<endl;
         cout<<"第"<<i<<"组"<<inx->vendor()<<endl;

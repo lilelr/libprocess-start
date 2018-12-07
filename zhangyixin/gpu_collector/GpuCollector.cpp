@@ -23,11 +23,11 @@ string GpuCollector::get_gpu_string() {
  * returnType: void
  */
 void GpuCollector::split_gpu_string(string m_gpu_info) {
-    GpuClass gpu_class = GpuClass("none","none","none","none","none","none","none","none","none","none","none");  /*Initialization GpuClass*/
+  //  GpuClass gpu_class = GpuClass("none","none","none","none","none","none","none","none","none","none","none");  /*Initialization GpuClass*/
     vector<string> tokens = strings::split(m_gpu_info,"\n"); /*Divide gpu information from the command line by "\n" */
     vector<string>::iterator vec_iter;
-    vector<GpuClass>::iterator gpu_itr;
-    GpuResult *gpuResultproto;
+  //  vector<GpuClass>::iterator gpu_itr;
+    GpuInfo *gpuInfo;
     int index = 0; /*The number of GPU*/
 
     for(vec_iter = tokens.begin(); vec_iter != tokens.end(); vec_iter++){
@@ -39,55 +39,55 @@ void GpuCollector::split_gpu_string(string m_gpu_info) {
 
         for(vector<string>::iterator vec = line_token.begin();vec!=line_token.end();vec++){
             if(*vec == "description"){
-                m_gpu_class.push_back(gpu_class); /*Initialization m_gpu_class*/
-                m_gpu_class[index-1].set_description(strings::trim(*(vec+1)," ")); /*Save the information that is the right of the ":" to the member variable of gpuClass*/
+          //      m_gpu_class.push_back(gpu_class); /*Initialization m_gpu_class*/
+         //       m_gpu_class[index-1].set_description(strings::trim(*(vec+1)," ")); /*Save the information that is the right of the ":" to the member variable of gpuClass*/
 
-                gpuResultproto = m_gpu_proto.add_gpu_result();
-                gpuResultproto->set_description(strings::trim(*(vec+1)," "));  /*Save the information that is the right of the ":" to the corresponding protobuf*/
+                gpuInfo = m_gpu_proto.add_gpu_info();
+                gpuInfo->set_description(strings::trim(*(vec+1)," "));  /*Save the information that is the right of the ":" to the corresponding protobuf*/
 
             }
             else if(*vec == "product"){
-                m_gpu_class[index-1].set_product(strings::trim(*(vec+1)," "));
-                gpuResultproto->set_product(strings::trim(*(vec+1)," "));
+         //       m_gpu_class[index-1].set_product(strings::trim(*(vec+1)," "));
+                gpuInfo->set_product(strings::trim(*(vec+1)," "));
             }
             else if(*vec == "vendor"){
-                m_gpu_class[index-1].set_vendor(strings::trim(*(vec+1)," "));
-                gpuResultproto->set_vendor(strings::trim(*(vec+1)," "));
+           //     m_gpu_class[index-1].set_vendor(strings::trim(*(vec+1)," "));
+                gpuInfo->set_vendor(strings::trim(*(vec+1)," "));
             }
             else if(*vec == "physical id"){
-                m_gpu_class[index-1].set_physical_id(strings::trim(*(vec+1)," "));
-                gpuResultproto->set_physical_id(strings::trim(*(vec+1)," "));
+         //       m_gpu_class[index-1].set_physical_id(strings::trim(*(vec+1)," "));
+                gpuInfo->set_physical_id(strings::trim(*(vec+1)," "));
 
             }
             else if(*vec == "bus info"){
-                m_gpu_class[index-1].set_bus_info(strings::trim(*(vec+1)," "));
-                gpuResultproto->set_bus_info(strings::trim(*(vec+1)," "));
+         //       m_gpu_class[index-1].set_bus_info(strings::trim(*(vec+1)," "));
+                gpuInfo->set_bus_info(strings::trim(*(vec+1)," "));
 
             }
             else if(*vec == "version"){
-                m_gpu_class[index-1].set_version(strings::trim(*(vec+1)," "));
-                gpuResultproto->set_version(strings::trim(*(vec+1)," "));
+        //        m_gpu_class[index-1].set_version(strings::trim(*(vec+1)," "));
+                gpuInfo->set_version(strings::trim(*(vec+1)," "));
             }
             else if(*vec == "width"){
-                m_gpu_class[index-1].set_width(strings::trim(*(vec+1)," "));
-                gpuResultproto->set_width(strings::trim(*(vec+1)," "));
+        //        m_gpu_class[index-1].set_width(strings::trim(*(vec+1)," "));
+                gpuInfo->set_width(strings::trim(*(vec+1)," "));
             }
             else if(*vec == "clock"){
-                m_gpu_class[index-1].set_clock(strings::trim(*(vec+1)," "));
-                gpuResultproto->set_clock(strings::trim(*(vec+1)," "));
+         //       m_gpu_class[index-1].set_clock(strings::trim(*(vec+1)," "));
+                gpuInfo->set_clock(strings::trim(*(vec+1)," "));
 
             }
             else if(*vec == "capabilities"){
-                m_gpu_class[index-1].set_capabilities(strings::trim(*(vec+1)," "));
-                gpuResultproto->set_capabilities(strings::trim(*(vec+1)," "));
+         //       m_gpu_class[index-1].set_capabilities(strings::trim(*(vec+1)," "));
+                gpuInfo->set_capabilities(strings::trim(*(vec+1)," "));
             }
             else if(*vec == "configuration"){
-                m_gpu_class[index-1].set_configuration(strings::trim(*(vec+1)," "));
-                gpuResultproto->set_configuration(strings::trim(*(vec+1)," "));
+        //        m_gpu_class[index-1].set_configuration(strings::trim(*(vec+1)," "));
+                gpuInfo->set_configuration(strings::trim(*(vec+1)," "));
             }
             else if(*vec == "resources"){
-                m_gpu_class[index-1].set_resources(strings::trim(*(vec+1)," "));
-                gpuResultproto->set_resources(strings::trim(*(vec+1)," "));
+         //       m_gpu_class[index-1].set_resources(strings::trim(*(vec+1)," "));
+                gpuInfo->set_resources(strings::trim(*(vec+1)," "));
 
             }
 
@@ -97,11 +97,11 @@ void GpuCollector::split_gpu_string(string m_gpu_info) {
 
 }
 
-vector<GpuClass> GpuCollector::get_gpu_class() {
-    return m_gpu_class;
+//vector<GpuClass> GpuCollector::get_gpu_class() {
+//    return m_gpu_class;
+//
+//}
 
-}
-
-GpuInfo GpuCollector::get_gpu_proto() {
+GpuCollection GpuCollector::get_gpu_proto() {
     return m_gpu_proto;
 }
