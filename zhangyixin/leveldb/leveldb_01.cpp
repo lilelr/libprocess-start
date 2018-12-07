@@ -54,6 +54,7 @@ int main()
                   it->value().ToString() << std::endl;
     }
 
+    delete it;
     // Close a database.
     delete db;
 }

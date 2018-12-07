@@ -402,20 +402,23 @@ set(LEVELDB_URL   ${FETCH_URL}/leveldb-${LEVELDB_VERSION}.tar.gz)
 #endif (NOT WIN32)
 
 if (NOT WIN32)
-  set(LEVELDB_CONFIG_CMD  cd ${LEVELDB_ROOT} && ./configure --prefix=${LEVELDB_ROOT}-lib)
+#  set(LEVELDB_CONFIG_CMD  cd ${LEVELDB_ROOT} && ./configure --prefix=${LEVELDB_ROOT}-lib)
   set(LEVELDB_BUILD_CMD   cd ${LEVELDB_ROOT} && make OPT=-O2\ -g\ -fPIC)
-  set(LEVELDB_INSTALL_CMD cd ${LEVELDB_ROOT} && make install)
+#  set(LEVELDB_INSTALL_CMD cd ${LEVELDB_ROOT} && make install)
   PATCH_CMD(
     ${MESOS_3RDPARTY_SRC}/leveldb-${LEVELDB_VERSION}.patch
     LEVELDB_PATCH_CMD)
 
-#  ExternalProject_Add(
-#    ${LEVELDB_TARGET}
-#    PREFIX            ${LEVELDB_TARGET}
-#    PATCH_COMMAND     ${LEVELDB_PATCH_CMD}
-#    CONFIGURE_COMMAND ${CMAKE_NOOP}
-#    BUILD_COMMAND     ${LEVELDB_BUILD_CMD}
-#    INSTALL_COMMAND   ${CMAKE_NOOP}
-#    URL               ${LEVELDB_URL}
-#    )
+
+
+
+      ExternalProject_Add(
+    ${LEVELDB_TARGET}
+    PREFIX            ${LEVELDB_TARGET}
+    PATCH_COMMAND     ${LEVELDB_PATCH_CMD}
+    CONFIGURE_COMMAND ${CMAKE_NOOP}
+    BUILD_COMMAND     ${LEVELDB_BUILD_CMD}
+    INSTALL_COMMAND   ${CMAKE_NOOP}
+    URL               ${LEVELDB_URL}
+    )
 endif (NOT WIN32)
