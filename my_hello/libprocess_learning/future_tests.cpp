@@ -88,10 +88,13 @@ void onAny(const Future<bool>& future, bool* b)
 
 TEST(FutureTest, OnAny)
 {
-  bool b = false;
-  Future<bool>(true)
-    .onAny(lambda::bind(&onAny, lambda::_1, &b));
-  EXPECT_TRUE(b);
+//  bool b = false;
+//  Future<bool>(true)
+//    .onAny(lambda::bind(&onAny, lambda::_1, &b));
+//  EXPECT_TRUE(b);
+    bool b = false;
+    Future<bool>(true).onAny(lambda::bind(&onAny,lambda::_1,&b));
+    EXPECT_TRUE(b);
 }
 
 

@@ -73,7 +73,7 @@ add_executable(client_server_message_event ${client_server_message_event_SRC})
 target_link_libraries(client_server_message_event foo protobuf ${LELE_LIBS})
 
 # client_protobuf
-set(client_protobuf_SRC client_protobuf.cpp ../zhangyixin/server_process.cpp ../zhangyixin/client_process.cpp)
+set(client_protobuf_SRC client_protobuf.cpp)
 add_executable(client_protobuf ${client_protobuf_SRC})
 target_link_libraries(client_protobuf foo protobuf ${LELE_LIBS})
 #
@@ -101,6 +101,10 @@ target_link_libraries(http_process_learning foo ${LELE_LIBS})
 set(simpleserver_SRC simpleserver.cpp)
 add_executable(simpleserver ${simpleserver_SRC})
 target_link_libraries(simpleserver foo ${LELE_LIBS})
+
+set(defer_SRC defer_usage.cpp)
+add_executable(lele_defer_usage ${defer_SRC})
+target_link_libraries(lele_defer_usage foo ${LELE_LIBS})
 
 
 set(lele_http_simple_process_SRC lele_http_simple_process.cpp)
