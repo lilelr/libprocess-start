@@ -17,6 +17,7 @@
 #include "mymessage.hpp"
 namespace actor{
 
+    class ActorBase;
     struct MyMessageEvent;
     struct MyDispatchEvent;
     struct MyExitedEvent;
@@ -56,9 +57,66 @@ namespace actor{
 
         MyMessageEvent(const MyMessageEvent& that):message(that.message == nullptr ? nullptr: new MyMessage(*that.message) ){}
 
+
+        virtual ~MyMessageEvent(){
+            delete message;
+        }
+
+        virtual void visit(MyEventVisitor *visitor) const override {
+                visitor->visit(*this);
+        }
+
         MyMessage* const message;
+
+    private:
+        MyMessageEvent& operator=(const MyMessageEvent&);
     };
 
+    struct MyDispatchEvent: MyEvent{
+        MyDispatchEvent(const process::UPID& _pid, const std::shared_ptr<lambda::function<void(ActorBase*)>>& _f,
+        const Option<const std::type_info*>& _functionType):pid(_pid),f(_f),functionType(_functionType){
+
+        }
+
+        virtual void visit(MyEventVisitor *visitor) const override {
+            visitor->visit(*this);
+        }
+
+        const process::UPID pid;
+        const std::shared_ptr<lambda::function<void(ActorBase*)>>& f;
+        const Option<const std::type_info*>& functionType;
+    };
+
+    struct MyExitedEvent: MyEvent{
+        explicit MyExitedEvent(const process::UPID& _pid):pid(_pid){
+
+        }
+
+        virtual void visit(MyEventVisitor *visitor) const override {
+            visitor->visit(*this);
+        }
+
+
+        const process::UPID pid;
+
+    private:
+        MyExitedEvent& operator=(const MyExitedEvent& that);
+    };
+
+    struct MyTerminateEvent : MyEvent{
+        explicit MyTerminateEvent(const process::UPID& _pid):from(_pid){}
+
+        virtual void visit(MyEventVisitor *visitor) const override {
+            visitor->visit(*this);
+        }
+
+        const process::UPID from;
+
+    private:
+        MyTerminateEvent(const MyTerminateEvent&);
+        MyTerminateEvent&operator=(const MyTerminateEvent&);
+
+    };
 }
 
 #endif //LIBPROCESS_START_MYEVENT_H
