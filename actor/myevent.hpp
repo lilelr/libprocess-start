@@ -49,6 +49,7 @@ namespace actor{
             }visitor(&result);
 
             visit(&visitor);
+            return result;
         }
     };
 
@@ -113,8 +114,8 @@ namespace actor{
         const process::UPID from;
 
     private:
-        MyTerminateEvent(const MyTerminateEvent&);
-        MyTerminateEvent&operator=(const MyTerminateEvent&);
+        MyTerminateEvent(const MyTerminateEvent&) = delete;
+        MyTerminateEvent& operator=(const MyTerminateEvent&);
 
     };
 }
