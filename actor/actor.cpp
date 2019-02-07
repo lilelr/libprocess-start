@@ -88,12 +88,30 @@
 #include <process/time.hpp>
 #include <process/timer.hpp>
 
+#include <stout/duration.hpp>
+#include <stout/flags.hpp>
+#include <stout/foreach.hpp>
+#include <stout/lambda.hpp>
+#include <stout/net.hpp>
+#include <stout/numify.hpp>
+#include <stout/option.hpp>
+#include <stout/os.hpp>
+#include <stout/os/strerror.hpp>
+#include <stout/path.hpp>
+#include <stout/stringify.hpp>
+#include <stout/strings.hpp>
+#include <stout/synchronized.hpp>
+#include <stout/thread_local.hpp>
+
 #include "gate.hpp"
+#include "mygc.hpp"
 
 using std::string;
 using std::map;
 using std::list;
 using std::vector;
+
+
 using process::network::inet::Address;
 using process::network::inet::Socket;
 
@@ -108,6 +126,18 @@ namespace actor {
     static const int LISTEN_BACKLOG = 5000;
 
     static Socket* __s__ = nullptr;
+
+    static std::mutex* socket_mutex = new std::mutex();
+
+    static process::Future<Socket> future_accept;
+
+    static Address __address__ = Address::ANY_ANY();
+
+    static Gate* gate =new Gate();
+
+    MyGarbageCollector* gc = nullptr;
+
+    THREAD_LOCAL ActorBase* __actor__ = nullptr;
 
 class ActorManager{
 public:

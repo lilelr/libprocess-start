@@ -14,11 +14,11 @@ namespace actor{
         MyGarbageCollector():ActorBase("__gc__"){}
         virtual ~MyGarbageCollector(){}
     protected:
-        virtual void exited(const UPID& pid){
+        virtual void exited(const process::UPID& pid){
             if(actors.count(pid) > 0){
                 const ActorBase* actor = actors[pid];
                 actors.erase(pid);
-                delete actors;
+                delete actor;
             }
         }
     private:
