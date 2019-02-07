@@ -104,8 +104,28 @@ namespace actor {
 
     static Socket* __s__ = nullptr;
 
-    void ActorBase::ActorBase(const std::string &id) {
-//        actor::
+   ActorBase::ActorBase(const std::string &id) {
+        state = ActorBase::BOTTOM;
+    }
+
+    ActorBase::~ActorBase(){
+
+    }
+
+    void  ActorBase::visit(const MyMessageEvent& myMessageEvent){
+
+    }
+
+    void  ActorBase::visit(const MyDispatchEvent & myDispatchEvent){
+
+    }
+
+    void  ActorBase::visit(const MyExitedEvent & myExitedEvent){
+
+    }
+
+    void  ActorBase::visit(const MyTerminateEvent & myTerminateEvent){
+
     }
 
     void ActorBase::enqueue(MyEvent *event, bool inject) {
@@ -131,7 +151,22 @@ namespace actor {
             }
     }
 
-    bool initialize(const Option<std::string>& delegate = None()){
+    bool initialize(const Option<std::string>& delegate ){
+        if(initialize_started.load() && initialize_complete.load()){
+            // initialize_started = true && initialize_complete = true
+            return false;
+        }else{
+            bool expected = false;
+
+            if(!initialize_started.compare_exchange_strong(expected,true)){
+                // initialize_started = true but initialize_complete = false
+                while (!initialize_complete.load());
+
+                return false;
+            }
+            // initialize_started transfer from false to true, but initialize_complete = false, go to line 149
+        }
+        signal(SIGPIPE, SIG_IGN);
 
     }
 }
