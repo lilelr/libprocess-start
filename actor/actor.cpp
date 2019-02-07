@@ -56,6 +56,7 @@
 #include <memory> // TODO(benh): Replace shared_ptr with unique_ptr.
 #include <mutex>
 #include <queue>
+#include <string>
 #include <set>
 #include <sstream>
 #include <stack>
@@ -63,14 +64,12 @@
 #include <thread>
 #include <utility>
 #include <vector>
+#include <list>
 
 #include <process/address.hpp>
 #include <process/check.hpp>
 #include <process/clock.hpp>
 #include <process/defer.hpp>
-#include <process/delay.hpp>
-#include <process/dispatch.hpp>
-#include <process/executor.hpp>
 #include <process/filter.hpp>
 #include <process/future.hpp>
 #include <process/gc.hpp>
@@ -89,6 +88,12 @@
 #include <process/time.hpp>
 #include <process/timer.hpp>
 
+#include "gate.hpp"
+
+using std::string;
+using std::map;
+using std::list;
+using std::vector;
 using process::network::inet::Address;
 using process::network::inet::Socket;
 
@@ -103,6 +108,36 @@ namespace actor {
     static const int LISTEN_BACKLOG = 5000;
 
     static Socket* __s__ = nullptr;
+
+class ActorManager{
+public:
+    explicit ActorManager(const Option<string>& delegate);
+    ~ ActorManager();
+
+private:
+    const Option<std::string> delegate;
+
+    map<string,ActorBase*>  actors;
+    std::recursive_mutex actors_mutex;
+    map<ActorBase*, Gate*> gates;
+
+    list<ActorBase*> runq;
+    std::recursive_mutex runq_mutex;
+
+    std::atomic_long running;
+
+    vector<std::thread*> threads;
+
+    std::atomic_bool joining_threads;
+
+    std::atomic_bool finalizing;
+
+};
+
+    ActorManager::ActorManager(const Option<string> & _delegate):delegate(_delegate),running(0),joining_threads(false),finalizing(false) {
+
+    }
+    ActorManager::~ActorManager() {}
 
    ActorBase::ActorBase(const std::string &id) {
         state = ActorBase::BOTTOM;

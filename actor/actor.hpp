@@ -109,6 +109,20 @@ namespace actor {
         process::UPID pid;
     };
 
+    template <typename T>
+    class Actor:public virtual ActorBase{
+    public:
+        ~Actor(){}
+
+        process::PID<T> self() const{
+            return process::PID<T>(static_cast<const T*>(this));
+        }
+
+    protected:
+        typedef T Self;
+        typedef T This;
+    };
+
 /**
 * Initialize the library.
 *
