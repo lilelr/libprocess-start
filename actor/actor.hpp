@@ -84,6 +84,9 @@ namespace actor {
 
 
     private:
+
+        friend class ActorManager;
+        friend class ActorReference;
 //        friend class process::SocketManager;
         //
         enum {
@@ -131,5 +134,9 @@ namespace actor {
  * */
 
     bool initialize(const Option<std::string>& delegate = None());
+
+    void my_terminate(const process::UPID& pid, bool inject = true);
+    void my_terminate(const ActorBase& actor, bool inject = true);
+    void my_terminate(const ActorBase* actor, bool inject = true);
 }
 #endif //LIBPROCESS_START_ACTOR_HPP

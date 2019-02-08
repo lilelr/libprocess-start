@@ -9,6 +9,7 @@
 
 namespace actor{
     class MyEventLoop{
+    public:
         // Initializes the event loop.
         static void initialize();
 

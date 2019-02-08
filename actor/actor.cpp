@@ -105,6 +105,8 @@
 
 #include "gate.hpp"
 #include "mygc.hpp"
+#include "actor_reference.hpp"
+#include "myevent_loop.hpp"
 
 using std::string;
 using std::map;
@@ -119,7 +121,7 @@ using process::network::internal::SocketImpl;
 //using process::wait; // Necessary on some OS's to disambiguate.
 namespace actor {
 
-
+    class ActorManager;
     static std::atomic_bool initialize_started(false);
     static std::atomic_bool initialize_complete(false);
 
@@ -133,6 +135,8 @@ namespace actor {
 
     static Address __address__ = Address::ANY_ANY();
 
+    static ActorManager* actor_manager = nullptr;
+
     static Gate* gate =new Gate();
 
     MyGarbageCollector* gc = nullptr;
@@ -142,9 +146,15 @@ namespace actor {
 class ActorManager{
 public:
     explicit ActorManager(const Option<string>& delegate);
+
+    void finalize();
     ~ ActorManager();
 
+    void terminate(const process::UPID& pid, bool inject, ActorBase* sender= nullptr);
+
 private:
+
+    ActorReference use(const process::UPID& pid);
     const Option<std::string> delegate;
 
     map<string,ActorBase*>  actors;
@@ -167,9 +177,81 @@ private:
     ActorManager::ActorManager(const Option<string> & _delegate):delegate(_delegate),running(0),joining_threads(false),finalizing(false) {
 
     }
+
+    void ActorManager::finalize(){
+        CHECK(gc!=nullptr);
+
+        finalizing.store(true);
+
+        while(true){
+            process::UPID pid;
+
+            synchronized (actors_mutex){
+                ActorBase* actor = nullptr;
+                foreachvalue (ActorBase* candidate, actors){
+                                        if(candidate == gc){
+                                            continue;
+                                        }
+
+                                        actor = candidate;
+                                        pid = candidate->self();
+                                        break;
+                                    }
+
+                if (actor == nullptr){
+                    break;
+                }
+            }
+
+            actor::my_terminate(pid, false);
+
+        }
+
+        actor::my_terminate(gc,false);
+
+        synchronized(actors_mutex){
+            delete gc;
+            gc = nullptr;
+        }
+
+        joining_threads.store(true);
+        gate->open();
+        MyEventLoop::stop();
+
+
+        foreach(std::thread* thread, threads){
+            thread->join();
+            delete thread;
+        }
+
+    }
+
     ActorManager::~ActorManager() {}
 
-   ActorBase::ActorBase(const std::string &id) {
+    void ActorManager::terminate(const process::UPID& pid, bool inject, ActorBase* sender){
+        if(ActorReference actor = use(pid)){
+            if(sender != nullptr){
+                actor->enqueue(new MyTerminateEvent(sender->self()));
+            }else {
+                actor->enqueue(new MyTerminateEvent(process::UPID()));
+            }
+        }
+    }
+
+    ActorReference ActorManager::use(const process::UPID& pid){
+        if(pid.address == __address__){
+            synchronized(actors_mutex){
+                if(actors.count(pid.id) > 0){
+                    return ActorReference(actors[pid.id]);
+                }
+            }
+        }
+
+        return ActorReference(nullptr);
+    }
+
+
+    ActorBase::ActorBase(const std::string &id) {
         state = ActorBase::BOTTOM;
     }
 
@@ -234,4 +316,16 @@ private:
         signal(SIGPIPE, SIG_IGN);
 
     }
+
+    inline void my_terminate(const ActorBase& actor, bool inject){
+        my_terminate(actor.self(), inject);
+    }
+    inline void my_terminate(const ActorBase* actor, bool inject){
+        my_terminate(actor->self(),inject);
+    }
+
+    void my_terminate(const process::UPID& pid, bool inject){
+        actor_manager->terminate(pid,inject,__actor__);
+    }
+
 }

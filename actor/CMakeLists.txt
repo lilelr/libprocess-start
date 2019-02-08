@@ -18,7 +18,7 @@ set(LELE_LIBS
         ${PROCESS_TARGET}
         )
 
-set(actor_SRCS myevent.hpp mymessage.hpp actor.hpp actor.cpp actor_main.cpp libevent.hpp libevent.cpp myevent_loop.hpp gate.hpp mygc.hpp)
+set(actor_SRCS myevent.hpp mymessage.hpp actor.hpp actor.cpp actor_main.cpp libevent.hpp libevent.cpp myevent_loop.hpp gate.hpp mygc.hpp actor_reference.hpp)
 add_executable(actor_main ${actor_SRCS})
 message(3 ${PROCESS_LIBS})
 message(4 ${PROCESS_TARGET})
