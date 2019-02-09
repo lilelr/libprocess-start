@@ -65,6 +65,7 @@
 #include <utility>
 #include <vector>
 #include <list>
+#include <queue>
 
 #include <process/address.hpp>
 #include <process/check.hpp>
@@ -107,11 +108,15 @@
 #include "mygc.hpp"
 #include "actor_reference.hpp"
 #include "myevent_loop.hpp"
+#include "encoder.hpp"
+#include "decoder.hpp"
 
 using std::string;
 using std::map;
 using std::list;
 using std::vector;
+using std::deque;
+using std::queue;
 
 
 using process::network::inet::Address;
@@ -122,104 +127,264 @@ using process::network::internal::SocketImpl;
 namespace actor {
 
     class ActorManager;
+
     static std::atomic_bool initialize_started(false);
     static std::atomic_bool initialize_complete(false);
 
     static const int LISTEN_BACKLOG = 5000;
 
-    static Socket* __s__ = nullptr;
+    static Socket *__s__ = nullptr;
 
-    static std::mutex* socket_mutex = new std::mutex();
+    static std::mutex *socket_mutex = new std::mutex();
 
     static process::Future<Socket> future_accept;
 
     static Address __address__ = Address::ANY_ANY();
 
-    static ActorManager* actor_manager = nullptr;
+    static ActorManager *actor_manager = nullptr;
 
-    static Gate* gate =new Gate();
+    static Gate *gate = new Gate();
 
-    MyGarbageCollector* gc = nullptr;
+    MyGarbageCollector *gc = nullptr;
 
-    THREAD_LOCAL ActorBase* __actor__ = nullptr;
+    THREAD_LOCAL ActorBase *__actor__ = nullptr;
 
-class ActorManager{
-public:
-    explicit ActorManager(const Option<string>& delegate);
+    class SocketManager {
+    public:
+        SocketManager();
 
-    void finalize();
-    ~ ActorManager();
+        ~SocketManager();
 
-    void terminate(const process::UPID& pid, bool inject, ActorBase* sender= nullptr);
+        void finalize();
 
-private:
+        void accepted(const Socket &socket);
 
-    ActorReference use(const process::UPID& pid);
-    const Option<std::string> delegate;
+        void link(ActorBase *actor, const process::UPID &to, const ActorBase::RemoteConnection remote,
+                  const SocketImpl::Kind &kind = SocketImpl::DEFAULT_KIND());
 
-    map<string,ActorBase*>  actors;
-    std::recursive_mutex actors_mutex;
-    map<ActorBase*, Gate*> gates;
+        void send(Encoder *encoder, bool persist, const Socket &socket);
 
-    list<ActorBase*> runq;
-    std::recursive_mutex runq_mutex;
 
-    std::atomic_long running;
+    private:
+        struct
+        {
+            // For links, we maintain a bidirectional mapping between the
+            // "linkers" (Processes) and the "linkees" (remote / local UPIDs).
+            // For remote socket addresses, we also need a mapping to the
+            // linkees for that socket address, because socket closure only
+            // notifies at the address level.
+            hashmap<process::UPID, hashset<ActorBase*>> linkers;
+            hashmap<ActorBase*, hashset<process::UPID>> linkees;
+            hashmap<Address, hashset<process::UPID>> remotes;
+        } links;
 
-    vector<std::thread*> threads;
+        // Helper function for link().
+        void link_connect(
+                const process::Future<Nothing>& future,
+                Socket socket,
+                const process::UPID& to);
 
-    std::atomic_bool joining_threads;
+        // Helper function for send().
+        void send_connect(
+                const process::Future<Nothing>& future,
+                Socket socket,
+                MyMessage* message);
 
-    std::atomic_bool finalizing;
+        // Collection of all active sockets (both inbound and outbound).
+        hashmap<int_fd, Socket> sockets;
 
-};
+        // Collection of sockets that should be disposed when they are
+        // finished being used (e.g., when there is no more data to send on
+        // them). Can contain both inbound and outbound sockets.
+        hashset<int_fd> dispose;
 
-    ActorManager::ActorManager(const Option<string> & _delegate):delegate(_delegate),running(0),joining_threads(false),finalizing(false) {
+        // Map from socket to socket address for outbound sockets.
+        hashmap<int_fd, Address> addresses;
+
+        // Map from socket address to temporary sockets (outbound sockets
+        // that will be closed once there is no more data to send on them).
+        hashmap<Address, int_fd> temps;
+
+        // Map from socket address (ip, port) to persistent sockets
+        // (outbound sockets that will remain open even if there is no more
+        // data to send on them).  We distinguish these from the 'temps'
+        // collection so we can tell when a persistent socket has been lost
+        // (and thus generate ExitedEvents).
+        hashmap<Address, int_fd> persists;
+
+        // Map from outbound socket to outgoing queue.
+        hashmap<int_fd, queue<Encoder*>> outgoing;
+
+        // Protects instance variables.
+        std::recursive_mutex mutex;
+    };
+
+    class ActorManager {
+    public:
+        explicit ActorManager(const Option<string> &delegate);
+
+        void finalize();
+
+        ~ ActorManager();
+
+        long init_threads();
+
+        ActorBase *dequeue();
+
+        void cleanup(ActorBase *actor);
+
+        void resume(ActorBase *actor) {
+            __actor__ = actor;
+
+            LOG(INFO) << " Resuming " << actor->pid << "at ";
+
+            bool terminate = false;
+            bool blocked = false;
+
+            CHECK(actor->state == ActorBase::BOTTOM || actor->state == ActorBase::READY);
+
+            if (actor->state == ActorBase::BOTTOM) {
+                actor->state = ActorBase::RUNNING;
+                try { actor->initialize(); }
+                catch (...) {
+                    terminate = true;
+                }
+            }
+
+            while (!terminate && !blocked) {
+                MyEvent *event = nullptr;
+
+                synchronized(actor->mutex)
+                    {
+                        if (actor->events.size() > 0) {
+                            event = actor->events.front();
+                            actor->events.pop_front();
+                            actor->state = ActorBase::RUNNING;
+                        } else {
+                            actor->state = ActorBase::BLOCKED;
+                            blocked = true;
+                        }
+                    }
+
+                if (!blocked) {
+                    CHECK(event != nullptr);
+                }
+
+                terminate = event->is<MyTerminateEvent>();
+
+                try {
+                    actor->serve(*event);
+                } catch (const std::exception &e) {
+                    std::cerr << "libactor: " << actor->pid << "terminatng due to " << e.what() << std::endl;
+                    terminate = true;
+                } catch (...) {
+                    std::cerr << "libactor: " << actor->pid << "terminatng due to unknown exception" << std::endl;
+                    terminate = true;
+                }
+
+                delete event;
+                if (terminate) {
+                    cleanup(actor);
+                }
+
+            }
+
+
+        }
+
+        bool wait(const process::UPID &pid);
+
+        void terminate(const process::UPID &pid, bool inject, ActorBase *sender = nullptr);
+
+    private:
+
+        ActorReference use(const process::UPID &pid);
+
+        const Option<std::string> delegate;
+
+        map<string, ActorBase *> actors;
+        std::recursive_mutex actors_mutex;
+        map<ActorBase *, Gate *> gates;
+
+        list<ActorBase *> runq;
+        std::recursive_mutex runq_mutex;
+
+        std::atomic_long running;
+
+        vector<std::thread *> threads;
+
+        std::atomic_bool joining_threads;
+
+        std::atomic_bool finalizing;
+
+    };
+
+
+    SocketManager::SocketManager(){}
+
+    SocketManager::~SocketManager(){}
+
+    void SocketManager::finalize(){
+        CHECK(__s__ = nullptr);
+        CHECK(gc == nullptr);
+
+        int_fd socket = -1;
+        do{
+            synchronized(mutex){
+                socket = !sockets.empty() ? sockets.begin()->first : -1;
+            }
+        }while(socket >= 0);
+    }
+
+    ActorManager::ActorManager(const Option<string> &_delegate) : delegate(_delegate), running(0),
+                                                                  joining_threads(false), finalizing(false) {
 
     }
 
-    void ActorManager::finalize(){
-        CHECK(gc!=nullptr);
+    void ActorManager::finalize() {
+        CHECK(gc != nullptr);
 
         finalizing.store(true);
 
-        while(true){
+        while (true) {
             process::UPID pid;
 
-            synchronized (actors_mutex){
-                ActorBase* actor = nullptr;
-                foreachvalue (ActorBase* candidate, actors){
-                                        if(candidate == gc){
-                                            continue;
+            synchronized (actors_mutex)
+                {
+                    ActorBase *actor = nullptr;
+                    foreachvalue (ActorBase *candidate, actors) {
+                                            if (candidate == gc) {
+                                                continue;
+                                            }
+
+                                            actor = candidate;
+                                            pid = candidate->self();
+                                            break;
                                         }
 
-                                        actor = candidate;
-                                        pid = candidate->self();
-                                        break;
-                                    }
-
-                if (actor == nullptr){
-                    break;
+                    if (actor == nullptr) {
+                        break;
+                    }
                 }
-            }
 
             actor::my_terminate(pid, false);
 
         }
 
-        actor::my_terminate(gc,false);
+        actor::my_terminate(gc, false);
 
-        synchronized(actors_mutex){
-            delete gc;
-            gc = nullptr;
-        }
+        synchronized(actors_mutex)
+            {
+                delete gc;
+                gc = nullptr;
+            }
 
         joining_threads.store(true);
         gate->open();
         MyEventLoop::stop();
 
 
-        foreach(std::thread* thread, threads){
+        foreach(std::thread *thread, threads) {
             thread->join();
             delete thread;
         }
@@ -228,50 +393,204 @@ private:
 
     ActorManager::~ActorManager() {}
 
-    void ActorManager::terminate(const process::UPID& pid, bool inject, ActorBase* sender){
-        if(ActorReference actor = use(pid)){
-            if(sender != nullptr){
+    void ActorManager::terminate(const process::UPID &pid, bool inject, ActorBase *sender) {
+        if (ActorReference actor = use(pid)) {
+            if (sender != nullptr) {
                 actor->enqueue(new MyTerminateEvent(sender->self()));
-            }else {
+            } else {
                 actor->enqueue(new MyTerminateEvent(process::UPID()));
             }
         }
     }
 
-    ActorReference ActorManager::use(const process::UPID& pid){
-        if(pid.address == __address__){
-            synchronized(actors_mutex){
-                if(actors.count(pid.id) > 0){
-                    return ActorReference(actors[pid.id]);
-                }
+    void ActorManager::cleanup(ActorBase *actor) {
+        LOG(INFO) << "Cleaning up " << actor->pid;
+
+
+        deque<MyEvent *> events;
+        synchronized(actor->mutex)
+            {
+                actor->state = ActorBase::TERMINATING;
+                events = actor->events;
+                actor->events.clear();
             }
+
+        while (!events.empty()) {
+            MyEvent *event = events.front();
+            events.pop_front();
+            delete event;
+        }
+
+        Gate *gate = nullptr;
+        synchronized(actors_mutex)
+            {
+                synchronized(actor->mutex)
+                    {
+                        CHECK(actor->events.empty());
+                        actors.erase(actor->pid.id);
+
+                        map<ActorBase *, Gate *>::iterator it = gates.find(actor);
+                        if (it != gates.end()) {
+                            gate = it->second;
+                            gates.erase(it);
+                        }
+                        CHECK(actor->refs.load() == 0);
+                        actor->state = ActorBase::TERMINATED;
+                    }
+            }
+
+        if (gate != nullptr) {
+            gate->open();
+        }
+    }
+
+    ActorReference ActorManager::use(const process::UPID &pid) {
+        if (pid.address == __address__) {
+            synchronized(actors_mutex)
+                {
+                    if (actors.count(pid.id) > 0) {
+                        return ActorReference(actors[pid.id]);
+                    }
+                }
         }
 
         return ActorReference(nullptr);
     }
 
+    ActorBase *ActorManager::dequeue() {
+        ActorBase *actor = nullptr;
+
+        synchronized(runq_mutex)
+            {
+                if (!runq.empty()) {
+                    actor = runq.front();
+                    runq.pop_front();
+                    running.fetch_add(1);
+                }
+            }
+        return actor;
+    }
+
+    long ActorManager::init_threads() {
+        long num_worker_threads = std::max(8L, os::cpus().isSome() ? os::cpus().get() : 1);
+        threads.reserve(num_worker_threads + 1);
+
+        struct {
+            void operator()() const {
+                do {
+                    ActorBase *actor = actor_manager->dequeue();
+                    if (actor == nullptr) {
+                        Gate::state_t old = gate->approach();
+                        actor = actor_manager->dequeue();
+                        if (actor == nullptr) {
+                            if (m_joining_threads.load()) {
+                                break;
+                            }
+                            gate->arrive(old);
+                            continue;
+                        } else {
+                            gate->leave();
+                        }
+                    }
+                    actor_manager->resume(actor);
+
+                } while (true);
+
+            }
+
+            const std::atomic_bool &m_joining_threads;
+        } worker{joining_threads};
+
+        for (long i = 0; i < num_worker_threads; i++) {
+            threads.emplace_back(new std::thread(worker));
+        }
+
+        threads.emplace_back(new std::thread(&MyEventLoop::run));
+        return num_worker_threads;
+    }
+
+
+    bool ActorManager::wait(const process::UPID &pid) {
+        Gate *gate = nullptr;
+        Gate::state_t old;
+
+        ActorBase *actor = nullptr;
+
+        synchronized(actors_mutex)
+            {
+                if (actors.count(pid.id) > 0) {
+                    actor = actors[pid.id];
+                    CHECK(actor->state != ActorBase::TERMINATED);
+
+                    if (gates.find(actor) == gates.end()) {
+                        gates[actor] = new Gate();
+                    }
+
+                    gate = gates[actor];
+                    old = gate->approach();
+
+
+                    if (actor->state == ActorBase::BOTTOM || actor->state == ActorBase::READY) {
+                        synchronized(runq_mutex)
+                            {
+                                list<ActorBase *>::iterator it = find(runq.begin(), runq.end(), actor);
+                                if (it != runq.end()) {
+                                    runq.erase(it);
+                                    running.fetch_add(1);
+                                } else {
+                                    actor = nullptr;
+                                }
+                            }
+                    } else {
+                        actor = nullptr;
+                    }
+                }
+            }
+
+        if (actor != nullptr) {
+            LOG(INFO) << " Donating thread to " << actor->pid << " while waiting";
+
+            ActorBase *donator = __actor__;
+            actor_manager->resume(actor);
+            __actor__ = donator;
+        }
+
+        if (gate != nullptr) {
+            int remaining = gate->arrive(old);
+            if (remaining == 0) {
+                delete gate;
+            }
+
+            return true;
+        }
+
+        return false;
+    }
+
 
     ActorBase::ActorBase(const std::string &id) {
         state = ActorBase::BOTTOM;
-    }
-
-    ActorBase::~ActorBase(){
 
     }
 
-    void  ActorBase::visit(const MyMessageEvent& myMessageEvent){
+    ActorBase::~ActorBase() {
 
     }
 
-    void  ActorBase::visit(const MyDispatchEvent & myDispatchEvent){
+
+    void ActorBase::visit(const MyMessageEvent &myMessageEvent) {
 
     }
 
-    void  ActorBase::visit(const MyExitedEvent & myExitedEvent){
+    void ActorBase::visit(const MyDispatchEvent &myDispatchEvent) {
 
     }
 
-    void  ActorBase::visit(const MyTerminateEvent & myTerminateEvent){
+    void ActorBase::visit(const MyExitedEvent &myExitedEvent) {
+
+    }
+
+    void ActorBase::visit(const MyTerminateEvent &myTerminateEvent) {
 
     }
 
@@ -298,14 +617,14 @@ private:
             }
     }
 
-    bool initialize(const Option<std::string>& delegate ){
-        if(initialize_started.load() && initialize_complete.load()){
+    bool initialize(const Option<std::string> &delegate) {
+        if (initialize_started.load() && initialize_complete.load()) {
             // initialize_started = true && initialize_complete = true
             return false;
-        }else{
+        } else {
             bool expected = false;
 
-            if(!initialize_started.compare_exchange_strong(expected,true)){
+            if (!initialize_started.compare_exchange_strong(expected, true)) {
                 // initialize_started = true but initialize_complete = false
                 while (!initialize_complete.load());
 
@@ -314,18 +633,27 @@ private:
             // initialize_started transfer from false to true, but initialize_complete = false, go to line 149
         }
         signal(SIGPIPE, SIG_IGN);
+        actor_manager = new ActorManager(delegate);
+
+        long num_worker_threads = actor_manager->init_threads();
+
+        MyEventLoop::initialize();
+
+        __address__ = Address::ANY_ANY();
+
 
     }
 
-    inline void my_terminate(const ActorBase& actor, bool inject){
+    inline void my_terminate(const ActorBase &actor, bool inject) {
         my_terminate(actor.self(), inject);
     }
-    inline void my_terminate(const ActorBase* actor, bool inject){
-        my_terminate(actor->self(),inject);
+
+    inline void my_terminate(const ActorBase *actor, bool inject) {
+        my_terminate(actor->self(), inject);
     }
 
-    void my_terminate(const process::UPID& pid, bool inject){
-        actor_manager->terminate(pid,inject,__actor__);
+    void my_terminate(const process::UPID &pid, bool inject) {
+        actor_manager->terminate(pid, inject, __actor__);
     }
 
 }

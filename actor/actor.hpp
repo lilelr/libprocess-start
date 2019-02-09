@@ -48,6 +48,28 @@ namespace actor {
             return count;
         }
 
+        enum class RemoteConnection
+        {
+            /**
+             * If a persistent socket to the target `pid` does not exist,
+             * a new link is created. If a persistent socket already exists,
+             * `link` will subscribe this process to the existing link.
+             *
+             * This is the default behavior.
+             */
+                    REUSE,
+
+            /**
+             * If a persistent socket to the target `pid` does not exist,
+             * a new link is created. If a persistent socket already exists,
+             * `link` create a new socket connection with the target `pid`
+             * and *atomically* swap the existing link with the new link.
+             *
+             * Existing linkers will remain linked, albeit via the new socket.
+             */
+                    RECONNECT,
+        };
+
     protected:
         // Invoked when an event is serviced.
         virtual void serve(const MyEvent& event){
