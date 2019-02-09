@@ -21,13 +21,15 @@
 #include <sstream>
 
 #include <process/http.hpp>
-#include <process/process.hpp>
 
 #include <stout/foreach.hpp>
 #include <stout/gzip.hpp>
 #include <stout/hashmap.hpp>
 #include <stout/numify.hpp>
 #include <stout/os.hpp>
+
+#include "actor.hpp"
+#include "mymessage.hpp"
 
 
 namespace actor {
@@ -101,7 +103,7 @@ private:
 class MessageEncoder : public DataEncoder
 {
 public:
-  MessageEncoder(Message* _message)
+  MessageEncoder(MyMessage* _message)
     : DataEncoder(encode(_message)), message(_message) {}
 
   virtual ~MessageEncoder()
@@ -111,7 +113,7 @@ public:
     }
   }
 
-  static std::string encode(Message* message)
+  static std::string encode(MyMessage* message)
   {
     std::ostringstream out;
 
@@ -148,97 +150,9 @@ public:
   }
 
 private:
-  Message* message;
+    MyMessage* message;
 };
 
-
-class HttpResponseEncoder : public DataEncoder
-{
-public:
-  HttpResponseEncoder(
-      const http::Response& response,
-      const http::Request& request)
-    : DataEncoder(encode(response, request)) {}
-
-  static std::string encode(
-      const http::Response& response,
-      const http::Request& request)
-  {
-    std::ostringstream out;
-
-    // TODO(benh): Check version?
-
-    out << "HTTP/1.1 " << response.status << "\r\n";
-
-    auto headers = response.headers;
-
-    // HTTP 1.1 requires the "Date" header. In the future once we
-    // start checking the version (above) then we can conditionally
-    // add this header, but for now, we always do.
-    time_t rawtime;
-    time(&rawtime);
-
-    char date[256];
-
-    tm tm_;
-    PCHECK(os::gmtime_r(&rawtime, &tm_) != nullptr)
-      << "Failed to convert the current time to a tm struct "
-      << "using os::gmtime_r()";
-
-    // TODO(benh): Check return code of strftime!
-    strftime(date, 256, "%a, %d %b %Y %H:%M:%S GMT", &tm_);
-
-    headers["Date"] = date;
-
-    // Should we compress this response?
-    std::string body = response.body;
-
-    if (response.type == http::Response::BODY &&
-        response.body.length() >= GZIP_MINIMUM_BODY_LENGTH &&
-        !headers.contains("Content-Encoding") &&
-        request.acceptsEncoding("gzip")) {
-      Try<std::string> compressed = gzip::compress(body);
-      if (compressed.isError()) {
-        LOG(WARNING) << "Failed to gzip response body: " << compressed.error();
-      } else {
-        body = compressed.get();
-        headers["Content-Length"] = stringify(body.length());
-        headers["Content-Encoding"] = "gzip";
-      }
-    }
-
-    foreachpair (const std::string& key, const std::string& value, headers) {
-      out << key << ": " << value << "\r\n";
-    }
-
-    // Add a Content-Length header if the response is of type "none"
-    // or "body" and no Content-Length header has been supplied.
-    if (response.type == http::Response::NONE &&
-        !headers.contains("Content-Length")) {
-      out << "Content-Length: 0\r\n";
-    } else if (response.type == http::Response::BODY &&
-               !headers.contains("Content-Length")) {
-      out << "Content-Length: " << body.size() << "\r\n";
-    }
-
-    // Use a CRLF to mark end of headers.
-    out << "\r\n";
-
-    // Add the body if necessary.
-    if (response.type == http::Response::BODY) {
-      // If the Content-Length header was supplied, only write as much data
-      // as the length specifies.
-      Result<uint32_t> length = numify<uint32_t>(headers.get("Content-Length"));
-      if (length.isSome() && length.get() <= body.length()) {
-        out.write(body.data(), length.get());
-      } else {
-        out.write(body.data(), body.size());
-      }
-    }
-
-    return out.str();
-  }
-};
 
 
 class FileEncoder : public Encoder

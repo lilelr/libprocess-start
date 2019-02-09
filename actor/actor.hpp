@@ -106,7 +106,7 @@ namespace actor {
 
 
     private:
-
+        friend class SocketManager;
         friend class ActorManager;
         friend class ActorReference;
 //        friend class process::SocketManager;

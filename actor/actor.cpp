@@ -103,13 +103,14 @@
 #include <stout/strings.hpp>
 #include <stout/synchronized.hpp>
 #include <stout/thread_local.hpp>
+#include <stout/os/int_fd.hpp>
 
 #include "gate.hpp"
 #include "mygc.hpp"
 #include "actor_reference.hpp"
 #include "myevent_loop.hpp"
 #include "encoder.hpp"
-#include "decoder.hpp"
+//#include "decoder.hpp"
 
 using std::string;
 using std::map;
@@ -127,7 +128,7 @@ using process::network::internal::SocketImpl;
 namespace actor {
 
     class ActorManager;
-
+    class SocketManager;
     static std::atomic_bool initialize_started(false);
     static std::atomic_bool initialize_complete(false);
 
@@ -164,31 +165,37 @@ namespace actor {
 
         void send(Encoder *encoder, bool persist, const Socket &socket);
 
+        void close(int_fd s);
+
+
+        void exited(const Address& address);
+
+        void exited(ActorBase* actor);
+
 
     private:
-        struct
-        {
+        struct {
             // For links, we maintain a bidirectional mapping between the
             // "linkers" (Processes) and the "linkees" (remote / local UPIDs).
             // For remote socket addresses, we also need a mapping to the
             // linkees for that socket address, because socket closure only
             // notifies at the address level.
-            hashmap<process::UPID, hashset<ActorBase*>> linkers;
-            hashmap<ActorBase*, hashset<process::UPID>> linkees;
+            hashmap<process::UPID, hashset<ActorBase *>> linkers;
+            hashmap<ActorBase *, hashset<process::UPID>> linkees;
             hashmap<Address, hashset<process::UPID>> remotes;
         } links;
 
         // Helper function for link().
         void link_connect(
-                const process::Future<Nothing>& future,
+                const process::Future<Nothing> &future,
                 Socket socket,
-                const process::UPID& to);
+                const process::UPID &to);
 
         // Helper function for send().
         void send_connect(
-                const process::Future<Nothing>& future,
+                const process::Future<Nothing> &future,
                 Socket socket,
-                MyMessage* message);
+                MyMessage *message);
 
         // Collection of all active sockets (both inbound and outbound).
         hashmap<int_fd, Socket> sockets;
@@ -213,7 +220,7 @@ namespace actor {
         hashmap<Address, int_fd> persists;
 
         // Map from outbound socket to outgoing queue.
-        hashmap<int_fd, queue<Encoder*>> outgoing;
+        hashmap<int_fd, queue<Encoder *>> outgoing;
 
         // Protects instance variables.
         std::recursive_mutex mutex;
@@ -320,20 +327,161 @@ namespace actor {
     };
 
 
-    SocketManager::SocketManager(){}
+    SocketManager::SocketManager() {}
 
-    SocketManager::~SocketManager(){}
+    SocketManager::~SocketManager() {}
 
-    void SocketManager::finalize(){
+
+    void SocketManager::close(int_fd s) {
+        synchronized (mutex){
+            if(sockets.count(s) > 0){
+                if(outgoing.count(s) > 0){
+                    while(!outgoing[s].empty()){
+                        Encoder* encoder = outgoing[s].front();
+                        delete encoder;
+                        outgoing[s].pop();
+                    }
+
+                    outgoing.erase(s);
+                }
+
+                Option<Address> address = addresses.get(s);
+                if(address.isSome()){
+
+                    if(persists.count(address.get()) > 0 && persists[address.get()] == s){
+                        persists.erase(address.get());
+                        exited(address.get());
+                    }else if(temps.count(address.get()) > 0 && temps[address.get()] == s){
+                        temps.erase(address.get());
+                    }
+
+                    addresses.erase(s);
+                }
+
+                dispose.erase(s);
+                auto iterator = sockets.find(s);
+
+                Socket socket = iterator->second;
+                sockets.erase(iterator);
+
+                Try<Nothing> shutdown = socket.shutdown();
+                if(shutdown.isError()){
+                    LOG(ERROR)<<"Failed to shutdown socket with fd "<<socket.get()
+                                                                    <<", address"<<(socket.address().isSome() ? stringify(socket.address().get()):"N/A")<<" : "<<shutdown.error();
+                }
+            }
+        }
+    }
+
+    void SocketManager::exited(const Address& address)
+    {
+        // TODO(benh): It would be cleaner if this routine could call back
+        // into ProcessManager ... then we wouldn't have to convince
+        // ourselves that the accesses to each Process object will always be
+        // valid.
+        synchronized (mutex) {
+            if (!links.remotes.contains(address)) {
+                return; // No linkees for this socket address!
+            }
+
+            foreach (const process::UPID& linkee, links.remotes[address]) {
+                // Find and notify the linkers.
+                CHECK(links.linkers.contains(linkee));
+
+                foreach (ActorBase* linker, links.linkers[linkee]) {
+                    linker->enqueue(new MyExitedEvent(linkee));
+
+                    // Remove the linkee pid from the linker.
+                    CHECK(links.linkees.contains(linker));
+
+                    links.linkees[linker].erase(linkee);
+                    if (links.linkees[linker].empty()) {
+                        links.linkees.erase(linker);
+                    }
+                }
+
+                links.linkers.erase(linkee);
+            }
+
+            links.remotes.erase(address);
+        }
+    }
+
+
+    void SocketManager::exited(ActorBase* actor)
+    {
+        // An exited event is enough to cause the process to get deleted
+        // (e.g., by the garbage collector), which means we can't
+        // dereference process (or even use the address) after we enqueue at
+        // least one exited event. Thus, we save the process pid.
+        const process::UPID pid = actor->pid;
+
+//        // Likewise, we need to save the current time of the process so we
+//        // can update the clocks of linked processes as appropriate.
+//        const Time time = Clock::now(actor);
+
+        synchronized (mutex) {
+            // If this process had linked to anything, we need to clean
+            // up any pointers to it. Also, if this process was the last
+            // linker to a remote linkee, we must remove linkee from the
+            // remotes!
+            if (links.linkees.contains(actor)) {
+                foreach (const process::UPID& linkee, links.linkees[actor]) {
+                    CHECK(links.linkers.contains(linkee));
+
+                    links.linkers[linkee].erase(actor);
+                    if (links.linkers[linkee].empty()) {
+                        links.linkers.erase(linkee);
+
+                        // The exited process was the last linker for this linkee,
+                        // so we need to remove the linkee from the remotes.
+                        if (linkee.address != __address__) {
+                            CHECK(links.remotes.contains(linkee.address));
+
+                            links.remotes[linkee.address].erase(linkee);
+                            if (links.remotes[linkee.address].empty()) {
+                                links.remotes.erase(linkee.address);
+                            }
+                        }
+                    }
+                }
+                links.linkees.erase(actor);
+            }
+
+            // Find the linkers to notify.
+            if (!links.linkers.contains(pid)) {
+                return; // No linkers for this process!
+            }
+
+            foreach (ActorBase* linker, links.linkers[pid]) {
+                CHECK(linker != actor) << "Process linked with itself";
+//                Clock::update(linker, time);
+                linker->enqueue(new MyExitedEvent(pid));
+
+                // Remove the linkee pid from the linker.
+                CHECK(links.linkees.contains(linker));
+
+                links.linkees[linker].erase(pid);
+                if (links.linkees[linker].empty()) {
+                    links.linkees.erase(linker);
+                }
+            }
+
+            links.linkers.erase(pid);
+        }
+    }
+
+    void SocketManager::finalize() {
         CHECK(__s__ = nullptr);
         CHECK(gc == nullptr);
 
         int_fd socket = -1;
-        do{
-            synchronized(mutex){
-                socket = !sockets.empty() ? sockets.begin()->first : -1;
-            }
-        }while(socket >= 0);
+        do {
+            synchronized(mutex)
+                {
+                    socket = !sockets.empty() ? sockets.begin()->first : -1;
+                }
+        } while (socket >= 0);
     }
 
     ActorManager::ActorManager(const Option<string> &_delegate) : delegate(_delegate), running(0),
