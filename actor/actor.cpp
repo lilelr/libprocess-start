@@ -170,6 +170,8 @@ namespace actor {
 
         void send(Encoder *encoder, bool persist, const Socket &socket);
 
+        void send(MyMessage* message, const SocketImpl::Kind& kind);
+
         Option<int_fd> get_persistent_socket(const process::UPID& to);
 
         Encoder *next(int_fd s);
@@ -598,6 +600,150 @@ namespace actor {
         }
 
 
+    }
+
+
+    // Helper function for send().
+    void SocketManager::send_connect(
+            const process::Future<Nothing> &future,
+            Socket socket,
+            MyMessage *message) {
+        if (future.isDiscarded() || future.isFailed()) {
+            if (future.isFailed()) {
+                LOG(INFO) << "Failed to send '" << message->name << "' to '"
+                          << message->to.address << "', connect: " << future.failure();
+
+            }
+            socket_manager->close(socket);
+
+            delete message;
+            return;
+        }
+
+        Encoder* encoder = new MessageEncoder(message);
+
+        // Receive and ignore data from this socket. Note that we don't
+        // expect to receive anything other than HTTP '202 Accepted'
+        // responses which we just ignore.
+        size_t size = 80 * 1024;
+        char* data = new char[size];
+
+        socket.recv(data, size)
+                .onAny(lambda::bind(
+                        &internal::ignore_recv_data,
+                        lambda::_1,
+                        socket,
+                        data,
+                        size));
+
+        internal::send(encoder, socket);
+    }
+
+    void SocketManager::send(MyMessage* message, const SocketImpl::Kind& kind){
+        CHECK(message != nullptr);
+
+        const Address& address = message->to.address;
+
+        Option<Socket> socket = None();
+        bool connect = false;
+
+        synchronized (mutex) {
+            // Check if there is already a socket.
+            bool persist = persists.count(address) > 0;
+            bool temp = temps.count(address) > 0;
+            if (persist || temp) {
+                int_fd s = persist ? persists[address] : temps[address];
+                CHECK(sockets.count(s) > 0);
+                socket = sockets.at(s);
+
+                // Update whether or not this socket should get disposed after
+                // there is no more data to send.
+                if (!persist) {
+                    dispose.insert(socket.get());
+                }
+
+                if (outgoing.count(socket.get()) > 0) {
+                    outgoing[socket.get()].push(new MessageEncoder(message));
+                    return;
+                } else {
+                    // Initialize the outgoing queue.
+                    outgoing[socket.get()];
+                }
+
+            } else {
+                // No persistent or temporary socket to the socket address
+                // currently exists, so we create a temporary one.
+                // The kind of socket we create is passed in as an argument.
+                // This allows us to support downgrading the connection type
+                // from SSL to POLL if enabled.
+                Try<Socket> create = Socket::create(kind);
+                if (create.isError()) {
+                    VLOG(1) << "Failed to send, create socket: " << create.error();
+                    delete message;
+                    return;
+                }
+                socket = create.get();
+                int_fd s = socket.get();
+
+                CHECK(sockets.count(s) == 0);
+                sockets.emplace(s, socket.get());
+
+                addresses.emplace(s, address);
+                temps.emplace(address, s);
+
+                dispose.insert(s);
+
+                // Initialize the outgoing queue.
+                outgoing[s];
+
+                connect = true;
+            }
+        }
+
+        if (connect) {
+            CHECK_SOME(socket);
+            socket->connect(address)
+                    .onAny(lambda::bind(
+                            &SocketManager::send_connect,
+                            this,
+                            lambda::_1,
+                            socket.get(),
+                            message));
+        } else {
+            // If we're not connecting and we haven't added the encoder to
+            // the 'outgoing' queue then schedule it to be sent.
+            internal::send(new MessageEncoder(message), socket.get());
+        }
+    }
+
+    void SocketManager::send(Encoder *encoder, bool persist, const Socket &socket){
+        CHECK(encoder != nullptr);
+
+        synchronized (mutex) {
+            if (sockets.count(socket) > 0) {
+                // Update whether or not this socket should get disposed after
+                // there is no more data to send.
+                if (!persist) {
+                    dispose.insert(socket);
+                }
+
+                if (outgoing.count(socket) > 0) {
+                    outgoing[socket].push(encoder);
+                    encoder = nullptr;
+                } else {
+                    // Initialize the outgoing queue.
+                    outgoing[socket];
+                }
+            } else {
+                LOG(INFO) << "Attempting to send on a no longer valid socket!";
+                delete encoder;
+                encoder = nullptr;
+            }
+        }
+
+        if (encoder != nullptr) {
+            internal::send(encoder, socket);
+        }
     }
 
     void SocketManager::close(int_fd s) {
