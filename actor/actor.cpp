@@ -170,6 +170,8 @@ namespace actor {
 
         void send(Encoder *encoder, bool persist, const Socket &socket);
 
+        Option<int_fd> get_persistent_socket(const process::UPID& to);
+
         Encoder *next(int_fd s);
 
         void close(int_fd s);
@@ -344,6 +346,82 @@ namespace actor {
                 CHECK(sockets.count(socket) == 0);
                 sockets.emplace(socket, socket);
             }
+    }
+
+    void SocketManager::link(ActorBase *actor, const process::UPID &to, const ActorBase::RemoteConnection remote,
+              const SocketImpl::Kind &kind){
+        CHECK_NOTNULL(actor);
+        Option<Socket> socket = None();
+        bool connect = false;
+
+        synchronized(mutex){
+
+            if(to.address != __address__){
+                if(persists.count(to.address) == 0){
+                    Try<Socket> create = Socket::create(kind);
+                    if(create.isError()){
+                        LOG(WARNING)<<"Failed to link, create socket: "<<create.error();
+
+                        actor->enqueue(new MyExitedEvent(to));
+                        return;
+                    }
+                    socket = create.get();
+                    int_fd s = socket.get().get();
+
+                    CHECK(sockets.count(s) == 0);
+                    sockets.emplace(s, socket.get());
+
+                    addresses.emplace(s, to.address);
+
+                    persists.emplace(to.address, s);
+
+                    // Initialize 'outgoing' to prevent a race with
+                    // SocketManager::send() while the socket is not yet connected.
+                    // Initializing the 'outgoing' queue prevents
+                    // SocketManager::send() from trying to write before it's
+                    // connected.
+                    outgoing[s];
+
+                    connect = true;
+                }else if(remote == ActorBase::RemoteConnection::RECONNECT){
+                    // to do lele
+
+                }
+            }
+
+            links.linkers[to].insert(actor);
+            links.linkees[actor].insert(to);
+            if (to.address != __address__) {
+                links.remotes[to.address].insert(to);
+            }
+        }
+
+        if (connect) {
+            CHECK_SOME(socket);
+            socket->connect(to.address)
+                    .onAny(lambda::bind(
+                            &SocketManager::link_connect,
+                            this,
+                            lambda::_1,
+                            socket.get(),
+                            to));
+        }
+    }
+
+    Option<int_fd> get_persistent_socket(const process::UPID& to)
+    {
+        return socket_manager->get_persistent_socket(to);
+    }
+
+    Option<int_fd> SocketManager::get_persistent_socket(const process::UPID& to)
+    {
+        synchronized (mutex) {
+            if (persists.count(to.address) > 0) {
+                return persists.at(to.address);
+            }
+        }
+
+        return None();
     }
 
 
