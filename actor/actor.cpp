@@ -128,7 +128,9 @@ using process::network::internal::SocketImpl;
 namespace actor {
 
     class ActorManager;
+
     class SocketManager;
+
     static std::atomic_bool initialize_started(false);
     static std::atomic_bool initialize_complete(false);
 
@@ -141,6 +143,9 @@ namespace actor {
     static process::Future<Socket> future_accept;
 
     static Address __address__ = Address::ANY_ANY();
+
+    // Active SocketManager (eventually will probably be thread-local).
+    static SocketManager *socket_manager = nullptr;
 
     static ActorManager *actor_manager = nullptr;
 
@@ -165,12 +170,14 @@ namespace actor {
 
         void send(Encoder *encoder, bool persist, const Socket &socket);
 
+        Encoder *next(int_fd s);
+
         void close(int_fd s);
 
 
-        void exited(const Address& address);
+        void exited(const Address &address);
 
-        void exited(ActorBase* actor);
+        void exited(ActorBase *actor);
 
 
     private:
@@ -331,85 +338,270 @@ namespace actor {
 
     SocketManager::~SocketManager() {}
 
+    void SocketManager::accepted(const Socket &socket) {
+        synchronized(mutex)
+            {
+                CHECK(sockets.count(socket) == 0);
+                sockets.emplace(socket, socket);
+            }
+    }
 
-    void SocketManager::close(int_fd s) {
-        synchronized (mutex){
-            if(sockets.count(s) > 0){
-                if(outgoing.count(s) > 0){
-                    while(!outgoing[s].empty()){
-                        Encoder* encoder = outgoing[s].front();
-                        delete encoder;
-                        outgoing[s].pop();
-                    }
 
-                    outgoing.erase(s);
+    namespace internal {
+
+        void _send(
+                const process::Future<size_t> &result,
+                Socket socket,
+                Encoder *encoder,
+                size_t size);
+
+
+        void send(Encoder *encoder, Socket socket) {
+            switch (encoder->kind()) {
+                case Encoder::DATA: {
+                    size_t size;
+                    const char *data = static_cast<DataEncoder *>(encoder)->next(&size);
+                    socket.send(data, size)
+                            .onAny(lambda::bind(
+                                    &internal::_send,
+                                    lambda::_1,
+                                    socket,
+                                    encoder,
+                                    size));
+                    break;
                 }
-
-                Option<Address> address = addresses.get(s);
-                if(address.isSome()){
-
-                    if(persists.count(address.get()) > 0 && persists[address.get()] == s){
-                        persists.erase(address.get());
-                        exited(address.get());
-                    }else if(temps.count(address.get()) > 0 && temps[address.get()] == s){
-                        temps.erase(address.get());
-                    }
-
-                    addresses.erase(s);
-                }
-
-                dispose.erase(s);
-                auto iterator = sockets.find(s);
-
-                Socket socket = iterator->second;
-                sockets.erase(iterator);
-
-                Try<Nothing> shutdown = socket.shutdown();
-                if(shutdown.isError()){
-                    LOG(ERROR)<<"Failed to shutdown socket with fd "<<socket.get()
-                                                                    <<", address"<<(socket.address().isSome() ? stringify(socket.address().get()):"N/A")<<" : "<<shutdown.error();
+                case Encoder::FILE: {
+                    off_t offset;
+                    size_t size;
+                    int_fd fd = static_cast<FileEncoder *>(encoder)->next(&offset, &size);
+                    socket.sendfile(fd, offset, size)
+                            .onAny(lambda::bind(
+                                    &internal::_send,
+                                    lambda::_1,
+                                    socket,
+                                    encoder,
+                                    size));
+                    break;
                 }
             }
         }
+
+
+        void _send(
+                const process::Future<size_t> &length,
+                Socket socket,
+                Encoder *encoder,
+                size_t size) {
+            if (length.isDiscarded() || length.isFailed()) {
+                socket_manager->close(socket);
+                delete encoder;
+            } else {
+                // Update the encoder with the amount sent.
+                encoder->backup(size - length.get());
+
+                // See if there is any more of the message to send.
+                if (encoder->remaining() == 0) {
+                    delete encoder;
+
+                    // Check for more stuff to send on socket.
+                    Encoder *next = socket_manager->next(socket);
+                    if (next != nullptr) {
+                        send(next, socket);
+                    }
+                } else {
+                    send(encoder, socket);
+                }
+            }
+        }
+
+    } // namespace internal {
+
+    Encoder *SocketManager::next(int_fd s) {
+        if (sockets.count(s) > 0) {
+            CHECK(outgoing.count(s) > 0);
+
+            if (!outgoing[s].empty()) {
+                Encoder *encoder = outgoing[s].front();
+                outgoing[s].pop();
+                return encoder;
+            } else {
+                outgoing.erase(s);
+
+                if (dispose.count(s) > 0) {
+                    Option<Address> address = addresses.get(s);
+                    if (address.isSome()) {
+                        CHECK(temps.count(address.get()) > 0 && temps[address.get()] == s);
+                        temps.erase(address.get());
+                        addresses.erase(s);
+                    }
+
+                    dispose.erase(s);
+
+                    auto iterator = sockets.find(s);
+
+                    // We don't actually close the socket (we wait for the Socket
+                    // abstraction to close it once there are no more references),
+                    // but we do shutdown the receiving end so any DataDecoder
+                    // will get cleaned up (which might have the last reference).
+
+                    // Hold on to the Socket and remove it from the 'sockets'
+                    // map so that in the case where 'shutdown()' ends up
+                    // calling close the termination logic is not run twice.
+                    Socket socket = iterator->second;
+                    sockets.erase(iterator);
+
+                    Try<Nothing> shutdown = socket.shutdown();
+                    if (shutdown.isError()) {
+                        LOG(ERROR) << "Failed to shutdown socket with fd " << socket.get()
+                                   << ", address " << (socket.address().isSome()
+                                                       ? stringify(socket.address().get())
+                                                       : "N/A")
+                                   << ": " << shutdown.error();
+                    }
+                }
+            }
+        }
+        return nullptr;
+
     }
 
-    void SocketManager::exited(const Address& address)
-    {
+    namespace internal {
+        void ignore_recv_data(const process::Future<size_t> &length, Socket socket, char *data, size_t size) {
+
+            if (length.isDiscarded() || length.isFailed()) {
+                socket_manager->close(socket);
+                delete[] data;
+                return;
+            }
+
+            if (length.get() == 0) {
+                socket_manager->close(socket);
+                delete[] data;
+                return;
+            }
+
+            socket.recv(data, size).onAny(lambda::bind(&ignore_recv_data, lambda::_1, socket, data, size));
+
+        }
+
+        // Forward declaration.
+        void send(Encoder *encoder, Socket socket);
+    }
+
+    // Helper function for link().
+    void SocketManager::link_connect(
+            const process::Future<Nothing> &future,
+            Socket socket,
+            const process::UPID &to) {
+
+        if (future.isDiscarded() || future.isFailed()) {
+            LOG(INFO) << "Failed to link, connect: " << future.failure();
+
+            socket_manager->close(socket);
+            return;
+        }
+
+        synchronized(mutex)
+            {
+                if (sockets.count(socket) <= 0) {
+                    return;
+                }
+
+                size_t size = 80 * 1024;
+                char *data = new char[size];
+                socket.recv(data, size).onAny(
+                        lambda::bind(&internal::ignore_recv_data, lambda::_1, socket, data, size));
+
+            }
+        Encoder *encoder = socket_manager->next(socket);
+
+        if (encoder != nullptr) {
+            internal::send(encoder, socket);
+        }
+
+
+    }
+
+    void SocketManager::close(int_fd s) {
+        synchronized (mutex)
+            {
+                if (sockets.count(s) > 0) {
+                    if (outgoing.count(s) > 0) {
+                        while (!outgoing[s].empty()) {
+                            Encoder *encoder = outgoing[s].front();
+                            delete encoder;
+                            outgoing[s].pop();
+                        }
+
+                        outgoing.erase(s);
+                    }
+
+                    Option<Address> address = addresses.get(s);
+                    if (address.isSome()) {
+
+                        if (persists.count(address.get()) > 0 && persists[address.get()] == s) {
+                            persists.erase(address.get());
+                            exited(address.get());
+                        } else if (temps.count(address.get()) > 0 && temps[address.get()] == s) {
+                            temps.erase(address.get());
+                        }
+
+                        addresses.erase(s);
+                    }
+
+                    dispose.erase(s);
+                    auto iterator = sockets.find(s);
+
+                    Socket socket = iterator->second;
+                    sockets.erase(iterator);
+
+                    Try<Nothing> shutdown = socket.shutdown();
+                    if (shutdown.isError()) {
+                        LOG(ERROR) << "Failed to shutdown socket with fd " << socket.get()
+                                   << ", address"
+                                   << (socket.address().isSome() ? stringify(socket.address().get()) : "N/A") << " : "
+                                   << shutdown.error();
+                    }
+                }
+            }
+    }
+
+    void SocketManager::exited(const Address &address) {
         // TODO(benh): It would be cleaner if this routine could call back
         // into ProcessManager ... then we wouldn't have to convince
         // ourselves that the accesses to each Process object will always be
         // valid.
-        synchronized (mutex) {
-            if (!links.remotes.contains(address)) {
-                return; // No linkees for this socket address!
-            }
-
-            foreach (const process::UPID& linkee, links.remotes[address]) {
-                // Find and notify the linkers.
-                CHECK(links.linkers.contains(linkee));
-
-                foreach (ActorBase* linker, links.linkers[linkee]) {
-                    linker->enqueue(new MyExitedEvent(linkee));
-
-                    // Remove the linkee pid from the linker.
-                    CHECK(links.linkees.contains(linker));
-
-                    links.linkees[linker].erase(linkee);
-                    if (links.linkees[linker].empty()) {
-                        links.linkees.erase(linker);
-                    }
+        synchronized (mutex)
+            {
+                if (!links.remotes.contains(address)) {
+                    return; // No linkees for this socket address!
                 }
 
-                links.linkers.erase(linkee);
-            }
+                foreach (const process::UPID &linkee, links.remotes[address]) {
+                    // Find and notify the linkers.
+                    CHECK(links.linkers.contains(linkee));
 
-            links.remotes.erase(address);
-        }
+                    foreach (ActorBase *linker, links.linkers[linkee]) {
+                        linker->enqueue(new MyExitedEvent(linkee));
+
+                        // Remove the linkee pid from the linker.
+                        CHECK(links.linkees.contains(linker));
+
+                        links.linkees[linker].erase(linkee);
+                        if (links.linkees[linker].empty()) {
+                            links.linkees.erase(linker);
+                        }
+                    }
+
+                    links.linkers.erase(linkee);
+                }
+
+                links.remotes.erase(address);
+            }
     }
 
 
-    void SocketManager::exited(ActorBase* actor)
-    {
+    void SocketManager::exited(ActorBase *actor) {
         // An exited event is enough to cause the process to get deleted
         // (e.g., by the garbage collector), which means we can't
         // dereference process (or even use the address) after we enqueue at
@@ -420,55 +612,56 @@ namespace actor {
 //        // can update the clocks of linked processes as appropriate.
 //        const Time time = Clock::now(actor);
 
-        synchronized (mutex) {
-            // If this process had linked to anything, we need to clean
-            // up any pointers to it. Also, if this process was the last
-            // linker to a remote linkee, we must remove linkee from the
-            // remotes!
-            if (links.linkees.contains(actor)) {
-                foreach (const process::UPID& linkee, links.linkees[actor]) {
-                    CHECK(links.linkers.contains(linkee));
+        synchronized (mutex)
+            {
+                // If this process had linked to anything, we need to clean
+                // up any pointers to it. Also, if this process was the last
+                // linker to a remote linkee, we must remove linkee from the
+                // remotes!
+                if (links.linkees.contains(actor)) {
+                    foreach (const process::UPID &linkee, links.linkees[actor]) {
+                        CHECK(links.linkers.contains(linkee));
 
-                    links.linkers[linkee].erase(actor);
-                    if (links.linkers[linkee].empty()) {
-                        links.linkers.erase(linkee);
+                        links.linkers[linkee].erase(actor);
+                        if (links.linkers[linkee].empty()) {
+                            links.linkers.erase(linkee);
 
-                        // The exited process was the last linker for this linkee,
-                        // so we need to remove the linkee from the remotes.
-                        if (linkee.address != __address__) {
-                            CHECK(links.remotes.contains(linkee.address));
+                            // The exited process was the last linker for this linkee,
+                            // so we need to remove the linkee from the remotes.
+                            if (linkee.address != __address__) {
+                                CHECK(links.remotes.contains(linkee.address));
 
-                            links.remotes[linkee.address].erase(linkee);
-                            if (links.remotes[linkee.address].empty()) {
-                                links.remotes.erase(linkee.address);
+                                links.remotes[linkee.address].erase(linkee);
+                                if (links.remotes[linkee.address].empty()) {
+                                    links.remotes.erase(linkee.address);
+                                }
                             }
                         }
                     }
+                    links.linkees.erase(actor);
                 }
-                links.linkees.erase(actor);
-            }
 
-            // Find the linkers to notify.
-            if (!links.linkers.contains(pid)) {
-                return; // No linkers for this process!
-            }
+                // Find the linkers to notify.
+                if (!links.linkers.contains(pid)) {
+                    return; // No linkers for this process!
+                }
 
-            foreach (ActorBase* linker, links.linkers[pid]) {
-                CHECK(linker != actor) << "Process linked with itself";
+                foreach (ActorBase *linker, links.linkers[pid]) {
+                    CHECK(linker != actor) << "Process linked with itself";
 //                Clock::update(linker, time);
-                linker->enqueue(new MyExitedEvent(pid));
+                    linker->enqueue(new MyExitedEvent(pid));
 
-                // Remove the linkee pid from the linker.
-                CHECK(links.linkees.contains(linker));
+                    // Remove the linkee pid from the linker.
+                    CHECK(links.linkees.contains(linker));
 
-                links.linkees[linker].erase(pid);
-                if (links.linkees[linker].empty()) {
-                    links.linkees.erase(linker);
+                    links.linkees[linker].erase(pid);
+                    if (links.linkees[linker].empty()) {
+                        links.linkees.erase(linker);
+                    }
                 }
-            }
 
-            links.linkers.erase(pid);
-        }
+                links.linkers.erase(pid);
+            }
     }
 
     void SocketManager::finalize() {
