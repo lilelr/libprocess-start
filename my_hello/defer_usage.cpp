@@ -96,7 +96,7 @@ int runServer() {
     promise.set(42);
     promise.future().then(deferred);
 
-//    process::terminate(simpleProcess);
+    process::terminate(simpleProcess);
     process::wait(simpleProcess);
     return retCode;
 }

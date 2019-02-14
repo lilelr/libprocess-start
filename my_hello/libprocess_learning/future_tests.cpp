@@ -98,10 +98,10 @@ TEST(FutureTest, OnAny)
 }
 
 
-static Future<string> itoa1(int* const& i)
+static Future<string> itoa1(int* const& a)
 {
   std::ostringstream out;
-  out << *i;
+  out << *a;
   return out.str();
 }
 
@@ -120,12 +120,13 @@ TEST(FutureTest, Then)
 
   int i = 42;
 
-  promise.set(&i);
 
   Future<string> future = promise.future()
     .then(lambda::bind(&itoa1, lambda::_1));
 
-  ASSERT_TRUE(future.isReady());
+    promise.set(&i);
+
+    ASSERT_TRUE(future.isReady());
   EXPECT_EQ("42", future.get());
 
   future = promise.future()
