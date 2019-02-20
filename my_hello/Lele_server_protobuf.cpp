@@ -237,6 +237,8 @@ int main() {
     os::setenv("LIBPROCESS_PORT", stringify(5050));
     process::initialize("master");
     Master master;
+    Master master2;
+    auto pid_master2 = process::spawn(master2);
 
     PID<Master> cur_master = process::spawn(master);
     cout << "Running server on " << process::address().ip << ":" << process::address().port << endl;
@@ -245,9 +247,19 @@ int main() {
     const PID<Master> masterPid = master.self();
     cout << masterPid << endl;
     master.dispatch1();
+
+    cout<<"pid_master: "<<cur_master.address.ip<<" "<<cur_master.address.port<<endl;
+
+    cout<<"pid_master2: "<<pid_master2.address.ip<<" "<<pid_master2.address.port;
+//    terminate(master);
+    process::wait(master);
+//    terminate(master2);
+    process::wait(master2);
+
+
 //   string a =  getenv("LIBPROCESS_PORT");
 //    cout<<a<<endl;
-    process::wait(master.self());
+//    process::wait(master.self());
 //    delete master;
 //    Offer k;
 //    k.set_key("company");

@@ -1030,6 +1030,7 @@ bool initialize(
   // initialization will themselves call `process::initialize`.
   if (initialize_started.load() && initialize_complete.load()) {
     // Return `false` because `process::initialize()` was already called.
+//    std::cout<<"process::initialize_complete "<<std::endl;
     return false;
 
   } else {
@@ -1269,7 +1270,7 @@ bool initialize(
 
   processes_route = new Route("/__processes__", None(), __processes__);
 
-  VLOG(1) << "libprocess is initialized on " << address() << " with "
+  LOG(INFO) << "libprocess is initialized on " << address() << " with "
           << num_worker_threads << " worker threads";
 
   // Return `true` to indicate that this was the first invocation of
@@ -2646,7 +2647,10 @@ ProcessManager::ProcessManager(const Option<string>& _delegate)
     finalizing(false) {}
 
 
-ProcessManager::~ProcessManager() {}
+ProcessManager::~ProcessManager() {
+    std::cout<<processes.size()<<std::endl;
+
+}
 
 
 void ProcessManager::finalize()
@@ -2671,7 +2675,7 @@ void ProcessManager::finalize()
     // If the process has already terminated, further termination
     // is a noop.
     UPID pid;
-
+    std::cout<<processes.size()<<std::endl;
     synchronized (processes_mutex) {
       ProcessBase* process = nullptr;
 
@@ -3096,7 +3100,7 @@ UPID ProcessManager::spawn(ProcessBase* process, bool manage)
   // Add process to the run queue (so 'initialize' will get invoked).
   enqueue(process);
 
-  VLOG(2) << "Spawned process " << pid;
+  LOG(INFO) << "Spawned process " << pid;
 
   return pid;
 }
@@ -3106,7 +3110,7 @@ void ProcessManager::resume(ProcessBase* process)
 {
   __process__ = process;
 
-  VLOG(2) << "Resuming " << process->pid << " at " << Clock::now();
+  LOG(INFO) << "Resuming " << process->pid << " at " << Clock::now();
 
   bool terminate = false;
   bool blocked = false;
@@ -3370,7 +3374,8 @@ bool ProcessManager::wait(const UPID& pid)
 
   // Try and approach the gate if necessary.
   synchronized (processes_mutex) {
-    if (processes.count(pid.id) > 0) {
+      std::cout<<"\n processes.size "<<processes.size()<<std::endl;
+      if (processes.count(pid.id) > 0) {
       process = processes[pid.id];
       CHECK(process->state != ProcessBase::TERMINATED);
 
@@ -3721,7 +3726,7 @@ void ProcessBase::visit(const MessageEvent& event)
         event.message->from,
         event.message->body);
   } else if (delegates.count(event.message->name) > 0) {
-    VLOG(1) << "Delegating message '" << event.message->name
+    LOG(INFO) << "Delegating message '" << event.message->name
             << "' to " << delegates[event.message->name];
     Message* message = new Message(*event.message);
     message->to = delegates[event.message->name];
