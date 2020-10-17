@@ -351,6 +351,9 @@ ExternalProject_Add(
 ##########################################################################
 add_subdirectory(libprocess)
 
+add_subdirectory(mylibprocess)
+
+
 
 # BUILDING THE MESOS DEPENDENCIES.
 #

@@ -93,7 +93,7 @@ public:
 
 //install("stop", &MyProcess::stop);
         // my_master@10.211.55.4:42331/
-        // http://10.211.55.4:36338/my_master/add
+        // http://10.211.55.4:36338/my_master/add?a=3&b=4  get
         route(
                 "/add",
                 "Adds the two query arguments",
@@ -243,18 +243,19 @@ int main() {
     PID<Master> cur_master = process::spawn(master);
     cout << "Running server on " << process::address().ip << ":" << process::address().port << endl;
     cout << "PID" << endl;
+    cout<<cur_master<<endl;
 
-    const PID<Master> masterPid = master.self();
-    cout << masterPid << endl;
-    master.dispatch1();
-
-    cout<<"pid_master: "<<cur_master.address.ip<<" "<<cur_master.address.port<<endl;
-
-    cout<<"pid_master2: "<<pid_master2.address.ip<<" "<<pid_master2.address.port;
+//    const PID<Master> masterPid = master.self();
+//    cout << masterPid << endl;
+//    master.dispatch1();
+//
+//    cout<<"pid_master: "<<cur_master.address.ip<<" "<<cur_master.address.port<<endl;
+//
+//    cout<<"pid_master2: "<<pid_master2.address.ip<<" "<<pid_master2.address.port;
 //    terminate(master);
     process::wait(master);
 //    terminate(master2);
-    process::wait(master2);
+//    process::wait(master2);
 
 
 //   string a =  getenv("LIBPROCESS_PORT");
